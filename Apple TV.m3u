@@ -108,7 +108,7 @@ http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/001/2000294703.m3u8
 http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/001/2000294403.m3u8
 
 #EXTINF:-1 group-title="港澳台",鳳凰衛視中文台
-http://223.82.250.72/live/fhchinese/1.m3u8
+http://112.5.223.36/ott.fj.chinamobile.com/PLTV/88888888/224/3221225900/1.m3u8?icpid=88888888&from=1&ocs=2_112.5.223.79_80&hms_devid=263&vqe=3
 #EXTINF:-1 group-title="港澳台",鳳凰資訊
 http://223.82.250.72/live/fhzixun/1.m3u8
 #EXTINF:-1 group-title="港澳台",鳳凰香港
