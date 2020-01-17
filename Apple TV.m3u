@@ -116,9 +116,11 @@ http://223.82.250.72/ysten-bussiness/live/fhhongkong/1.m3u8
 #EXTINF:-1 group-title="港澳台",耀才財經台
 http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8
 #EXTINF:-1 group-title="港澳台",TVB翡翠台
-http://116.199.5.51:8114/00000000/hls/index.m3u8?Fsv_chan_hls_se_idx=188&FvSeid=1&Fsv_ctype=LIVES&Fsv_otype=1&Provider_id=&Pcontent_id=.m3u8
+http://116.199.5.51:8114/00000000/hls/index.m3u8?Fsv_chan_hls_se_idx=188&FvSeid=1&Fsv_filetype=1&Fsv_ctype=LIVES&Fsv_cid=0&Fsv_chan_hls_se_idx=188&Fsv_rate_id=2&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Provider_id=&Pcontent_id=.m3u8&Fsv_CMSID=&Fsv_otype=1
+#EXTINF:-1 group-title="港澳台",TVB無線新聞台
+http://hk4-edge20-1.edgeware.tvb.com/session/0d75c9b8-3944-11ea-9a20-0050569023d7/dtysfd/newslive/smil:mobile_inews.smil/chunklist_b491520.m3u8
 #EXTINF:-1 group-title="港澳台",HKS香港衛視
-http://cctvtxyh5ca.liveplay.myqcloud.com/cstv/xianggangweishi_2_hd.m3u8
+http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8?wsSession=eb895993e738f49f6d80b08d-157927771488665&wsIPSercert=9a6e28b78f9991bd16b70f6460180328&wsMonitor=0
 #EXTINF:-1 group-title="港澳台",HKC新聞台
 https://ottproxy2.mott.tv/livehls/MOB-SCC/03.m3u8?sessionID=XNoSKsoyhu+3ZzGxIn6l1Azz
 
