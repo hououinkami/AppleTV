@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1,CCTV-1综合
+#EXTINF:-1 group-title="CCTV",CCTV-1综合
 http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/001/2000210103.m3u8
 #EXTINF:-1,CCTV-2财经
 http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/001/2000203603.m3u8
