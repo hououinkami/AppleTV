@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 group-title="央视频道",CCTV-1综合
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" group-title="央视频道",CCTV-1综合
 http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/001/2000210103.m3u8
 #EXTINF:-1 group-title="央视频道",CCTV-2财经
 http://140.249.30.118/tlivecloud-cdn.ysp.cctv.cn/001/2000203603.m3u8
