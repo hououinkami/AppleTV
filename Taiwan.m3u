@@ -1,0 +1,169 @@
+#EXTM3U
+#EXTINF:-1 group-title="", 中天綜合
+http://cdn.5itv.tv//ZZ_zhongtianzonghe/ZZ_zhongtianzonghe.m3u8
+#EXTINF:-1 group-title="", 中天娛樂
+http://cdn.5itv.tv//ZZ_zhongtianyule/ZZ_zhongtianyule.m3u8
+#EXTINF:-1 group-title="", 中天新聞
+http://341697390.r.fdccdn.net/live/tw_zhongtian_xw.m3u8
+#EXTINF:-1 group-title="", 中視新聞
+https://raw.githubusercontent.com/exodiver/IPTV/master/M3U8/Token/CTVNews.m3u8
+#EXTINF:-1 group-title="", 中視經典
+http://341697390.r.fdccdn.net/live/tw_zhongshi_jd.m3u8
+#EXTINF:-1 group-title="", 中視
+http://cdn.5itv.tv//ZZ_zhongshi/ZZ_zhongshi.m3u8
+#EXTINF:-1 group-title="", 中华卫视台湾
+http://pull.leshantangjt.com/live/playlist.m3u8
+#EXTINF:-1 group-title="", 原住民族電視
+https://bcovlive-a.akamaihd.net/82be3b97f67745058447484cc8a2d015/ap-southeast-1/5817780548001/profile_0/chunklist.m3u8
+#EXTINF:-1 group-title="", 有線新聞
+https://ottproxy2.mott.tv/livehls/MOB-SCC/03.m3u8
+#EXTINF:-1 group-title="", 優視卫视
+http://1-fss24-s0.streamhoster.com/lv_uchannel/_definst_/broadcast1/chunklist.m3u8
+#EXTINF:-1 group-title="", 亞洲旅遊
+http://341697390.r.fdccdn.net/live/tw_yazhou_ly.m3u8
+#EXTINF:-1 group-title="", 亞美卫视
+http://dcunilive30-lh.akamaihd.net/i/dclive_1@535522/master.m3u8
+#EXTINF:-1 group-title="", 星衛娛樂
+http://341697390.r.fdccdn.net/live/tw_weixing_yl.m3u8
+#EXTINF:-1 group-title="", 信吉電視
+http://220.130.241.203:1935/sjtv/livestream/chunklist_w1048671923.m3u8
+#EXTINF:-1 group-title="", 新唐人中国
+https://live2.ntdimg.com/cnlive/playlist.m3u8
+#EXTINF:-1 group-title="", 新唐人美西臺
+https://live.ntdimg.com/uwlive990/playlist.m3u8
+#EXTINF:-1 group-title="", 新唐人美东臺
+https://live.ntdimg.com/live400/playlist.m3u8
+#EXTINF:-1 group-title="", 新唐人旧金山臺
+https://live.ntdimg.com/sflive990/playlist.m3u8
+#EXTINF:-1 group-title="", 新唐人加西臺
+https://live.ntdimg.com/cwlive220/playlist.m3u8
+#EXTINF:-1 group-title="", 新唐人加东臺
+https://live.ntdimg.com/mllive860/playlist.m3u8
+#EXTINF:-1 group-title="", 緯來育樂
+https://usb.bozztv.com/ssh101/ttvbHD/ttvbHD/index.m3u8
+#EXTINF:-1 group-title="", 緯來體育
+http://341697390.r.fdccdn.net/live/tw_weilaitiyu.m3u8
+#EXTINF:-1 group-title="", 緯來日本
+http://341697390.r.fdccdn.net/live/tw_weilai_rb.m3u8
+#EXTINF:-1 group-title="", 唯心電視
+http://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8
+#EXTINF:-1 group-title="", 臺新聞
+https://usb.bozztv.com/ssh101/NEXTTVHD/NEXTTVHD/playlist.m3u8
+#EXTINF:-1 group-title="", 台灣藝術
+http://210.209.3.1/live/4715A9B3-B3CB-93DC-EDD6-CABCE3AFD3E3.m3u8?fmt=x264_500K_ts&cpid=admin&size=1280X720
+#EXTINF:-1 group-title="", 台視新聞
+https://raw.githubusercontent.com/exodiver/IPTV/master/M3U8/Token/TTVNews.m3u8
+#EXTINF:-1 group-title="", 台視財經
+https://usb.bozztv.com/ssh101/TTVHD/TTVHD/index.m3u8
+#EXTINF:-1 group-title="", 台視
+http://341697390.r.fdccdn.net/live/tw_taishi_hd.m3u8
+#EXTINF:-1 group-title="", 三立綜合
+http://341697390.r.fdccdn.net/live/tw_sanlizonghe.m3u8
+#EXTINF:-1 group-title="", 三立台灣
+http://341697390.r.fdccdn.net/live/tw_sanlitaiwan.m3u8
+#EXTINF:-1 group-title="", 三立都會
+http://341697390.r.fdccdn.net/live/tw_sanliduhui.m3u8
+#EXTINF:-1 group-title="", 人間衛視
+http://54.64.23.79:1935/live/vod/playlist.m3u8
+#EXTINF:-1 group-title="", 全美電視
+https://dcunilive30-lh.akamaihd.net/i/dclive_1@535522/master.m3u8
+#EXTINF:-1 group-title="", 年代新聞
+http://341697390.r.fdccdn.net/live/tw_niandaixinwen.m3u8
+#EXTINF:-1 group-title="", 民視
+http://341697390.r.fdccdn.net/live/tw_minshi_hd.m3u8
+#EXTINF:-1 group-title="", 美食星球
+http://341697390.r.fdccdn.net/live/tw_meishi_xq.m3u8
+#EXTINF:-1 group-title="", 美国中文电视
+http://ec.sinovision.net/video/ts/lv.m3u8
+#EXTINF:-1 group-title="", 龍華戲劇
+http://341697390.r.fdccdn.net/live/tw_longhua_xj.m3u8
+#EXTINF:-1 group-title="", 空中英語教室
+http://220.158.149.28:8180/live/TV00000000000000000077@HHZT
+#EXTINF:-1 group-title="", 靖洋戏剧台
+http://341697390.r.fdccdn.net/live/tw_jingyangxiju.m3u8
+#EXTINF:-1 group-title="", 靖天戲劇
+http://341697390.r.fdccdn.net/live/tw_jingtianxiju.m3u8
+#EXTINF:-1 group-title="", 靖天日本
+http://341697390.r.fdccdn.net/live/tw_jingtianriben.m3u8
+#EXTINF:-1 group-title="", 加拿大中文电视台
+http://wowzaprodhd45-lh.akamaihd.net/i/96d54ef6_1@438617/index_2150400_av-b.m3u8
+#EXTINF:-1 group-title="", 加拿大国家电视台
+https://wowzaprodhd84-lh.akamaihd.net/i/4ae6355d_1@505999/index_2150400_av-p.m3u8
+#EXTINF:-1 group-title="", 寰宇新聞
+http://341697390.r.fdccdn.net/live/hk_huanyu.m3u8
+#EXTINF:-1 group-title="", 華視新聞
+http://lss.line-scdn.net/cc_tw/p/live/hnRwbKw-LMHwbdi5sImMtS3EeakViLiUuJHh4SWsbbxk3InEjJXl6GD9OOBhgKyEifn12Tm4dZkVkbnd4cHp6E2hOcU1mNHYof2J-Hm4EaU9sK3cqf30/720/chunklist.m3u8
+#EXTINF:-1 group-title="", 華視
+http://cdn.5itv.tv//ZZ_huashi/ZZ_huashi.m3u8
+#EXTINF:-1 group-title="", 華藏衛視
+http://118.163.88.61:1935/hwazanlivetv/live.stream/playlist.m3u8
+#EXTINF:-1 group-title="", 公視
+http://341697390.r.fdccdn.net/live/tw_gongshi_hd.m3u8
+#EXTINF:-1 group-title="", 高點綜合
+http://341697390.r.fdccdn.net/live/tw_gaodian_zh.m3u8
+#EXTINF:-1 group-title="", 凤凰资讯
+http://liveali.ifeng.com/live/FHZX.m3u8
+#EXTINF:-1 group-title="", 凤凰中文
+http://liveali.ifeng.com/live/FHZW.m3u8
+#EXTINF:-1 group-title="", 非凡新聞
+http://341697390.r.fdccdn.net/live/tw_feifanxinwen.m3u8
+#EXTINF:-1 group-title="", 非凡商業
+http://341697390.r.fdccdn.net/live/tw_feifanshangye.m3u8
+#EXTINF:-1 group-title="", 番薯
+http://210.209.3.1/live/C02DD98E-593E-47A8-905C-3B101183A555.m3u8?fmt=x264_500K_ts&cpid=admin
+#EXTINF:-1 group-title="", 动物星球
+http://cdn.5itv.tv//ZZ_dongwuxingqiu/ZZ_dongwuxingqiu.m3u8
+#EXTINF:-1 group-title="", 東森綜合
+http://341697390.r.fdccdn.net/live/tw_dongsen_zh.m3u8
+#EXTINF:-1 group-title="", 東森幼幼
+http://341697390.r.fdccdn.net/live/tw_dongsen_yy.m3u8
+#EXTINF:-1 group-title="", 東森亞洲
+http://341697390.r.fdccdn.net/live/tw_zhongtian_yz.m3u8
+#EXTINF:-1 group-title="", 東森新聞
+http://cdn.5itv.tv/ZZ_dongsenxinwen/ZZ_dongsenxinwen.m3u8
+#EXTINF:-1 group-title="", 東森戲劇
+http://341697390.r.fdccdn.net/live/tw_dongsen_xj.m3u8
+#EXTINF:-1 group-title="", 東森財經
+http://341697390.r.fdccdn.net/live/tw_dongsen_cj.m3u8
+#EXTINF:-1 group-title="", 大愛一
+http://tv1.wanfudaluye.com/live/live.m3u8
+#EXTINF:-1 group-title="", 大愛海外
+https://tv3.wanfudaluye.com/live/live.m3u8
+#EXTINF:-1 group-title="", 大愛二
+https://tv2.wanfudaluye.com/live/live.m3u8
+#EXTINF:-1 group-title="", 八大綜合
+http://cdn.5itv.tv//ZZ_zhongtianyazhou/ZZ_zhongtianyazhou.m3u8
+#EXTINF:-1 group-title="", 八大娛樂
+http://341697390.r.fdccdn.net/live/tw_badayule.m3u8
+#EXTINF:-1 group-title="", 八大戲劇
+http://341697390.r.fdccdn.net/live/tw_badaxiju.m3u8
+#EXTINF:-1 group-title="", 八大第一
+http://341697390.r.fdccdn.net/live/tw_badadiyi.m3u8
+#EXTINF:-1 group-title="", YansinemaTV
+https://usb1.ninacdn.com/ssh101/YansinemaTV/YansinemaTV/playlist.m3u8
+#EXTINF:-1 group-title="", yansimamuzikTV
+https://usb.bozztv.com/ssh101/yansimamuzikTV/yansimamuzikTV/playlist.m3u8
+#EXTINF:-1 group-title="", VOA卫视
+http://voa-lh.akamaihd.net/i/voa_mpls_tvmc3_3@320295/index_0540_av-b.m3u8
+#EXTINF:-1 group-title="", TVBS歡樂
+http://341697390.r.fdccdn.net/live/tw_tvbsg_hd.m3u8
+#EXTINF:-1 group-title="", TVBS
+http://341697390.r.fdccdn.net/live/tw_tvbs.m3u8
+#EXTINF:-1 group-title="", Relaxing Guitar Music
+https://bozztv.com/36bay2/gin/giniko_guitarrelax_2000kb_36bay2/index.m3u8
+#EXTINF:-1 group-title="", News Net (HD)
+https://bozztv.com/36bay2/gin-newsnet/index.m3u8
+#EXTINF:-1 group-title="", MTV 音樂
+http://341697390.r.fdccdn.net/live/tw_mtv_hd.m3u8
+#EXTINF:-1 group-title="", MTV Live 臺灣
+http://341697390.r.fdccdn.net/live/tw_mtv_yinyue.m3u8
+#EXTINF:-1 group-title="", FASHIONTV
+https://bozztv.com/36bay2/gin/giniko_modelinc_2000kb_36bay2/index.m3u8
+#EXTINF:-1 group-title="", Electric Now
+https://bozztv.com/veset1/720pHi/playlist_720pHi.m3u8
+#EXTINF:-1 group-title="", 5m Quick Crafts
+https://bozztv.com/36bay2/gin/giniko_5min_1500kb_36bay2/index.m3u8
+#EXTINF:-1 group-title="", 5m Life Hacks
+https://bozztv.com/36bay2/gin/giniko_5minlifehacks_1500kb_36bay2/index.m3u8
+#EXTINF:-1 group-title="", 5m Kitchen Hacks
+https://bozztv.com/36bay2/gin/giniko_5minkitchen_1500kb_36bay2/index.m3u8
