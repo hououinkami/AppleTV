@@ -1,0 +1,56 @@
+#EXTM3U
+#EXTINF:-1 group-title="日本",NHK G
+http://203.162.235.41:16903
+#EXTINF:-1 group-title="日本",NHK Eテレ
+http://203.162.235.41:16901
+#EXTINF:-1 group-title="日本",NHK BS1
+http://203.162.235.41:16909
+#EXTINF:-1 group-title="日本",NHK BSプレミアム
+http://203.162.235.41:16910
+#EXTINF:-1 group-title="日本",NHK World Japan
+http://210.210.155.35/uq2663/h/h23/index.m3u8
+#EXTINF:-1 group-title="日本",MBS
+http://203.162.235.41:16907
+#EXTINF:-1 group-title="日本",BS-TBS
+http://203.162.235.41:16913
+#EXTINF:-1 group-title="日本",テレビ朝日
+http://203.162.235.41:16906
+#EXTINF:-1 group-title="日本",BS朝日
+http://203.162.235.41:16914
+#EXTINF:-1 group-title="日本",フジテレビ
+http://203.162.235.41:16904
+#EXTINF:-1 group-title="日本",BSフジ
+http://203.162.235.41:16911
+#EXTINF:-1 group-title="日本",テレビ東京
+http://203.162.235.41:16908
+#EXTINF:-1 group-title="日本",BSジャパン
+http://203.162.235.41:16915
+#EXTINF:-1 group-title="日本",日本テレビ
+http://203.162.235.41:16905
+#EXTINF:-1 group-title="日本",BS日テレ
+http://203.162.235.41:16915
+#EXTINF:-1 group-title="日本",日テレNEWS24
+https://n24-cdn-live-b.ntv.co.jp/ch01/High.m3u8
+#EXTINF:-1 group-title="日本",ジャパネットチャンネルDX
+http://bcsecurelivehls-i.akamaihd.net/hls/live/265320/5043843989001/140130JTDX/index_1200.m3u8
+#EXTINF:-1 group-title="日本",ウェザーニュース
+http://movie.mcas.jp/mcas/smil:wn1.smil/chunklist_b1800000.m3u8
+#EXTINF:-1 group-title="日本",WOWOWシネマ
+http://192.240.127.34:1935/live/cs27.stream/playlist.m3u8?wowzasessionid=1300220279
+#EXTINF:-1 group-title="日本",QVCジャパン
+http://cdn-live1.qvc.jp/iPhone/800/800.m3u8
+
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/DiscoveryHD.png" group-title="英文频道",Discovery
+http://83.167.253.110:5000/live/discovery/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/DiscoveryHD.png" group-title="英文频道",Discovery Networks
+rtmp://ivi.bupt.edu.cn:1935/livetv/discovery
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/DiscoveryHD.png" group-title="英文频道",Discovery Science
+http://122.155.180.8:5021/live/457
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/natgeo.png" group-title="英文频道",National Geographic
+rtmp://ivi.bupt.edu.cn:1935/livetv/natlgeo
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/BBCWORLDNEWSASIA.png" group-title="英文频道",BBC World News
+http://92.43.140.249/s24/04.m3u8?fluxustv.m3u8
+#EXTINF:-1 group-title="英文频道",BBC New UK
+https://vs-hls-uk.live.cf.md.bbci.co.uk/pool_902/live/uk/bbc_news_channel_hd/bbc_news_channel_hd.isml/bbc_news_channel_hd-pa3%3d96000-video%3d1604032.m3u8
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/CNNNews.png" group-title="英文频道",CNN International
+http://92.43.140.249/s27/04.m3u8?fluxustv.m3u8
