@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U    
 
 #EXTINF:-1 tvg-id="141"  tvg-logo="http://tv.sason.xyz/logo/fhzw.png" group-title="E港台综合",[国语|香港] 凤凰 中文 官方
 http://liveali.ifeng.com/live/FHZW.m3u8
@@ -184,11 +184,11 @@ http://stream.mastvnet.com/MASTV/sd/live.m3u8
 http://live-rtmp.lotustv.duolaibo.cn/lotustv/5562e9e4d409d24c9600075c.m3u8
 #EXTINF:-1 tvg-id="0"  tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="E港台综合",[粤语|澳门] 莲花卫视 FHD
 http://220.158.149.14:9999/live/TV00000000000000000069@HHZT;LIVE
-#EXTINF:-1 tvg-id="0"  tvg-logo="http://tv.sason.xyz/logo/hsxw.png" group-title="E港台.实验",[国语|台湾] 华视 新闻 FHD ★
+#EXTINF:-1 tvg-id="0"  tvg-logo="http://tv.sason.xyz/logo/hsxw.png" group-title="E港台实验",[国语|台湾] 华视 新闻 FHD ★
 http://tv.sason.xyz/hsxw
-#EXTINF:-1 tvg-id="6143"  tvg-logo="http://tv.sason.xyz/logo/tsxw.png" group-title="E港台.实验",[国语|台湾] 台视 新闻 FHD ★
+#EXTINF:-1 tvg-id="6143"  tvg-logo="http://tv.sason.xyz/logo/tsxw.png" group-title="E港台实验",[国语|台湾] 台视 新闻 FHD ★
 http://tv.sason.xyz/tsxw
-#EXTINF:-1 tvg-id="7176"  tvg-logo="http://tv.sason.xyz/logo/zsxw.png" group-title="E港台.实验",[国语|台湾] 中视 新闻 FHD ★
+#EXTINF:-1 tvg-id="7176"  tvg-logo="http://tv.sason.xyz/logo/zsxw.png" group-title="E港台实验",[国语|台湾] 中视 新闻 FHD ★
 http://tv.sason.xyz/zsxw
-#EXTINF:-1 tvg-id="6070"  tvg-logo="http://tv.sason.xyz/logo/ztxw.png" group-title="E港台.实验",[国语|台湾] 中天 新闻 FHD ★
+#EXTINF:-1 tvg-id="6070"  tvg-logo="http://tv.sason.xyz/logo/ztxw.png" group-title="E港台实验",[国语|台湾] 中天 新闻 FHD ★
 http://tv.sason.xyz/ztxw
