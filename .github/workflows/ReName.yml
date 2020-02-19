@@ -17,6 +17,10 @@ jobs:
         ref: master
         fetch-depth: 0
         lfs: true
+    - name: Set git identity
+      run : |
+        git config --global user.email "hououinkami@gmail.com"
+        git config --global user.name "hououinkami"
     - name: 测试
       run : |
         
