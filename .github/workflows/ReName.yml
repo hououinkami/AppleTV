@@ -1,14 +1,16 @@
 name: 生成自用Apple TV直播列表
 
 on:
-  push:
-    branches: 
-      - master
+  # push:
+    # branches: 
+      # - master
   schedule:
     - cron: 30 16 * * *
+  watch:
+    types: [started]
 
 jobs:
-  test:
+  生成直播列表:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
@@ -23,8 +25,8 @@ jobs:
         git config --global user.name "hououinkami"
     - name: 测试
       run : |
-        
-        wget http://tv.sason.xyz/gn.m3u
-        git add gn.m3u
-        git commit -m  "Add empty file"
-        git push origin master
+        ls
+        #wget http://tv.sason.xyz/gn.m3u
+        #git add gn.m3u
+        #git commit -m  "Add empty file"
+        #git push origin master
