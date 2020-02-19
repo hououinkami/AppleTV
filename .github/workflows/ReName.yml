@@ -1,0 +1,26 @@
+name: 生成自用Apple TV直播列表
+
+on:
+  # push:
+    # branches: 
+      # - master
+  schedule:
+    - cron: 30 16 * * *
+
+jobs:
+  测试:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
+      with:
+        ref: master
+        fetch-depth: 0
+        lfs: true
+    - name: 测试
+      run : |
+        cd AppleTV
+        wget http://tv.sason.xyz/gn.m3u
+        git add gn.m3u
+        git commit -m  "Add empty file"
+        git push origin master
