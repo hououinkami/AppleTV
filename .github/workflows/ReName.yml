@@ -8,7 +8,7 @@ on:
     - cron: 30 16 * * *
 
 jobs:
-  测试:
+  test:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
