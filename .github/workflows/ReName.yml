@@ -10,7 +10,7 @@ on:
     types: [started]
 
 jobs:
-  生成直播列表:
+  TV:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
