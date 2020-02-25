@@ -5,7 +5,7 @@ on:
     # branches: 
       # - master
   schedule:
-    - cron: 30 16 * * *
+    - cron: 00 02 * * *
   watch:
     types: [started]
 
@@ -86,7 +86,11 @@ jobs:
         list.m3u>HKTW2.m3u
     - name: 合并到仓库
       run : |
-        git add China.m3u HKTW1.m3u HKTW2.m3u
+        git add China.m3u
+        git commit -m  "Update:${date +%Y-%m-%d}"
+        git add HKTW1.m3u
+        git commit -m  "Update"
+        git add HKTW2.m3u
         git commit -m  "Update"
         git push origin master
     - name: 删除源文件
