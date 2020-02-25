@@ -26,8 +26,10 @@ jobs:
     - name: 国内频道
       run : |
         wget http://tv.sason.xyz/gn.m3u
-        cat gn.m3u |
-        awk '{gsub("url-tvg=\"http://tv.sason.xyz/epg\"", "")}'>1.m3u
+        awk 'BEGIN{while(getline < "/gn.m3u"){print $0;};close("/etc/passwd");}{gsub("url-tvg=\"http://tv.sason.xyz/epg\"", "")}'>1.m3u
+        
+        
+        
         git add 1.m3u
         git commit -m  "Update"
         git push origin master
