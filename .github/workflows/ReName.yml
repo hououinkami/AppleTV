@@ -86,8 +86,9 @@ jobs:
         list.m3u>HKTW2.m3u
     - name: 合并到仓库
       run : |
+        echo "::set-output name=date::$(date +'%Y-%m-%d')"
         git add China.m3u
-        git commit -m  "Update:${date +%Y-%m-%d}"
+        git commit -m  "Update:${{steps.date.outputs.date}}"
         git add HKTW1.m3u
         git commit -m  "Update"
         git add HKTW2.m3u
