@@ -25,6 +25,7 @@ jobs:
         git config --global user.name "hououinkami"
     - name: 获取最新源
       run : |
+        ls
         wget http://tv.sason.xyz/gn.m3u
         wget http://tv.sason.xyz/gt.m3u
         wget https://homenet6.github.io/list.m3u
@@ -34,6 +35,7 @@ jobs:
         {
         gsub("url-tvg=\"http://tv.sason.xyz/epg\"", "")
         print $0
+        }
         ' gn.m3u>1.m3u
         
         
