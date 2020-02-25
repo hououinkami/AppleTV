@@ -87,6 +87,12 @@ jobs:
         }
         '
         list.m3u>HKTW2.m3u
+    - name: 删除源文件
+      run : |
+        rm gn.m3u
+        rm gt.m3u
+        rm list.m3u
+        ls
     - name: 合并到仓库
       run : |
         git add China.m3u
@@ -96,9 +102,3 @@ jobs:
         git add HKTW2.m3u
         git commit -m  "Update:${{steps.date.outputs.date}}"
         git push origin master
-    - name: 删除源文件
-      run : |
-        rm gn.m3u
-        rm gt.m3u
-        rm list.m3u
-        ls
