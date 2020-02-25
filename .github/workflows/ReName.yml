@@ -23,6 +23,9 @@ jobs:
       run : |
         git config --global user.email "hououinkami@gmail.com"
         git config --global user.name "hououinkami"
+    - name: Get current date
+      id: date
+      run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
     - name: 获取最新源
       run : |
         wget http://tv.sason.xyz/gn.m3u
@@ -86,13 +89,12 @@ jobs:
         list.m3u>HKTW2.m3u
     - name: 合并到仓库
       run : |
-        echo "::set-output name=date::$(date +'%Y-%m-%d')"
         git add China.m3u
-        git commit -m  "Update:${steps.date.outputs.date}"
+        git commit -m  "Update:${{steps.date.outputs.date}}"
         git add HKTW1.m3u
-        git commit -m  "Update"
+        git commit -m  "Update:${{steps.date.outputs.date}}"
         git add HKTW2.m3u
-        git commit -m  "Update"
+        git commit -m  "Update:${{steps.date.outputs.date}}"
         git push origin master
     - name: 删除源文件
       run : |
