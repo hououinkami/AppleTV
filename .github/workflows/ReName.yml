@@ -27,27 +27,7 @@ jobs:
       run : |
         wget http://tv.sason.xyz/gn.m3u
         cat gn.m3u |
-        awk '
-        {
-      # 删除EPG
-	gsub("url-tvg=\"http://tv.sason.xyz/epg\"", "")
-		    # 删除说明
-		    if($0~"说明") {m=NR; n=NR+1}
-		    if(m<=NR && NR<=n) {next}
-		    # 重命名群组
-		    gsub("A.央视","A 央视频道")
-		    gsub("B.卫视","B 卫视频道")
-		    gsub("C.4K频道","Z 4K频道")
-		    gsub("D.教育频道","C 教育频道")
-		    gsub("E.数字电视","D 数字电视")
-		    # 删除无用电视台
-		    if($0~/峨眉|四川本地/) {m=NR; n=NR+1}
-		    if(m<=NR && NR<=n) {next}
-		    # 重命名频道
-		    gsub("FHD|HD|SD","")
-		    print $0
-        }
-        '>China.m3u
+        awk '{gsub("url-tvg=\"http://tv.sason.xyz/epg\"", "")}'>China.m3u
         #git add gn.m3u
         git commit -m  "Update"
         git push origin master
