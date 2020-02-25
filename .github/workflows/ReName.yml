@@ -33,6 +33,16 @@ jobs:
         awk '
         {
         gsub("url-tvg=\"http://tv.sason.xyz/epg\"", "");
+        if($0~"说明") {m=NR; n=NR+1};
+        if(m<=NR && NR<=n) {next};
+        gsub("A.央视","A 央视频道");
+        gsub("B.卫视","B 卫视频道");
+        gsub("C.4K频道","Z 4K频道");
+        gsub("D.教育频道","C 教育频道");
+        gsub("E.数字电视","D 数字电视");
+        if($0~/峨眉|四川本地/) {m=NR; n=NR+1};
+        if(m<=NR && NR<=n) {next};
+        gsub("FHD|HD|SD","")
         print $0;
         }
         '
