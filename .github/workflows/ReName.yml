@@ -29,8 +29,8 @@ jobs:
         cat gn.m3u |
         awk '
         {
-        # 删除EPG
-		    gsub("url-tvg=\"http://tv.sason.xyz/epg\"", "")
+      # 删除EPG
+	gsub("url-tvg=\"http://tv.sason.xyz/epg\"", "")
 		    # 删除说明
 		    if($0~"说明") {m=NR; n=NR+1}
 		    if(m<=NR && NR<=n) {next}
