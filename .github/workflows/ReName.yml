@@ -25,7 +25,6 @@ jobs:
         git config --global user.name "hououinkami"
     - name: 获取最新源
       run : |
-        ls
         wget http://tv.sason.xyz/gn.m3u
         wget http://tv.sason.xyz/gt.m3u
         wget https://homenet6.github.io/list.m3u
@@ -33,13 +32,14 @@ jobs:
       run : >
         awk '
         {
-        gsub("url-tvg=\"http://tv.sason.xyz/epg\"", "")
-        print $0
+        gsub("url-tvg=\"http://tv.sason.xyz/epg\"", "");
+        print $0;
         }
-        ' gn.m3u>1.m3u
+        '
+        gn.m3u>1.m3u
         
-        
-        
+    - name: 合并到仓库
+      run : |
         git add 1.m3u
         git commit -m  "Update"
         git push origin master
