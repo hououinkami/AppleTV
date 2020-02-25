@@ -96,9 +96,9 @@ jobs:
     - name: 合并到仓库
       run : |
         git add China.m3u
-        git commit --amend -m  "Update:${{steps.date.outputs.date}}"
+        git commit -m  "Update:${{steps.date.outputs.date}}" China.m3u
         git add HKTW1.m3u
-        git commit --amend -m  "Update:${{steps.date.outputs.date}}"
+        git commit -m  "Update:${{steps.date.outputs.date}}" HKTW1.m3u
         git add HKTW2.m3u
-        git commit --amend -m  "Update:${{steps.date.outputs.date}}"
+        git commit -m  "Update:${{steps.date.outputs.date}}" HKTW2.m3u
         git push origin master
