@@ -11,7 +11,7 @@ on:
 
 jobs:
   TV:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
     - name: Checkout
       uses: actions/checkout@master
@@ -26,8 +26,7 @@ jobs:
     - name: 国内频道
       run : |
         wget http://tv.sason.xyz/gn.m3u
-        cat gn.m3u |
-        awk '{gsub("url-tvg=\"http://tv.sason.xyz/epg\"", "")}'>China.m3u
-        git add China.m3u
+        awk '{gsub("url-tvg=\"http://tv.sason.xyz/epg\"", "")}'gn.m3u>1.m3u
+        git add 1.m3u
         git commit -m  "Update"
         git push origin master
