@@ -42,7 +42,7 @@ jobs:
         gsub("E.数字电视","D 数字电视");
         if($0~/峨眉|四川本地/) {m=NR; n=NR+1};
         if(m<=NR && NR<=n) {next};
-        gsub("FHD|HD|SD","")
+        gsub("FHD|HD|SD","");
         print $0;
         }
         '
