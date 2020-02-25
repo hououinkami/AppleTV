@@ -101,4 +101,4 @@ jobs:
         git commit --amend -m  "Update:${{steps.date.outputs.date}}"
         git add HKTW2.m3u
         git commit --amend -m  "Update:${{steps.date.outputs.date}}"
-        git push -f origin master
+        git push origin master
