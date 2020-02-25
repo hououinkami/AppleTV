@@ -28,6 +28,6 @@ jobs:
         wget http://tv.sason.xyz/gn.m3u
         cat gn.m3u |
         awk '{gsub("url-tvg=\"http://tv.sason.xyz/epg\"", "")}'>China.m3u
-        #git add gn.m3u
+        git add China.m3u
         git commit -m  "Update"
         git push origin master
