@@ -23,13 +23,27 @@ jobs:
       run : |
         git config --global user.email "hououinkami@gmail.com"
         git config --global user.name "hououinkami"
-    - name: 国内频道
+    - name: 获取最新源
       run : |
         wget http://tv.sason.xyz/gn.m3u
-        awk '{gsub("url-tvg=\"http://tv.sason.xyz/epg\"", "")}{print $0}' gn.m3u>1.m3u
+        wget http://tv.sason.xyz/gt.m3u
+        wget https://homenet6.github.io/list.m3u
+    - name: 国内频道
+      run : >
+        awk '
+        {
+        gsub("url-tvg=\"http://tv.sason.xyz/epg\"", "")
+        print $0
+        ' gn.m3u>1.m3u
         
         
         
         git add 1.m3u
         git commit -m  "Update"
         git push origin master
+    - name: 删除源文件
+      run : |
+        rm gn.m3u
+        rm gt.m3u
+        rm list.m3u
+        ls
