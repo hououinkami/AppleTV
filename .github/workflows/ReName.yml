@@ -50,28 +50,6 @@ jobs:
         }
         '
         gn.m3u>China.m3u
-    - name: 判断是否有变更
-      id: status
-      run: |
-        STR1="nothing to commit, working tree clean"
-        STR2="Changes not staged for commit"
-        out=$(git status)
-        if [[ "$(echo $out | grep "$STR1")" != "" ]]
-        then
-          echo "::set-output name=status::"nochange""
-        fi
-        if [[ "$(echo $out | grep "$STR2")" != "" ]]
-        then
-          echo "::set-output name=status::"change""
-        fi
-    - name: 国内频道push
-      run : |
-        if [[ "${{steps.status.outputs.status}}" == "change" ]]
-        then
-          git add China.m3u
-          git commit -m  "Update:${{steps.date.outputs.date}}"
-          git push origin master
-        fi
     - name: 港台频道1
       run : >
         awk '
@@ -115,11 +93,26 @@ jobs:
         rm gt.m3u
         rm list.m3u
         ls
+    - name: 判断是否有变更
+      id: status
+      run: |
+        STR1="nothing to commit, working tree clean"
+        STR2="Changes not staged for commit"
+        out=$(git status)
+        if [[ "$(echo $out | grep "$STR1")" != "" ]]
+        then
+          echo "::set-output name=status::"nochange""
+        fi
+        if [[ "$(echo $out | grep "$STR2")" != "" ]]
+        then
+          echo "::set-output name=status::"change""
+        fi
     - name: 合并到仓库
       run : |
-      #  git branch -u origin/master
-      #  git add -u
-      #  git commit -m  "Update:${{steps.date.outputs.date}}"
-      #  git push origin master
+        if [[ "${{steps.status.outputs.status}}" == "change" ]]
+        then
+          git add .
+          git commit -m  "Update:${{steps.date.outputs.date}}"
+          git push origin master
+        fi
         
-    
