@@ -51,10 +51,15 @@ jobs:
         '
         gn.m3u>China.m3u
         
-        git diff --cached &&
-        git add China.m3u &&
-        git commit -m  "Update:${{steps.date.outputs.date}}" &&
+    - name: 国内频道push
+      run : |
+        out=$(git status)
+        result=$(echo $out | grep "nothing to commit")
+        if [[ "$result" != "" ]];then
+        git add China.m3u
+        git commit -m  "Update:${{steps.date.outputs.date}}"
         git push origin master
+        fi
     - name: 港台频道1
       run : >
         awk '
