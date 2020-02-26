@@ -67,7 +67,7 @@ jobs:
         STR1="nothing to commit, working tree clean"
         out=$(git status)
         result=$(echo $out | grep "nothing to commit")
-        if [[ "$result" == "" ]]
+        if [[ "$result" != "" ]]
         then
           git add China.m3u
           git commit -m  "Update:${{steps.date.outputs.date}}"
