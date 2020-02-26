@@ -34,9 +34,9 @@ jobs:
         result=$(echo $out | grep "$STR1")
         if [[ "$result" != "" ]]
         then
-          echo "::set-output name=status::"nochange"
+          echo "::set-output name=status::"nochange""
         else
-          echo "::set-output name=status::"change"
+          echo "::set-output name=status::"change""
         fi
     - name: 获取最新源
       run : |
