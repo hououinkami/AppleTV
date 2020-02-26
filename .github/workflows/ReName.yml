@@ -65,7 +65,7 @@ jobs:
     - name: 国内频道push
       run : |
         STR1="nothing to commit, working tree clean"
-        out=$(git status)
+        echo "$(git status)"
         result=$(echo $out | grep "$STR1")
         if [[ "$result" == "" ]];then
           git add China.m3u
