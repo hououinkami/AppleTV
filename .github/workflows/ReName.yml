@@ -26,6 +26,18 @@ jobs:
     - name: 获取当前日期
       id: date
       run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
+    - name: 判断是否有变更
+      id: status
+      run: |
+        STR1="nothing to commit, working tree clean"
+        out=$(git status)
+        result=$(echo $out | grep "$STR1")
+        if [[ "$result" != "" ]]
+        then
+          echo "::set-output name=status::"nochange""
+        else
+          echo "::set-output name=status::"change""
+        fi
     - name: 获取最新源
       run : |
         wget http://tv.sason.xyz/gn.m3u
@@ -54,7 +66,7 @@ jobs:
       run : |
         STR1="nothing to commit, working tree clean"
         out=$(git status)
-        result=$(echo $out | grep "$STR1")
+        result=$(echo $out | grep "nothing to commit")
         if [[ "$result" == "" ]]
         then
           git add China.m3u
