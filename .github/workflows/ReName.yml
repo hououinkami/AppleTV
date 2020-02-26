@@ -74,6 +74,10 @@ jobs:
         }
         '
         gt.m3u>HKTW1.m3u
+        
+        git add HKTW1.m3u &&
+        git commit -m  "Update:${{steps.date.outputs.date}}" &&
+        git push origin master
     - name: 港台频道2
       run : >
         awk '
@@ -91,6 +95,10 @@ jobs:
         }
         '
         list.m3u>HKTW2.m3u
+        
+        git add HKTW2.m3u &&
+        git commit -m  "Update:${{steps.date.outputs.date}}" &&
+        git push origin master
     - name: 删除源文件
       run : |
         rm gn.m3u
