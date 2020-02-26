@@ -50,21 +50,12 @@ jobs:
         }
         '
         gn.m3u>China.m3u
-    - name: 判断是否有变更
-      id: status
-      run: |
+    - name: 国内频道push
+      run : |
         STR1="nothing to commit, working tree clean"
         out=$(git status)
         result=$(echo $out | grep "$STR1")
-        if [[ "$result" != "" ]]
-        then
-          echo "::set-output name=status::"nochange""
-        else
-          echo "::set-output name=status::"change""
-        fi
-    - name: 国内频道push
-      run : |
-        if ${{steps.status.outputs.status}} == "change"
+        if [[ "$result" == "" ]]
         then
           git add China.m3u
           git commit -m  "Update:${{steps.date.outputs.date}}"
