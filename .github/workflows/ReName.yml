@@ -51,7 +51,7 @@ jobs:
         '
         gn.m3u>China.m3u
         
-        git status &&
+        git diff &&
         git add China.m3u &&
         git commit -m  "Update:${{steps.date.outputs.date}}" &&
         git push origin master
