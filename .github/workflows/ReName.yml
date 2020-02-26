@@ -95,6 +95,7 @@ jobs:
         ls
     - name: 合并到仓库
       run : |
+        git branch -u origin/master
         git add -u
         git commit -m  "Update:${{steps.date.outputs.date}}" &&
         git push origin master
