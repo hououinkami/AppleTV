@@ -50,6 +50,9 @@ jobs:
         }
         '
         gn.m3u>China.m3u
+        git add China.m3u
+        git commit -m  "Update:${{steps.date.outputs.date}}"
+        git push origin master
     - name: 港台频道1
       run : >
         awk '
@@ -95,9 +98,9 @@ jobs:
         ls
     - name: 合并到仓库
       run : |
-        git branch -u origin/master
-        git add -u
-        git commit -m  "Update:${{steps.date.outputs.date}}" &&
-        git push origin master
+      #  git branch -u origin/master
+      #  git add -u
+      #  git commit -m  "Update:${{steps.date.outputs.date}}"
+      #  git push origin master
         
     
