@@ -1,4 +1,4 @@
-#EXTM3U 123
+#EXTM3U 
 #EXTINF:-1 tvg-id="1" tvg-logo="http://tv.sason.xyz/logo/cctv1.png" group-title="A 央视频道",CCTV-1 综合 
 http://140.249.30.112/tlivecloud-cdn.ysp.cctv.cn/001/2000210103.m3u8
 #EXTINF:-1 tvg-id="2" tvg-logo="http://tv.sason.xyz/logo/cctv2.png" group-title="A 央视频道",CCTV-2 财经 
