@@ -47,7 +47,7 @@ http://seb.sason.top/tv/tsxw.m3u8
 http://seb.sason.top/tv/zsxw.m3u8
 #EXTINF:-1 tvg-id="6070" tvg-logo="http://tv.sason.xyz/logo/ztxw.png" group-title="F 台湾频道",中天 新闻 高清
 http://seb.sason.top/tv/ztxw.m3u8
-#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/fhdy.png" group-title="E 香港频道",凤凰 电影
+#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/fhdy.png" group-title="I 电影轮播",凤凰 电影
 rtmp://58.200.131.2:1935/livetv/fhdy
 #EXTINF:-1 tvg-id="143" tvg-logo="http://tv.sason.xyz/logo/fhxg.png" group-title="E 香港频道",凤凰 香港
 http://qlive.fengshows.cn/live720p/PHK.flv?txSecret=daefe6664bbeadcfb4ee2338a48d041c&txTime=16f1ea41738
@@ -61,7 +61,7 @@ https://usb.bozztv.com/ssh101/ttvb高清/ttvb高清/index.m3u8
 https://usb.bozztv.com/ssh101/NEXTTV高清/NEXTTV高清/playlist.m3u8
 #EXTINF:-1 tvg-id="6028" tvg-logo="http://tv.sason.xyz/logo/zs.png" group-title="F 台湾频道",中视
 http://live.ergt4rt.wang/gangaotai.php?id=73
-#EXTINF:-1 tvg-id="527" tvg-logo="http://tv.sason.xyz/logo/channelv.png" group-title="I 电影剧集",Channel V
+#EXTINF:-1 tvg-id="527" tvg-logo="http://tv.sason.xyz/logo/channelv.png" group-title="I 电影轮播",Channel V
 https://v4.uhd.app/hls/channelv.m3u8
 #EXTINF:-1 tvg-id="6179" tvg-logo="http://tv.sason.xyz/logo/bsml.png" group-title="F 台湾频道",博斯 魅力
 http://ms003.happytv.com.tw/live/OcScNdWHvBx5P4w3/index.m3u8
@@ -105,7 +105,7 @@ https://icable.cdn.utvhk.com/live/4cc64fb362004798b222978935590b2c/1980ba5c365e4
 http://wowgua.com/live/channel_110.m3u8
 #EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="G 澳门频道",有线 综合娱乐
 http://wowgua.com/live/channel_301.m3u8
-#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="F 台湾频道",C+
+#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="E 香港频道",C+
 https://ottproxy2.mott.tv/livehls:cmi/MOB-U1-NO/01.m3u8
 #EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/rthk31.png" group-title="E 香港频道",RTHK 31
 https://www.rthk.hk/feeds/dtt/rthktv31_https.m3u8
@@ -115,19 +115,19 @@ https://www.rthk.hk/feeds/dtt/rthktv32_https.m3u8
 http://media.fantv.hk/m3u8/archive/channel2.m3u8
 #EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="X 其他频道",亚旅卫视
 http://hls.jingchangkan.tv/jingchangkan/156722438_0HaM/index.m3u8
-#EXTINF:-1 tvg-id="6085" tvg-logo="http://tv.sason.xyz/logo/axn.png" group-title="I 电影剧集",AXN
+#EXTINF:-1 tvg-id="6085" tvg-logo="http://tv.sason.xyz/logo/axn.png" group-title="I 电影轮播",AXN
 http://yeyuaihao.gz01.bdysite.com/dl/gzyx.php?id=1b1246cf30d2e81778b570e6a1dec41b
-#EXTINF:-1 tvg-id="6089" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="I 电影剧集",Cinemax
+#EXTINF:-1 tvg-id="6089" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="I 电影轮播",Cinemax
 http://yeyuaihao.gz01.bdysite.com/dl/gzyx.php?id=e27fb1156a3796d67cb39c3887f36bff
-#EXTINF:-1 tvg-id="7179" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="I 电影剧集",CNEX
+#EXTINF:-1 tvg-id="7179" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="I 电影轮播",CNEX
 http://220.158.149.14:9999/live/TV00000000000000000083@HHZT;LIVE
 #EXTINF:-1 tvg-id="6037" tvg-logo="http://tv.sason.xyz/logo/discovery.png" group-title="J 科教记录",Discovery
 rtmp://58.200.131.2:1935/livetv/discovery
-#EXTINF:-1 tvg-id="6152" tvg-logo="http://tv.sason.xyz/logo/hbo.png" group-title="I 电影剧集",HBO
+#EXTINF:-1 tvg-id="6152" tvg-logo="http://tv.sason.xyz/logo/hbo.png" group-title="I 电影轮播",HBO
 http://live.ergt4rt.wang/gangaotai.php?id=27
-#EXTINF:-1 tvg-id="7226" tvg-logo="http://tv.sason.xyz/logo/star_movies.png" group-title="I 电影剧集",Star Movies
+#EXTINF:-1 tvg-id="7226" tvg-logo="http://tv.sason.xyz/logo/star_movies.png" group-title="I 电影轮播",Star Movies
 http://yeyuaihao.gz01.bdysite.com/dl/gzyx.php?id=2acda8214480d2d5e06c6873381975af
-#EXTINF:-1 tvg-id="6149" tvg-logo="http://tv.sason.xyz/logo/wanner.png" group-title="I 电影剧集",WarnerTV
+#EXTINF:-1 tvg-id="6149" tvg-logo="http://tv.sason.xyz/logo/wanner.png" group-title="I 电影轮播",WarnerTV
 http://192.200.97.170:8080/ZZ_huanadianying/ZZ_huanadianying.m3u8
 #EXTINF:-1 tvg-id="691" tvg-logo="http://tv.sason.xyz/logo/ng.png" group-title="J 科教记录",国家地理
 http://yeyuaihao.gz01.bdysite.com/dl/gzyx.php?id=c23ea9a515b354f6cbccab25906d4575
