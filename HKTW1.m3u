@@ -1,151 +1,155 @@
 #EXTM3U 
-#EXTINF:-1 tvg-id="141" tvg-logo="http://tv.sason.xyz/logo/fhzw.png" group-title="E 香港频道",凤凰 中文 官方
+#EXTINF:-1 tvg-id="141" tvg-logo="http://tv.sason.xyz/logo/fhzw.png" group-title="E 香港频道",[国语]凤凰中文 官方
 http://liveali.ifeng.com/live/FHZW.m3u8
-#EXTINF:-1 tvg-id="141" tvg-logo="http://tv.sason.xyz/logo/fhzw.png" group-title="E 香港频道",凤凰 中文 高清
+#EXTINF:-1 tvg-id="141" tvg-logo="http://tv.sason.xyz/logo/fhzw.png" group-title="E 香港频道",[国语]凤凰中文 高清
 http://220.158.149.14:9999/live/TV00000000000000000067@HHZT;LIVE
-#EXTINF:-1 tvg-id="142" tvg-logo="http://tv.sason.xyz/logo/fhzx.png" group-title="E 香港频道",凤凰 资讯 官方
+#EXTINF:-1 tvg-id="142" tvg-logo="http://tv.sason.xyz/logo/fhzx.png" group-title="E 香港频道",[国语]凤凰资讯 官方
 http://liveali.ifeng.com/live/FHZX.m3u8
-#EXTINF:-1 tvg-id="142" tvg-logo="http://tv.sason.xyz/logo/fhzx.png" group-title="E 香港频道",凤凰 资讯 高清
+#EXTINF:-1 tvg-id="142" tvg-logo="http://tv.sason.xyz/logo/fhzx.png" group-title="E 香港频道",[国语]凤凰资讯 高清
 http://220.158.149.14:9999/live/TV00000000000000000066@HHZT;LIVE
-#EXTINF:-1 tvg-id="6073" tvg-logo="http://tv.sason.xyz/logo/tvbsxw.png" group-title="E 香港频道",TVBS 新闻 高清
+#EXTINF:-1 tvg-id="6073" tvg-logo="http://tv.sason.xyz/logo/tvbsxw.png" group-title="E 香港频道",[国语]TVBS新闻 高清
 http://seb.sason.top/tv/tvbsxw_fhd.m3u8
-#EXTINF:-1 tvg-id="6075" tvg-logo="http://tv.sason.xyz/logo/dscjxw.png" group-title="F 台湾频道",东森 财经新闻 高清
+#EXTINF:-1 tvg-id="6075" tvg-logo="http://tv.sason.xyz/logo/dscjxw.png" group-title="F 台湾频道",[国语]东森财经新闻 高清
 http://seb.sason.top/tv/dscjxw_fhd.m3u8
-#EXTINF:-1 tvg-id="6069" tvg-logo="http://tv.sason.xyz/logo/dsxw.png" group-title="F 台湾频道",东森 新闻 高清
+#EXTINF:-1 tvg-id="6069" tvg-logo="http://tv.sason.xyz/logo/dsxw.png" group-title="F 台湾频道",[国语]东森新闻 高清
 http://seb.sason.top/tv/dsxw_fhd.m3u8
-#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/hsxw.png" group-title="F 台湾频道",华视 新闻 高清
+#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/hsxw.png" group-title="F 台湾频道",[国语]华视新闻 高清
 http://seb.sason.top/tv/hsxw_fhd.m3u8
-#EXTINF:-1 tvg-id="6071" tvg-logo="http://tv.sason.xyz/logo/msxw.png" group-title="F 台湾频道",民视 新闻 高清
+#EXTINF:-1 tvg-id="6071" tvg-logo="http://tv.sason.xyz/logo/msxw.png" group-title="F 台湾频道",[国语]民视新闻 高清
 http://seb.sason.top/tv/msxw_fhd.m3u8
-#EXTINF:-1 tvg-id="6072" tvg-logo="http://tv.sason.xyz/logo/slxw.png" group-title="F 台湾频道",三立iNews 高清
+#EXTINF:-1 tvg-id="6072" tvg-logo="http://tv.sason.xyz/logo/slxw.png" group-title="F 台湾频道",[国语]三立iNews 高清
 http://seb.sason.top/tv/slinews_fhd.m3u8
-#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="F 台湾频道",三立Live 高清
+#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="F 台湾频道",[国语]三立Live 高清
 http://seb.sason.top/tv/sllive_fhd.m3u8
-#EXTINF:-1 tvg-id="6143" tvg-logo="http://tv.sason.xyz/logo/tsxw.png" group-title="F 台湾频道",台视 新闻 高清
+#EXTINF:-1 tvg-id="6143" tvg-logo="http://tv.sason.xyz/logo/tsxw.png" group-title="F 台湾频道",[国语]台视新闻 高清
 http://seb.sason.top/tv/tsxw_fhd.m3u8
-#EXTINF:-1 tvg-id="7176" tvg-logo="http://tv.sason.xyz/logo/zsxw.png" group-title="F 台湾频道",中视 新闻 高清
+#EXTINF:-1 tvg-id="7176" tvg-logo="http://tv.sason.xyz/logo/zsxw.png" group-title="F 台湾频道",[国语]中视新闻 高清
 http://seb.sason.top/tv/zsxw_fhd.m3u8
-#EXTINF:-1 tvg-id="6070" tvg-logo="http://tv.sason.xyz/logo/ztxw.png" group-title="F 台湾频道",中天 新闻 高清
+#EXTINF:-1 tvg-id="6070" tvg-logo="http://tv.sason.xyz/logo/ztxw.png" group-title="F 台湾频道",[国语]中天新闻 高清
 http://seb.sason.top/tv/ztxw_fhd.m3u8
-#EXTINF:-1 tvg-id="6073" tvg-logo="http://tv.sason.xyz/logo/tvbsxw.png" group-title="E 香港频道",TVBS 新闻 高清
+#EXTINF:-1 tvg-id="6073" tvg-logo="http://tv.sason.xyz/logo/tvbsxw.png" group-title="E 香港频道",[国语]TVBS新闻 高清
 http://seb.sason.top/tv/tvbsxw.m3u8
-#EXTINF:-1 tvg-id="6075" tvg-logo="http://tv.sason.xyz/logo/dscjxw.png" group-title="F 台湾频道",东森 财经新闻 高清
+#EXTINF:-1 tvg-id="6075" tvg-logo="http://tv.sason.xyz/logo/dscjxw.png" group-title="F 台湾频道",[国语]东森财经新闻 高清
 http://seb.sason.top/tv/dscjxw.m3u8
-#EXTINF:-1 tvg-id="6069" tvg-logo="http://tv.sason.xyz/logo/dsxw.png" group-title="F 台湾频道",东森 新闻 高清
+#EXTINF:-1 tvg-id="6069" tvg-logo="http://tv.sason.xyz/logo/dsxw.png" group-title="F 台湾频道",[国语]东森新闻 高清
 http://seb.sason.top/tv/dsxw.m3u8
-#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/hsxw.png" group-title="F 台湾频道",华视 新闻 高清
+#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/hsxw.png" group-title="F 台湾频道",[国语]华视新闻 高清
 http://seb.sason.top/tv/hsxw.m3u8
-#EXTINF:-1 tvg-id="6071" tvg-logo="http://tv.sason.xyz/logo/msxw.png" group-title="F 台湾频道",民视 新闻 高清
+#EXTINF:-1 tvg-id="6071" tvg-logo="http://tv.sason.xyz/logo/msxw.png" group-title="F 台湾频道",[国语]民视新闻 高清
 http://seb.sason.top/tv/msxw.m3u8
-#EXTINF:-1 tvg-id="6072" tvg-logo="http://tv.sason.xyz/logo/slxw.png" group-title="F 台湾频道",三立iNews 高清
+#EXTINF:-1 tvg-id="6072" tvg-logo="http://tv.sason.xyz/logo/slxw.png" group-title="F 台湾频道",[国语]三立iNews 高清
 http://seb.sason.top/tv/slinews.m3u8
-#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="F 台湾频道",三立Live 高清
+#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="F 台湾频道",[国语]三立Live 高清
 http://seb.sason.top/tv/sllive.m3u8
-#EXTINF:-1 tvg-id="6143" tvg-logo="http://tv.sason.xyz/logo/tsxw.png" group-title="F 台湾频道",台视 新闻 高清
+#EXTINF:-1 tvg-id="6143" tvg-logo="http://tv.sason.xyz/logo/tsxw.png" group-title="F 台湾频道",[国语]台视新闻 高清
 http://seb.sason.top/tv/tsxw.m3u8
-#EXTINF:-1 tvg-id="7176" tvg-logo="http://tv.sason.xyz/logo/zsxw.png" group-title="F 台湾频道",中视 新闻 高清
+#EXTINF:-1 tvg-id="7176" tvg-logo="http://tv.sason.xyz/logo/zsxw.png" group-title="F 台湾频道",[国语]中视新闻 高清
 http://seb.sason.top/tv/zsxw.m3u8
-#EXTINF:-1 tvg-id="6070" tvg-logo="http://tv.sason.xyz/logo/ztxw.png" group-title="F 台湾频道",中天 新闻 高清
+#EXTINF:-1 tvg-id="6070" tvg-logo="http://tv.sason.xyz/logo/ztxw.png" group-title="F 台湾频道",[国语]中天新闻 高清
 http://seb.sason.top/tv/ztxw.m3u8
-#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/fhdy.png" group-title="I 电影轮播",凤凰 电影
+#EXTINF:-1 tvg-id="6060" tvg-logo="http://tv.sason.xyz/logo/tvbshl.png" group-title="E 香港频道",[国语]TVBS欢乐
+rtmp://59.124.75.156/sat/tv421
+#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/fhdy.png" group-title="I 电影轮播",[国语]凤凰电影
 rtmp://58.200.131.2:1935/livetv/fhdy
-#EXTINF:-1 tvg-id="143" tvg-logo="http://tv.sason.xyz/logo/fhxg.png" group-title="E 香港频道",凤凰 香港
+#EXTINF:-1 tvg-id="143" tvg-logo="http://tv.sason.xyz/logo/fhxg.png" group-title="E 香港频道",[国语]凤凰香港
 http://qlive.fengshows.cn/live720p/PHK.flv?txSecret=daefe6664bbeadcfb4ee2338a48d041c&txTime=16f1ea41738
-#EXTINF:-1 tvg-id="6047" tvg-logo="http://tv.sason.xyz/logo/sltw.png" group-title="F 台湾频道",三立 台湾
-http://live.ergt4rt.wang/gangaotai.php?id=42
-#EXTINF:-1 tvg-id="6144" tvg-logo="http://tv.sason.xyz/logo/tscj.png" group-title="F 台湾频道",台视 财经
+#EXTINF:-1 tvg-id="6030" tvg-logo="http://tv.sason.xyz/logo/hs.png" group-title="F 台湾频道",[国语]华视
+rtmp://59.124.75.156/sat/tv111
+#EXTINF:-1 tvg-id="7135" tvg-logo="http://tv.sason.xyz/logo/ms.png" group-title="F 台湾频道",[国语]民视
+rtmp://59.124.75.156/sat/tv051
+#EXTINF:-1 tvg-id="6026" tvg-logo="http://tv.sason.xyz/logo/ts.png" group-title="F 台湾频道",[国语]台视
+rtmp://59.124.75.156/sat/tv071
+#EXTINF:-1 tvg-id="6144" tvg-logo="http://tv.sason.xyz/logo/tscj.png" group-title="F 台湾频道",[国语]台视财经
 https://usb.bozztv.com/ssh101/TTV高清/TTV高清/index.m3u8
-#EXTINF:-1 tvg-id="7197" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="F 台湾频道",纬来 精采
+#EXTINF:-1 tvg-id="7197" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="F 台湾频道",[国语]纬来精采
 https://usb.bozztv.com/ssh101/ttvb高清/ttvb高清/index.m3u8
-#EXTINF:-1 tvg-id="6067" tvg-logo="http://tv.sason.xyz/logo/yxw.png" group-title="F 台湾频道",壹新闻
+#EXTINF:-1 tvg-id="6090" tvg-logo="http://tv.sason.xyz/logo/wlty.png" group-title="F 台湾频道",[国语]纬来体育
+rtmp://59.124.75.156/sat/tv721
+#EXTINF:-1 tvg-id="6088" tvg-logo="http://tv.sason.xyz/logo/wlty.png" group-title="F 台湾频道",[国语]纬来育乐
+rtmp://59.124.75.156/sat/tv701
+#EXTINF:-1 tvg-id="6067" tvg-logo="http://tv.sason.xyz/logo/yxw.png" group-title="F 台湾频道",[国语]壹新闻
 https://usb.bozztv.com/ssh101/NEXTTV高清/NEXTTV高清/playlist.m3u8
-#EXTINF:-1 tvg-id="6028" tvg-logo="http://tv.sason.xyz/logo/zs.png" group-title="F 台湾频道",中视
-http://live.ergt4rt.wang/gangaotai.php?id=73
-#EXTINF:-1 tvg-id="527" tvg-logo="http://tv.sason.xyz/logo/channelv.png" group-title="I 电影轮播",Channel V
-https://v4.uhd.app/hls/channelv.m3u8
-#EXTINF:-1 tvg-id="6179" tvg-logo="http://tv.sason.xyz/logo/bsml.png" group-title="F 台湾频道",博斯 魅力
+#EXTINF:-1 tvg-id="6028" tvg-logo="http://tv.sason.xyz/logo/zs.png" group-title="F 台湾频道",[国语]中视
+rtmp://59.124.75.156/sat/tv091
+#EXTINF:-1 tvg-id="527" tvg-logo="http://tv.sason.xyz/logo/channelv.png" group-title="I 电影轮播",[国语]Channel V
+rtmp://ivi.bupt.edu.cn/livetv/channelv
+#EXTINF:-1 tvg-id="6179" tvg-logo="http://tv.sason.xyz/logo/bsml.png" group-title="F 台湾频道",[国语]博斯魅力
 http://ms003.happytv.com.tw/live/OcScNdWHvBx5P4w3/index.m3u8
-#EXTINF:-1 tvg-id="6027" tvg-logo="http://tv.sason.xyz/logo/da1.png" group-title="F 台湾频道",大爱 I
+#EXTINF:-1 tvg-id="6027" tvg-logo="http://tv.sason.xyz/logo/da1.png" group-title="F 台湾频道",[国语]大爱I
 http://tv1.wanfudaluye.com/live/live.m3u8
-#EXTINF:-1 tvg-id="6142" tvg-logo="http://tv.sason.xyz/logo/da2.png" group-title="F 台湾频道",大爱 II
+#EXTINF:-1 tvg-id="6142" tvg-logo="http://tv.sason.xyz/logo/da2.png" group-title="F 台湾频道",[国语]大爱II
 https://tv2.wanfudaluye.com/live/live.m3u8
-#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/dagj.png" group-title="F 台湾频道",大爱 海外
+#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/dagj.png" group-title="F 台湾频道",[国语]大爱海外
 https://tv3.wanfudaluye.com/live/live.m3u8
-#EXTINF:-1 tvg-id="412" tvg-logo="http://tv.sason.xyz/logo/hks.png" group-title="E 香港频道",香港卫视 HKS
+#EXTINF:-1 tvg-id="412" tvg-logo="http://tv.sason.xyz/logo/hks.png" group-title="E 香港频道",[国语]香港卫视HKS
 http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
-#EXTINF:-1 tvg-id="511" tvg-logo="http://tv.sason.xyz/logo/xkws.png" group-title="E 香港频道",星空卫视
+#EXTINF:-1 tvg-id="511" tvg-logo="http://tv.sason.xyz/logo/xkws.png" group-title="E 香港频道",[国语]星空卫视
 http://116.199.5.51:8114/hls/Fsv_chan_hls_se_idx=233&FvSeid=1&Fsv_ctype=LIVES&Fsv_otype=1&Provider_id=0&Pcontent_id=8114.m3u8
-#EXTINF:-1 tvg-id="144" tvg-logo="http://tv.sason.xyz/logo/ygws.png" group-title="E 香港频道",阳光卫视
+#EXTINF:-1 tvg-id="144" tvg-logo="http://tv.sason.xyz/logo/ygws.png" group-title="E 香港频道",[国语]阳光卫视
 https://stream.chinasuntv.com/680k/mid_video_index.m3u8
-#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="H 日本频道",NHK华语视界
+#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="H 日本频道",[国语]NHK华语视界
 https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/zh/725580/livecom_zh.m3u8
-#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="X 其他频道",新加坡8频道
+#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="X 其他频道",[国语]新加坡8频道
 http://d34e90s3s13i7n.cloudfront.net/hls/ch8ctv/master02.m3u8
-#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/now.png" group-title="E 香港频道",Now 新闻
-http://hls.globaliptv.ml/now332.php
-#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/now.png" group-title="E 香港频道",Now 直播
-http://hls.globaliptv.ml/now331.php
-#EXTINF:-1 tvg-id="416" tvg-logo="http://tv.sason.xyz/logo/tvb2.png" group-title="E 香港频道",TVB J2
-http://live.ergt4rt.wang/gangaotai.php?id=12
-#EXTINF:-1 tvg-id="133" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="E 香港频道",TVB 财经资讯
-http://live.ergt4rt.wang/gangaotai.php?id=10
-#EXTINF:-1 tvg-id="126" tvg-logo="http://tv.sason.xyz/logo/tvbfc.png" group-title="E 香港频道",TVB 翡翠 (失效)
-http://live.ergt4rt.wang/gangaotai.php?id=1
-#EXTINF:-1 tvg-id="127" tvg-logo="http://tv.sason.xyz/logo/tvbmz.png" group-title="E 香港频道",TVB 明珠
-http://live.ergt4rt.wang/gangaotai.php?id=13
-#EXTINF:-1 tvg-id="130" tvg-logo="http://tv.sason.xyz/logo/tvbxw.png" group-title="E 香港频道",TVB 新闻
-http://live.ergt4rt.wang/gangaotai.php?id=9
-#EXTINF:-1 tvg-id="7119" tvg-logo="http://tv.sason.xyz/logo/yxcjxw.png" group-title="G 澳门频道",有线 财经资讯
+#EXTINF:-1 tvg-id="126" tvg-logo="http://tv.sason.xyz/logo/tvbfc.png" group-title="E 香港频道",[粤语]TVB翡翠
+http://116.199.5.51:8114/hls/Fsv_chan_hls_se_idx=188&FvSeid=1&Fsv_ctype=LIVES&Fsv_otype=1&Provider_id=0&Pcontent_id=8114.m3u8
+#EXTINF:-1 tvg-id="127" tvg-logo="http://tv.sason.xyz/logo/tvbmz.png" group-title="E 香港频道",[粤语]TVB明珠
+http://116.199.5.52:8114/hls/Fsv_chan_hls_se_idx=12&FvSeid=1&Fsv_ctype=LIVES&Fsv_otype=1&Provider_id=0&Pcontent_id=8114.m3u8
+#EXTINF:-1 tvg-id="130" tvg-logo="http://tv.sason.xyz/logo/tvbxw.png" group-title="E 香港频道",[粤语]TVB新闻
+http://hls.globaliptv.ml/tvbnews.php
+#EXTINF:-1 tvg-id="7119" tvg-logo="http://tv.sason.xyz/logo/yxcjxw.png" group-title="G 澳门频道",[粤语]有线财经资讯
 http://wowgua.com/live/channel_108.m3u8
-#EXTINF:-1 tvg-id="7122" tvg-logo="http://tv.sason.xyz/logo/yxxw.png" group-title="G 澳门频道",有线 新闻
+#EXTINF:-1 tvg-id="7122" tvg-logo="http://tv.sason.xyz/logo/yxxw.png" group-title="G 澳门频道",[粤语]有线新闻
 https://ottproxy2.mott.tv/livehls/MOB-SCC/02.m3u8
-#EXTINF:-1 tvg-id="7122" tvg-logo="http://tv.sason.xyz/logo/yxxw.png" group-title="G 澳门频道",有线 新闻
+#EXTINF:-1 tvg-id="7122" tvg-logo="http://tv.sason.xyz/logo/yxxw.png" group-title="G 澳门频道",[粤语]有线新闻
 https://icable.cdn.utvhk.com/live/4cc64fb362004798b222978935590b2c/1980ba5c365e4f049f99aced1277303c.m3u8
-#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/yxzbxw.png" group-title="G 澳门频道",有线 直播新闻
-http://wowgua.com/live/channel_110.m3u8
-#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="G 澳门频道",有线 综合娱乐
+#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="G 澳门频道",[粤语]有线综合娱乐
 http://wowgua.com/live/channel_301.m3u8
-#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="E 香港频道",C+
+#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="E 香港频道",[粤语]C+
 https://ottproxy2.mott.tv/livehls:cmi/MOB-U1-NO/01.m3u8
-#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/rthk31.png" group-title="E 香港频道",RTHK 31
+#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/rthk31.png" group-title="E 香港频道",[粤语]RTHK31
 https://www.rthk.hk/feeds/dtt/rthktv31_https.m3u8
-#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/rthk32.png" group-title="E 香港频道",RTHK 32
+#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/rthk32.png" group-title="E 香港频道",[粤语]RTHK32
 https://www.rthk.hk/feeds/dtt/rthktv32_https.m3u8
-#EXTINF:-1 tvg-id="7118" tvg-logo="http://tv.sason.xyz/logo/hkk.png" group-title="E 香港频道",开电视
+#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/dw.png" group-title="M.新闻|时政|财经",[粤语]东网新闻
+https://streama-news2.on.cc/src/remote1_hd.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/dw.png" group-title="M.新闻|时政|财经",[粤语]东网直播
+https://stream-sd2.on.cc/src/smil:remote1_hd.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="7118" tvg-logo="http://tv.sason.xyz/logo/hkk.png" group-title="E 香港频道",[粤语]开电视
 http://media.fantv.hk/m3u8/archive/channel2.m3u8
-#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="X 其他频道",亚旅卫视
+#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="E 香港频道",[粤语]香港01
+https://live.cdn.hk01.com/origin/smil:01news.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="X 其他频道",[粤语]亚旅卫视
 http://hls.jingchangkan.tv/jingchangkan/156722438_0HaM/index.m3u8
-#EXTINF:-1 tvg-id="6085" tvg-logo="http://tv.sason.xyz/logo/axn.png" group-title="I 电影轮播",AXN
-http://yeyuaihao.gz01.bdysite.com/dl/gzyx.php?id=1b1246cf30d2e81778b570e6a1dec41b
-#EXTINF:-1 tvg-id="6089" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="I 电影轮播",Cinemax
-http://yeyuaihao.gz01.bdysite.com/dl/gzyx.php?id=e27fb1156a3796d67cb39c3887f36bff
-#EXTINF:-1 tvg-id="7179" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="I 电影轮播",CNEX
+#EXTINF:-1 tvg-id="7179" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="I 电影轮播",[英语中字]CNEX
 http://220.158.149.14:9999/live/TV00000000000000000083@HHZT;LIVE
-#EXTINF:-1 tvg-id="6037" tvg-logo="http://tv.sason.xyz/logo/discovery.png" group-title="J 科教记录",Discovery
+#EXTINF:-1 tvg-id="6037" tvg-logo="http://tv.sason.xyz/logo/discovery.png" group-title="J 科教记录",[英语中字]Discovery
 rtmp://58.200.131.2:1935/livetv/discovery
-#EXTINF:-1 tvg-id="6152" tvg-logo="http://tv.sason.xyz/logo/hbo.png" group-title="I 电影轮播",HBO
-http://live.ergt4rt.wang/gangaotai.php?id=27
-#EXTINF:-1 tvg-id="7226" tvg-logo="http://tv.sason.xyz/logo/star_movies.png" group-title="I 电影轮播",Star Movies
-http://yeyuaihao.gz01.bdysite.com/dl/gzyx.php?id=2acda8214480d2d5e06c6873381975af
-#EXTINF:-1 tvg-id="6149" tvg-logo="http://tv.sason.xyz/logo/wanner.png" group-title="I 电影轮播",WarnerTV
+#EXTINF:-1 tvg-id="6149" tvg-logo="http://tv.sason.xyz/logo/wanner.png" group-title="I 电影轮播",[英语中字]WarnerTV
 http://192.200.97.170:8080/ZZ_huanadianying/ZZ_huanadianying.m3u8
-#EXTINF:-1 tvg-id="691" tvg-logo="http://tv.sason.xyz/logo/ng.png" group-title="J 科教记录",国家地理
-http://yeyuaihao.gz01.bdysite.com/dl/gzyx.php?id=c23ea9a515b354f6cbccab25906d4575
-#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="G 澳门频道",澳视
+#EXTINF:-1 tvg-id="691" tvg-logo="http://tv.sason.xyz/logo/ng.png" group-title="J 科教记录",[英语中字]国家地理
+rtmp://ivi.bupt.edu.cn/livetv/natlgeo
+#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="G 澳门频道",[粤语]澳门有线I
+http://202.175.127.77/live/show/ch1/index.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="G 澳门频道",[粤语]澳门有线II
+http://202.175.127.77/live/show/ch2/index.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="G 澳门频道",[粤语]澳门有线III
+http://202.175.127.77/live/show/ch3/index.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="G 澳门频道",[粤语]澳视
 http://61.244.22.4/ch3/ch3.live/playelist.m3u8
-#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="G 澳门频道",澳视 澳门
+#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="G 澳门频道",[粤语]澳视澳门
 http://61.244.22.4/ch1/ch1.live/playelist.m3u8
-#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="G 澳门频道",澳视 资讯
+#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="G 澳门频道",[粤语]澳视资讯
 http://61.244.22.4/ch5/info_ch5.live/playlist.m3u8
-#EXTINF:-1 tvg-id="476" tvg-logo="http://tv.sason.xyz/logo/ayws.png" group-title="G 澳门频道",澳亚卫视
+#EXTINF:-1 tvg-id="476" tvg-logo="http://tv.sason.xyz/logo/ayws.png" group-title="G 澳门频道",[粤语]澳亚卫视
 http://stream.mastvnet.com/MASTV/sd/live.m3u8
-#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="G 澳门频道",莲花卫视
+#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="G 澳门频道",[粤语]莲花卫视
 http://live-rtmp.lotustv.duolaibo.cn/lotustv/5562e9e4d409d24c9600075c.m3u8
-#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="G 澳门频道",莲花卫视 高清
+#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="G 澳门频道",[粤语]莲花卫视 高清
 http://220.158.149.14:9999/live/TV00000000000000000069@HHZT;LIVE
-#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="J 科教记录",National Geographic
+#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="J 科教记录",[英语]NationalGeographic
 http://livecdnh1.tvanywhere.ae/hls/nat_geo/05.m3u8
-#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="J 科教记录",National Geographic People
+#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="J 科教记录",[英语]NationalGeographicPeople
 http://livecdnh1.tvanywhere.ae/hls/nat_geo_people/05.m3u8
-#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="J 科教记录",National Geographic Wild
+#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="J 科教记录",[英语]NationalGeographicWild
 http://livecdnh1.tvanywhere.ae/hls/nat_geo_wild/05.m3u8
