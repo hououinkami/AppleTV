@@ -57,7 +57,7 @@ jobs:
         gsub("url-tvg=\"http://tv.sason.xyz/epg\"", "");
         if($0~"说明") {m=NR; n=NR+1};
         if(m<=NR && NR<=n) {next};
-        if($0~/凤凰|TVB|有线|香港|星空|阳光|Now|RTHK|开|C\+/) {gsub("group-title=\"*\..*\"","group-title=\"E 香港频道\"")};
+        if($0~/凤凰|TVB|有线|香港|星空|阳光|Now|RTHK|开|C\+|东网/) {gsub("group-title=\"*\..*\"","group-title=\"E 香港频道\"")};
         if($0~/东森|华视|民视|台视|中视|三立|中天|纬来|壹新闻|博斯|大爱/) {gsub("group-title=\"*\..*\"","group-title=\"F 台湾频道\"")};
         if($0~/澳|莲花|有线/) {gsub("group-title=\"*\..*\"","group-title=\"G 澳门频道\"")};
         if($0~/NHK/) {gsub("group-title=\"*\..*\"","group-title=\"H 日本频道\"")};
@@ -66,7 +66,7 @@ jobs:
         gsub("group-title=\"*O\..*\"","group-title=\"J 科教记录\"");
         if($0~/新加坡|亚旅/) {gsub("group-title=\"*\..*\"","group-title=\"X 其他频道\"")};
         gsub("FHD|HD","高清");
-        gsub(/\[.*语\]| ★| \(SD\)/, "");
+        gsub(/\[.*语\]| ★|  ▲|\(SD\)/, "");
         print $0
         }
         '
