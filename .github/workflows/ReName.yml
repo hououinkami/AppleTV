@@ -4,8 +4,8 @@ on:
   # push:
     # branches: 
       # - master
-  schedule:
-    - cron: 07 01 * * *
+  # schedule:
+    # - cron: 07 01 * * *
   watch:
     types: [started]
 
@@ -35,6 +35,24 @@ jobs:
       run : >
         awk '
         {
+        if($0~/央视频道|卫视频道/) {m=NR; n=NR+1};
+        if(m<=NR && NR<=n) {print $0};
+        gsub("央视频道","A 央视频道");
+        gsub("卫视频道","B 卫视频道");
+        gsub("C.4K频道","Z 4K频道");
+        gsub("D.教育频道","C 教育频道");
+        gsub("E.数字电视","D 数字电视");
+        if($0~/峨眉|四川本地/) {m=NR; n=NR+1};
+        if(m<=NR && NR<=n) {next};
+        gsub("FHD|HD|SD","");
+        print $0;
+        }
+        '
+        gn.m3u>China.m3u
+    - name: 国内频道（暂时失效）
+      run : >
+        awk '
+        {
         gsub("url-tvg=\"http://tv.sason.xyz/epg\"", "");
         if($0~"说明") {m=NR; n=NR+1};
         if(m<=NR && NR<=n) {next};
@@ -49,8 +67,26 @@ jobs:
         print $0;
         }
         '
-        gn.m3u>China.m3u
-    - name: 港台频道1
+        gn.m3u
+    - name: 港台频道
+      run : >
+        awk '
+        {
+        if($0~/央视频道|卫视频道|反馈|佳片赏析|余庆年/) {m=NR; n=NR+1};
+        if(m<=NR && NR<=n) {next};
+        if($0~/凤凰|TVB|有线|香港|星空|阳光|Now|RTHK|开|无线|RHK|C\+/) {gsub("group-title=\"*\..*\"","group-title=\"E 香港频道\"")};
+        if($0~/澳|莲花|有线/) {gsub("group-title=\"*\..*\"","group-title=\"G 澳门频道\"")};
+        if($0~/探索|动物|地理/) {gsub("group-title=\"*\..*\"","group-title=\"J 科教记录\"");};
+        gsub("精彩4K","Z 4K频道");
+        if($0~/东森|华视|民视|台视|中视|三立|中天|纬来|壹新闻|博斯|大爱|台湾|信吉|年代|八大/) {gsub("group-title=\"*\..*\"","group-title=\"F 台湾频道\"")};
+        if($0~/电影|Warner/) {gsub("group-title=\"*\..*\"","group-title=\"I 电影轮播\"")};
+        if($0~/DOX/) {gsub("DOX轮播","I 电影轮播")};
+        if($0~/CHC.*电影/) {gsub("group-title=\"*\..*\"","group-title=\"I 电影轮播\"")};
+        print $0
+        }
+        '
+        list.m3u>HKTW1.m3u
+    - name: 港台频道（暂时失效）
       run : >
         awk '
         {
@@ -70,25 +106,7 @@ jobs:
         print $0
         }
         '
-        gt.m3u>HKTW1.m3u
-    - name: 港台频道2
-      run : >
-        awk '
-        {
-        if($0~/央视频道|卫视频道|反馈|佳片赏析|余庆年/) {m=NR; n=NR+1};
-        if(m<=NR && NR<=n) {next};
-        if($0~/凤凰|TVB|有线|香港|星空|阳光|Now|RTHK|开|无线|RHK|C\+/) {gsub("group-title=\"*\..*\"","group-title=\"E 香港频道\"")};
-        if($0~/澳|莲花|有线/) {gsub("group-title=\"*\..*\"","group-title=\"G 澳门频道\"")};
-        if($0~/探索|动物|地理/) {gsub("group-title=\"*\..*\"","group-title=\"J 科教记录\"");};
-        gsub("精彩4K","Z 4K频道");
-        if($0~/东森|华视|民视|台视|中视|三立|中天|纬来|壹新闻|博斯|大爱|台湾|信吉|年代|八大/) {gsub("group-title=\"*\..*\"","group-title=\"F 台湾频道\"")};
-        if($0~/电影|Warner/) {gsub("group-title=\"*\..*\"","group-title=\"I 电影轮播\"")};
-        if($0~/DOX/) {gsub("DOX轮播","I 电影轮播")};
-        if($0~/CHC.*电影/) {gsub("group-title=\"*\..*\"","group-title=\"I 电影轮播\"")};
-        print $0
-        }
-        '
-        list.m3u>HKTW2.m3u
+        gt.m3u
     - name: 删除源文件
       run : |
         rm gn.m3u
