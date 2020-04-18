@@ -1,9 +1,11 @@
 name: 生成自用Apple TV直播列表
 
-# on:
-  # push:
-    # branches: 
-      # - master
+on:
+  push:
+    branches: 
+      - master
+    path:
+      - "start"
   # schedule:
     # - cron: 07 01 * * *
   # watch:
