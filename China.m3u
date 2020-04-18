@@ -15,16 +15,14 @@ http://39.135.34.132:8080/000000001000/1000000001000004794/1.m3u8?channel-id=yst
 http://39.135.34.132:8080/000000001000/1000000001000020505/1.m3u8?channel-id=ystenlive
 #EXTINF:-1 tvg-id="7" tvg-name="CCTV6" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV6.png" group-title="A 央视频道",CCTV-6电影
 http://39.135.34.132:8080/000000001000/1000000001000016466/1.m3u8?channel-id=ystenlive
-#EXTINF:-1 tvg-id="7" tvg-name="CCTV6" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV6.png" group-title="A 央视频道",CCTV-6电影[联通]
-http://121.31.30.91:8081/ysten-business/live/cctv-6/1.m3u8
 #EXTINF:-1 tvg-id="8" tvg-name="CCTV7" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV7.png" group-title="A 央视频道",CCTV-7国防军事
-http://39.135.34.132:8080/000000001000/7050628689018054317/1.m3u8?channel-id=ystenlive
+http://121.31.30.91:8081/ysten-business/live/cctv-7/1.m3u8
 #EXTINF:-1 tvg-id="9" tvg-name="CCTV8" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV8.png" group-title="A 央视频道",CCTV-8电视剧
 http://39.135.34.132:8080/000000001000/1000000001000003736/1.m3u8?channel-id=ystenlive
 #EXTINF:-1 tvg-id="10" tvg-name="CCTV9" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV9.png" group-title="A 央视频道",CCTV-9纪录
 http://39.135.34.132:8080/000000001000/1000000001000028286/1.m3u8?channel-id=ystenlive
 #EXTINF:-1 tvg-id="11" tvg-name="CCTV10" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV10.png" group-title="A 央视频道",CCTV-10科教
-http://111.13.111.242/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226227/1.m3u8
+http://121.31.30.91:8081/ysten-business/live/cctv-10/1.m3u8
 #EXTINF:-1 tvg-id="12" tvg-name="CCTV11" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV11.png" group-title="A 央视频道",CCTV-11戏曲
 http://39.135.34.132:8080/000000001000/1000000002000019789/1.m3u8?channel-id=ystenlive
 #EXTINF:-1 tvg-id="13" tvg-name="CCTV12" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV12.png" group-title="A 央视频道",CCTV-12社会与法
