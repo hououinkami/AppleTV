@@ -70,7 +70,8 @@ http://60.255.149.248/tslive/c214_scc_20190618_xmfr0n1n_original_r10/c214_scc_20
 
 #卫视高清
 #EXTINF:-1 tvg-id="38" tvg-name="深圳卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shenzhen.png" group-title="B 卫视频道",深圳卫视高清
-http://39.135.34.132:8080/000000001000/1000000001000011645/1.m3u8?channel-id=ystenlive
+http://39.135.34.150:8080/000000001000/1000000001000011645/1.m3u8?channel-id=ystenlive&Contentid=1000000001000011645&livemode=1&stbId=005203FF000360100001001A34C0CD33&userToken=bd8bb70bdb2b54bd84b587dffa024f7621vv&usergroup=g21077200000&version=1.0&owaccmark=1000000001000011645&owchid=ystenlive&owsid=1106497909461286475&AuthInfo=yOLXJswzZFfV3FvB8MhHuElKGJKLbU5H0jB3qAhfSE7AORAoVDZDWbFnJ0sXJEaRi%2fGQBc72yY6Quo0JMFE7sAOH9P3BRKKjlume5S4R4Q4D5A%2fuxi3rN%2bHd%2bNxeQD8d
+
 #EXTINF:-1 tvg-id="39" tvg-name="广东卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/guangdong.png" group-title="B 卫视频道",广东卫视高清
 http://39.135.34.132:8080/000000001000/1000000001000028357/1.m3u8?channel-id=ystenlive
 #EXTINF:-1 tvg-id="30" tvg-name="湖南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hunan.png" group-title="B 卫视频道",湖南卫视高清
