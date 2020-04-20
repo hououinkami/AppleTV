@@ -55,7 +55,7 @@ jobs:
       run : |
         wget $TV_LIST
         wget $GLOBAL_LIST -O $GLOBAL_LIST_NAME
-        wget $HK_LIST -O $HK_LIST_NAME
+        wget $TV_LIST2 -O $TV_LIST2_NAME
     
     - name: 国内频道
       run : >
