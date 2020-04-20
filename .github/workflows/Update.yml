@@ -16,7 +16,12 @@ on:
 env:
   TV_LIST: https://raw.githubusercontent.com/panda-mute/iptv/master/list.m3u
   TV_LIST_NAME: list.m3u
-  LIST_NAME_CCTV: A 央视频道 1
+  LIST_NAME_CCTV: A 央视频道
+  LIST_NAME_SATT: B 卫视频道
+  LIST_NAME_HK: C 香港频道
+  LIST_NAME_TW: D 台湾频道
+  LIST_NAME_JP: E 日本频道
+  LIST_NAME_SCI: F 科教记录
 
 jobs:
   GenerateList:
@@ -53,10 +58,10 @@ jobs:
         if($0~/"央视频道"|"卫视频道"|"央视频"/) {m=NR; n=NR+1};
         if(m<=NR && NR<=n) {
                 gsub("央视频道","'"$LIST_NAME_CCTV"'");
-                if($0~/"CHC/) {gsub("卫视频道", "G 电影轮播")};
-                gsub("卫视频道","B 卫视频道");
-                if($0~/"央视频".*(CCTV|CGTN)/) {gsub("央视频","A 央视频道*")};
-                if($0~/"央视频".*卫视/) {gsub("央视频","B 卫视频道*")};
+                if($0~/"CHC/) {gsub("卫视频道", "'"$LIST_NAME_MOV"'")};
+                gsub("卫视频道","'"$LIST_NAME_SATT"'");
+                if($0~/"央视频".*(CCTV|CGTN)/) {gsub("央视频","'"$LIST_NAME_CCTV"'*")};
+                if($0~/"央视频".*卫视/) {gsub("央视频","'"$LIST_NAME_SATT"'*")};
                 print $0;
                 };
         }
@@ -71,11 +76,10 @@ jobs:
         if($0~/\#港台频道/) {print $0};
         if($0~/"港台频道"/) {m=NR; n=NR+1};
         if(m<=NR && NR<=n) {
-                if($0~/凤凰|TVB|有线|香港|星空|阳光|Now|RTHK|开|无线|RHK|C\+/) {gsub("港台频道","C 香港频道")};
-                if($0~/东森|华视|民视|台视|中视|公视|三立|中天|纬来|壹新闻|博斯|大爱|台湾|信吉|年代|八大/) {gsub("港台频道","D 台湾频道")};
-                if($0~/探索|动物|地理/) {gsub("港台频道","F 科教记录")};
-                if($0~/东森|华视|民视|台视|中视|公视|三立|中天|纬来|壹新闻|博斯|大爱|台湾|信吉|年代|八大/) {gsub("港台频道","D 台湾频道")};
-                if($0~/Warner|FOX|好莱坞/) {gsub("港台频道","G 电影轮播")};
+                if($0~/凤凰|TVB|有线|香港|星空|阳光|Now|RTHK|开|无线|RHK|C\+/) {gsub("港台频道","'"$LIST_NAME_HK"'")};
+                if($0~/东森|华视|民视|台视|中视|公视|三立|中天|纬来|壹新闻|博斯|大爱|台湾|信吉|年代|八大/) {gsub("港台频道","'"$LIST_NAME_TW"'")};
+                if($0~/探索|动物|地理/) {gsub("港台频道","'"$LIST_NAME_SCI"'")};
+                if($0~/Warner|FOX|好莱坞/) {gsub("港台频道","'"$LIST_NAME_MOV"'")};
                 print $0
                 };
         }
