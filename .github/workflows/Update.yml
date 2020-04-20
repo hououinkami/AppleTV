@@ -102,8 +102,8 @@ jobs:
         {
         if($0~/"无线新闻"/) {m=NR; n=NR+1};
         if(m<=NR && NR<=n) {
-          gsub("港台频道","'"$LIST_NAME_HK"'")};
-          print>"'"$GLOBAL_LIST_NAME"'"
+          gsub("港台频道","'"$LIST_NAME_HK"'");
+          print>"'"$GLOBAL_LIST_NAME"'";
           };
         }
         ' $HK_LIST_NAME
@@ -116,7 +116,7 @@ jobs:
         gsub("group-title=\"..英文.*\"","group-title=\"'"$LIST_NAME_EN"'\"");
         gsub("group-title=\"..科教.*\"","group-title=\"'"$LIST_NAME_SCI"'\"");
         print $0;
-        };
+        }
         '
         $GLOBAL_LIST_NAME>Global.m3u
     
