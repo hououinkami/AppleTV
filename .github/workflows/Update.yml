@@ -16,6 +16,8 @@ on:
 env:
   TV_LIST: https://raw.githubusercontent.com/panda-mute/iptv/master/list.m3u
   TV_LIST_NAME: list.m3u
+  GLOBAL_LIST: https://raw.githubusercontent.com/hououinkami/AppleTV/master/Global.m3u
+  GLOBAL_LIST_NAME: Global_tmp.m3u
   LIST_NAME_CCTV: A 央视频道
   LIST_NAME_SATT: B 卫视频道
   LIST_NAME_HK: C 香港频道
@@ -50,6 +52,7 @@ jobs:
     - name: 获取最新源
       run : |
         wget $TV_LIST
+        wget $GLOBAL_LIST -O $GLOBAL_LIST_NAME
     
     - name: 国内频道
       run : >
@@ -62,7 +65,8 @@ jobs:
                 gsub("央视频道","'"$LIST_NAME_CCTV"'");
                 if($0~/"CHC/) {gsub("卫视频道", "'"$LIST_NAME_MOV"'")};
                 gsub("卫视频道","'"$LIST_NAME_SATT"'");
-                if($0~/"央视频".*(CCTV|CGTN)/) {gsub("央视频","'"$LIST_NAME_CCTV"'*")};
+                if($0~/"央视频".*CCTV4K/ ) {gsub("\"CCTV4\"","\"CCTV4K\""); gsub("www.tvyan.com/uploads/dianshi/cctv4k.jpg","epg.51zmt.top:8000/tb1/CCTV/CCTV4k.png")};
+                if($0~/"央视频".*(CCTV|CGTN)/ ) {gsub("央视频","'"$LIST_NAME_CCTV"'*")};
                 if($0~/"央视频".*卫视/) {gsub("央视频","'"$LIST_NAME_SATT"'*")};
                 print $0;
                 };
@@ -96,13 +100,15 @@ jobs:
         gsub("group-title=\"..日本.*\"","group-title=\" '"$LIST_NAME_JP"'\"");
         gsub("group-title=\"..英文.*\"","group-title=\" '"$LIST_NAME_EN"'\"");
         gsub("group-title=\"..科教.*\"","group-title=\" '"$LIST_NAME_SCI"'\"");
-        print>"Global.m3u";
+        print $0;
         };
-        ' Global.m3u
+        '
+        $GLOBAL_LIST_NAME>Global.m3u
     
     - name: 删除源文件
       run : |
         rm $TV_LIST_NAME
+        rm $GLOBAL_LIST_NAME
         ls
     - name: 判断是否有变更
       id: status
