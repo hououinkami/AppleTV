@@ -23,7 +23,7 @@ env:
   LIST_NAME_JP: E 日本频道
   LIST_NAME_EN: F 英文频道
   LIST_NAME_SCI: G 科教记录
-  LIST_NAME_MOV： H 电影轮播
+  LIST_NAME_MOV: H 电影轮播
 
 jobs:
   GenerateList:
