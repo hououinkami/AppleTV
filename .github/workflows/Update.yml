@@ -16,7 +16,7 @@ on:
 env:
   TV_LIST: https://raw.githubusercontent.com/panda-mute/iptv/master/list.m3u
   TV_LIST_NAME: list.m3u
-  LIST_NAME_CCTV: A 央视频道
+  LIST_NAME_CCTV: A 央视频道 1
 
 jobs:
   GenerateList:
