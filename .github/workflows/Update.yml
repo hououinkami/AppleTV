@@ -1,0 +1,111 @@
+name: 生成自用Apple TV直播列表
+
+on:
+  # push:
+    # branches:
+      # - master
+    # path:
+      # - "start"
+  release:
+    types: [published]
+  schedule:
+    - cron: 07 01 * * *
+  watch:
+    types: [started]
+
+env:
+  TV_LIST: https://raw.githubusercontent.com/panda-mute/iptv/master/list.m3u
+  TV_LIST_NAME: list.m3u
+
+jobs:
+  Generate TV List:
+    if: github.event.repository.owner.id == github.event.sender.id
+    runs-on: macos-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
+      with:
+        ref: master
+        fetch-depth: 0
+        lfs: true
+    
+    - name: Set git identity
+      run : |
+        git config --global user.email "hououinkami@gmail.com"
+        git config --global user.name "hououinkami"
+    
+    - name: 获取当前日期
+      id: date
+      run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
+    
+    - name: 获取最新源
+      run : |
+        wget $TV_LIST
+    
+    - name: 国内频道
+      run : >
+        awk '
+        {
+        if($0~/\#EXTM3U/) {print $0};
+        if($0~/\#(央视频道|卫视高清|卫视标清|央视频)/) {print $0};
+        if($0~/"央视频道"|"卫视频道"|"央视频"/) {m=NR; n=NR+1};
+        if(m<=NR && NR<=n) {
+                gsub("央视频道","A 央视频道");
+                if($0~/"CHC/) {gsub("卫视频道", "G 电影轮播")};
+                gsub("卫视频道","B 卫视频道");
+                if($0~/"央视频".*(CCTV|CGTN)/) {gsub("央视频","A 央视频道*")};
+                if($0~/"央视频".*卫视/) {gsub("央视频","B 卫视频道*")};
+                print $0;
+                };
+        }
+        '
+        $TV_LIST_NAME>China.m3u
+    
+    - name: 港台频道
+      run : >
+        awk '
+        {
+        if($0~/\#EXTM3U/) {print $0};
+        if($0~/\#港台频道/) {print $0};
+        if($0~/"港台频道"/) {m=NR; n=NR+1};
+        if(m<=NR && NR<=n) {
+                if($0~/凤凰|TVB|有线|香港|星空|阳光|Now|RTHK|开|无线|RHK|C\+/) {gsub("港台频道","C 香港频道")};
+                if($0~/东森|华视|民视|台视|中视|公视|三立|中天|纬来|壹新闻|博斯|大爱|台湾|信吉|年代|八大/) {gsub("港台频道","D 台湾频道")};
+                if($0~/探索|动物|地理/) {gsub("港台频道","F 科教记录")};
+                if($0~/东森|华视|民视|台视|中视|公视|三立|中天|纬来|壹新闻|博斯|大爱|台湾|信吉|年代|八大/) {gsub("港台频道","D 台湾频道")};
+                if($0~/Warner|FOX|好莱坞/) {gsub("港台频道","G 电影轮播")};
+                print $0
+                };
+        }
+        '
+        $TV_LIST_NAME>HKTW.m3u
+    
+    - name: 删除源文件
+      run : |
+        rm list.m3u
+        ls
+    - name: 判断是否有变更
+      id: status
+      run: |
+        STR1="nothing to commit, working tree clean"
+        STR2="Changes not staged for commit"
+        out=$(git status)
+        if [[ "$(echo $out | grep "$STR1")" != "" ]]
+        then
+          echo "::set-output name=status::"nochange""
+        fi
+        if [[ "$(echo $out | grep "$STR2")" != "" ]]
+        then
+          echo "::set-output name=status::"change""
+        fi
+    
+    - name: 合并到仓库
+      run : |
+        if [[ "${{steps.status.outputs.status}}" == "change" ]]
+        then
+          git add .
+          git commit -m  "Update:${{steps.date.outputs.date}}"
+          git push origin master
+        fi
+        
