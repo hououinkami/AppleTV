@@ -66,7 +66,7 @@ jobs:
         if($0~/"央视频道"|"卫视频道"|"央视频"/) {m=NR; n=NR+1};
         if(m<=NR && NR<=n) {
           gsub("央视频道","'"$LIST_NAME_CCTV"'");
-          if($0~/"CHC/) {gsub("卫视频道", "'"$LIST_NAME_MOV"'")};
+          if($0~/"CHC/) {next};
           gsub("卫视频道","'"$LIST_NAME_SATT"'");
           if($0~/"央视频".*CCTV4K/ ) {gsub("\"CCTV4\"","\"CCTV4K\""); gsub("www.tvyan.com/uploads/dianshi/cctv4k.jpg","epg.51zmt.top:8000/tb1/CCTV/CCTV4k.png")};
           if($0~/"央视频".*(CCTV|CGTN)/ ) {gsub("央视频","'"$LIST_NAME_CCTV"'*")};
