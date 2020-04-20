@@ -18,8 +18,8 @@ env:
   TV_LIST_NAME: list.m3u
   GLOBAL_LIST: https://raw.githubusercontent.com/hououinkami/AppleTV/master/Global.m3u
   GLOBAL_LIST_NAME: Global_tmp.m3u
-  HK_LIST: https://homenet6.github.io/list.m3u
-  HK_LIST_NAME: hklist.m3u
+  TV_LIST2: https://homenet6.github.io/list.m3u
+  TV_LIST2_NAME: list2.m3u
   LIST_NAME_CCTV: A 央视频道
   LIST_NAME_SATT: B 卫视频道
   LIST_NAME_HK: C 香港频道
@@ -103,10 +103,11 @@ jobs:
         if($0~/"无线新闻"/) {m=NR; n=NR+1};
         if(m<=NR && NR<=n) {
           gsub("港台频道","'"$LIST_NAME_HK"'");
-          print>"'"$GLOBAL_LIST_NAME"'";
+          print $0;
           };
         }
-        ' $HK_LIST_NAME
+        '
+        $TV_LIST2_NAME>HKTW2.m3u
 
     - name: 外文频道
       run : >
@@ -124,7 +125,7 @@ jobs:
       run : |
         rm $TV_LIST_NAME
         rm $GLOBAL_LIST_NAME
-        rm $HK_LIST_NAME
+        rm $TV_LIST2_NAME
         ls
     - name: 判断是否有变更
       id: status
