@@ -14,8 +14,10 @@ on:
     types: [started]
 
 env:
-  TV_LIST: https://raw.githubusercontent.com/panda-mute/iptv/master/list.m3u
-  TV_LIST_NAME: list.m3u
+  TV_LIST: http://tv.sason.xyz/new.m3u
+  TV_LIST_NAME: new.m3u
+  TV_LIST1: https://raw.githubusercontent.com/panda-mute/iptv/master/list.m3u
+  TV_LIST1_NAME: list.m3u
   GLOBAL_LIST: https://raw.githubusercontent.com/hououinkami/AppleTV/master/Global.m3u
   GLOBAL_LIST_NAME: Global_tmp.m3u
   TV_LIST2: https://homenet6.github.io/list.m3u
@@ -23,6 +25,7 @@ env:
   LIST_NAME_CCTV: A 央视频道
   LIST_NAME_SATT: B 卫视频道
   LIST_NAME_HK: C 香港频道
+  LIST_NAME_MO: D 澳门频道
   LIST_NAME_TW: D 台湾频道
   LIST_NAME_JP: E 日本频道
   LIST_NAME_EN: F 英文频道
@@ -54,10 +57,27 @@ jobs:
     - name: 获取最新源
       run : |
         wget $TV_LIST
+        wget $TV_LIST1
         wget $GLOBAL_LIST -O $GLOBAL_LIST_NAME
         wget $TV_LIST2 -O $TV_LIST2_NAME
     
     - name: 国内频道
+      run : >
+        awk '
+        {
+        gsub("url-tvg=\"http://tv.sason.xyz/epg\"", "");
+        if($0~/\#EXTM3U/) {print $0};
+        if($0~/央视"|卫视"/) {m=NR; n=NR+1};
+        if(m<=NR && NR<=n) {
+          gsub("A.央视","'"$LIST_NAME_CCTV"'");
+          gsub("B.卫视","'"$LIST_NAME_SATT"'");
+          print $0;
+          };
+        }
+        '
+        $TV_LIST_NAME>China.m3u
+    
+    - name: 国内频道2
       run : >
         awk '
         {
@@ -75,7 +95,7 @@ jobs:
           };
         }
         '
-        $TV_LIST_NAME>China.m3u
+        $TV_LIST1_NAME>China1.m3u
     
     - name: 港台频道
       run : >
@@ -94,7 +114,7 @@ jobs:
           };
         }
         '
-        $TV_LIST_NAME>HKTW.m3u
+        $TV_LIST1_NAME>HKTW.m3u
 
     - name: 港台频道（备）
       run : >
@@ -124,6 +144,7 @@ jobs:
     - name: 删除源文件
       run : |
         rm $TV_LIST_NAME
+        rm $TV_LIST1_NAME
         rm $GLOBAL_LIST_NAME
         rm $TV_LIST2_NAME
         ls

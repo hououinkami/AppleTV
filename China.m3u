@@ -1,7 +1,7 @@
 #EXTM3U
 #央视频道
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" group-title="A 央视频道",CCTV-1综合
-http://218.98.46.179/live-cnc-cdn.ysp.cctv.cn/ysp/2000210103.m3u8
+http://39.135.34.132:8080/000000001000/1000000001000021973/1.m3u8?channel-id=ystenlive
 #EXTINF:-1 tvg-id="2" tvg-name="CCTV2" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV2.png" group-title="A 央视频道",CCTV-2财经
 http://39.135.34.132:8080/000000001000/1000000001000012442/1.m3u8?channel-id=ystenlive
 #EXTINF:-1 tvg-id="3" tvg-name="CCTV3" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV3.png" group-title="A 央视频道",CCTV-3综艺
@@ -102,9 +102,13 @@ http://39.135.34.132:8080/000000001000/1000000002000009263/1.m3u8?channel-id=yst
 http://39.135.34.132:8080/000000001000/1000000002000003169/1.m3u8?channel-id=ystenlive
 #EXTINF:-1 tvg-id="65" tvg-name="甘肃卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/gansu.png" group-title="B 卫视频道",甘肃卫视
 http://39.135.34.132:8080/000000001000/1000000002000017827/1.m3u8?channel-id=ystenlive
+#EXTINF:-1 tvg-id="70" tvg-name="CHC高清电影" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHC3.jpg" group-title="H 电影轮播",CHC高清电影
 rtmp://ivi.bupt.edu.cn:1935/livetv/chchd
+#EXTINF:-1 tvg-id="70" tvg-name="CHC高清电影" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHC3.jpg" group-title="H 电影轮播",CHC高清电影(备)
 http://ivi.bupt.edu.cn/hls/chchd.m3u8
+#EXTINF:-1 tvg-id="71" tvg-name="CHC家庭电影" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHC2.jpg" group-title="H 电影轮播",CHC家庭电影
 rtmp://ivi.bupt.edu.cn:1935/livetv/chctv
+#EXTINF:-1 tvg-id="72" tvg-name="CHC动作电影" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHC1.jpg" group-title="H 电影轮播",CHC动作电影
 rtmp://ivi.bupt.edu.cn:1935/livetv/chcatv
 #央视频
 #EXTINF:-1 tvg-id="80" tvg-name="CCTV4K" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4k.png" group-title="A 央视频道*",CCTV4K
