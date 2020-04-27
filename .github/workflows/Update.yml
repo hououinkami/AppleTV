@@ -72,6 +72,7 @@ jobs:
           gsub("A.央视","'"$LIST_NAME_CCTV"'");
           gsub("B.卫视","'"$LIST_NAME_SATT"'");
           gsub("http://218.98.46.179/live-cnc-cdn.ysp.cctv.cn/ysp","http://live-aba-cdn.ysp.cctv.cn/tlivecloud-cdn.ysp.cctv.cn/001")
+          gsub(" FHD| FHD版| HD| SD","")
           print $0;
           };
         }
