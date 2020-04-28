@@ -18,14 +18,14 @@ env:
   TV_LIST_NAME: new.m3u
   TV_LIST1: https://raw.githubusercontent.com/panda-mute/iptv/master/list.m3u
   TV_LIST1_NAME: list.m3u
-  GLOBAL_LIST: https://raw.githubusercontent.com/hououinkami/AppleTV/master/Global.m3u
-  GLOBAL_LIST_NAME: Global_tmp.m3u
   TV_LIST2: https://homenet6.github.io/list.m3u
   TV_LIST2_NAME: list2.m3u
+  GLOBAL_LIST: https://raw.githubusercontent.com/hououinkami/AppleTV/master/Global.m3u
+  GLOBAL_LIST_NAME: Global_tmp.m3u
   LIST_NAME_CCTV: A 央视频道
   LIST_NAME_SATT: B 卫视频道
   LIST_NAME_HK: C 香港频道
-  LIST_NAME_MO: D 澳门频道
+  LIST_NAME_MO: C 澳门频道
   LIST_NAME_TW: D 台湾频道
   LIST_NAME_JP: E 日本频道
   LIST_NAME_EN: F 英文频道
@@ -71,6 +71,7 @@ jobs:
         if(m<=NR && NR<=n) {
           gsub("A.央视","'"$LIST_NAME_CCTV"'");
           gsub("B.卫视","'"$LIST_NAME_SATT"'");
+          gsub("FHD|HD|SD","");
           print $0;
           };
         }
@@ -88,9 +89,9 @@ jobs:
           gsub("央视频道","'"$LIST_NAME_CCTV"'");
           if($0~/"CHC/) {next};
           gsub("卫视频道","'"$LIST_NAME_SATT"'");
-          if($0~/"央视频".*CCTV4K/ ) {gsub("\"CCTV4\"","\"CCTV4K\""); gsub("www.tvyan.com/uploads/dianshi/cctv4k.jpg","epg.51zmt.top:8000/tb1/CCTV/CCTV4k.png")};
-          if($0~/"央视频".*(CCTV|CGTN)/ ) {gsub("央视频","'"$LIST_NAME_CCTV"'*")};
-          if($0~/"央视频".*卫视/) {gsub("央视频","'"$LIST_NAME_SATT"'*")};
+          # if($0~/"央视频".*CCTV4K/ ) {gsub("\"CCTV4\"","\"CCTV4K\""); gsub("www.tvyan.com/uploads/dianshi/cctv4k.jpg","epg.51zmt.top:8000/tb1/CCTV/CCTV4k.png")};
+          # if($0~/"央视频".*(CCTV|CGTN)/ ) {gsub("央视频","'"$LIST_NAME_CCTV"'*")};
+          # if($0~/"央视频".*卫视/) {gsub("央视频","'"$LIST_NAME_SATT"'*")};
           print $0;
           };
         }
