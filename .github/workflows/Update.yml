@@ -14,6 +14,7 @@ on:
     types: [started]
 
 env:
+  UPDATE_SOURCE: false
   TV_LIST: http://tv.sason.xyz/new.m3u
   TV_LIST_NAME: new.m3u
   TV_LIST0: http://tv.boye.ml/iptv/tv.m3u
@@ -98,9 +99,39 @@ jobs:
         if($0~/NHK华语视界/) {gsub("group-title=\"*\..*\"","group-title=\"'"$LIST_NAME_JP"'\"")};
         }
         '
-        $TV_LIST_NAME>HKTW.m3u
+        $TV_LIST_NAME>HKTWtmp1.m3u
     
+    - name: 香港频道补全
+      run : >
+        awk '
+        {
+        if($0~/"翡翠台"|"明珠台"|探索|动物|地理|Warner|FOX|好莱坞|"体育频道"|"新闻频道"/) {m=NR; n=NR+1};
+        if(m<=NR && NR<=n) {
+          if($0~/"翡翠台"|"明珠台"/) {gsub("港台频道","'"$LIST_NAME_HK"'")};
+          if($0~/探索|动物|地理/) {gsub("港台频道","'"$LIST_NAME_SCI"'")};
+          if($0~/Warner|FOX|好莱坞/) {gsub("港台频道","'"$LIST_NAME_MOV"'")};
+          if($0~/"体育频道"|"新闻频道"/) {gsub("港台频道","'"$LIST_NAME_EN"'")};
+          print $0
+          };
+        }
+        '
+        $TV_LIST1_NAME>HKTWtmp2.m3u &&
+        awk '
+        {
+        if($0~/"无线新闻"/ && $0~!/备/) {m=NR; n=NR+1};
+        if(m<=NR && NR<=n) {
+          gsub("港台频道","'"$LIST_NAME_HK"'");
+          print $0;
+          };
+        }
+        '
+        $TV_LIST2_NAME>HKTWtmp3.m3u
+
+    - name: 生成港澳台频道文件
+      run : cat HKTWtmp*.m3u > HKTW.m3u && rm HKTWtmp*.m3u
+
     - name: 国内频道（panda-mute源）
+      if: env.UPDATE_SOURCE == 'true'
       run : >
         awk '
         {
@@ -122,6 +153,7 @@ jobs:
         $TV_LIST1_NAME>China_YSP.m3u
     
     - name: 港台频道（panda-mute源）
+      if: env.UPDATE_SOURCE == 'true'
       run : >
         awk '
         {
@@ -129,9 +161,8 @@ jobs:
         if($0~/\#港台频道/) {print $0};
         if($0~/"港台频道"/) {m=NR; n=NR+1};
         if(m<=NR && NR<=n) {
-          # if($0~/东森|华视|民视|台视|中视|公视|三立|中天|纬来|壹新闻|博斯|大爱|台湾|信吉|年代|八大|TVBS/) {gsub("港台频道","'"$LIST_NAME_TW"'")};
-          # if($0~/凤凰|TVB|有线|香港|星空|阳光|Now|RTHK|开|无线|RHK|C\+/) {gsub("港台频道","'"$LIST_NAME_HK"'")};
-          if($0~/翡翠台|明珠台/) {gsub("港台频道","'"$LIST_NAME_HK"'")};
+          if($0~/东森|华视|民视|台视|中视|公视|三立|中天|纬来|壹新闻|博斯|大爱|台湾|信吉|年代|八大|TVBS/) {gsub("港台频道","'"$LIST_NAME_TW"'")};
+          if($0~/凤凰|TVB|有线|香港|星空|阳光|Now|RTHK|开|无线|RHK|C\+/) {gsub("港台频道","'"$LIST_NAME_HK"'")};
           if($0~/探索|动物|地理/) {gsub("港台频道","'"$LIST_NAME_SCI"'")};
           if($0~/Warner|FOX|好莱坞/) {gsub("港台频道","'"$LIST_NAME_MOV"'")};
           if($0~/"体育频道"|"新闻频道"/) {gsub("港台频道","'"$LIST_NAME_EN"'")};
@@ -140,19 +171,6 @@ jobs:
         }
         '
         $TV_LIST1_NAME>HKTW_panda.m3u
-
-    - name: 港台频道（无线新闻）
-      run : >
-        awk '
-        {
-        if($0~/"无线新闻"/) {m=NR; n=NR+1};
-        if(m<=NR && NR<=n) {
-          gsub("港台频道","'"$LIST_NAME_HK"'");
-          print $0;
-          };
-        }
-        '
-        $TV_LIST2_NAME>HKTW_wxxw.m3u
 
     - name: 外文频道
       run : >
