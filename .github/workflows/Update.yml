@@ -97,7 +97,7 @@ jobs:
           };
         }
         '
-        $TV_LIST1_NAME>China1.m3u
+        $TV_LIST1_NAME>ChinaCCTV.m3u
     
     - name: 港台频道
       run : >
