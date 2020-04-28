@@ -26,7 +26,7 @@ http://112.50.243.8/PLTV/88888888/224/3221225815/1.m3u8
 #EXTINF:-1 tvg-id="13" tvg-logo="http://tv.sason.xyz/logo/cctv12.png" group-title="A 央视频道",CCTV-12 社会与法
 http://112.50.243.8/PLTV/88888888/224/3221225932/1.m3u8
 #EXTINF:-1 tvg-id="14" tvg-logo="http://tv.sason.xyz/logo/cctv13.png" group-title="A 央视频道",CCTV-13 新闻
-http://140.249.68.157/tlivecloud-cdn.ysp.cctv.cn/001/2000204603.m3u8
+http://live-aba-cdn.ysp.cctv.cn/wcloud-cdn.ysp.cctv.cn/001/2000204603.m3u8
 #EXTINF:-1 tvg-id="15" tvg-logo="http://tv.sason.xyz/logo/cctv14.png" group-title="A 央视频道",CCTV-14 少儿
 http://112.50.243.8/PLTV/88888888/224/3221225933/1.m3u8
 #EXTINF:-1 tvg-id="16" tvg-logo="http://tv.sason.xyz/logo/cctv15.png" group-title="A 央视频道",CCTV-15 音乐
@@ -36,9 +36,9 @@ http://112.50.243.8/PLTV/88888888/224/3221226986/1.m3u8
 #EXTINF:-1 tvg-id="73" tvg-logo="http://tv.sason.xyz/logo/cetv1.png" group-title="A 央视频道",CETV-1
 http://112.50.243.8/PLTV/88888888/224/3221226954/1.m3u8
 #EXTINF:-1 tvg-id="20" tvg-logo="http://tv.sason.xyz/logo/cgtn.png" group-title="A 央视频道",CGTN
-http://140.249.68.157/tlivecloud-cdn.ysp.cctv.cn/001/2001656803.m3u8
+http://live-aba-cdn.ysp.cctv.cn/wcloud-cdn.ysp.cctv.cn/001/2001656803.m3u8
 #EXTINF:-1 tvg-id="106" tvg-logo="http://tv.sason.xyz/logo/cctv4k.png" group-title="A 央视频道",CCTV 4K
-http://140.249.68.157/tlivecloud-cdn.ysp.cctv.cn/001/2000266303.m3u8
+http://live-aba-cdn.ysp.cctv.cn/wcloud-cdn.ysp.cctv.cn/001/2000266303.m3u8
 #EXTINF:-1 tvg-id="27" tvg-logo="http://tv.sason.xyz/logo/hnws.png" group-title="B 卫视频道",湖南卫视
 http://112.50.243.8/PLTV/88888888/224/3221225935/1.m3u8
 #EXTINF:-1 tvg-id="29" tvg-logo="http://tv.sason.xyz/logo/jsws.png" group-title="B 卫视频道",江苏卫视
@@ -74,15 +74,15 @@ http://112.50.243.8/PLTV/88888888/224/3221225949/1.m3u8
 #EXTINF:-1 tvg-id="32" tvg-logo="http://tv.sason.xyz/logo/ahws.png" group-title="B 卫视频道",安徽卫视
 http://112.50.243.8/PLTV/88888888/224/3221226942/1.m3u8
 #EXTINF:-1 tvg-id="45" tvg-logo="http://tv.sason.xyz/logo/hebws.png" group-title="B 卫视频道",河北卫视
-http://140.249.68.157/tlivecloud-cdn.ysp.cctv.cn/001/2000293403.m3u8
+http://live-aba-cdn.ysp.cctv.cn/wcloud-cdn.ysp.cctv.cn/001/2000293403.m3u8
 #EXTINF:-1 tvg-id="47" tvg-logo="http://tv.sason.xyz/logo/henws.png" group-title="B 卫视频道",河南卫视
-http://140.249.68.157/tlivecloud-cdn.ysp.cctv.cn/001/2000296103.m3u8
+http://live-aba-cdn.ysp.cctv.cn/wcloud-cdn.ysp.cctv.cn/001/2000296103.m3u8
 #EXTINF:-1 tvg-id="44" tvg-logo="http://tv.sason.xyz/logo/gzws.png" group-title="B 卫视频道",贵州卫视
-http://140.249.68.157/tlivecloud-cdn.ysp.cctv.cn/001/2000293303.m3u8
+http://live-aba-cdn.ysp.cctv.cn/wcloud-cdn.ysp.cctv.cn/001/2000293303.m3u8
 #EXTINF:-1 tvg-id="43" tvg-logo="http://tv.sason.xyz/logo/gxws.png" group-title="B 卫视频道",广西卫视
-http://140.249.68.157/tlivecloud-cdn.ysp.cctv.cn/001/2000294203.m3u8
+http://live-aba-cdn.ysp.cctv.cn/wcloud-cdn.ysp.cctv.cn/001/2000294203.m3u8
 #EXTINF:-1 tvg-id="37" tvg-logo="http://tv.sason.xyz/logo/hanws.png" group-title="B 卫视频道",海南卫视
-http://140.249.68.157/tlivecloud-cdn.ysp.cctv.cn/001/2000291503.m3u8
+http://live-aba-cdn.ysp.cctv.cn/wcloud-cdn.ysp.cctv.cn/001/2000291503.m3u8
 #EXTINF:-1 tvg-id="59" tvg-logo="http://tv.sason.xyz/logo/qhws.png" group-title="B 卫视频道",青海卫视
 http://live.geermurmt.com/qhws/sd/live.m3u8
 #EXTINF:-1 tvg-id="68" tvg-logo="http://tv.sason.xyz/logo/xmws.png" group-title="B 卫视频道",厦门卫视
