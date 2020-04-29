@@ -101,7 +101,7 @@ http://125.227.198.89:8008
 http://61.58.60.230:9319/live/257.m3u8
 #EXTINF:-1 tvg-id="6166" tvg-logo="http://tv.sason.xyz/logo/DisAsia.png" group-title="H 科教记录",Discovery Asia ★
 http://125.227.198.89:8028
-#EXTINF:-1 tvg-id="711" tvg-logo="http://tv.sason.xyz/logo/fx.png" group-title="H 科教记录",FX Asia ★
+#EXTINF:-1 tvg-id="711" tvg-logo="http://tv.sason.xyz/logo/fx.png" group-title="I 电影轮播",FX Asia ★
 http://125.227.198.89:8027
 #EXTINF:-1 tvg-id="283" tvg-logo="http://tv.sason.xyz/logo/ng.png" group-title="H 科教记录",国家地理 悠人 ★
 http://125.227.198.89:8030
@@ -140,3 +140,4 @@ http://116.199.5.52:8114/00000000/index.m3u8?&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid
 #EXTINF:-1 tvg-id="127" tvg-name="明珠台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVB明珠台.png" group-title="C 香港频道",明珠台
 http://116.199.5.52:8114/00000000/index.m3u8?&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid=5abd1660af1babb4&Pcontent_id=&Provider_id=&Fsv_chan_hls_se_idx=12
 #EXTINF:-1 tvg-id="130" tvg-name="无线新闻" tvg-logo="http://www.tvyan.com/uploads/dianshi/tvb-news.jpg" group-title="C 香港频道",无线新闻
+http://www.liveviptv.xyz/tv/tvb.php?vid=wxxw
