@@ -118,7 +118,7 @@ jobs:
         ' $TV_LIST1_NAME>HKTWtmp2.m3u
         awk '
         {
-        if($0~/无线新闻*((?备).)*/) {m=NR; n=NR+1};
+        if($0~/无线新闻^(?!.*?备).*?$/) {m=NR; n=NR+1};
         if(m<=NR && NR<=n) {
           gsub("港台频道","'"$LIST_NAME_HK"'");
           print $0;
