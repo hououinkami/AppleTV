@@ -115,8 +115,7 @@ jobs:
           print $0
           };
         }
-        '
-        $TV_LIST1_NAME>HKTWtmp2.m3u &&
+        ' $TV_LIST1_NAME>HKTWtmp2.m3u
         awk '
         {
         if($0~/"无线新闻"/ && $0~!/备/) {m=NR; n=NR+1};
@@ -125,8 +124,7 @@ jobs:
           print $0;
           };
         }
-        '
-        $TV_LIST2_NAME>HKTWtmp3.m3u
+        ' $TV_LIST2_NAME>HKTWtmp3.m3u
 
     - name: 生成港澳台频道文件
       run : cat HKTWtmp*.m3u > HKTW.m3u && rm HKTWtmp*.m3u
