@@ -139,8 +139,14 @@ http://220.158.149.14:9999/live/TV00000000000000000069@HHZT;LIVE
 https://ott-live.olympicchannel.com/out/u/OC1_1.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Olympic Channel 2" tvg-logo="https://static.iptv-epg.com/us/OlympicChannel.us.png" group-title="G 英文频道",Olympic Channel 2
 https://iocchannel-i.akamaihd.net/hls/live/514135/olylinear0629221316
-#EXTINF:-1 tvg-logo="http://static.iptv-epg.com/us/FoxNews.us.png" group-title="News",FOX News
+#EXTINF:-1 tvg-logo="http://static.iptv-epg.com/gb/BBCNews.uk.png" group-title="G 英文频道",BBC News
+http://51.52.156.22:8888/http/004
+#EXTINF:-1 tvg-logo="http://static.iptv-epg.com/gb/BBCWorldNews.uk.png" group-title="G 英文频道",BBC World News
+http://220.158.149.28:8180/live/TV00000000000000000112@HHZT
+#EXTINF:-1 tvg-logo="http://static.iptv-epg.com/us/FoxNews.us.png" group-title="G 英文频道",FOX News
 https://fncgohls-i.akamaihd.net/hls/live/263399/FNCGOHLSv2/Fox_News_v2_VIDEO_0_2564000.m3u8
+#EXTINF:-1 tvg-logo="https://yournewsnet.com/wp-content/uploads/2018/11/NNLogo.jpg" group-title="G 英文频道",News Net
+https://bozztv.com/36bay2/gin-newsnet/index.m3u8
 #EXTINF:-1 tvg-id="6560" tvg-name="世界地理" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTVshijiedili.png" group-title="IPV6",CCTV-世界地理
 http://iptv.pdsu.edu.cn/hls/sjdltv.m3u8
 #EXTINF:-1 tvg-id="6037" tvg-name="Discovery" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/DiscoveryHD.png" group-title="IPV6",探索频道
