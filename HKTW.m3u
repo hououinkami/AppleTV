@@ -112,17 +112,31 @@ https://tv2.wanfudaluye.com/live/live.m3u8
 #EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/dagj.png" group-title="D 台湾频道",大爱海外
 https://tv3.wanfudaluye.com/live/live.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Olympic Channel 1" tvg-logo="https://static.iptv-epg.com/us/OlympicChannel.us.png" group-title="G 英文频道",Olympic Channel 1
+https://ott-live.olympicchannel.com/out/u/OC1_1.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Olympic Channel 2" tvg-logo="https://static.iptv-epg.com/us/OlympicChannel.us.png" group-title="G 英文频道",Olympic Channel 2
+https://iocchannel-i.akamaihd.net/hls/live/514135/olylinear0629221316
 #EXTINF:-1 tvg-logo="http://static.iptv-epg.com/gb/BBCNews.uk.png" group-title="G 英文频道",BBC News
+http://51.52.156.22:8888/http/004
 #EXTINF:-1 tvg-logo="http://static.iptv-epg.com/gb/BBCWorldNews.uk.png" group-title="G 英文频道",BBC World News
+http://220.158.149.28:8180/live/TV00000000000000000112@HHZT
 #EXTINF:-1 tvg-logo="http://static.iptv-epg.com/us/FoxNews.us.png" group-title="G 英文频道",FOX News
+https://fncgohls-i.akamaihd.net/hls/live/263399/FNCGOHLSv2/Fox_News_v2_VIDEO_0_2564000.m3u8
 #EXTINF:-1 tvg-logo="https://yournewsnet.com/wp-content/uploads/2018/11/NNLogo.jpg" group-title="G 英文频道",News Net
+https://bozztv.com/36bay2/gin-newsnet/index.m3u8
 #EXTINF:-1 tvg-id="6037" tvg-name="Discovery" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/DiscoveryHD.png" group-title="H 科教记录",探索频道
+rtmp://ivi.bupt.edu.cn:1935/livetv/discovery
 #EXTINF:-1 tvg-id="6086" tvg-name="好莱坞电影台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/HMC.png" group-title="I 电影轮播",好莱坞电影
+http://192.200.120.82:8080/ZZ_haolaiwu/ZZ_haolaiwu.m3u8
 #EXTINF:-1 tvg-id="6039" tvg-name="动物星球" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/AnimalPlanet.png" group-title="H 科教记录",动物星球
+http://192.200.120.82:8080/ZZ_dongwuxingqiu/ZZ_dongwuxingqiu.m3u8
 #EXTINF:-1 tvg-id="6149" tvg-name="WarnerTV" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/WarnerTV.png" group-title="I 电影轮播",WarnerTV
+http://192.200.120.82:8080/ZZ_huanadianying/ZZ_huanadianying.m3u8
 #EXTINF:-1 tvg-id="691" tvg-name="国家地理频道" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/natgeo.png" group-title="H 科教记录",国家地理
+http://104.250.154.42:8080/ZZ_hbo/ZZ_hbo.m3u8
 #EXTINF:-1 tvg-id="870" tvg-name="FOXActionMovies" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/FOXActionMovies.png" group-title="I 电影轮播",FOX动作电影
+http://104.250.154.42:8080/ZZ_foxaction/ZZ_foxaction.m3u8
 #EXTINF:-1 tvg-id="126" tvg-name="翡翠台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVB翡翠台.png" group-title="C 香港频道",翡翠台
+http://116.199.5.52:8114/00000000/index.m3u8?&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid=5abd1660af1babb4&Fsv_filetype=1&Fsv_ctype=LIVES&Fsv_cid=0&Fsv_chan_hls_se_idx=188&Fsv_rate_id=0&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Provider_id=&Pcontent_id=&Fsv&_res_tag_=video
 #EXTINF:-1 tvg-id="127" tvg-name="明珠台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVB明珠台.png" group-title="C 香港频道",明珠台
+http://116.199.5.52:8114/00000000/index.m3u8?&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid=5abd1660af1babb4&Pcontent_id=&Provider_id=&Fsv_chan_hls_se_idx=12
 #EXTINF:-1 tvg-id="130" tvg-name="无线新闻" tvg-logo="http://www.tvyan.com/uploads/dianshi/tvb-news.jpg" group-title="C 香港频道",无线新闻
