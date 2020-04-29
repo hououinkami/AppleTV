@@ -94,8 +94,9 @@ jobs:
           gsub("E.台湾","'"$LIST_NAME_TW"'");
           gsub("F.澳门","'"$LIST_NAME_MO"'");
           gsub(" FHD","");
-          if($0~/Asia|Discovery|地理/) {gsub("group-title=\"*\..*\"","group-title=\"'"$LIST_NAME_SCI"'\"")};
+          if($0~/Discovery|地理/) {gsub("group-title=\"*\..*\"","group-title=\"'"$LIST_NAME_SCI"'\"")};
           if($0~/NHK华语视界/) {gsub("group-title=\"*\..*\"","group-title=\"'"$LIST_NAME_JP"'\"")};
+          if($0~/FX Asia/) {gsub("group-title=\"*\..*\"","group-title=\"'"$LIST_NAME_MOV"'\"")};
           print $0;
           };
         }
