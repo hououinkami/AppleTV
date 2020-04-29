@@ -106,10 +106,12 @@ jobs:
       run : |
         awk '
         {
+        if($0~!/IPV6|备/) {m=NR; n=NR+1};
+        if(m<=NR && NR<=n) {next};
         if($0~/"翡翠台"|"明珠台"|探索|动物|地理|Warner|FOX|好莱坞|"体育频道"|"News"/) {m=NR; n=NR+1};
         if(m<=NR && NR<=n) {
           if($0~/"翡翠台"|"明珠台"/) {gsub("港台频道","'"$LIST_NAME_HK"'")};
-          if($0~/探索|动物|地理/ && !/IPV6/) {gsub("港台频道","'"$LIST_NAME_SCI"'")};
+          if($0~/探索|动物|地理/) {gsub("港台频道","'"$LIST_NAME_SCI"'")};
           if($0~/Warner|FOX|好莱坞/) {gsub("港台频道","'"$LIST_NAME_MOV"'")};
           if($0~/"体育频道"|"News"/) {gsub("group-title=\"*\..*\"","group-title=\"'"$LIST_NAME_EN"'\"")};
           print $0
@@ -118,6 +120,8 @@ jobs:
         ' $TV_LIST1_NAME>HKTWtmp2.m3u
         awk '
         {
+        if($0~!/备/) {m=NR; n=NR+1};
+        if(m<=NR && NR<=n) {next};
         if($0~/无线新闻/) {m=NR; n=NR+1};
         if(m<=NR && NR<=n) {
           gsub("港台频道","'"$LIST_NAME_HK"'");
