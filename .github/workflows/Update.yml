@@ -88,21 +88,22 @@ jobs:
         {
         gsub("url-tvg=\"http://tv.sason.xyz/epg\"", "");
         if($0~/\#EXTM3U/) {print $0};
-        if($0~/香港"|台湾"|澳门"/) {m=NR; n=NR+1};
+        if($0~/香港"|台湾"|澳门"｜NHK华语视界/) {m=NR; n=NR+1};
         if(m<=NR && NR<=n) {
           gsub("D.香港","'"$LIST_NAME_HK"'");
           gsub("E.台湾","'"$LIST_NAME_TW"'");
           gsub("F.澳门","'"$LIST_NAME_MO"'");
-          gsub(" FHD","")
+          gsub(" FHD","");
+          if($0~/Asia|Discovery|地理/) {gsub("group-title=\"*\..*\"","group-title=\"'"$LIST_NAME_SCI"'\"")};
+          if($0~/NHK华语视界/) {gsub("group-title=\"*\..*\"","group-title=\"'"$LIST_NAME_JP"'\"")};
           print $0;
           };
-        if($0~/NHK华语视界/) {gsub("group-title=\"*\..*\"","group-title=\"'"$LIST_NAME_JP"'\"")};
         }
         '
         $TV_LIST_NAME>HKTWtmp1.m3u
     
     - name: 香港频道补全
-      run : >
+      run : |
         awk '
         {
         if($0~/"翡翠台"|"明珠台"|探索|动物|地理|Warner|FOX|好莱坞|"体育频道"|"News"/) {m=NR; n=NR+1};
@@ -154,7 +155,7 @@ jobs:
     
     - name: 港台频道（panda-mute源）
       if: env.UPDATE_SOURCE == 'true'
-      run : |
+      run : >
         awk '
         {
         if($0~/\#EXTM3U/) {print $0};
