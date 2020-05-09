@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U url-tvg="http://tv.sason.xyz/epg"
 #EXTINF:-1 tvg-id="1" tvg-logo="http://tv.sason.xyz/logo/cctv1.png" group-title="A 央视频道",CCTV-1 综合
 http://112.50.243.8/PLTV/88888888/224/3221226908/1.m3u8
 #EXTINF:-1 tvg-id="2" tvg-logo="http://tv.sason.xyz/logo/cctv2.png" group-title="A 央视频道",CCTV-2 财经
@@ -111,7 +111,7 @@ http://118.123.60.12:8114/LIVES/Fsv_otype=1&FvSeid=&Fsv_filetype=mull&Fsv_chan_h
 http://liveplay-kk.rtxapp.com/live/program/live/btws/1300000/mnf.m3u8
 #EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/hxws.png" group-title="B 卫视频道",海峡卫视
 http://118.123.60.12:8114/LIVES/Fsv_otype=1&FvSeid=&Fsv_filetype=mull&Fsv_chan_hls_se_idx=024&Provider_id=&Pcontent_id=index.m3u8
-#EXTM3U
+#EXTM3U url-tvg="http://tv.sason.xyz/epg"
 #EXTINF:-1 tvg-id="141" tvg-logo="http://tv.sason.xyz/logo/fhzw.png" group-title="C 香港频道",凤凰中文 官方FHD
 http://tv.sason.xyz/fh.php?id=zw
 #EXTINF:-1 tvg-id="142" tvg-logo="http://tv.sason.xyz/logo/fhzx.png" group-title="C 香港频道",凤凰资讯 官方FHD
