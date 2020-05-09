@@ -64,7 +64,8 @@ jobs:
       run : |
         wget $TV_LIST
         wget $TV_LIST1
-        wget $GLOBAL_LIST -O $GLOBAL_LIST_NAME
+        wget $FOREIGN_LIST -O $FOREIGN_LIST_NAME
+        wget $SCIENCES_LIST -O $SCIENCES_LIST_NAME
         wget $TV_LIST2 -O $TV_LIST2_NAME
     
     - name: 国内频道(Sason源)
