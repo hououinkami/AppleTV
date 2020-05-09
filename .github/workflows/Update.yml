@@ -3,9 +3,9 @@ name: 生成自用Apple TV直播列表
 on:
   push:
     branches:
-      - master
+      - beta
     path:
-      - "start"
+      - 'start'
   release:
     types: [published]
   schedule:
