@@ -74,7 +74,7 @@ jobs:
         if(m<=NR && NR<=n) {
           gsub("A.央视","'"$LIST_NAME_CCTV"'");
           gsub("B.卫视","'"$LIST_NAME_SATT"'");
-          if($0~/深圳/) {gsub("tvg-id=\".*\"","tvg-id=\"26\"")};
+          if($0~/深圳/) {gsub("tvg-id=\"[0-9]{1,2}\"","tvg-id=\"26\"")};
           gsub(" FHD| FHD版| HD| SD","")
           print $0;
           };
