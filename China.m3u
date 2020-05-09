@@ -53,7 +53,7 @@ http://112.50.243.8/PLTV/88888888/224/3221227006/1.m3u8
 http://112.50.243.8/PLTV/88888888/224/3221225937/1.m3u8
 #EXTINF:-1 tvg-id="33" tvg-logo="http://tv.sason.xyz/logo/gdws.png" group-title="B 卫视频道",广东卫视
 http://112.50.243.8/PLTV/88888888/224/3221226946/1.m3u8
-#EXTINF:-1 tvg-id="26",深圳卫视
+#EXTINF:-1 tvg-id="26" tvg-logo="http://tv.sason.xyz/logo/szws.png" group-title="B 卫视频道",深圳卫视
 http://112.50.243.8/PLTV/88888888/224/3221225938/1.m3u8
 #EXTINF:-1 tvg-id="38" tvg-logo="http://tv.sason.xyz/logo/sdws.png" group-title="B 卫视频道",山东卫视
 http://112.50.243.8/PLTV/88888888/224/3221225943/1.m3u8
