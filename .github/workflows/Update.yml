@@ -1,19 +1,20 @@
 name: 生成自用Apple TV直播列表
 
 on:
-  # push:
-    # branches:
-      # - master
-    # path:
-      # - "start"
+  push:
+    branches:
+      - master
+    path:
+      - "start"
   release:
     types: [published]
   schedule:
-    - cron: 07 01 * * *
+    - cron: 0 4,16 * * *
   watch:
     types: [started]
 
 env:
+  TZ: Asia/Shanghai
   UPDATE_SOURCE: false
   TV_LIST: http://tv.sason.xyz/new.m3u
   TV_LIST_NAME: new.m3u
@@ -68,13 +69,12 @@ jobs:
       run : >
         awk '
         {
-        gsub("url-tvg=\"http://tv.sason.xyz/epg\"", "");
         if($0~/\#EXTM3U/) {print $0};
         if($0~/央视"|卫视"/) {m=NR; n=NR+1};
         if(m<=NR && NR<=n) {
           gsub("A.央视","'"$LIST_NAME_CCTV"'");
           gsub("B.卫视","'"$LIST_NAME_SATT"'");
-          gsub("http://218.98.46.179/live-cnc-cdn.ysp.cctv.cn/ysp","http://live-aba-cdn.ysp.cctv.cn/tlivecloud-cdn.ysp.cctv.cn/001")
+          if($0~/深圳/) {gsub("tvg-id=\".*\"","tvg-id=\"26\"")};
           gsub(" FHD| FHD版| HD| SD","")
           print $0;
           };
