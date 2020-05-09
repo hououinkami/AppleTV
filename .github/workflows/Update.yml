@@ -132,7 +132,6 @@ jobs:
       run : |
         awk '
         {
-        if($0~/\#EXTM3U/) {print $0};
         gsub("group-title=\"..日本.*\"","group-title=\"'"$GROUP_NAME_JP"'\"");
         gsub("group-title=\"..英文.*\"","group-title=\"'"$GROUP_NAME_EN"'\"");
         print $0;
@@ -165,7 +164,6 @@ jobs:
       run : |
         awk '
         {
-        if($0~/\#EXTM3U/) {print $0};
         gsub("group-title=\"..科教.*\"","group-title=\"'"$GROUP_NAME_SCI"'\"");
         print $0;
         }
@@ -175,7 +173,7 @@ jobs:
         {
         if($0~/CNEX|国家地理|Discovery|NationalGeographic/) {m=NR; n=NR+1};
         if(m<=NR && NR<=n) {
-          {gsub("group-title=\"*\..*\"","group-title=\"'"$GROUP_NAME_SCI"'\"")};
+          gsub("group-title=\"*\..*\"","group-title=\"'"$GROUP_NAME_SCI"'\"");
           print $0;
           };
         }
@@ -184,8 +182,10 @@ jobs:
         awk '
         {
         if($0~/探索|动物|地理/) {m=NR; n=NR+1};
-        if(m<=NR && NR<=n) {gsub("港台频道","'"$GROUP_NAME_SCI"'")};
-        print $0;
+        if(m<=NR && NR<=n) {
+          gsub("港台频道","'"$GROUP_NAME_SCI"'");
+          print $0;
+          };
         }
         ' $TV_LIST1_NAME>Sciencestmp3.m3u
 
