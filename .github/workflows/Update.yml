@@ -70,7 +70,7 @@ jobs:
         awk '
         {
         if($0~/\#EXTM3U/) {print $0};
-        if($0~/央视"|卫视"/) {m=NR; n=NR+1};
+        if($0~/央视"|卫视.*((?!电影).)*$/) {m=NR; n=NR+1};
         if(m<=NR && NR<=n) {
           gsub("A.央视","'"$LIST_NAME_CCTV"'");
           gsub("B.卫视","'"$LIST_NAME_SATT"'");
