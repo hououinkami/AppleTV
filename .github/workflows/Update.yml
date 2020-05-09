@@ -24,17 +24,19 @@ env:
   TV_LIST1_NAME: list.m3u
   TV_LIST2: https://homenet6.github.io/list.m3u
   TV_LIST2_NAME: list2.m3u
-  GLOBAL_LIST: https://raw.githubusercontent.com/hououinkami/AppleTV/master/Global.m3u
-  GLOBAL_LIST_NAME: Global_tmp.m3u
-  LIST_NAME_CCTV: A 央视频道
-  LIST_NAME_SATT: B 卫视频道
-  LIST_NAME_HK: C 香港频道
-  LIST_NAME_MO: E 澳门频道
-  LIST_NAME_TW: D 台湾频道
-  LIST_NAME_JP: F 日本频道
-  LIST_NAME_EN: G 英文频道
-  LIST_NAME_SCI: H 科教记录
-  LIST_NAME_MOV: I 电影轮播
+  FOREIGN_LIST: https://raw.githubusercontent.com/hououinkami/AppleTV/master/Foreign.m3u
+  FOREIGN_LIST_NAME: Foreign_tmp.m3u
+  SCIENCES_LIST: https://raw.githubusercontent.com/hououinkami/AppleTV/master/Sciences.m3u
+  SCIENCES_LIST_NAME: Sciences_tmp.m3u
+  GROUP_NAME_CCTV: A 央视频道
+  GROUP_NAME_SATT: B 卫视频道
+  GROUP_NAME_HK: C 香港频道
+  GROUP_NAME_MO: E 澳门频道
+  GROUP_NAME_TW: D 台湾频道
+  GROUP_NAME_JP: F 日本频道
+  GROUP_NAME_EN: G 英文频道
+  GROUP_NAME_SCI: H 科教记录
+  GROUP_NAME_MOV: I 电影轮播
 
 jobs:
   GenerateList:
@@ -66,42 +68,36 @@ jobs:
         wget $TV_LIST2 -O $TV_LIST2_NAME
     
     - name: 国内频道(Sason源)
-      run : >
+      run : |
         awk '
         {
         if($0~/\#EXTM3U/) {print $0};
-        if($0~/央视"|(卫视.*((?!电影).)*$)/) {m=NR; n=NR+1};
+        if($0~/央视"|卫视"/ && $0!~/峨眉|潇湘/) {m=NR; n=NR+1};
         if(m<=NR && NR<=n) {
-          gsub("A.央视","'"$LIST_NAME_CCTV"'");
-          gsub("B.卫视","'"$LIST_NAME_SATT"'");
+          gsub("A.央视","'"$GROUP_NAME_CCTV"'");
+          gsub("B.卫视","'"$GROUP_NAME_SATT"'");
           if($0~/深圳/) {gsub("tvg-id=\"[0-9]{1,2}\"","tvg-id=\"26\"")};
           gsub(" FHD| FHD版| HD| SD","")
           print $0;
           };
         }
-        '
-        $TV_LIST_NAME>China.m3u
+        ' $TV_LIST_NAME>China.m3u
     
     - name: 港澳台频道(Sason源)
-      run : >
+      run : |
         awk '
         {
-        gsub("url-tvg=\"http://tv.sason.xyz/epg\"", "");
         if($0~/\#EXTM3U/) {print $0};
-        if($0~/香港"|台湾"|澳门"｜NHK华语视界/) {m=NR; n=NR+1};
+        if($0~/香港"|台湾"|澳门"/ && $0!~/CNEX|国家地理|FX Asia/) {m=NR; n=NR+1};
         if(m<=NR && NR<=n) {
-          gsub("D.香港","'"$LIST_NAME_HK"'");
-          gsub("E.台湾","'"$LIST_NAME_TW"'");
-          gsub("F.澳门","'"$LIST_NAME_MO"'");
+          gsub("D.香港","'"$GROUP_NAME_HK"'");
+          gsub("E.台湾","'"$GROUP_NAME_TW"'");
+          gsub("F.澳门","'"$GROUP_NAME_MO"'");
           gsub(" FHD","");
-          if($0~/Discovery|地理|NationalGeographic/) {gsub("group-title=\"*\..*\"","group-title=\"'"$LIST_NAME_SCI"'\"")};
-          if($0~/NHK华语视界/) {gsub("group-title=\"*\..*\"","group-title=\"'"$LIST_NAME_JP"'\"")};
-          if($0~/FX Asia/) {gsub("group-title=\"*\..*\"","group-title=\"'"$LIST_NAME_MOV"'\"")};
           print $0;
           };
         }
-        '
-        $TV_LIST_NAME>HKTWtmp1.m3u
+        ' $TV_LIST_NAME>HKTWtmp1.m3u
     
     - name: 香港频道补全
       run : |
@@ -109,12 +105,9 @@ jobs:
         {
         if($0~/IPV6|备/) {a=NR; b=NR+1};
         if(a<=NR && NR<=b) {next};
-        if($0~/"翡翠台"|"明珠台"|探索|动物|地理|Warner|FOX|好莱坞|"体育频道"|"News"/) {m=NR; n=NR+1};
+        if($0~/"翡翠台"|"明珠台"/) {m=NR; n=NR+1};
         if(m<=NR && NR<=n) {
-          if($0~/"翡翠台"|"明珠台"/) {gsub("港台频道","'"$LIST_NAME_HK"'")};
-          if($0~/探索|动物|地理/) {gsub("港台频道","'"$LIST_NAME_SCI"'")};
-          if($0~/Warner|FOX|好莱坞/) {gsub("港台频道","'"$LIST_NAME_MOV"'")};
-          if($0~/"体育频道"|"News"/) {gsub("group-title=\"*\..*\"","group-title=\"'"$LIST_NAME_EN"'\"")};
+          if($0~/"翡翠台"|"明珠台"/) {gsub("港台频道","'"$GROUP_NAME_HK"'")};
           print $0;
           };
         }
@@ -125,7 +118,7 @@ jobs:
         if(a<=NR && NR<=b) {next};
         if($0~/无线新闻/) {m=NR; n=NR+1};
         if(m<=NR && NR<=n) {
-          gsub("港台频道","'"$LIST_NAME_HK"'");
+          gsub("港台频道","'"$GROUP_NAME_HK"'");
           print $0;
           };
         }
@@ -134,59 +127,69 @@ jobs:
     - name: 生成港澳台频道文件
       run : cat HKTWtmp*.m3u > HKTW.m3u && rm HKTWtmp*.m3u
 
-    - name: 国内频道（panda-mute源）
-      if: env.UPDATE_SOURCE == 'true'
-      run : >
+    - name: 外文频道
+      run : |
         awk '
         {
         if($0~/\#EXTM3U/) {print $0};
-        if($0~/\#(央视频道|卫视高清|卫视标清|央视频)/) {print $0};
-        if($0~/"央视频道"|"卫视频道"|"央视频"/) {m=NR; n=NR+1};
+        gsub("group-title=\"..日本.*\"","group-title=\"'"$GROUP_NAME_JP"'\"");
+        gsub("group-title=\"..英文.*\"","group-title=\"'"$GROUP_NAME_EN"'\"");
+        print $0;
+        }
+        ' $FOREIGN_LIST_NAME>Globaltmp1.m3u
+        
+        awk '
+        {
+        if($0~/NHK华语视界/) {m=NR; n=NR+1};
         if(m<=NR && NR<=n) {
-          gsub("央视频道","'"$LIST_NAME_CCTV"'");
-          if($0~/"CHC/) {next};
-          gsub("卫视频道","'"$LIST_NAME_SATT"'");
-          # if($0~/"央视频".*CCTV4K/ ) {gsub("\"CCTV4\"","\"CCTV4K\""); gsub("www.tvyan.com/uploads/dianshi/cctv4k.jpg","epg.51zmt.top:8000/tb1/CCTV/CCTV4k.png")};
-          # if($0~/"央视频".*(CCTV|CGTN)/ ) {gsub("央视频","'"$LIST_NAME_CCTV"'*")};
-          # if($0~/"央视频".*卫视/) {gsub("央视频","'"$LIST_NAME_SATT"'*")};
-          gsub("http://218.98.46.179/live-cnc-cdn.ysp.cctv.cn/ysp","http://live-aba-cdn.ysp.cctv.cn/tlivecloud-cdn.ysp.cctv.cn/001")
+          if($0~/NHK华语视界/) {gsub("group-title=\"*\..*\"","group-title=\"'"$GROUP_NAME_JP"'\"")};
           print $0;
           };
         }
-        '
-        $TV_LIST1_NAME>China_YSP.m3u
-    
-    - name: 港台频道（panda-mute源）
-      if: env.UPDATE_SOURCE == 'true'
-      run : >
+        ' $TV_LIST_NAME>Globaltmp2.m3u
+
+        awk '
+        {
+        if($0~/IPV6|备/) {a=NR; b=NR+1};
+        if(a<=NR && NR<=b) {next};
+        if($0~/"体育频道"|"News"/) {m=NR; n=NR+1};
+        if(m<=NR && NR<=n) {
+          if($0~/"体育频道"|"News"/) {gsub("group-title=\"*\..*\"","group-title=\"'"$GROUP_NAME_EN"'\"")};
+          print $0;
+          };
+        }
+        ' $TV_LIST1_NAME>Globaltmp3.m3u
+
+    - name: 科学记录频道
+      run : |
         awk '
         {
         if($0~/\#EXTM3U/) {print $0};
-        if($0~/\#港台频道/) {print $0};
-        if($0~/"港台频道"/) {m=NR; n=NR+1};
-        if(m<=NR && NR<=n) {
-          if($0~/东森|华视|民视|台视|中视|公视|三立|中天|纬来|壹新闻|博斯|大爱|台湾|信吉|年代|八大|TVBS/) {gsub("港台频道","'"$LIST_NAME_TW"'")};
-          if($0~/凤凰|TVB|有线|香港|星空|阳光|Now|RTHK|开|无线|RHK|C\+/) {gsub("港台频道","'"$LIST_NAME_HK"'")};
-          if($0~/探索|动物|地理/) {gsub("港台频道","'"$LIST_NAME_SCI"'")};
-          if($0~/Warner|FOX|好莱坞/) {gsub("港台频道","'"$LIST_NAME_MOV"'")};
-          if($0~/"体育频道"|"新闻频道"/) {gsub("港台频道","'"$LIST_NAME_EN"'")};
-          print $0
-          };
-        }
-        '
-        $TV_LIST1_NAME>HKTW_panda.m3u
-
-    - name: 外文频道
-      run : >
-        awk '
-        {
-        gsub("group-title=\"..日本.*\"","group-title=\"'"$LIST_NAME_JP"'\"");
-        gsub("group-title=\"..英文.*\"","group-title=\"'"$LIST_NAME_EN"'\"");
-        gsub("group-title=\"..科教.*\"","group-title=\"'"$LIST_NAME_SCI"'\"");
+        gsub("group-title=\"..科教.*\"","group-title=\"'"$GROUP_NAME_SCI"'\"");
         print $0;
         }
-        '
-        $GLOBAL_LIST_NAME>Global.m3u
+        ' $SCIENCES_LIST_NAME>Sciencestmp1.m3u
+
+        awk '
+        {
+        if($0~/CNEX|国家地理|Discovery|NationalGeographic/) {m=NR; n=NR+1};
+        if(m<=NR && NR<=n) {
+          {gsub("group-title=\"*\..*\"","group-title=\"'"$GROUP_NAME_SCI"'\"")};
+          print $0;
+          };
+        }
+        ' $TV_LIST_NAME>Sciencestmp2.m3u
+
+        awk '
+        {
+        if($0~/探索|动物|地理/) {m=NR; n=NR+1};
+        if(m<=NR && NR<=n) {gsub("港台频道","'"$GROUP_NAME_SCI"'")};
+        print $0;
+        }
+        ' $TV_LIST1_NAME>Sciencestmp3.m3u
+
+    - name: 生成海外频道文件
+      run : cat Globaltmp*.m3u Sciencestmp*.m3u > Global.m3u && rm *tmp*.m3u
 
     - name: 生成AppleTV总列表
       run : cat China.m3u HKTW.m3u Global.m3u > IPTV.m3u

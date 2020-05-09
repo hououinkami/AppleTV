@@ -56,13 +56,6 @@ http://192.240.127.34:1935/live/cs18.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="928" tvg-name="" group-title="F 日本频道",日本Japanet Channel DX
 http://bcsecurelivehls-i.akamaihd.net/hls/live/265320/5043843989001/140130JTDX/index_1200.m3u8
 
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/DiscoveryHD.png" group-title="H 科教记录",Discovery Networks
-rtmp://ivi.bupt.edu.cn:1935/livetv/discovery
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/DiscoveryHD.png" group-title="H 科教记录",Discovery Science
-http://122.155.180.8:5021/live/457
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/natgeo.png" group-title="H 科教记录",National Geographic
-rtmp://ivi.bupt.edu.cn:1935/livetv/natlgeo
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/BBCWORLDNEWSASIA.png" group-title="G 英文频道",BBC World News
 http://92.43.140.249/s24/04.m3u8?fluxustv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="G 英文频道",BBC New UK
