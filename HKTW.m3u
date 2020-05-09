@@ -45,6 +45,8 @@ http://seb.sason.top/sc/tsxw_fhd.m3u8
 http://seb.sason.top/sc/zsxw_fhd.m3u8
 #EXTINF:-1 tvg-id="6070" tvg-logo="http://tv.sason.xyz/logo/ztxw.png" group-title="D 台湾频道",中天新闻 ★
 http://seb.sason.top/sc/ztxw_fhd.m3u8
+#EXTINF:-1 tvg-id="6171" tvg-logo="http://tv.sason.xyz/logo/hyxw1.png" group-title="D 台湾频道",寰宇新闻 ★
+http://125.227.198.89:8026
 #EXTINF:-1 tvg-id="6067" tvg-logo="http://tv.sason.xyz/logo/yxw.png" group-title="D 台湾频道",壹新闻 ★
 https://usb.bozztv.com/ssh101/NEXTTVHD/NEXTTVHD/playlist.m3u8
 #EXTINF:-1 tvg-id="6150" tvg-logo="http://tv.sason.xyz/logo/jthl.png" group-title="D 台湾频道",靖天欢乐 ★
@@ -71,8 +73,6 @@ https://usb.bozztv.com/ssh101/ttvbHD/ttvbHD/index.m3u8
 http://61.58.60.230:9319/live/257.m3u8
 #EXTINF:-1 tvg-id="711" tvg-logo="http://tv.sason.xyz/logo/fx.png" group-title="I 电影轮播",FX Asia ★
 http://125.227.198.89:8027
-#EXTINF:-1 tvg-id="283" tvg-logo="http://tv.sason.xyz/logo/ng.png" group-title="H 科教记录",国家地理 悠人 ★
-http://125.227.198.89:8030
 #EXTINF:-1 tvg-id="6027" tvg-logo="http://tv.sason.xyz/logo/da1.png" group-title="D 台湾频道",大爱I
 https://tv1.wanfudaluye.com/live/live.m3u8
 #EXTINF:-1 tvg-id="6142" tvg-logo="http://tv.sason.xyz/logo/da2.png" group-title="D 台湾频道",大爱II
