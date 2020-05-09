@@ -187,6 +187,10 @@ jobs:
         }
         '
         $GLOBAL_LIST_NAME>Global.m3u
+
+    - name: 生成AppleTV总列表
+      run : |
+        cat China.m3u HKTW.m3u Global.m3u > IPTV.m3u
     
     - name: 删除源文件
       run : |
@@ -195,6 +199,7 @@ jobs:
         rm $GLOBAL_LIST_NAME
         rm $TV_LIST2_NAME
         ls
+    
     - name: 判断是否有变更
       id: status
       run: |
