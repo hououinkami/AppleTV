@@ -181,6 +181,8 @@ jobs:
 
         awk '
         {
+        if($0~/IPV6|备/) {a=NR; b=NR+1};
+        if(a<=NR && NR<=b) {next};
         if($0~/探索|动物|地理/) {m=NR; n=NR+1};
         if(m<=NR && NR<=n) {
           gsub("港台频道","'"$GROUP_NAME_SCI"'");
