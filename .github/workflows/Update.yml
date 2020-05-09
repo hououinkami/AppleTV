@@ -199,7 +199,8 @@ jobs:
       run : |
         rm $TV_LIST_NAME
         rm $TV_LIST1_NAME
-        rm $GLOBAL_LIST_NAME
+        rm $FOREIGN_LIST_NAME
+        rm $SCIENCES_LIST_NAME
         rm $TV_LIST2_NAME
         ls
     
