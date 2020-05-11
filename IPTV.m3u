@@ -36,7 +36,7 @@ http://112.50.243.8/PLTV/88888888/224/3221225818/1.m3u8
 http://112.50.243.8/PLTV/88888888/224/3221226986/1.m3u8
 #EXTINF:-1 tvg-id="18" tvg-name="CCTV4K" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4k.png" group-title="A 央视频道",CCTV 4K
 http://120.241.133.167/live-cnc-cdn.ysp.cctv.cn/ysp/2000266303.m3u8
-#EXTINF:-1 tvg-id="19" tvg-name="CETV1" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/中国教育1台.png" group-title="A 央视频道",CETV-1
+#EXTINF:-1 tvg-id="19" tvg-name="CETV1" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/%E4%B8%AD%E5%9B%BD%E6%95%99%E8%82%B21%E5%8F%B0.png" group-title="A 央视频道",CETV-1
 http://112.50.243.8/PLTV/88888888/224/3221226954/1.m3u8
 #EXTINF:-1 tvg-id="20" tvg-name="CGTN" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/cgtn.png" group-title="A 央视频道",CGTN
 http://120.241.133.167/live-cnc-cdn.ysp.cctv.cn/ysp/2001656803.m3u8
