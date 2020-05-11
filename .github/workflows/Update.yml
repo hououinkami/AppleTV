@@ -99,7 +99,7 @@ jobs:
             close(cmd);
           };
         }
-        ' /ChannelList/China.list>China.m3u
+        ' ChannelList/China.list>China.m3u
     
     - name: 港澳台频道(Sason源)
       run : |
