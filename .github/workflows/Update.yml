@@ -62,8 +62,8 @@ jobs:
     
     - name: 获取最新源
       run : |
-        wget $TV_LIST
-        wget $TV_LIST1
+        wget $TV_LIST -O $TV_LIST_NAME
+        wget $TV_LIST1 -O $TV_LIST1_NAME
         wget $FOREIGN_LIST -O $FOREIGN_LIST_NAME
         wget $SCIENCES_LIST -O $SCIENCES_LIST_NAME
         wget $TV_LIST2 -O $TV_LIST2_NAME
