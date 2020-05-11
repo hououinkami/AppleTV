@@ -17,9 +17,9 @@ env:
   TZ: Asia/Shanghai
   UPDATE_SOURCE: false
   TV_LIST: http://tv.sason.xyz/new.m3u
-  TV_LIST_NAME: new.m3u
+  TV_LIST_NAME: sason.m3u
   TV_LIST0: http://tv.boye.ml/iptv/tv.m3u
-  TV_LIST0_NAME: tv.m3u
+  TV_LIST0_NAME: boye.m3u
   TV_LIST1: https://raw.githubusercontent.com/panda-mute/iptv/master/list.m3u
   TV_LIST1_NAME: list.m3u
   TV_LIST2: https://homenet6.github.io/list.m3u
@@ -82,7 +82,24 @@ jobs:
           print $0;
           };
         }
-        ' $TV_LIST_NAME>China.m3u
+        ' $TV_LIST_NAME>Chinatmp.m3u
+
+    - name: 重新排序国内频道并更换透明图标(Sason源)
+      run : |
+        awk -F',' '
+        {
+         info=$0;
+         name=$2;
+         print info;
+         if(info~/EXTINF/) {
+            close("'"$TV_LIST_NAME"'");
+            cmd="awk '\''/"name"/{getline;print}'\'' '"$TV_LIST_NAME"'";
+            cmd | getline churl;
+            print churl;
+            close(cmd);
+          };
+        }
+        ' Chinatmp.m3u>China.m3u
     
     - name: 港澳台频道(Sason源)
       run : |
