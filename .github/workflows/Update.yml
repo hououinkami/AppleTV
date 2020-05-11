@@ -72,14 +72,14 @@ jobs:
       run : |
         awk '
         {
-        if($0~/\#EXTM3U/) {print $0};
-        if($0~/央视"|卫视"/ && $0!~/峨眉|潇湘/) {m=NR; n=NR+1};
-        if(m<=NR && NR<=n) {
-          gsub("A.央视","'"$GROUP_NAME_CCTV"'");
-          gsub("B.卫视","'"$GROUP_NAME_SATT"'");
-          if($0~/深圳/) {gsub("tvg-id=\"[0-9]{1,2}\"","tvg-id=\"26\"")};
-          gsub(" FHD| FHD版| HD| SD","")
-          print $0;
+          if($0~/\#EXTM3U/) {print $0};
+          if($0~/央视"|卫视"/ && $0!~/峨眉|潇湘/) {m=NR; n=NR+1};
+          if(m<=NR && NR<=n) {
+            gsub("A.央视","'"$GROUP_NAME_CCTV"'");
+            gsub("B.卫视","'"$GROUP_NAME_SATT"'");
+            if($0~/深圳/) {gsub("tvg-id=\"[0-9]{1,2}\"","tvg-id=\"26\"")};
+            gsub(" FHD| FHD版| HD| SD","")
+            print $0;
           };
         }
         ' $TV_LIST_NAME>Chinatmp.m3u
@@ -99,7 +99,7 @@ jobs:
             close(cmd);
           };
         }
-        ' Chinatmp.m3u>China.m3u
+        ' /ChannelList/China.list>China.m3u
     
     - name: 港澳台频道(Sason源)
       run : |
