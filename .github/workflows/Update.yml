@@ -21,9 +21,9 @@ env:
   SOURCE_boye: http://tv.boye.ml/iptv/tv.m3u
   SOURCE_boye_NAME: boye.m3u
   SOURCE_panda: https://raw.githubusercontent.com/panda-mute/iptv/master/list.m3u
-  SOURCE_panda_NAME: list.m3u
-  SOURCE_homenet: https://homenet6.github.io/list.m3u
-  SOURCE_homenet6_NAME: list2.m3u
+  SOURCE_panda_NAME: panda.m3u
+  SOURCE_homenet6: https://homenet6.github.io/list.m3u
+  SOURCE_homenet6_NAME: homenet6.m3u
   FOREIGN_LIST: https://raw.githubusercontent.com/hououinkami/AppleTV/master/Foreign.m3u
   FOREIGN_LIST_NAME: Foreign_tmp.m3u
   SCIENCES_LIST: https://raw.githubusercontent.com/hououinkami/AppleTV/master/Sciences.m3u
