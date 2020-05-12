@@ -50,7 +50,7 @@ http://112.50.243.8/PLTV/88888888/224/3221225936/1.m3u8
 #EXTINF:-1 tvg-id="29" tvg-name="广东卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/guangdong.png" group-title="B 卫视频道",广东卫视
 http://112.50.243.8/PLTV/88888888/224/3221226946/1.m3u8
 #EXTINF:-1 tvg-id="30" tvg-name="湖南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hunan.png" group-title="B 卫视频道",湖南卫视
-http://112.50.243.8/PLTV/88888888/224/3221225935/1.m3u8
+http://120.241.133.167/live-cnc-cdn.ysp.cctv.cn/ysp/2000296203.m3u8
 #EXTINF:-1 tvg-id="31" tvg-name="浙江卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/zhejiang.png" group-title="B 卫视频道",浙江卫视
 http://112.50.243.8/PLTV/88888888/224/3221225934/1.m3u8
 #EXTINF:-1 tvg-id="32" tvg-name="江苏卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangsu.png" group-title="B 卫视频道",江苏卫视
