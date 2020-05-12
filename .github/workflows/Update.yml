@@ -93,7 +93,7 @@ jobs:
             print $0;
           };
         }
-        ' $SOURCE_Sason_NAME>Chinatmp.m3u
+        ' $SOURCE_Sason_NAME>Source/China.m3u
 
     - name: 重新排序国内频道并更换透明图标(Sason源)
       run : |
@@ -104,7 +104,7 @@ jobs:
           print info;
           if(info~/EXTINF/) {
             close("'"$SOURCE_Sason_NAME"'");
-            cmd="awk '\''/"name"/{getline;print}'\'' '"$SOURCE_Sason_NAME"'";
+            cmd="awk '\''/"name"/{getline;print}'\'' Source/China.m3u";
             cmd | getline churl;
             print churl;
             close(cmd);
