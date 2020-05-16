@@ -31,7 +31,6 @@ env:
   GROUP_NAME_JP: F 日本频道
   GROUP_NAME_EN: G 英文频道
   GROUP_NAME_SCI: H 科教记录
-  GROUP_NAME_MOV: I 电影轮播
   HKTW_ADD: false
 
 jobs:
@@ -142,7 +141,7 @@ jobs:
           if(m<=NR && NR<=n) {
             gsub("F.澳门","'"$GROUP_NAME_MO"'");
             gsub(" FHD|FHD|HD| ★","");
-            gsub("tvg-logo=\".*\"","tvg-logo=\"\"");
+            gsub("tvg-logo=\".*\.png\"","tvg-logo=\"\"");
             print $0;
           };
         }
@@ -263,6 +262,7 @@ jobs:
           if($0~/CNEX|国家地理|Discovery|NationalGeographic/) {m=NR; n=NR+1};
           if(m<=NR && NR<=n) {
             gsub("group-title=\"*\..*\"","group-title=\"'"$GROUP_NAME_SCI"'\"");
+            gsub(" ★","");
             print $0;
           };
         }
