@@ -8,25 +8,25 @@ http://seb.sason.top/ptv/tvb.php?id=cj
 http://116.199.5.52:8114/00000000/index.m3u8?&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid=5abd1660af1babb4&Fsv_filetype=1&Fsv_ctype=LIVES&Fsv_cid=0&Fsv_chan_hls_se_idx=188&Fsv_rate_id=0&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Provider_id=&Pcontent_id=&Fsv&_res_tag_=video
 #EXTINF:-1 tvg-id="104" tvg-name="明珠台" tvg-logo="https://vignette.wikia.nocookie.net/evchk/images/d/d2/TVB_Pearl.png" group-title="C 香港频道",明珠台
 http://116.199.5.52:8114/00000000/index.m3u8?&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid=5abd1660af1babb4&Pcontent_id=&Provider_id=&Fsv_chan_hls_se_idx=12
-#EXTINF:-1 tvg-id="141" tvg-name="凤凰中文 官方" tvg-logo="http://tv.sason.xyz/logo/fhzw.png" group-title="C 香港頻道",鳳凰中文 官方
+#EXTINF:-1 tvg-id="141" tvg-name="凤凰中文 官方" tvg-logo="http://tv.sason.xyz/logo/fhzw.png" group-title="C 香港频道",鳳凰中文 官方
 http://tv.sason.xyz/proxy/fh.php?id=zw
-#EXTINF:-1 tvg-id="142" tvg-name="凤凰资讯 官方" tvg-logo="http://tv.sason.xyz/logo/fhzx.png" group-title="C 香港頻道",鳳凰資訊 官方
+#EXTINF:-1 tvg-id="142" tvg-name="凤凰资讯 官方" tvg-logo="http://tv.sason.xyz/logo/fhzx.png" group-title="C 香港频道",鳳凰資訊 官方
 http://tv.sason.xyz/proxy/fh.php?id=zx
-#EXTINF:-1 tvg-id="143" tvg-name="凤凰香港 官方" tvg-logo="http://tv.sason.xyz/logo/fhxg.png" group-title="C 香港頻道",鳳凰香港 官方
+#EXTINF:-1 tvg-id="143" tvg-name="凤凰香港 官方" tvg-logo="http://tv.sason.xyz/logo/fhxg.png" group-title="C 香港频道",鳳凰香港 官方
 http://tv.sason.xyz/proxy/fh.php?id=hk
-#EXTINF:-1 tvg-id="144" tvg-name="凤凰电影" tvg-logo="http://tv.sason.xyz/logo/fhdy.png" group-title="C 香港頻道",鳳凰電影
+#EXTINF:-1 tvg-id="144" tvg-name="凤凰电影" tvg-logo="http://tv.sason.xyz/logo/fhdy.png" group-title="C 香港频道",鳳凰電影
 rtmp://58.200.131.2:1935/livetv/fhdy
-#EXTINF:-1 tvg-id="145" tvg-name="香港卫视HKS" tvg-logo="http://tv.sason.xyz/logo/hks.png" group-title="C 香港頻道",香港衛視HKS
+#EXTINF:-1 tvg-id="145" tvg-name="香港卫视HKS" tvg-logo="http://tv.sason.xyz/logo/hks.png" group-title="C 香港频道",香港衛視HKS
 http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
-#EXTINF:-1 tvg-id="146" tvg-name="有线新闻" tvg-logo="http://tv.sason.xyz/logo/yxxw.png" group-title="C 香港頻道",有線新聞
+#EXTINF:-1 tvg-id="146" tvg-name="有线新闻" tvg-logo="http://tv.sason.xyz/logo/yxxw.png" group-title="C 香港频道",有線新聞
 https://icable.cdn.utvhk.com/live/4cc64fb362004798b222978935590b2c/1980ba5c365e4f049f99aced1277303c.m3u8
-#EXTINF:-1 tvg-id="147" tvg-name="有线财经资讯" tvg-logo="http://tv.sason.xyz/logo/yxcjxw.png" group-title="C 香港頻道",有線財經資訊
+#EXTINF:-1 tvg-id="147" tvg-name="有线财经资讯" tvg-logo="http://tv.sason.xyz/logo/yxcjxw.png" group-title="C 香港频道",有線財經資訊
 https://icable.cdn.utvhk.com/live/5bcdb730f6be41868ac15afffbb67152/3d27db5ab65942eda36b25374669990d-3.m3u8
-#EXTINF:-1 tvg-id="148" tvg-name="有线综合娱乐" tvg-logo="" group-title="C 香港頻道",有線綜合娛樂
+#EXTINF:-1 tvg-id="148" tvg-name="有线综合娱乐" tvg-logo="" group-title="C 香港频道",有線綜合娛樂
 https://icable.cdn.utvhk.com/live/72ee37b54d524bcb806957577dfdfd72/fe371c746eb94b01b7fb0e70569a2e9f-3.m3u8
-#EXTINF:-1 tvg-id="149" tvg-name="RTHK31" tvg-logo="http://tv.sason.xyz/logo/rthk31.png" group-title="C 香港頻道",RTHK31
+#EXTINF:-1 tvg-id="149" tvg-name="RTHK31" tvg-logo="http://tv.sason.xyz/logo/rthk31.png" group-title="C 香港频道",RTHK31
 https://www.rthk.hk/feeds/dtt/rthktv31_https.m3u8
-#EXTINF:-1 tvg-id="150" tvg-name="RTHK32" tvg-logo="http://tv.sason.xyz/logo/rthk32.png" group-title="C 香港頻道",RTHK32
+#EXTINF:-1 tvg-id="150" tvg-name="RTHK32" tvg-logo="http://tv.sason.xyz/logo/rthk32.png" group-title="C 香港频道",RTHK32
 https://www.rthk.hk/feeds/dtt/rthktv32_https.m3u8
-#EXTINF:-1 tvg-id="151" tvg-name="开电视" tvg-logo="http://tv.sason.xyz/logo/hkk.png" group-title="C 香港頻道",開電視
+#EXTINF:-1 tvg-id="151" tvg-name="开电视" tvg-logo="http://tv.sason.xyz/logo/hkk.png" group-title="C 香港频道",開電視
 http://media.fantv.hk/m3u8/archive/channel2.m3u8

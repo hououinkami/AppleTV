@@ -1,15 +1,15 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/DiscoveryHD.png" group-title="H 科教记录",Discovery Networks
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/DiscoveryHD.png" group-title="H 科教记录",Discovery
 rtmp://ivi.bupt.edu.cn:1935/livetv/discovery
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/DiscoveryHD.png" group-title="H 科教记录",Discovery Science
 http://122.155.180.8:5021/live/457
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/natgeo.png" group-title="H 科教记录",National Geographic
 rtmp://ivi.bupt.edu.cn:1935/livetv/natlgeo
-#EXTINF:-1 tvg-id="7179" tvg-logo="http://tv.sason.xyz/logo/cnex.png" group-title="H 科教记录",CNEX ★
+#EXTINF:-1 tvg-id="7179" tvg-logo="http://tv.sason.xyz/logo/cnex.png" group-title="H 科教记录",CNEX
 http://61.58.60.230:9319/live/257.m3u8
-#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/ng.png" group-title="H 科教记录",NationalGeographic ★
+#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/ng.png" group-title="H 科教记录",NationalGeographic
 http://livecdnh1.tvanywhere.ae/hls/nat_geo/05.m3u8
-#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/ng.png" group-title="H 科教记录",NationalGeographicPeople ★
+#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/ng.png" group-title="H 科教记录",NationalGeographicPeople
 http://livecdnh1.tvanywhere.ae/hls/nat_geo_people/05.m3u8
-#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/ng.png" group-title="H 科教记录",NationalGeographicWild ★
+#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/ng.png" group-title="H 科教记录",NationalGeographicWild
 http://livecdnh1.tvanywhere.ae/hls/nat_geo_wild/05.m3u8
