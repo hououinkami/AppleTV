@@ -232,7 +232,7 @@ jobs:
             print $0;
           };
         }
-        ' $SOURCE_panda_NAME>Englishtmp3.m3u
+        ' $SOURCE_panda_NAME>Englishtmp2.m3u
 
         awk '
         {
