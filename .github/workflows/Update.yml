@@ -141,17 +141,6 @@ jobs:
           };
         }
         ' $SOURCE_panda_NAME>HKTWtmp2.m3u
-        awk '
-        {
-          if($0~/备/) {a=NR; b=NR+1};
-          if(a<=NR && NR<=b) {next};
-          if($0~/无线新闻/) {m=NR; n=NR+1};
-          if(m<=NR && NR<=n) {
-            gsub("港台频道","'"$GROUP_NAME_HK"'");
-            print $0;
-          };
-        }
-        ' $SOURCE_homenet6_NAME>HKTWtmp3.m3u
 
     - name: 生成港澳台频道文件
       run : cat HKTWtmp*.m3u > HKTW.m3u && rm HKTWtmp*.m3u
