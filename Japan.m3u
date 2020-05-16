@@ -56,3 +56,5 @@ http://192.240.127.34:1935/live/cs11.stream/playlist.m3u8
 http://192.240.127.34:1935/live/cs18.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="928" tvg-name="" tvg-logo="" group-title="F 日本频道",日本Japanet Channel DX
 http://bcsecurelivehls-i.akamaihd.net/hls/live/265320/5043843989001/140130JTDX/index_1200.m3u8
+#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/blank.png" group-title="F 日本频道",NHK华语视界
+https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/zh/725580/livecom_zh.m3u8
