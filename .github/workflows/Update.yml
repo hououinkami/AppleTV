@@ -23,10 +23,6 @@ env:
   SOURCE_panda_NAME: panda.m3u
   SOURCE_homenet6: https://homenet6.github.io/list.m3u
   SOURCE_homenet6_NAME: homenet6.m3u
-  FOREIGN_LIST: https://raw.githubusercontent.com/hououinkami/AppleTV/master/Foreign.m3u
-  FOREIGN_LIST_NAME: Foreign_tmp.m3u
-  SCIENCES_LIST: https://raw.githubusercontent.com/hououinkami/AppleTV/master/Sciences.m3u
-  SCIENCES_LIST_NAME: Sciences_tmp.m3u
   GROUP_NAME_CCTV: A 央视频道
   GROUP_NAME_SATT: B 卫视频道
   GROUP_NAME_HK: C 香港频道
@@ -64,8 +60,6 @@ jobs:
       run : |
         wget $SOURCE_Sason -O $SOURCE_Sason_NAME
         wget $SOURCE_panda -O $SOURCE_panda_NAME
-        wget $FOREIGN_LIST -O $FOREIGN_LIST_NAME
-        wget $SCIENCES_LIST -O $SCIENCES_LIST_NAME
         wget $SOURCE_homenet6 -O $SOURCE_homenet6_NAME
     
     - name: 国内频道(Sason源)
