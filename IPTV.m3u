@@ -9,9 +9,9 @@ http://liveplay-kk.rtxapp.com/live/program/live/cctv3hd/4000000/mnf.m3u8
 #EXTINF:-1 tvg-id="4" tvg-name="CCTV4" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4.png" group-title="A 央视频道",CCTV-4 国际
 http://112.50.243.8/PLTV/88888888/224/3221225802/1.m3u8
 #EXTINF:-1 tvg-id="5" tvg-name="CCTV5" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5.png" group-title="A 央视频道",CCTV-5 体育
-http://112.50.243.8/PLTV/88888888/224/3221226560/1.m3u8
+http://120.241.133.167/live-cnc-cdn.ysp.cctv.cn/ysp/2000205103.m3u8
 #EXTINF:-1 tvg-id="6" tvg-name="CCTV5+" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5+.png" group-title="A 央视频道",CCTV-5+ 体育赛事
-http://112.50.243.8/PLTV/88888888/224/3221226560/1.m3u8
+http://120.241.133.167/live-cnc-cdn.ysp.cctv.cn/ysp/2000205103.m3u8
 #EXTINF:-1 tvg-id="7" tvg-name="CCTV6" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV6.png" group-title="A 央视频道",CCTV-6 电影
 http://liveplay-kk.rtxapp.com/live/program/live/cctv6hd/4000000/mnf.m3u8
 #EXTINF:-1 tvg-id="8" tvg-name="CCTV7" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV7.png" group-title="A 央视频道",CCTV-7 国防军事
@@ -237,8 +237,6 @@ http://220.158.149.28:8180/TV00000000000000000069@HHZT;LIVE
 http://116.199.5.52:8114/00000000/index.m3u8?&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid=5abd1660af1babb4&Fsv_filetype=1&Fsv_ctype=LIVES&Fsv_cid=0&Fsv_chan_hls_se_idx=188&Fsv_rate_id=0&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Provider_id=&Pcontent_id=&Fsv&_res_tag_=video
 #EXTINF:-1 tvg-id="127" tvg-name="明珠台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVB明珠台.png" group-title="C 香港频道",明珠台
 http://116.199.5.52:8114/00000000/index.m3u8?&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid=5abd1660af1babb4&Pcontent_id=&Provider_id=&Fsv_chan_hls_se_idx=12
-#EXTINF:-1 tvg-id="130" tvg-name="无线新闻" tvg-logo="http://www.tvyan.com/uploads/dianshi/tvb-news.jpg" group-title="C 香港频道",无线新闻
-http://www.liveviptv.xyz/tv/tvb.php?vid=wxxw
 #EXTM3U
 #EXTINF:-1 tvg-id="901" tvg-name="" group-title="F 日本频道",日テレNEWS24
 https://n24-cdn-live-b.ntv.co.jp/ch01/High.m3u8
