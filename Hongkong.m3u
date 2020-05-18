@@ -1,6 +1,6 @@
 #EXTM3U
 # 香港频道
-#EXTINF:-1 tvg-id="101" tvg-name="TVB新闻" tvg-logo="http://www.tvyan.com/uploads/dianshi/tvb-news.jpg" group-title="C 香港频道",無線新聞台
+#EXTINF:-1 tvg-id="101" tvg-name="TVB新闻" tvg-logo="https://static.epg.best/hk/TVBFinance.hk.png" group-title="C 香港频道",無線新聞台
 http://seb.sason.top/ptv/tvb.php?id=xw
 #EXTINF:-1 tvg-id="102" tvg-name="TVB财经资讯" tvg-logo="http://www.tvyan.com/uploads/dianshi/tvb-finance.jpg" group-title="C 香港频道",無線財經資訊台
 http://seb.sason.top/ptv/tvb.php?id=cj
