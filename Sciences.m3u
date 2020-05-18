@@ -1,20 +1,20 @@
 #EXTM3U
-# 科教记录
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://pic.pngsucai.com/00/27/87/f733d36d30b24b08.jpg" group-title="H 科教记录",Discovery
+# 科教记录频道
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cloudimages.broadwayworld.com/columnpic10/6806A00D565-E4DD-E043-3EB35FCDE22B937B.jpg" group-title="F 科教记录",Discovery
 rtmp://ivi.bupt.edu.cn:1935/livetv/discovery
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://pic.pngsucai.com/00/27/87/f733d36d30b24b08.jpg" group-title="H 科教记录",Discovery Science
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="hhttps://cloudimages.broadwayworld.com/columnpic10/6806A00D565-E4DD-E043-3EB35FCDE22B937B.jpg" group-title="F 科教记录",Discovery Science
 http://122.155.180.8:5021/live/457
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/500px-Natgeologo.svg.png" group-title="H 科教记录",National Geographic
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/500px-Natgeologo.svg.png" group-title="F 科教记录",National Geographic
 http://104.250.154.42:8080/ZZ_hbo/ZZ_hbo.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/500px-Natgeologo.svg.png" group-title="H 科教记录",National Geographic（中文字幕）
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/500px-Natgeologo.svg.png" group-title="F 科教记录",National Geographic（中文字幕）
 rtmp://ivi.bupt.edu.cn:1935/livetv/natlgeo
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/400px-2018_Animal_Planet_logo.svg.png" group-title="H 科教记录",Animal Planet
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/400px-2018_Animal_Planet_logo.svg.png" group-title="F 科教记录",Animal Planet
 http://104.250.154.42:8080/ZZ_dongwuxingqiu/ZZ_dongwuxingqiu.m3u8
-#EXTINF:-1 tvg-id="7179" tvg-logo="http://tv.sason.xyz/logo/cnex.png" group-title="H 科教记录",CNEX
+#EXTINF:-1 tvg-id="7179" tvg-logo="http://tv.sason.xyz/logo/cnex.png" group-title="F 科教记录",CNEX
 http://61.58.60.230:9319/live/257.m3u8
-#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/ng.png" group-title="H 科教记录",National Geographic 
+#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/ng.png" group-title="F 科教记录",National Geographic 
 http://livecdnh1.tvanywhere.ae/hls/nat_geo/05.m3u8
-#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/ng.png" group-title="H 科教记录",National Geographic People
+#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/ng.png" group-title="F 科教记录",National Geographic People
 http://livecdnh1.tvanywhere.ae/hls/nat_geo_people/05.m3u8
-#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/ng.png" group-title="H 科教记录",National Geographic Wild
+#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/ng.png" group-title="F 科教记录",National Geographic Wild
 http://livecdnh1.tvanywhere.ae/hls/nat_geo_wild/05.m3u8
