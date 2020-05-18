@@ -1,4 +1,5 @@
 #EXTM3U
+# 科教记录
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/DiscoveryHD.png" group-title="H 科教记录",Discovery
 rtmp://ivi.bupt.edu.cn:1935/livetv/discovery
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/DiscoveryHD.png" group-title="H 科教记录",Discovery Science
