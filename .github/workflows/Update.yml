@@ -26,11 +26,11 @@ env:
   GROUP_NAME_CCTV: A 央视频道
   GROUP_NAME_SATT: B 卫视频道
   GROUP_NAME_HK: C 香港频道
+  GROUP_NAME_JP: D 日本频道
+  GROUP_NAME_EN: E 英文频道
+  GROUP_NAME_SCI: F 科教记录
   GROUP_NAME_TW: D 台湾频道
   GROUP_NAME_MO: E 澳门频道
-  GROUP_NAME_JP: F 日本频道
-  GROUP_NAME_EN: G 英文频道
-  GROUP_NAME_SCI: H 科教记录
   HKTW_ADD: false
 
 jobs:
@@ -206,7 +206,10 @@ jobs:
         {
           if($0~/NHK华语视界/) {m=NR; n=NR+1};
           if(m<=NR && NR<=n) {
-            if($0~/NHK华语视界/) {gsub("group-title=\"*\..*\"","group-title=\"'"$GROUP_NAME_JP"'\"")};
+            if($0~/NHK华语视界/) {
+              gsub("group-title=\"*\..*\"","group-title=\"'"$GROUP_NAME_JP"'\"");
+              gsub("tvg-logo=\".*\.png\"","tvg-logo=\"https:\/\/images\.toutiaosg\.com\/storage\/jp\/e1a767943a1706d43203d4217f0efff0\.jpeg\"");
+            };
             print $0;
           };
         }
@@ -218,8 +221,6 @@ jobs:
         awk '
         {
           gsub("group-title=\"..英文.*\"","group-title=\"'"$GROUP_NAME_EN"'\"");
-          if($0~/BBC/) {a=NR; b=NR+1};
-          if(a<=NR && NR<=b) {next};
           print $0;
         }
         ' ChannelList/English.list>English.m3u
@@ -248,7 +249,7 @@ jobs:
         cat Sciencestmp*.m3u > Sciences.m3u
 
     - name: 生成AppleTV总列表
-      run : cat China.m3u Hongkong.m3u Taiwan.m3u Macau.m3u Japan.m3u English.m3u Sciences.m3u > IPTV.m3u
+      run : cat China.m3u Hongkong.m3u Japan.m3u English.m3u Sciences.m3u > IPTV.m3u
     
     - name: 删除临时文件
       run : |

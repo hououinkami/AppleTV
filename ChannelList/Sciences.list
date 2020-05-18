@@ -1,8 +1,8 @@
 #EXTM3U
-# 科教记录
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://pic.pngsucai.com/00/27/87/f733d36d30b24b08.jpg" group-title="H 科教记录",Discovery
+# 科教记录频道
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cloudimages.broadwayworld.com/columnpic10/6806A00D565-E4DD-E043-3EB35FCDE22B937B.jpg" group-title="H 科教记录",Discovery
 rtmp://ivi.bupt.edu.cn:1935/livetv/discovery
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://pic.pngsucai.com/00/27/87/f733d36d30b24b08.jpg" group-title="H 科教记录",Discovery Science
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="hhttps://cloudimages.broadwayworld.com/columnpic10/6806A00D565-E4DD-E043-3EB35FCDE22B937B.jpg" group-title="H 科教记录",Discovery Science
 http://122.155.180.8:5021/live/457
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/500px-Natgeologo.svg.png" group-title="H 科教记录",National Geographic
 http://104.250.154.42:8080/ZZ_hbo/ZZ_hbo.m3u8

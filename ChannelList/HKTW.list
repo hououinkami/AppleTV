@@ -1,15 +1,15 @@
 #EXTM3U
 # 香港频道
-#EXTINF:-1 tvg-id="101" tvg-name="TVB新闻" tvg-logo="https://static.epg.best/hk/TVBFinance.hk.png" group-title="C 香港频道",無線新聞台
+#EXTINF:-1 tvg-id="101" tvg-name="TVB新闻" tvg-logo="http://www.tvyan.com/uploads/dianshi/tvb-news.jpg" group-title="C 香港频道",無線新聞台
 #EXTINF:-1 tvg-id="102" tvg-name="TVB财经资讯" tvg-logo="http://www.tvyan.com/uploads/dianshi/tvb-finance.jpg" group-title="C 香港频道",無線財經資訊台
 #EXTINF:-1 tvg-id="103" tvg-name="翡翠台" tvg-logo="https://vignette.wikia.nocookie.net/evchk/images/8/88/Tvb_Jade_cap.png" group-title="C 香港频道",翡翠台
 http://116.199.5.52:8114/00000000/index.m3u8?&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid=5abd1660af1babb4&Fsv_filetype=1&Fsv_ctype=LIVES&Fsv_cid=0&Fsv_chan_hls_se_idx=188&Fsv_rate_id=0&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Provider_id=&Pcontent_id=&Fsv&_res_tag_=video
 #EXTINF:-1 tvg-id="104" tvg-name="明珠台" tvg-logo="https://vignette.wikia.nocookie.net/evchk/images/d/d2/TVB_Pearl.png" group-title="C 香港频道",明珠台
 http://116.199.5.52:8114/00000000/index.m3u8?&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid=5abd1660af1babb4&Pcontent_id=&Provider_id=&Fsv_chan_hls_se_idx=12
-#EXTINF:-1 tvg-id="141" tvg-name="凤凰中文 官方" tvg-logo="http://tv.sason.xyz/logo/fhzw.png" group-title="C 香港频道",鳳凰中文 官方
-#EXTINF:-1 tvg-id="142" tvg-name="凤凰资讯 官方" tvg-logo="http://tv.sason.xyz/logo/fhzx.png" group-title="C 香港频道",鳳凰資訊 官方
-#EXTINF:-1 tvg-id="143" tvg-name="凤凰香港 官方" tvg-logo="http://tv.sason.xyz/logo/fhxg.png" group-title="C 香港频道",鳳凰香港 官方
-#EXTINF:-1 tvg-id="144" tvg-name="凤凰电影" tvg-logo="http://tv.sason.xyz/logo/fhdy.png" group-title="C 香港频道",鳳凰電影
+#EXTINF:-1 tvg-id="141" tvg-name="凤凰中文 官方" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/3/34/Phoenix_Chinese.svg/360px-Phoenix_Chinese.svg.png" group-title="C 香港频道",鳳凰衛視中文台
+#EXTINF:-1 tvg-id="142" tvg-name="凤凰资讯 官方" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/1/16/Phoenix_InfoNews.svg/1200px-Phoenix_InfoNews.svg.png" group-title="C 香港频道",鳳凰衛視資訊台
+#EXTINF:-1 tvg-id="143" tvg-name="凤凰香港 官方" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/4/4d/Phoenix_hongkong.png" group-title="C 香港频道",鳳凰衛視香港台
+#EXTINF:-1 tvg-id="144" tvg-name="凤凰电影" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/a/a0/Phoenix_Movies.svg/200px-Phoenix_Movies.svg.png" group-title="C 香港频道",鳳凰衛視電影台
 #EXTINF:-1 tvg-id="145" tvg-name="香港卫视HKS" tvg-logo="http://tv.sason.xyz/logo/hks.png" group-title="C 香港频道",香港衛視HKS
 #EXTINF:-1 tvg-id="146" tvg-name="有线新闻" tvg-logo="http://tv.sason.xyz/logo/yxxw.png" group-title="C 香港频道",有線新聞
 #EXTINF:-1 tvg-id="147" tvg-name="有线财经资讯" tvg-logo="http://tv.sason.xyz/logo/yxcjxw.png" group-title="C 香港频道",有線財經資訊
