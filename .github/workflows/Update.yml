@@ -218,7 +218,9 @@ jobs:
         awk '
         {
           gsub("group-title=\"..英文.*\"","group-title=\"'"$GROUP_NAME_EN"'\"");
-          if($0!~/BBC/) {print $0};
+          if($0~/BBC/) {a=NR; b=NR+1};
+          if(a<=NR && NR<=b) {next};
+          print $0;
         }
         ' ChannelList/English.list>Englishtmp1.m3u
 
