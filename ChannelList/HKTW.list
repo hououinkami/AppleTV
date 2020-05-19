@@ -12,8 +12,8 @@ http://116.199.5.52:8114/00000000/index.m3u8?&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid
 #EXTINF:-1 tvg-id="144" tvg-name="凤凰电影" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/a/a0/Phoenix_Movies.svg/200px-Phoenix_Movies.svg.png" group-title="C 香港频道",鳳凰衛視電影台
 #EXTINF:-1 tvg-id="145" tvg-name="香港卫视HKS" tvg-logo="https://github.com/hououinkami/AppleTV/raw/master/ChannelLogo/Hongkong/HKS.png" group-title="C 香港频道",香港衛視HKS
 #EXTINF:-1 tvg-id="146" tvg-name="有线新闻" tvg-logo="https://github.com/hououinkami/AppleTV/raw/master/ChannelLogo/Hongkong/Cable_News.png" group-title="C 香港频道",有綫新聞台
-#EXTINF:-1 tvg-id="147" tvg-name="有线财经资讯" tvg-logo="hhttps://upload.wikimedia.org/wikipedia/zh/7/7a/I-CABLE_Finance.png" group-title="C 香港频道",有綫財經資訊台
-#EXTINF:-1 tvg-id="148" tvg-name="有线综合娱乐" tvg-logo="ttps://github.com/hououinkami/AppleTV/raw/master/ChannelLogo/Hongkong/Cable_Ent.png" group-title="C 香港频道",有綫綜合娛樂台
+#EXTINF:-1 tvg-id="147" tvg-name="有线财经资讯" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/7/7a/I-CABLE_Finance.png" group-title="C 香港频道",有綫財經資訊台
+#EXTINF:-1 tvg-id="148" tvg-name="有线综合娱乐" tvg-logo="https://github.com/hououinkami/AppleTV/raw/master/ChannelLogo/Hongkong/Cable_Ent.png" group-title="C 香港频道",有綫綜合娛樂台
 #EXTINF:-1 tvg-id="149" tvg-name="RTHK31" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/RTHK_TV_31.svg/320px-RTHK_TV_31.svg.png" group-title="C 香港频道",RTHK31
 #EXTINF:-1 tvg-id="150" tvg-name="RTHK32" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/RTHK_TV_32.svg/440px-RTHK_TV_32.svg.png" group-title="C 香港频道",RTHK32
-#EXTINF:-1 tvg-id="151" tvg-name="开电视" tvg-logo="ttps://github.com/hououinkami/AppleTV/raw/master/ChannelLogo/Hongkong/HK_Open_TV.png" group-title="C 香港频道",香港開電視
+#EXTINF:-1 tvg-id="151" tvg-name="开电视" tvg-logo="https://github.com/hououinkami/AppleTV/raw/master/ChannelLogo/Hongkong/HK_Open_TV.png" group-title="C 香港频道",香港開電視
