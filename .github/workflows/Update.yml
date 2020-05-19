@@ -240,7 +240,9 @@ jobs:
           if(m<=NR && NR<=n) {
             gsub("group-title=\"*\..*\"","group-title=\"'"$GROUP_NAME_SCI"'\"");
             gsub(" ★","");
-            gsub("NationalGeographic","National Geographic ");
+            gsub("NationalGeographic","National Geographic");
+            gsub("National Geographic ","NAT GEO ");
+            gsub("tvg-logo=\".*\.png\"","tvg-logo=\"https:\/\/upload\.wikimedia\.org\/wikipedia\/commons\/thumb\/f\/fc\/Natgeologo\.svg\/500px-Natgeologo\.svg\.png\"");
             print $0;
           };
         }
