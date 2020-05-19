@@ -1,10 +1,10 @@
 #EXTM3U
 # 英文频道
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.epg.best/gb/BBCNews.uk.png" group-title="E 英文频道",BBC New UK
+#EXTINF:-1 tvg-id="" tvg-logo="https://static.epg.best/gb/BBCNews.uk.png" group-title="E 英文频道",BBC New UK
 https://vs-hls-uk.live.cf.md.bbci.co.uk/pool_902/live/uk/bbc_news_channel_hd/bbc_news_channel_hd.isml/bbc_news_channel_hd-pa3%3d96000-video%3d1604032.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.epg.best/gr/BBCWorldNews.gr.png" group-title="E 英文频道",BBC World News
+#EXTINF:-1 tvg-id="" tvg-logo="https://static.epg.best/gr/BBCWorldNews.gr.png" group-title="E 英文频道",BBC World News
 http://92.43.140.249/s24/04.m3u8?fluxustv.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.epg.best/us/CNN.us.png" group-title="E 英文频道",CNN International
+#EXTINF:-1 tvg-id="" tvg-logo="https://static.epg.best/us/CNN.us.png" group-title="E 英文频道",CNN International
 http://92.43.140.249/s27/04.m3u8?fluxustv.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://static.epg.best/gb/BBCNews.uk.png" group-title="E 英文频道",BBC News
 http://51.52.156.22:8888/http/004
@@ -14,5 +14,5 @@ http://220.158.149.28:8180/live/TV00000000000000000112@HHZT
 https://fncgohls-i.akamaihd.net/hls/live/263399/FNCGOHLSv2/Fox_News_v2_VIDEO_0_2564000.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://yournewsnet.com/wp-content/uploads/2018/11/NNLogo.jpg" group-title="E 英文频道",News Net
 https://bozztv.com/36bay2/gin-newsnet/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Olympic Channel" tvg-logo="https://static.epg.best/us/OlympicChannel.us.png" group-title="E 英文频道",Olympic Channel US
+#EXTINF:-1 tvg-id="" tvg-logo="https://static.epg.best/us/OlympicChannel.us.png" group-title="E 英文频道",Olympic Channel US
 https://ott-live.olympicchannel.com/out/u/OC1_1.m3u8
