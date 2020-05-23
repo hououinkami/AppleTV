@@ -241,9 +241,9 @@ jobs:
             gsub("group-title=\"*\..*\"","group-title=\"'"$GROUP_NAME_SCI"'\"");
             gsub(" ★","");
             gsub("NationalGeographic","National Geographic");
-            gsub("National Geographicpeople","NAT GEO People");
-            gsub("National Geographicwild","NAT GEO Wild");
-            gsub("tvg-logo=\".*\.png\"","tvg-logo=\"https:\/\/upload\.wikimedia\.org\/wikipedia\/commons\/thumb\/f\/fc\/Natgeologo\.svg\/500px-Natgeologo\.svg\.png\"");
+            gsub("National GeographicPeople","NAT GEO People");
+            gsub("National GeographicWild","NAT GEO Wild");
+            gsub("tvg-logo=\".*ng\.png\"","tvg-logo=\"https:\/\/upload\.wikimedia\.org\/wikipedia\/commons\/thumb\/f\/fc\/Natgeologo\.svg\/500px-Natgeologo\.svg\.png\"");
             print $0;
           };
         }
