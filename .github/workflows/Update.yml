@@ -15,6 +15,7 @@ on:
 
 env:
   TZ: Asia/Shanghai
+  WECHAT_NOTIFICATION: true
   SOURCE_Sason: http://tv.sason.xyz/new.m3u
   SOURCE_Sason_NAME: sason.m3u
   SOURCE_boye: http://tv.boye.ml/iptv/tv.m3u
@@ -285,4 +286,10 @@ jobs:
           git commit -m  "Update:${{steps.date.outputs.DATE}}"
           git push origin master
         fi
+
+    - name: WeChat推送
+      if: env.WECHAT_NOTIFICATION == 'true' && !cancelled()
+      run: |
+        if [[ "${{steps.status.outputs.status}}" == "change" ]]
+        curl https://sc.ftqq.com/${{secrets.ServerChan}}.send?text=AppleTV电视频道已更新!
         
