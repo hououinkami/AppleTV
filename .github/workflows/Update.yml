@@ -291,5 +291,7 @@ jobs:
       if: env.WECHAT_NOTIFICATION == 'true' && !cancelled()
       run: |
         if [[ "${{steps.status.outputs.status}}" == "change" ]]
-        curl https://sc.ftqq.com/${{secrets.ServerChan}}.send?text=AppleTV电视频道已更新!
+        then
+          curl https://sc.ftqq.com/${{secrets.ServerChan}}.send?text=AppleTV电视频道已更新!
+        fi
         
