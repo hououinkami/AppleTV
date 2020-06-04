@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U url-tvg="http://tv.sason.xyz/epg"
 # 澳门频道
 #EXTINF:-1 tvg-id="0" tvg-logo="" group-title="E 澳门频道",澳门有线I
 http://202.175.127.77/live/show/ch1/index.m3u8

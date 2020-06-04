@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U url-tvg="http://tv.sason.xyz/epg"
 # 台湾频道
 #EXTINF:-1 tvg-id="6073" tvg-logo="http://tv.sason.xyz/logo/tvbsxw.png" group-title="D 台湾频道",TVBS新闻
 http://seb.sason.top/sc/tvbsxw_fhd.m3u8
@@ -24,24 +24,6 @@ http://seb.sason.top/sc/ztxw_fhd.m3u8
 http://125.227.198.89:8026
 #EXTINF:-1 tvg-id="6067" tvg-logo="http://tv.sason.xyz/logo/yxw.png" group-title="D 台湾频道",壹新闻
 https://usb.bozztv.com/ssh101/NEXTTV/NEXTTV/playlist.m3u8
-#EXTINF:-1 tvg-id="6150" tvg-logo="http://tv.sason.xyz/logo/jthl.png" group-title="D 台湾频道",靖天欢乐
-http://61.58.60.230:9319/live/201.m3u8
-#EXTINF:-1 tvg-id="6099" tvg-logo="http://tv.sason.xyz/logo/jtzx.png" group-title="D 台湾频道",靖天资讯
-http://61.58.60.230:9319/live/202.m3u8
-#EXTINF:-1 tvg-id="6151" tvg-logo="http://tv.sason.xyz/logo/jtyl.png" group-title="D 台湾频道",靖天育乐
-http://61.58.60.230:9319/live/204.m3u8
-#EXTINF:-1 tvg-id="7187" tvg-logo="http://tv.sason.xyz/logo/jtgj.png" group-title="D 台湾频道",靖天国际
-http://61.58.60.230:9319/live/205.m3u8
-#EXTINF:-1 tvg-id="6192" tvg-logo="http://tv.sason.xyz/logo/jtkt.png" group-title="D 台湾频道",靖天卡通
-http://61.58.60.230:9319/live/207.m3u8
-#EXTINF:-1 tvg-id="6157" tvg-logo="http://tv.sason.xyz/logo/jtrb.png" group-title="D 台湾频道",靖天日本
-http://61.58.60.230:9319/live/243.m3u8
-#EXTINF:-1 tvg-id="6116" tvg-logo="http://tv.sason.xyz/logo/jtyh.png" group-title="D 台湾频道",靖天映画
-http://61.58.60.230:9319/live/244.m3u8
-#EXTINF:-1 tvg-id="6191" tvg-logo="http://tv.sason.xyz/logo/jykt.png" group-title="D 台湾频道",靖洋卡通
-http://61.58.60.230:9319/live/206.m3u8
-#EXTINF:-1 tvg-id="6101" tvg-logo="http://tv.sason.xyz/logo/jyxj.png" group-title="D 台湾频道",靖洋戏剧
-http://61.58.60.230:9319/live/203.m3u8
 #EXTINF:-1 tvg-id="7135" tvg-logo="http://tv.sason.xyz/logo/ms.png" group-title="D 台湾频道",民视
 http://seb.sason.top/ptv/ftv.php?id=ms
 #EXTINF:-1 tvg-id="7133" tvg-logo="http://tv.sason.xyz/logo/msdyt.png" group-title="D 台湾频道",民视第一
