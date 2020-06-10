@@ -1,8 +1,8 @@
 #EXTM3U url-tvg="http://tv.sason.xyz/epg"
 #EXTINF:-1 tvg-id="141" tvg-logo="http://tv.sason.xyz/logo/fhzw.png" group-title="C 香港频道",凤凰中文 
-http://117.169.120.135:8080/live/fhchinese/.m3u8
+http://117.169.120.138:8080/live/fhchinese/.m3u8
 #EXTINF:-1 tvg-id="142" tvg-logo="http://tv.sason.xyz/logo/fhzx.png" group-title="C 香港频道",凤凰资讯 
-http://117.169.120.135:8080/live/fhzixun/.m3u8
+http://117.169.120.138:8080/live/fhzixun/.m3u8
 #EXTINF:-1 tvg-id="143" tvg-logo="http://tv.sason.xyz/logo/fhxg.png" group-title="C 香港频道",凤凰香港 
 http://223.110.245.136/PLTV/3/224/3221226975/index.m3u8
 #EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/fhdy.png" group-title="C 香港频道",凤凰电影
