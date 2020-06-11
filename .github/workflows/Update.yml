@@ -191,7 +191,7 @@ jobs:
             close(cmd);
           };
         }
-        ' ChannelList/HKTW.list>Hongkong.m3u
+        ' ChannelList/Hongkong.list>Hongkong.m3u
 
     - name: 外文频道
       run : |
