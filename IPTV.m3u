@@ -148,89 +148,89 @@ https://www.rthk.hk/feeds/dtt/rthktv32_https.m3u8
 http://media.fantv.hk/m3u8/archive/channel2.m3u8
 #EXTM3U
 # 日本频道
-#EXTINF:-1 tvg-id="901" tvg-name="" tvg-logo="https://pbs.twimg.com/profile_images/1209053168870416389/lFgBlkWY_400x400.jpg" group-title="D 日本频道",日テレNEWS24
+#EXTINF:-1 tvg-id="901" tvg-name="" tvg-logo="https://pbs.twimg.com/profile_images/1209053168870416389/lFgBlkWY_400x400.jpg" group-title="日本频道",日テレNEWS24
 https://n24-cdn-live-b.ntv.co.jp/ch01/High.m3u8
-#EXTINF:-1 tvg-id="902" tvg-name="" tvg-logo="" tvg-logo="https://static.epg.best/jp/TBSNews.jp.png" group-title="D 日本频道",TBS News
+#EXTINF:-1 tvg-id="902" tvg-name="" tvg-logo="" tvg-logo="https://static.epg.best/jp/TBSNews.jp.png" group-title="日本频道",TBS News
 https://tbs1.media.ylive.jp/d6d710ed2c204b4cb9ffea55a16a5f40/ap-northeast-1/5690807595001/playlist.m3u8
-#EXTINF:-1 tvg-id="903" tvg-name="" tvg-logo="https://img.discogs.com/A63jK_qkTXN-WDU6b4TumBpogDI=/fit-in/500x500/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/L-1390841-1513989715-5028.png.jpg" group-title="D 日本频道",NHK Eテレ
+#EXTINF:-1 tvg-id="903" tvg-name="" tvg-logo="https://img.discogs.com/A63jK_qkTXN-WDU6b4TumBpogDI=/fit-in/500x500/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/L-1390841-1513989715-5028.png.jpg" group-title="日本频道",NHK Eテレ
 http://203.162.235.41:16901
-#EXTINF:-1 tvg-id="904" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/NHK_General_TV_logo.svg/800px-NHK_General_TV_logo.svg.png" group-title="D 日本频道",NHK総合
+#EXTINF:-1 tvg-id="904" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/NHK_General_TV_logo.svg/800px-NHK_General_TV_logo.svg.png" group-title="日本频道",NHK総合
 http://203.162.235.41:16903
-#EXTINF:-1 tvg-id="905" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/Fuji_TV_logo.svg/1200px-Fuji_TV_logo.svg.png" group-title="D 日本频道",フジテレビ
+#EXTINF:-1 tvg-id="905" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/Fuji_TV_logo.svg/1200px-Fuji_TV_logo.svg.png" group-title="日本频道",フジテレビ
 http://203.162.235.41:16904
-#EXTINF:-1 tvg-id="906" tvg-name="" tvg-logo="https://static.epg.best/jp/NipponTV.jp.png" group-title="D 日本频道",日本テレビ
+#EXTINF:-1 tvg-id="906" tvg-name="" tvg-logo="https://static.epg.best/jp/NipponTV.jp.png" group-title="日本频道",日本テレビ
 http://203.162.235.41:16905
-#EXTINF:-1 tvg-id="907" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/TV_Asahi_Logo.svg/300px-TV_Asahi_Logo.svg.png" group-title="D 日本频道",テレビ朝日
+#EXTINF:-1 tvg-id="907" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/TV_Asahi_Logo.svg/300px-TV_Asahi_Logo.svg.png" group-title="日本频道",テレビ朝日
 http://203.162.235.41:16906
-#EXTINF:-1 tvg-id="908" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/8/8e/TBS_Television_logo.svg/151px-TBS_Television_logo.svg.png" group-title="D 日本频道",TBSテレビ
+#EXTINF:-1 tvg-id="908" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/8/8e/TBS_Television_logo.svg/151px-TBS_Television_logo.svg.png" group-title="日本频道",TBSテレビ
 http://203.162.235.41:16907
-#EXTINF:-1 tvg-id="909" tvg-name="" tvg-logo="https://static.epg.best/jp/TVTokyo.jp.png" group-title="D 日本频道",テレビ東京
+#EXTINF:-1 tvg-id="909" tvg-name="" tvg-logo="https://static.epg.best/jp/TVTokyo.jp.png" group-title="日本频道",テレビ東京
 http://203.162.235.41:16908
-#EXTINF:-1 tvg-id="910" tvg-name="" tvg-logo="https://www.hikaritv.net/resources/hikari/pc/images/ch_logo/ch220/bs101.png" group-title="D 日本频道",NHK BS1
+#EXTINF:-1 tvg-id="910" tvg-name="" tvg-logo="https://www.hikaritv.net/resources/hikari/pc/images/ch_logo/ch220/bs101.png" group-title="日本频道",NHK BS1
 http://203.162.235.41:16909
-#EXTINF:-1 tvg-id="911" tvg-name="" tvg-logo="https://www.hikaritv.net/resources/hikari/pc/images/ch_logo/ch220/bs103.png" group-title="D 日本频道",NHK BSプレミアム
+#EXTINF:-1 tvg-id="911" tvg-name="" tvg-logo="https://www.hikaritv.net/resources/hikari/pc/images/ch_logo/ch220/bs103.png" group-title="日本频道",NHK BSプレミアム
 http://203.162.235.41:16910
-#EXTINF:-1 tvg-id="912" tvg-name="" tvg-logo="https://www.zne-iptv.com/wp-content/uploads/2017/10/22-BS-FUJI-770x480.jpg" group-title="D 日本频道",BSフジ
+#EXTINF:-1 tvg-id="912" tvg-name="" tvg-logo="https://www.zne-iptv.com/wp-content/uploads/2017/10/22-BS-FUJI-770x480.jpg" group-title="日本频道",BSフジ
 http://203.162.235.41:16911
-#EXTINF:-1 tvg-id="913" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/BS4_logo.svg/400px-BS4_logo.svg.png" group-title="D 日本频道",BS日テレ
+#EXTINF:-1 tvg-id="913" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/BS4_logo.svg/400px-BS4_logo.svg.png" group-title="日本频道",BS日テレ
 http://203.162.235.41:16912
-#EXTINF:-1 tvg-id="914" tvg-name="" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-161-400x400.png" group-title="D 日本频道",BS-TBS
+#EXTINF:-1 tvg-id="914" tvg-name="" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-161-400x400.png" group-title="日本频道",BS-TBS
 http://203.162.235.41:16913
-#EXTINF:-1 tvg-id="915" tvg-name="" tvg-logo="https://yt3.ggpht.com/-FkWAXqmEgwA/AAAAAAAAAAI/AAAAAAAAAAA/JiEyTIJj6qg/s900-c-k-no/photo.jpg" group-title="D 日本频道",BS朝日
+#EXTINF:-1 tvg-id="915" tvg-name="" tvg-logo="https://yt3.ggpht.com/-FkWAXqmEgwA/AAAAAAAAAAI/AAAAAAAAAAA/JiEyTIJj6qg/s900-c-k-no/photo.jpg" group-title="日本频道",BS朝日
 http://203.162.235.41:16914
-#EXTINF:-1 tvg-id="916" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d8/BS_TV_Tokyo_logo.png" group-title="D 日本频道",BSテレビ東京
+#EXTINF:-1 tvg-id="916" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d8/BS_TV_Tokyo_logo.png" group-title="日本频道",BSテレビ東京
 http://203.162.235.41:16915
-#EXTINF:-1 tvg-id="917" tvg-name="" tvg-logo="https://static.epg.best/jp/NHKWorld.jp.png" group-title="D 日本频道",NHK World Japan
+#EXTINF:-1 tvg-id="917" tvg-name="" tvg-logo="https://static.epg.best/jp/NHKWorld.jp.png" group-title="日本频道",NHK World Japan
 http://210.210.155.35/uq2663/h/h23/index.m3u8
-#EXTINF:-1 tvg-id="918" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Tokyo_metropolitan_television_logo_%28rainbow%29.svg/600px-Tokyo_metropolitan_television_logo_%28rainbow%29.svg.png" group-title="D 日本频道",Tokyo MX 1
+#EXTINF:-1 tvg-id="918" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Tokyo_metropolitan_television_logo_%28rainbow%29.svg/600px-Tokyo_metropolitan_television_logo_%28rainbow%29.svg.png" group-title="日本频道",Tokyo MX 1
 http://movie.mcas.jp/mcas/mx1_2/chunklist.m3u8
-#EXTINF:-1 tvg-id="919" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Tokyo_metropolitan_television_logo_%28rainbow%29.svg/600px-Tokyo_metropolitan_television_logo_%28rainbow%29.svg.png" group-title="D 日本频道",Tokyo MX 2
+#EXTINF:-1 tvg-id="919" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Tokyo_metropolitan_television_logo_%28rainbow%29.svg/600px-Tokyo_metropolitan_television_logo_%28rainbow%29.svg.png" group-title="日本频道",Tokyo MX 2
 http://movie.mcas.jp/mcas/mx2_2/chunklist.m3u8
-#EXTINF:-1 tvg-id="920" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Tokyo_metropolitan_television_logo_%28rainbow%29.svg/600px-Tokyo_metropolitan_television_logo_%28rainbow%29.svg.png" group-title="D 日本频道",MX Live
+#EXTINF:-1 tvg-id="920" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Tokyo_metropolitan_television_logo_%28rainbow%29.svg/600px-Tokyo_metropolitan_television_logo_%28rainbow%29.svg.png" group-title="日本频道",MX Live
 http://movie.mcas.jp/mcas/mx_live_2/master.m3u8
-#EXTINF:-1 tvg-id="921" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Gtv_logo_ja_01.svg/500px-Gtv_logo_ja_01.svg.png" group-title="D 日本频道",群馬テレビ
+#EXTINF:-1 tvg-id="921" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Gtv_logo_ja_01.svg/500px-Gtv_logo_ja_01.svg.png" group-title="日本频道",群馬テレビ
 https://movie.mcas.jp/switcher/mcas8_2/chunklist.m3u8
-#EXTINF:-1 tvg-id="922" tvg-name="" tvg-logo="https://www.starcat.co.jp/ch/wp-content/uploads/ch/18.jpg" group-title="D 日本频道",ファミリー劇場
+#EXTINF:-1 tvg-id="922" tvg-name="" tvg-logo="https://www.starcat.co.jp/ch/wp-content/uploads/ch/18.jpg" group-title="日本频道",ファミリー劇場
 http://192.240.127.34:1935/live/cs11.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="923" tvg-name="" tvg-logo="https://korean-dorama.com/wp-content/uploads/2018/06/eiseigekijyo.jpg" group-title="D 日本频道",衛星劇場
+#EXTINF:-1 tvg-id="923" tvg-name="" tvg-logo="https://korean-dorama.com/wp-content/uploads/2018/06/eiseigekijyo.jpg" group-title="日本频道",衛星劇場
 http://192.240.127.34:1935/live/cs18.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="924" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Weathernews_logo.svg/1200px-Weathernews_logo.svg.png" group-title="D 日本频道",ウェザーニュース
+#EXTINF:-1 tvg-id="924" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Weathernews_logo.svg/1200px-Weathernews_logo.svg.png" group-title="日本频道",ウェザーニュース
 http://movie.mcas.jp/mcas/smil:wn1.smil/chunklist_b1800000.m3u8
-#EXTINF:-1 tvg-id="925" tvg-name="" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-548-400x400.png" group-title="D 日本频道",ジャパネットチャンネルDX
+#EXTINF:-1 tvg-id="925" tvg-name="" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-548-400x400.png" group-title="日本频道",ジャパネットチャンネルDX
 http://bcsecurelivehls-i.akamaihd.net/hls/live/265320/5043843989001/140130JTDX/index_1200.m3u8
-#EXTINF:-1 tvg-id="926" tvg-name="" tvg-logo="https://www.wowow.co.jp/service/fg/img/ch_cinema_logo.png" group-title="D 日本频道",WOWOWシネマ
+#EXTINF:-1 tvg-id="926" tvg-name="" tvg-logo="https://www.wowow.co.jp/service/fg/img/ch_cinema_logo.png" group-title="日本频道",WOWOWシネマ
 http://192.240.127.34:1935/live/cs27.stream/playlist.m3u8?wowzasessionid=1300220279
-#EXTINF:-1 tvg-id="927" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/37/QVC_logo_2015.png" group-title="D 日本频道",QVCジャパン
+#EXTINF:-1 tvg-id="927" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/37/QVC_logo_2015.png" group-title="日本频道",QVCジャパン
 http://cdn-live1.qvc.jp/iPhone/800/800.m3u8
-#EXTINF:-1 tvg-id="0" tvg-logo="https://images.toutiaosg.com/storage/jp/e1a767943a1706d43203d4217f0efff0.jpeg" group-title="D 日本频道",NHK华语视界
+#EXTINF:-1 tvg-id="0" tvg-logo="https://images.toutiaosg.com/storage/jp/e1a767943a1706d43203d4217f0efff0.jpeg" group-title="日本频道",NHK华语视界
 https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/zh/725580/livecom_zh.m3u8
 #EXTM3U
 # 英文频道
-#EXTINF:-1 tvg-id="" tvg-logo="https://static.epg.best/gb/BBCNews.uk.png" group-title="E 英文频道",BBC New UK
+#EXTINF:-1 tvg-id="" tvg-logo="https://static.epg.best/gb/BBCNews.uk.png" group-title="英文频道",BBC New UK
 https://vs-hls-uk.live.cf.md.bbci.co.uk/pool_902/live/uk/bbc_news_channel_hd/bbc_news_channel_hd.isml/bbc_news_channel_hd-pa3%3d96000-video%3d1604032.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://static.epg.best/gr/BBCWorldNews.gr.png" group-title="E 英文频道",BBC World News
+#EXTINF:-1 tvg-id="" tvg-logo="https://static.epg.best/gr/BBCWorldNews.gr.png" group-title="英文频道",BBC World News
 http://92.43.140.249/s24/04.m3u8?fluxustv.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://static.epg.best/us/CNN.us.png" group-title="E 英文频道",CNN International
+#EXTINF:-1 tvg-id="" tvg-logo="https://static.epg.best/us/CNN.us.png" group-title="英文频道",CNN International
 http://92.43.140.249/s27/04.m3u8?fluxustv.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://static.epg.best/gb/BBCNews.uk.png" group-title="E 英文频道",BBC News
+#EXTINF:-1 tvg-id="" tvg-logo="https://static.epg.best/gb/BBCNews.uk.png" group-title="英文频道",BBC News
 http://51.52.156.22:8888/http/004
-#EXTINF:-1 tvg-id="" tvg-logo="https://static.epg.best/gr/BBCWorldNews.gr.png" group-title="E 英文频道",BBC World News
+#EXTINF:-1 tvg-id="" tvg-logo="https://static.epg.best/gr/BBCWorldNews.gr.png" group-title="英文频道",BBC World News
 http://220.158.149.28:8180/live/TV00000000000000000112@HHZT
-#EXTINF:-1 tvg-id="" tvg-logo="https://static.epg.best/us/FoxNews.us.png" group-title="E 英文频道",FOX News
+#EXTINF:-1 tvg-id="" tvg-logo="https://static.epg.best/us/FoxNews.us.png" group-title="英文频道",FOX News
 https://fncgohls-i.akamaihd.net/hls/live/263399/FNCGOHLSv2/Fox_News_v2_VIDEO_0_2564000.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://yournewsnet.com/wp-content/uploads/2018/11/NNLogo.jpg" group-title="E 英文频道",News Net
+#EXTINF:-1 tvg-id="" tvg-logo="https://yournewsnet.com/wp-content/uploads/2018/11/NNLogo.jpg" group-title="英文频道",News Net
 https://bozztv.com/36bay2/gin-newsnet/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://static.epg.best/us/OlympicChannel.us.png" group-title="E 英文频道",Olympic Channel US
+#EXTINF:-1 tvg-id="" tvg-logo="https://static.epg.best/us/OlympicChannel.us.png" group-title="英文频道",Olympic Channel US
 https://ott-live.olympicchannel.com/out/u/OC1_1.m3u8
 #EXTM3U
 # 科教记录频道
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cloudimages.broadwayworld.com/columnpic10/6806A00D565-E4DD-E043-3EB35FCDE22B937B.jpg" group-title="F 科教记录",Discovery
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cloudimages.broadwayworld.com/columnpic10/6806A00D565-E4DD-E043-3EB35FCDE22B937B.jpg" group-title="科教记录",Discovery
 rtmp://ivi.bupt.edu.cn:1935/livetv/discovery
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cloudimages.broadwayworld.com/columnpic10/6806A00D565-E4DD-E043-3EB35FCDE22B937B.jpg" group-title="F 科教记录",Discovery Science
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cloudimages.broadwayworld.com/columnpic10/6806A00D565-E4DD-E043-3EB35FCDE22B937B.jpg" group-title="科教记录",Discovery Science
 http://122.155.180.8:5021/live/457
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/500px-Natgeologo.svg.png" group-title="F 科教记录",National Geographic
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/500px-Natgeologo.svg.png" group-title="科教记录",National Geographic
 http://104.250.154.42:8080/ZZ_hbo/ZZ_hbo.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/500px-Natgeologo.svg.png" group-title="F 科教记录",National Geographic(中)
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/500px-Natgeologo.svg.png" group-title="科教记录",National Geographic(中)
 rtmp://ivi.bupt.edu.cn:1935/livetv/natlgeo
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/400px-2018_Animal_Planet_logo.svg.png" group-title="F 科教记录",Animal Planet
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/400px-2018_Animal_Planet_logo.svg.png" group-title="科教记录",Animal Planet
 http://104.250.154.42:8080/ZZ_dongwuxingqiu/ZZ_dongwuxingqiu.m3u8
