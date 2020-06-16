@@ -24,14 +24,14 @@ env:
   SOURCE_panda_NAME: panda.m3u
   SOURCE_homenet6: https://homenet6.github.io/list.m3u
   SOURCE_homenet6_NAME: homenet6.m3u
-  GROUP_NAME_CCTV: A 央视频道
-  GROUP_NAME_SATT: B 卫视频道
-  GROUP_NAME_HK: C 香港频道
-  GROUP_NAME_JP: D 日本频道
-  GROUP_NAME_EN: E 英文频道
-  GROUP_NAME_SCI: F 科教记录
-  GROUP_NAME_TW: D 台湾频道
-  GROUP_NAME_MO: E 澳门频道
+  GROUP_NAME_CCTV: 央视频道
+  GROUP_NAME_SATT: 卫视频道
+  GROUP_NAME_HK: 香港频道
+  GROUP_NAME_JP: 日本频道
+  GROUP_NAME_EN: 英文频道
+  GROUP_NAME_SCI: 科教记录
+  GROUP_NAME_TW: 台湾频道
+  GROUP_NAME_MO: 澳门频道
   HKTW_ADD: false
 
 jobs:
