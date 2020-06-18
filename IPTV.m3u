@@ -129,9 +129,9 @@ http://tv.sason.xyz/proxy/fh.php?id=zw
 #EXTINF:-1 tvg-id="142" tvg-name="凤凰资讯" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/1/16/Phoenix_InfoNews.svg/1200px-Phoenix_InfoNews.svg.png" group-title="C 香港频道",鳳凰衛視資訊台
 http://tv.sason.xyz/proxy/fh.php?id=zx
 #EXTINF:-1 tvg-id="143" tvg-name="凤凰香港" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/4/4d/Phoenix_hongkong.png" group-title="C 香港频道",鳳凰衛視香港台
-http://tv.sason.xyz/proxy/fh.php?id=hk
+http://223.110.245.136/PLTV/3/224/3221226975/index.m3u8
 #EXTINF:-1 tvg-id="144" tvg-name="凤凰电影" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/a/a0/Phoenix_Movies.svg/200px-Phoenix_Movies.svg.png" group-title="C 香港频道",鳳凰衛視電影台
-rtmp://58.200.131.2:1935/livetv/fhdy
+http://tv.sason.xyz/proxy/fh.php?id=hk
 #EXTINF:-1 tvg-id="145" tvg-name="香港卫视HKS" tvg-logo="https://github.com/hououinkami/AppleTV/raw/master/ChannelLogo/Hongkong/HKS.png" group-title="C 香港频道",香港衛視HKS
 http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 #EXTINF:-1 tvg-id="146" tvg-name="有线新闻" tvg-logo="https://github.com/hououinkami/AppleTV/raw/master/ChannelLogo/Hongkong/Cable_News.png" group-title="C 香港频道",有綫新聞台
