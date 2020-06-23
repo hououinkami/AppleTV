@@ -4,9 +4,9 @@ http://tv.sason.xyz/proxy/fh.php?id=zw
 #EXTINF:-1 tvg-id="142" tvg-logo="http://tv.sason.xyz/logo/fhzx.png" group-title="香港频道",凤凰资讯 官方
 http://tv.sason.xyz/proxy/fh.php?id=zx
 #EXTINF:-1 tvg-id="143" tvg-logo="http://tv.sason.xyz/logo/fhxg.png" group-title="香港频道",凤凰香港 官方
-http://223.110.245.136/PLTV/3/224/3221226975/index.m3u8
-#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/fhdy.png" group-title="香港频道",凤凰电影
 http://tv.sason.xyz/proxy/fh.php?id=hk
+#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/fhdy.png" group-title="香港频道",凤凰电影
+rtmp://58.200.131.2:1935/livetv/fhdy
 #EXTINF:-1 tvg-id="141" tvg-logo="http://tv.sason.xyz/logo/fhzw.png" group-title="香港频道",凤凰中文 国外
 http://220.158.149.28:8180/TV00000000000000000067@HHZT;LIVE
 #EXTINF:-1 tvg-id="142" tvg-logo="http://tv.sason.xyz/logo/fhzx.png" group-title="香港频道",凤凰资讯 国外
