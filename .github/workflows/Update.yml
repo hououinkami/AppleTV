@@ -103,6 +103,8 @@ jobs:
             print churl;
             close(cmd);
           };
+          gsub("group-title=\"..央视.*\"","group-title=\"'"$GROUP_NAME_CCTV"'\"");
+          gsub("group-title=\"..卫视.*\"","group-title=\"'"$GROUP_NAME_SATT"'\"");
         }
         ' ChannelList/China.list>China.m3u
     
