@@ -13,6 +13,12 @@ http://220.158.149.28:8180/TV00000000000000000067@HHZT;LIVE
 http://220.158.149.28:8180/TV00000000000000000066@HHZT;LIVE
 #EXTINF:-1 tvg-id="143" tvg-logo="http://tv.sason.xyz/logo/fhxg.png" group-title="香港频道",凤凰香港 国外
 http://220.158.149.28:8180/TV00000000000000000068@HHZT;LIVE
+#EXTINF:-1 tvg-id="141" tvg-logo="http://tv.sason.xyz/logo/fhzw.png" group-title="香港频道",凤凰中文 备用
+http://117.169.120.138:8080/live/fhchinese/.m3u8
+#EXTINF:-1 tvg-id="142" tvg-logo="http://tv.sason.xyz/logo/fhzx.png" group-title="香港频道",凤凰资讯 备用
+http://117.169.120.138:8080/live/fhzixun/.m3u8
+#EXTINF:-1 tvg-id="143" tvg-logo="http://tv.sason.xyz/logo/fhxg.png" group-title="香港频道",凤凰香港 备用
+http://223.110.245.136/PLTV/3/224/3221226975/index.m3u8
 #EXTINF:-1 tvg-id="130" tvg-logo="http://tv.sason.xyz/logo/wxxw.png" group-title="香港频道",TVB新闻
 http://tv.sason.xyz/proxy/tvb.php?id=xw
 #EXTINF:-1 tvg-id="133" tvg-logo="http://tv.sason.xyz/logo/wxcjzx.png" group-title="香港频道",TVB财经资讯
