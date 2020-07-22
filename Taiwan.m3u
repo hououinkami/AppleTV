@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="http://tv.sason.xyz/epg"
+#EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml.gz"
 # 台湾频道
 #EXTINF:-1 tvg-id="6073" tvg-logo="http://tv.sason.xyz/logo/tvbsxw.png" group-title="台湾频道",TVBS新闻
 http://seb.sason.top/sc/tvbsxw_fhd.m3u8
