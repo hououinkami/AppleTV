@@ -27,7 +27,7 @@ http://112.50.243.8/PLTV/88888888/224/3221225815/1.m3u8
 #EXTINF:-1 tvg-id="13" tvg-name="CCTV-12" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV12.png" group-title="央视频道",CCTV-12 社会与法
 http://112.50.243.8/PLTV/88888888/224/3221225932/1.m3u8
 #EXTINF:-1 tvg-id="14" tvg-name="CCTV-13" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV13.png" group-title="央视频道",CCTV-13 新闻
-http://36.152.7.33/tlivecloud-cdn.ysp.cctv.cn/ysp/2000204603.m3u8
+http://36.152.7.31/tlivecloud-cdn.ysp.cctv.cn/001/2000204603.m3u8
 #EXTINF:-1 tvg-id="15" tvg-name="CCTV-14" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV14.png" group-title="央视频道",CCTV-14 少儿
 http://112.50.243.8/PLTV/88888888/224/3221225933/1.m3u8
 #EXTINF:-1 tvg-id="16" tvg-name="CCTV-15" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV15.png" group-title="央视频道",CCTV-15 音乐
@@ -35,11 +35,11 @@ http://112.50.243.8/PLTV/88888888/224/3221225818/1.m3u8
 #EXTINF:-1 tvg-id="17" tvg-name="CCTV-17" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV17.png" group-title="央视频道",CCTV-17 农业农村
 http://112.50.243.8/PLTV/88888888/224/3221226986/1.m3u8
 #EXTINF:-1 tvg-id="18" tvg-name="CCTV 4K" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4k.png" group-title="央视频道",CCTV-4K 超高清
-http://36.152.7.33/tlivecloud-cdn.ysp.cctv.cn/ysp/2000266303.m3u8
+http://36.152.7.31/tlivecloud-cdn.ysp.cctv.cn/001/2000266303.m3u8
 #EXTINF:-1 tvg-id="19" tvg-name="CETV-1" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/%E4%B8%AD%E5%9B%BD%E6%95%99%E8%82%B21%E5%8F%B0.png" group-title="央视频道",CETV-1
 http://112.50.243.8/PLTV/88888888/224/3221226954/1.m3u8
 #EXTINF:-1 tvg-id="20" tvg-name="CGTN" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/cgtn.png" group-title="央视频道",CGTN
-http://36.152.7.33/tlivecloud-cdn.ysp.cctv.cn/ysp/2001656803.m3u8
+http://36.152.7.31/tlivecloud-cdn.ysp.cctv.cn/001/2001656803.m3u8
 # 卫视频道高清
 #EXTINF:-1 tvg-id="26" tvg-name="深圳卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shenzhen.png" group-title="卫视频道",深圳卫视
 http://112.50.243.8/PLTV/88888888/224/3221225938/1.m3u8
@@ -50,7 +50,7 @@ http://112.50.243.8/PLTV/88888888/224/3221225936/1.m3u8
 #EXTINF:-1 tvg-id="29" tvg-name="广东卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/guangdong.png" group-title="卫视频道",广东卫视
 http://112.50.243.8/PLTV/88888888/224/3221226946/1.m3u8
 #EXTINF:-1 tvg-id="30" tvg-name="湖南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hunan.png" group-title="卫视频道",湖南卫视
-http://36.152.7.33/tlivecloud-cdn.ysp.cctv.cn/ysp/2000296203.m3u8
+http://36.152.7.31/tlivecloud-cdn.ysp.cctv.cn/001/2000296203.m3u8
 #EXTINF:-1 tvg-id="31" tvg-name="浙江卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/zhejiang.png" group-title="卫视频道",浙江卫视
 http://112.50.243.8/PLTV/88888888/224/3221225934/1.m3u8
 #EXTINF:-1 tvg-id="32" tvg-name="江苏卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangsu.png" group-title="卫视频道",江苏卫视
@@ -78,15 +78,15 @@ http://112.50.243.8/PLTV/88888888/224/3221225940/1.m3u8
 #EXTINF:-1 tvg-id="43" tvg-name="重庆卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/chongqing.png" group-title="卫视频道",重庆卫视
 http://112.50.243.8/PLTV/88888888/224/3221225949/1.m3u8
 #EXTINF:-1 tvg-id="44" tvg-name="河南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/henan.png" group-title="卫视频道",河南卫视
-http://36.152.7.33/tlivecloud-cdn.ysp.cctv.cn/ysp/2000296103.m3u8
+http://36.152.7.31/tlivecloud-cdn.ysp.cctv.cn/001/2000296103.m3u8
 #EXTINF:-1 tvg-id="45" tvg-name="河北卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hebei.png" group-title="卫视频道",河北卫视
-http://36.152.7.33/tlivecloud-cdn.ysp.cctv.cn/ysp/2000293403.m3u8
+http://36.152.7.31/tlivecloud-cdn.ysp.cctv.cn/001/2000293403.m3u8
 #EXTINF:-1 tvg-id="46" tvg-name="贵州卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/guizhou.png" group-title="卫视频道",贵州卫视
-http://36.152.7.33/tlivecloud-cdn.ysp.cctv.cn/ysp/2000293303.m3u8
+http://36.152.7.31/tlivecloud-cdn.ysp.cctv.cn/001/2000293303.m3u8
 #EXTINF:-1 tvg-id="47" tvg-name="广西卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/guangxi.png" group-title="卫视频道",广西卫视
-http://36.152.7.33/tlivecloud-cdn.ysp.cctv.cn/ysp/2000294203.m3u8
+http://36.152.7.31/tlivecloud-cdn.ysp.cctv.cn/001/2000294203.m3u8
 #EXTINF:-1 tvg-id="48" tvg-name="海南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/lvyou.png" group-title="卫视频道",海南卫视
-http://36.152.7.33/tlivecloud-cdn.ysp.cctv.cn/ysp/2000291503.m3u8
+http://36.152.7.31/tlivecloud-cdn.ysp.cctv.cn/001/2000291503.m3u8
 #EXTINF:-1 tvg-id="49" tvg-name="青海卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/qinghai.png" group-title="卫视频道",青海卫视
 http://live.geermurmt.com/qhws/sd/live.m3u8
 #EXTINF:-1 tvg-id="50" tvg-name="新疆卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/xinjiang.png" group-title="卫视频道",新疆卫视
@@ -99,11 +99,11 @@ http://118.123.60.8:8114/LIVES/Fsv_otype=1&FvSeid=&Fsv_filetype=mull&Fsv_chan_hl
 #EXTINF:-1 tvg-id="53" tvg-name="山西卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shanxi_.png" group-title="卫视频道",山西卫视
 http://118.123.60.12:8114/LIVES/Fsv_otype=1&FvSeid=&Fsv_filetype=mull&Fsv_chan_hls_se_idx=010&Provider_id=&Pcontent_id=index.m3u8
 #EXTINF:-1 tvg-id="54" tvg-name="陕西卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shanxi.png" group-title="卫视频道",陕西卫视
-http://118.123.60.8:8114/LIVES/Fsv_otype=1&FvSeid=&Fsv_filetype=mull&Fsv_chan_hls_se_idx=049&Provider_id=&Pcontent_id=index.m3u8
+http://119.167.231.119/zycfcdn.gdwlcloud.com/PLTV/88888888/224/3221225498/index.m3u8
 #EXTINF:-1 tvg-id="55" tvg-name="云南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/yunnan.png" group-title="卫视频道",云南卫视
-http://118.123.60.8:8114/LIVES/Fsv_otype=1&FvSeid=&Fsv_filetype=mull&Fsv_chan_hls_se_idx=013&Provider_id=&Pcontent_id=index.m3u8
+http://39.130.215.166:6410/gitv_live/G_YUNNAN-HD/G_YUNNAN-HD.m3u8
 #EXTINF:-1 tvg-id="56" tvg-name="甘肃卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/gansu.png" group-title="卫视频道",甘肃卫视
-http://118.123.60.8:8114/LIVES/Fsv_otype=1&FvSeid=&Fsv_filetype=mull&Fsv_chan_hls_se_idx=012&Provider_id=&Pcontent_id=index.m3u8
+http://39.134.39.39/PLTV/88888888/224/3221226240/index.m3u8
 #EXTINF:-1 tvg-id="57" tvg-name="西藏卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/xizang.png" group-title="卫视频道",西藏卫视
 http://118.123.60.9:8114/LIVES/Fsv_otype=1&FvSeid=&Fsv_filetype=mull&Fsv_chan_hls_se_idx=049&Provider_id=&Pcontent_id=index.m3u8
 #EXTINF:-1 tvg-id="58" tvg-name="康巴卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/kangba.png" group-title="卫视频道",康巴卫视
@@ -111,9 +111,9 @@ http://scgctvshow.sctv.com/hdlive/kangba/index.m3u8
 #EXTINF:-1 tvg-id="59" tvg-name="宁夏卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/ningxia.png" group-title="卫视频道",宁夏卫视
 http://118.123.60.6:8114/LIVES/Fsv_otype=1&FvSeid=&Fsv_filetype=mull&Fsv_chan_hls_se_idx=017&Provider_id=&Pcontent_id=index.m3u8
 #EXTINF:-1 tvg-id="61" tvg-name="内蒙古卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/neimeng.png" group-title="卫视频道",内蒙古卫视
-http://118.123.60.12:8114/LIVES/Fsv_otype=1&FvSeid=&Fsv_filetype=mull&Fsv_chan_hls_se_idx=016&Provider_id=&Pcontent_id=index.m3u8
+http://live.m2oplus.nmtv.cn/1/playlist.m3u8?token=
 #EXTINF:-1 tvg-id="61" tvg-name="兵团卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/bingtuan.png" group-title="卫视频道",兵团卫视
-http://118.123.60.12:8114/LIVES/Fsv_otype=1&FvSeid=&Fsv_filetype=mull&Fsv_chan_hls_se_idx=016&Provider_id=&Pcontent_id=index.m3u8
+http://live.m2oplus.nmtv.cn/1/playlist.m3u8?token=
 #EXTM3U
 # 香港频道
 #EXTINF:-1 tvg-id="101" tvg-name="TVB新闻" tvg-logo="https://github.com/hououinkami/AppleTV/raw/master/ChannelLogo/Hongkong/TVB_News.png" group-title="香港频道",無綫新聞台
