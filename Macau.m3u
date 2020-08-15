@@ -1,11 +1,5 @@
 #EXTM3U url-tvg="http://tv.sason.xyz/epg"
 # 澳门频道
-#EXTINF:-1 tvg-id="0" tvg-logo="" group-title="澳门频道",澳门有线I
-http://202.175.127.77/live/show/ch1/index.m3u8
-#EXTINF:-1 tvg-id="0" tvg-logo="" group-title="澳门频道",澳门有线II
-http://202.175.127.77/live/show/ch2/index.m3u8
-#EXTINF:-1 tvg-id="0" tvg-logo="" group-title="澳门频道",澳门有线III
-http://202.175.127.77/live/show/ch3/index.m3u8
 #EXTINF:-1 tvg-id="0" tvg-logo="" group-title="澳门频道",澳视澳门
 https://live4.tdm.com.mo/ch1/_definst_/ch1.live/playlist.m3u8
 #EXTINF:-1 tvg-id="0" tvg-logo="" group-title="澳门频道",澳视葡语

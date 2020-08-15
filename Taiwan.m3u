@@ -36,9 +36,3 @@ http://seb.sason.top/ptv/ftv.php?id=zy
 http://seb.sason.top/ptv/ftv.php?id=ly
 #EXTINF:-1 tvg-id="7197" tvg-logo="http://tv.sason.xyz/logo/wljc.png" group-title="台湾频道",纬来精采
 https://usb.bozztv.com/ttvb/index.m3u8
-#EXTINF:-1 tvg-id="6027" tvg-logo="http://tv.sason.xyz/logo/da1.png" group-title="台湾频道",大爱I
-https://tv1.wanfudaluye.com/live/live.m3u8
-#EXTINF:-1 tvg-id="6142" tvg-logo="http://tv.sason.xyz/logo/da2.png" group-title="台湾频道",大爱II
-https://tv2.wanfudaluye.com/live/live.m3u8
-#EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/dagj.png" group-title="台湾频道",大爱海外
-https://tv3.wanfudaluye.com/live/live.m3u8
