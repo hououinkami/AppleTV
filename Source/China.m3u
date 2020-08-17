@@ -64,7 +64,7 @@ http://39.135.19.142:18890/PLTV/88888888/224/3221225733/1/index.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-id="0" tvg-logo="http://tv.sason.xyz/logo/cctvwhjp.png" group-title="央视频道",CCTV 文化精品
 http://39.135.19.142:18890/PLTV/88888888/224/3221225675/1/index.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-id="27" tvg-logo="http://tv.sason.xyz/logo/hnws.png" group-title="卫视频道",湖南卫视
-http://httpdvb.slave.bfgd.com.cn:14311/playurl?playtype=live&protocol=http&accesstoken=R5F2408FEU3198804BK78052214IE73560DFP2BF4M340CE68V0Z339CBW1626D4D261E46FEA&playtoken=ABCDEFGH&programid=4200000067#EXTINF:-1 tvg-id="15" tvg-logo="http://tv.sason.xyz/logo/cctv14.png" group-title="A.央视",CCTV-14 少儿 FHD
+http://117.169.124.37:6610/ysten-businessmobile/live/hdhunanstv/1.m3u8
 #EXTINF:-1 tvg-id="29" tvg-logo="http://tv.sason.xyz/logo/jsws.png" group-title="卫视频道",江苏卫视
 http://117.169.124.37:6610/ysten-businessmobile/live/hdjiangsustv/yst.m3u8
 #EXTINF:-1 tvg-id="28" tvg-logo="http://tv.sason.xyz/logo/zjws.png" group-title="卫视频道",浙江卫视
