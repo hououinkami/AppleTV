@@ -78,12 +78,12 @@ jobs:
               getline; ysp=$0;
               gsub("2000204603","2000296203",ysp);
             };
-            if($0~/湖南卫视/) {
-              print $0;
-              getline;
-              print ysp;
-              next;
-            };
+            # if($0~/湖南卫视/) {
+              # print $0;
+              # getline;
+              # print ysp;
+              # next;
+            # };
             print $0;
           };
         }
