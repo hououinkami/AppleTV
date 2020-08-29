@@ -20,13 +20,13 @@
 #EXTINF:-1 tvg-id="18" tvg-name="CCTV 4K" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4k.png" group-title="央视频道",CCTV-4K 超高清
 #EXTINF:-1 tvg-id="19" tvg-name="CETV-1" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/%E4%B8%AD%E5%9B%BD%E6%95%99%E8%82%B21%E5%8F%B0.png" group-title="央视频道",CETV-1
 #EXTINF:-1 tvg-id="20" tvg-name="CGTN" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/cgtn.png" group-title="央视频道",CGTN
-#EXTINF:-1 tvg-id="21" tvg-name="风云剧场" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTVfengyunjuchang.png" group-title="央视频道",CCTV 风云剧场
+#EXTINF:-1 tvg-id="21" tvg-name="风云剧场" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTBfengyun.png" group-title="央视频道",CCTV 风云剧场
 #EXTINF:-1 tvg-id="22" tvg-name="风云音乐" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTVfengyunyinyue.png" group-title="央视频道",CCTV 风云音乐
 #EXTINF:-1 tvg-id="23" tvg-name="风云足球" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTVfengyunzuqiu.png" group-title="央视频道",CCTV 风云足球
-#EXTINF:-1 tvg-id="24" tvg-name="高尔夫网球" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTVPAYFEE13.jpg" group-title="央视频道",CCTV 高尔夫网球
+#EXTINF:-1 tvg-id="24" tvg-name="高尔夫·网球" tvg-logo="" group-title="央视频道",CCTV 高尔夫·网球
 #EXTINF:-1 tvg-id="25" tvg-name="第一剧场" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTVdiyijuchang.png" group-title="央视频道",CCTV 第一剧场
-#EXTINF:-1 tvg-id="26" tvg-name="怀旧剧场" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTVPAYFEE7.jpg" group-title="央视频道",CCTV 怀旧剧场
-#EXTINF:-1 tvg-id="27" tvg-name="兵器科技" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTVPAYFEE8.jpg" group-title="央视频道",CCTV 兵器科技
+#EXTINF:-1 tvg-id="26" tvg-name="怀旧剧场" tvg-logo="" group-title="央视频道",CCTV 怀旧剧场
+#EXTINF:-1 tvg-id="27" tvg-name="兵器科技" tvg-logo="" group-title="央视频道",CCTV 兵器科技
 #EXTINF:-1 tvg-id="28" tvg-name="女性时尚" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTVnvxing.png" group-title="央视频道",CCTV 女性时尚
 #EXTINF:-1 tvg-id="29" tvg-name="世界地理" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTVshijiedili.png" group-title="央视频道",CCTV 世界地理
 #EXTINF:-1 tvg-id="30" tvg-name="文化精品" tvg-logo="" group-title="央视频道",CCTV 文化精品
