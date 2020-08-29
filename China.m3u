@@ -40,19 +40,19 @@ http://107.148.240.185:13164/v/cctv123.php?id=2000266303
 http://119.167.231.122/tlivecloud-cdn.ysp.cctv.cn/001/2001656803.m3u8
 #EXTINF:-1 tvg-id="20" tvg-name="CGTN" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/cgtn.png" group-title="央视频道",CGTN
 http://119.167.231.122/tlivecloud-cdn.ysp.cctv.cn/001/2000266303.m3u8
-#EXTINF:-1 tvg-id="21" tvg-name="风云剧场" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTVfengyunjuchang.png" group-title="央视频道",CCTV 风云剧场
+#EXTINF:-1 tvg-id="21" tvg-name="风云剧场" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTBfengyun.png" group-title="央视频道",CCTV 风云剧场
 http://39.135.19.142:18890/PLTV/88888888/224/3221225700/1/index.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-id="22" tvg-name="风云音乐" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTVfengyunyinyue.png" group-title="央视频道",CCTV 风云音乐
 http://39.135.19.142:18890/PLTV/88888888/224/3221225698/1/index.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-id="23" tvg-name="风云足球" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTVfengyunzuqiu.png" group-title="央视频道",CCTV 风云足球
 http://39.135.19.142:18890/PLTV/88888888/224/3221225734/1/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="24" tvg-name="高尔夫网球" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTVPAYFEE13.jpg" group-title="央视频道",CCTV 高尔夫网球
-http://39.135.19.142:18890/PLTV/88888888/224/3221225674/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-id="24" tvg-name="高尔夫·网球" tvg-logo="" group-title="央视频道",CCTV 高尔夫·网球
+http://39.135.19.142:18890/PLTV/88888888/224/3221225734/1/index.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-id="25" tvg-name="第一剧场" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTVdiyijuchang.png" group-title="央视频道",CCTV 第一剧场
 http://39.135.19.142:18890/PLTV/88888888/224/3221225702/1/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="26" tvg-name="怀旧剧场" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTVPAYFEE7.jpg" group-title="央视频道",CCTV 怀旧剧场
+#EXTINF:-1 tvg-id="26" tvg-name="怀旧剧场" tvg-logo="" group-title="央视频道",CCTV 怀旧剧场
 http://39.135.19.142:18890/PLTV/88888888/224/3221225765/1/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="27" tvg-name="兵器科技" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTVPAYFEE8.jpg" group-title="央视频道",CCTV 兵器科技
+#EXTINF:-1 tvg-id="27" tvg-name="兵器科技" tvg-logo="" group-title="央视频道",CCTV 兵器科技
 http://39.135.19.139:18890/PLTV/88888888/224/3221225676/1/index.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-id="28" tvg-name="女性时尚" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTVnvxing.png" group-title="央视频道",CCTV 女性时尚
 http://39.135.19.142:18890/PLTV/88888888/224/3221225699/1/index.m3u8?fmt=ts2hls
