@@ -1,10 +1,10 @@
 #EXTM3U url-tvg="http://tv.sason.xyz/epg"
 #EXTINF:-1 tvg-id="141" tvg-logo="http://tv.sason.xyz/logo/fhzw.png" group-title="香港频道",凤凰中文 国外
-http://220.158.149.28:8180/TV00000000000000000067@HHZT;LIVE
+http://220.158.149.26:8182/hls/TV00000000000000000067@HHZT.m3u8
 #EXTINF:-1 tvg-id="142" tvg-logo="http://tv.sason.xyz/logo/fhzx.png" group-title="香港频道",凤凰资讯 国外
-http://220.158.149.28:8180/TV00000000000000000066@HHZT;LIVE
+http://220.158.149.26:8182/hls/TV00000000000000000066@HHZT.m3u8
 #EXTINF:-1 tvg-id="143" tvg-logo="http://tv.sason.xyz/logo/fhxg.png" group-title="香港频道",凤凰香港 国外
-http://220.158.149.28:8180/TV00000000000000000068@HHZT;LIVE
+http://220.158.149.26:8182/hls/TV00000000000000000068@HHZT.m3u8
 #EXTINF:-1 tvg-id="141" tvg-logo="http://tv.sason.xyz/logo/fhzw.png" group-title="香港频道",凤凰中文 
 http://117.169.124.37:6610/ysten-businessmobile/live/fhchinese/1.m3u8
 #EXTINF:-1 tvg-id="142" tvg-logo="http://tv.sason.xyz/logo/fhzx.png" group-title="香港频道",凤凰资讯 
