@@ -30,7 +30,9 @@ http://107.148.240.185:13164/v/cctv123.php?id=2000204603.m3u8
 #EXTINF:-1 tvg-id="14" tvg-logo="http://tv.sason.xyz/logo/cctv13.png" group-title="央视频道",CCTV-13 新闻 (测试1)
 http://zycfcdn.gdwlcloud.com/PLTV/88888888/224/3221226062/index.m3u8
 #EXTINF:-1 tvg-id="14" tvg-logo="http://tv.sason.xyz/logo/cctv13.png" group-title="央视频道",CCTV-13 新闻 (测试2)
-http://httpdvb.slave.bfgd.com.cn:14311/playurl?playtype=live&protocol=http&accesstoken=R5F2408FEU3198804BK78052214IE73560DFP2BF4M340CE68V0Z339CBW1626D4D261E46FEA&playtoken=ABCDEFGH&programid=4200000067#EXTINF:-1 tvg-id="15" tvg-logo="http://tv.sason.xyz/logo/cctv14.png" group-title="A.央视",CCTV-14 少儿 FHD
+http://httpdvb.slave.bfgd.com.cn:14311/playurl?playtype=live&protocol=http&accesstoken=R5F2408FEU3198804BK78052214IE73560DFP2BF4M340CE68V0Z339CBW1626D4D261E46FEA&playtoken=ABCDEFGH&programid=4200000067
+#EXTINF:-1 tvg-id="15" tvg-logo="http://tv.sason.xyz/logo/cctv14.png" group-title="央视频道",CCTV-14 少儿
+http://117.169.124.36:6610/ysten-businessmobile/live/cctv-14/1.m3u8
 #EXTINF:-1 tvg-id="16" tvg-logo="http://tv.sason.xyz/logo/cctv15.png" group-title="央视频道",CCTV-15 音乐
 http://117.169.124.36:6610/ysten-businessmobile/live/cctv-15/1.m3u8
 #EXTINF:-1 tvg-id="17" tvg-logo="http://tv.sason.xyz/logo/cctv17.png" group-title="央视频道",CCTV-17 农业农村

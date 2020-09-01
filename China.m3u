@@ -28,8 +28,8 @@ http://117.169.124.36:6610/ysten-businessmobile/live/cctv-11/1.m3u8
 http://117.169.124.36:6610/ysten-businessmobile/live/cctv-12/1.m3u8
 #EXTINF:-1 tvg-id="14" tvg-name="CCTV-13" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV13.png" group-title="央视频道",CCTV-13 新闻
 http://107.148.240.185:13164/v/cctv123.php?id=2000204603.m3u8
-#EXTINF:-1 tvg-id="15" tvg-name="CCTV-14 少儿" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV14.png" group-title="央视频道",CCTV-14 少儿
-#EXTINF:-1 tvg-id="16" tvg-logo="http://tv.sason.xyz/logo/cctv15.png" group-title="央视频道",CCTV-15 音乐
+#EXTINF:-1 tvg-id="15" tvg-name="CCTV-14" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV14.png" group-title="央视频道",CCTV-14 少儿
+http://117.169.124.36:6610/ysten-businessmobile/live/cctv-14/1.m3u8
 #EXTINF:-1 tvg-id="16" tvg-name="CCTV-15" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV15.png" group-title="央视频道",CCTV-15 音乐
 http://117.169.124.36:6610/ysten-businessmobile/live/cctv-15/1.m3u8
 #EXTINF:-1 tvg-id="17" tvg-name="CCTV-17" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV17.png" group-title="央视频道",CCTV-17 农业农村
