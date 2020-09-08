@@ -19,14 +19,14 @@ rtmp://58.200.131.2:1935/livetv/fhdy
 #EXTINF:-1 tvg-id="145" tvg-name="香港卫视HKS" tvg-logo="https://github.com/hououinkami/AppleTV/raw/master/ChannelLogo/Hongkong/HKS.png" group-title="香港频道",香港衛視HKS
 http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 #EXTINF:-1 tvg-id="146" tvg-name="有线新闻" tvg-logo="https://github.com/hououinkami/AppleTV/raw/master/ChannelLogo/Hongkong/Cable_News.png" group-title="香港频道",有綫新聞台
-http://liveima.utvlive.top/livehls/MOB-SCC/02.m3u8
+http://liveicm12.utvlive.top/live/97609933ef744f008e19a6e0d5ef9f2b/edd34677cc9548539d36b10c1c594b94-3.m3u8
 #EXTINF:-1 tvg-id="147" tvg-name="有线财经资讯" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/7/7a/I-CABLE_Finance.png" group-title="香港频道",有綫財經資訊台
-http://liveima.utvlive.top/livehls/MOB-NGW/02.m3u8
+http://liveicm12.utvlive.top/live/add598ff3f90428da3fbebb644ba135b/2bbaa83758ba412bbdd8d08626c56eb4-3.m3u8
 #EXTINF:-1 tvg-id="148" tvg-name="有线综合娱乐" tvg-logo="https://github.com/hououinkami/AppleTV/raw/master/ChannelLogo/Hongkong/Cable_Ent.png" group-title="香港频道",有綫綜合娛樂台
-http://liveima.utvlive.top/livehls/MOB-CN/02.m3u8
+http://liveicm12.utvlive.top/live/d4e03afe056a4f2da070d5f789f3ac9e/a5ed7598a90246199df373924de367d4-3.m3u8
 #EXTINF:-1 tvg-id="149" tvg-name="RTHK31" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/RTHK_TV_31.svg/320px-RTHK_TV_31.svg.png" group-title="香港频道",RTHK31
 https://www.rthk.hk/feeds/dtt/rthktv31_https.m3u8
 #EXTINF:-1 tvg-id="150" tvg-name="RTHK32" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/RTHK_TV_32.svg/440px-RTHK_TV_32.svg.png" group-title="香港频道",RTHK32
 https://www.rthk.hk/feeds/dtt/rthktv32_https.m3u8
 #EXTINF:-1 tvg-id="151" tvg-name="开电视" tvg-logo="https://github.com/hououinkami/AppleTV/raw/master/ChannelLogo/Hongkong/HK_Open_TV.png" group-title="香港频道",香港開電視
-http://media.fantv.hk/m3u8/archive/channel2.m3u8
+https://cdn.hkdtmb.com/77a/playlist.m3u8
