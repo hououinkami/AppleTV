@@ -60,6 +60,7 @@ jobs:
     
     - name: 获取最新源
       run : |
+        wget $SOURCE -O $SOURCE_NAME
         wget $SOURCE_panda -O $SOURCE_panda_NAME
         wget $SOURCE_homenet6 -O $SOURCE_homenet6_NAME
     
@@ -89,7 +90,7 @@ jobs:
             print $0;
           };
         }
-        ' $SOURCE_Sason_NAME>Source/China.m3u
+        ' $SOURCE_NAME>Source/China.m3u
 
     - name: 重新排序国内频道并更换透明图标
       run : |
