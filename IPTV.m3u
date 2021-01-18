@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
 # 央视频道
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV-1" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" group-title="央视频道",CCTV-1 综合
 http://39.135.34.132:8080/000000001000/1000000001000021973/1.m3u8?channel-id=ystenlive
@@ -52,12 +52,13 @@ http://39.135.34.132:8080/000000001000/1000000001000009806/1.m3u8?channel-id=yst
 http://39.135.34.132:8080/000000001000/1000000001000004684/1.m3u8?channel-id=ystenlive
 #EXTINF:-1 tvg-id="38" tvg-name="东南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/dongnan.png" group-title="卫视频道",东南卫视
 http://39.135.34.132:8080/000000001000/1000000002000009263/1.m3u8?channel-id=ystenlive
+
 #EXTINF:-1 tvg-id="39" tvg-name="安徽卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/anhui.png" group-title="卫视频道",安徽卫视
 http://39.135.34.132:8080/000000001000/4774346722046993363/1.m3u8?channel-id=ystenlive
-#EXTINF:-1 tvg-id="40" tvg-name="天津卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/tianjin.png" group-title="卫视频道",天津卫视
-http://39.135.34.132:8080/000000001000/1000000001000000831/1.m3u8?channel-id=ystenlive
-#EXTINF:-1 tvg-id="41" tvg-name="湖北卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hubei.png" group-title="卫视频道",湖北卫视
+#EXTINF:-1 tvg-id="40" tvg-name="湖北卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hubei.png" group-title="卫视频道",湖北卫视
 http://39.135.34.132:8080/000000001000/6956052407855047826/1.m3u8?channel-id=ystenlive
+#EXTINF:-1 tvg-id="41" tvg-name="天津卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/tianjin.png" group-title="卫视频道",天津卫视
+http://39.135.34.132:8080/000000001000/1000000001000000831/1.m3u8?channel-id=ystenlive
 #EXTINF:-1 tvg-id="42" tvg-name="山东卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shandong.png" group-title="卫视频道",山东卫视
 http://39.135.34.132:8080/000000001000/1000000001000012807/1.m3u8?channel-id=ystenlive
 #EXTINF:-1 tvg-id="43" tvg-name="江西卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangxi.png" group-title="卫视频道",江西卫视
@@ -68,6 +69,8 @@ http://39.135.34.132:8080/000000001000/1000000002000024033/1.m3u8?channel-id=yst
 http://39.135.34.132:8080/000000001000/8467838254824392379/1.m3u8?channel-id=ystenlive
 #EXTINF:-1 tvg-id="46" tvg-name="重庆卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/chongqing.png" group-title="卫视频道",重庆卫视
 http://39.135.34.132:8080/000000001000/1000000002000018937/1.m3u8?channel-id=ystenlive
+
+# 卫视频道标清
 #EXTINF:-1 tvg-id="47" tvg-name="河南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/henan.png" group-title="卫视频道",河南卫视
 http://ivi.bupt.edu.cn/hls/hntv.m3u8
 #EXTINF:-1 tvg-id="48" tvg-name="河北卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hebei.png" group-title="卫视频道",河北卫视
@@ -79,10 +82,6 @@ http://39.135.34.132:8080/000000001000/1000000002000019837/1.m3u8?channel-id=yst
 #EXTINF:-1 tvg-id="51" tvg-name="青海卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/qinghai.png" group-title="卫视频道",青海卫视
 http://39.135.34.132:8080/000000001000/1000000002000013359/1.m3u8?channel-id=ystenlive
 #EXTINF:-1 tvg-id="52" tvg-name="新疆卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/xinjiang.png" group-title="卫视频道",新疆卫视
-http://39.135.34.132:8080/000000001000/1000000002000029441/1.m3u8?channel-id=ystenlive
-
-# 卫视频道标清
-#EXTINF:-1 tvg-id="53" tvg-name="海峡卫视" tvg-logo="http://tv.sason.xyz/logo/hxws.png" group-title="卫视频道",海峡卫视
 http://39.135.34.132:8080/000000001000/1000000002000029441/1.m3u8?channel-id=ystenlive
 #EXTINF:-1 tvg-id="54" tvg-name="四川卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/sichuan.png" group-title="卫视频道",四川卫视
 http://39.135.34.132:8080/000000001000/1000000002000016825/1.m3u8?channel-id=ystenlive
