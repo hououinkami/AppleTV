@@ -61,8 +61,6 @@ jobs:
     - name: 获取最新源
       run : |
         wget $SOURCE -O $SOURCE_NAME
-        wget $SOURCE_panda -O $SOURCE_panda_NAME
-        wget $SOURCE_homenet6 -O $SOURCE_homenet6_NAME
     
     - name: 国内频道
       run : |
@@ -148,8 +146,6 @@ jobs:
     - name: 删除临时文件
       run : |
         rm $SOURCE_NAME
-        rm $SOURCE_panda_NAME
-        rm $SOURCE_homenet6_NAME
         rm *tmp*.m3u
         ls
     
