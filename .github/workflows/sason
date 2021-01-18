@@ -1,0 +1,301 @@
+name: 生成自用Apple TV直播列表
+
+on:
+  push:
+    branches:
+      - beta
+    path:
+      - 'start'
+  release:
+    types: [published]
+  # schedule:
+    # - cron: 0 4,16 * * *
+  watch:
+    types: [started]
+
+env:
+  TZ: Asia/Shanghai
+  WECHAT_NOTIFICATION: true
+  SOURCE: https://raw.githubusercontent.com/panda-mute/iptv/master/list.m3u
+  SOURCE_NAME: panda.m3u
+  SOURCE_Sason: http://tv.sason.xyz/new.m3u
+  SOURCE_Sason_NAME: sason.m3u
+  SOURCE_boye: http://tv.boye.ml/iptv/tv.m3u
+  SOURCE_boye_NAME: boye.m3u
+  SOURCE_panda: https://raw.githubusercontent.com/panda-mute/iptv/master/list.m3u
+  SOURCE_panda_NAME: panda.m3u
+  SOURCE_homenet6: https://homenet6.github.io/list.m3u
+  SOURCE_homenet6_NAME: homenet6.m3u
+  GROUP_NAME_CCTV: 央视频道
+  GROUP_NAME_SATT: 卫视频道
+  GROUP_NAME_HK: 香港频道
+  GROUP_NAME_JP: 日本频道
+  GROUP_NAME_EN: 英文频道
+  GROUP_NAME_SCI: 科教记录
+  GROUP_NAME_TW: 台湾频道
+  GROUP_NAME_MO: 澳门频道
+  HKTW_ADD: false
+
+jobs:
+  GenerateList:
+    if: github.event.repository.owner.id == github.event.sender.id
+    runs-on: macos-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
+      with:
+        ref: master
+        fetch-depth: 0
+        lfs: true
+    
+    - name: Set git identity
+      run : |
+        git config --global user.email "hououinkami@gmail.com"
+        git config --global user.name "hououinkami"
+    
+    - name: 获取当前日期
+      id: date
+      run: echo "::set-output name=DATE::$(date +'%Y-%m-%d')"
+    
+    - name: 获取最新源
+      run : |
+        wget $SOURCE_Sason -O $SOURCE_Sason_NAME
+        wget $SOURCE_panda -O $SOURCE_panda_NAME
+        wget $SOURCE_homenet6 -O $SOURCE_homenet6_NAME
+    
+    - name: 国内频道(Sason源)
+      run : |
+        awk '
+        {
+          if($0~/\#EXTM3U/) {print $0};
+          if($0~/央视"|卫视"/ && $0!~/峨眉|潇湘/) {m=NR; n=NR+1};
+          if(m<=NR && NR<=n) {
+            gsub("A.央视","'"$GROUP_NAME_CCTV"'");
+            gsub("B.卫视","'"$GROUP_NAME_SATT"'");
+            gsub(" FHD| FHD版| HD| SD","")
+            if($0~/深圳/) {gsub("tvg-id=\"[0-9]{1,2}\"","tvg-id=\"26\"")};
+            # if($0~/新闻/) {
+              # print $0;
+              # getline; ysp=$0;
+              # gsub("2000204603","2000296203",ysp);
+            # };
+            # if($0~/湖南卫视/) {
+              # print $0;
+              # getline;
+              # print ysp;
+              # next;
+            # };
+            print $0;
+          };
+        }
+        ' $SOURCE_Sason_NAME>Source/China.m3u
+
+    - name: 重新排序国内频道并更换透明图标(Sason源)
+      run : |
+        awk -F'"' '
+        {
+          info=$0;
+          name=$4;
+          print info;
+          if(info~/EXTINF/ && info!~/深圳/) {
+            close("Source/China.m3u");
+            cmd="awk '\''/"name"/{getline;print}'\'' Source/China.m3u";
+            cmd | getline churl;
+            print churl;
+            close(cmd);
+          };
+          gsub("group-title=\"..央视.*\"","group-title=\"'"$GROUP_NAME_CCTV"'\"");
+          gsub("group-title=\"..卫视.*\"","group-title=\"'"$GROUP_NAME_SATT"'\"");
+        }
+        ' ChannelList/China.list>China.m3u
+    
+    - name: 港澳台频道(Sason源)
+      run : |
+        # 香港频道
+        awk '
+        {
+          if($0~/\#EXTM3U/) {print $0};
+          if($0~/香港"/) {m=NR; n=NR+1};
+          if(m<=NR && NR<=n) {
+            gsub("D.香港","'"$GROUP_NAME_HK"'");
+            gsub(" FHD|FHD|HD| ★","");
+            print $0;
+          };
+        }
+        ' $SOURCE_Sason_NAME>Source/Hongkong.m3u
+
+        # 台湾频道
+        awk '
+        {
+          if($0~/\#EXTM3U/) {print $0; print "\# 台湾频道"};
+          if($0~/台湾"/ && $0!~/CNEX|国家地理|FX Asia/) {m=NR; n=NR+1};
+          if(m<=NR && NR<=n) {
+            gsub("E.台湾","'"$GROUP_NAME_TW"'");
+            gsub(" FHD|FHD|HD| ★","");
+            print $0;
+          };
+        }
+        ' $SOURCE_Sason_NAME>Taiwan.m3u
+
+        # 澳门频道
+        awk '
+        {
+          if($0~/\#EXTM3U/) {print $0; print "\# 澳门频道"};
+          if($0~/澳门"/) {m=NR; n=NR+1};
+          if(m<=NR && NR<=n) {
+            gsub("F.澳门","'"$GROUP_NAME_MO"'");
+            gsub(" FHD|FHD|HD| ★","");
+            gsub("tvg-logo=\".*\.png\"","tvg-logo=\"\"");
+            print $0;
+          };
+        }
+        ' $SOURCE_Sason_NAME>Macau.m3u
+    
+    - name: 香港频道补全
+      if: env.HKTW_ADD == 'true'
+      run : |
+        awk '
+        {
+          if($0~/IPV6|备/) {a=NR; b=NR+1};
+          if(a<=NR && NR<=b) {next};
+          if($0~/"翡翠台"|"明珠台"/) {m=NR; n=NR+1};
+          if(m<=NR && NR<=n) {
+            if($0~/"翡翠台"|"明珠台"/) {gsub("港台频道","'"$GROUP_NAME_HK"'")};
+            print $0;
+          };
+        }
+        ' $SOURCE_panda_NAME>HKTWtmp2.m3u
+
+        awk '
+        {
+          if($0~/IPV6|备/) {a=NR; b=NR+1};
+          if(a<=NR && NR<=b) {next};
+          if($0~/探索|动物|地理/) {m=NR; n=NR+1};
+          if(m<=NR && NR<=n) {
+            gsub("港台频道","'"$GROUP_NAME_SCI"'");
+            print $0;
+          };
+        }
+        ' $SOURCE_panda_NAME>Sciencestmp3.m3u
+
+    - name: 生成港澳台频道文件
+      run : |
+        # cat HKTWtmp*.m3u > Source/HKTW.m3u
+        awk -F'"' '
+        {
+          info=$0;
+          name=$4;
+          print info;
+          if(info~/EXTINF/ && info!~/翡翠|明珠/) {
+            close("Source/Hongkong.m3u");
+            cmd="awk '\''/"name"/{getline;print}'\'' Source/Hongkong.m3u";
+            cmd | getline churl;
+            print churl;
+            close(cmd);
+          };
+        }
+        ' ChannelList/Hongkong.list>Hongkong.m3u
+
+    - name: 外文频道
+      run : |
+        # 日本频道
+        awk '
+        {
+          gsub("group-title=\"..日本.*\"","group-title=\"'"$GROUP_NAME_JP"'\"");
+          print $0;
+        }
+        ' ChannelList/Japan.list>Japantmp1.m3u
+
+        awk '
+        {
+          if($0~/NHK华语视界/) {m=NR; n=NR+1};
+          if(m<=NR && NR<=n) {
+            if($0~/NHK华语视界/) {
+              gsub("group-title=\"*\..*\"","group-title=\"'"$GROUP_NAME_JP"'\"");
+              gsub("tvg-logo=\".*\.png\"","tvg-logo=\"https:\/\/images\.toutiaosg\.com\/storage\/jp\/e1a767943a1706d43203d4217f0efff0\.jpeg\"");
+            };
+            print $0;
+          };
+        }
+        ' $SOURCE_Sason_NAME>Japantmp2.m3u
+
+        cat Japantmp*.m3u > Japan.m3u
+
+        # 英文频道
+        awk '
+        {
+          gsub("group-title=\"..英文.*\"","group-title=\"'"$GROUP_NAME_EN"'\"");
+          print $0;
+        }
+        ' ChannelList/English.list>English.m3u
+
+    - name: 科学记录频道
+      run : |
+        awk '
+        {
+          gsub("group-title=\"..科教.*\"","group-title=\"'"$GROUP_NAME_SCI"'\"");
+          print $0;
+        }
+        ' ChannelList/Sciences.list>Sciencestmp1.m3u
+
+        awk '
+        {
+          if($0~/CNEX|国家地理|Discovery|NationalGeographic/) {m=NR; n=NR+1};
+          if(m<=NR && NR<=n) {
+            gsub("group-title=\"*\..*\"","group-title=\"'"$GROUP_NAME_SCI"'\"");
+            gsub(" ★","");
+            gsub("NationalGeographic","National Geographic");
+            gsub("National GeographicPeople","NAT GEO People");
+            gsub("National GeographicWild","NAT GEO Wild");
+            gsub("tvg-logo=\".*ng\.png\"","tvg-logo=\"https:\/\/upload\.wikimedia\.org\/wikipedia\/commons\/thumb\/f\/fc\/Natgeologo\.svg\/500px-Natgeologo\.svg\.png\"");
+            print $0;
+          };
+        }
+        ' $SOURCE_Sason_NAME>Sciencestmp2.m3u
+
+        cat Sciencestmp*.m3u > Sciences.m3u
+
+    - name: 生成AppleTV总列表
+      run : cat China.m3u Hongkong.m3u Japan.m3u English.m3u Sciences.m3u > IPTV.m3u
+    
+    - name: 删除临时文件
+      run : |
+        rm $SOURCE_Sason_NAME
+        rm $SOURCE_panda_NAME
+        rm $SOURCE_homenet6_NAME
+        rm *tmp*.m3u
+        ls
+    
+    - name: 判断是否有变更
+      id: status
+      run: |
+        STR1="nothing to commit, working tree clean"
+        STR2="Changes not staged for commit"
+        out=$(git status)
+        if [[ "$(echo $out | grep "$STR1")" != "" ]]
+        then
+          echo "::set-output name=status::"nochange""
+        fi
+        if [[ "$(echo $out | grep "$STR2")" != "" ]]
+        then
+          echo "::set-output name=status::"change""
+        fi
+    
+    - name: 合并到仓库
+      run : |
+        if [[ "${{steps.status.outputs.status}}" == "change" ]]
+        then
+          git add .
+          git commit -m  "Update:${{steps.date.outputs.DATE}}"
+          git push origin master
+        fi
+
+    - name: WeChat推送
+      if: env.WECHAT_NOTIFICATION == 'true' && !cancelled()
+      run: |
+        if [[ "${{steps.status.outputs.status}}" == "change" ]]
+        then
+          curl https://sc.ftqq.com/${{secrets.ServerChan}}.send?text=AppleTV电视频道已更新!
+        fi
+        
