@@ -147,7 +147,7 @@ jobs:
     
     - name: 删除临时文件
       run : |
-        rm $SOURCE_Sason_NAME
+        rm $SOURCE_NAME
         rm $SOURCE_panda_NAME
         rm $SOURCE_homenet6_NAME
         rm *tmp*.m3u
