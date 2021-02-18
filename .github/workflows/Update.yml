@@ -15,7 +15,7 @@ on:
 
 env:
   TZ: Asia/Shanghai
-  WECHAT_NOTIFICATION: true
+  TELEGRAM_NOTIFICATION: true
   SOURCE: https://raw.githubusercontent.com/panda-mute/iptv/master/list.m3u
   SOURCE_NAME: panda.m3u
   SOURCE_Sason: http://tv.sason.xyz/new.m3u
@@ -157,26 +157,35 @@ jobs:
         out=$(git status)
         if [[ "$(echo $out | grep "$STR1")" != "" ]]
         then
-          echo "::set-output name=status::"nochange""
+          echo "::set-output name=STATUS::"nochange""
         fi
         if [[ "$(echo $out | grep "$STR2")" != "" ]]
         then
-          echo "::set-output name=status::"change""
+          echo "::set-output name=STATUS::"change""
         fi
     
     - name: 合并到仓库
       run : |
-        if [[ "${{steps.status.outputs.status}}" == "change" ]]
+        if [[ "${{steps.status.outputs.STATUS}}" == "change" ]]
         then
           git add .
           git commit -m  "Update:${{steps.date.outputs.DATE}}"
           git push origin master
         fi
 
-    - name: WeChat推送
-      if: env.WECHAT_NOTIFICATION == 'true' && !cancelled()
+    - name: Telegram推送
+      if: env.TELEGRAM_NOTIFICATION == 'true' && !cancelled() && "${{steps.status.outputs.STATUS}}" == "change"
+      uses: appleboy/telegram-action@master
+      with:
+        to: ${{ secrets.TELEGRAM_TO }}
+        token: ${{ secrets.TELEGRAM_TOKEN }}
+        args: AppleTV电视频道已更新!
+      
+      
+    - name: 微信推送
+      if: env.TELEGRAM_NOTIFICATION == 'true' && !cancelled()  
       run: |
-        if [[ "${{steps.status.outputs.status}}" == "change" ]]
+        if [[ "${{steps.status.outputs.STATUS}}" == "change" ]]
         then
           curl https://sc.ftqq.com/${{secrets.ServerChan}}.send?text=AppleTV电视频道已更新!
         fi
