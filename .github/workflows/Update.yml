@@ -174,16 +174,15 @@ jobs:
         fi
 
     - name: Telegram推送
-      if: env.TELEGRAM_NOTIFICATION == 'true' && !cancelled() && "${{steps.status.outputs.STATUS}}" == "change"
-      uses: appleboy/telegram-action@master
-      with:
-        to: ${{ secrets.TELEGRAM_TO }}
-        token: ${{ secrets.TELEGRAM_TOKEN }}
-        args: AppleTV电视频道已更新!
-      
+      if: env.TELEGRAM_NOTIFICATION == 'true' && !cancelled()  
+      run: |
+        if [[ "${{steps.status.outputs.STATUS}}" == "change" ]]
+        then
+          curl https://api.telegram.org/bot${{ secrets.TELEGRAM_TOKEN }}/sendmessage?chat_id=${{ secrets.TELEGRAM_TO }}&text=AppleTV电视频道已更新!
+        fi  
       
     - name: 微信推送
-      if: env.TELEGRAM_NOTIFICATION == 'true' && !cancelled()  
+      if: env.WECHAT_NOTIFICATION == 'true' && !cancelled()  
       run: |
         if [[ "${{steps.status.outputs.STATUS}}" == "change" ]]
         then
