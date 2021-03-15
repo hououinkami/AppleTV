@@ -173,19 +173,17 @@ jobs:
           git push origin master
         fi
 
+    - name: 移除workflow运行
+      uses: GitRML/delete-workflow-runs@main
+      with:
+        retain_days: 1
+        keep_minimum_runs: 3
+
     - name: Telegram推送
       if: env.TELEGRAM_NOTIFICATION == 'true' && !cancelled()  
       run: |
         if [[ "${{steps.status.outputs.STATUS}}" == "change" ]]
         then
-          curl https://api.telegram.org/bot${{ secrets.TELEGRAM_TOKEN }}/sendmessage?chat_id=${{ secrets.TELEGRAM_TO }}&text=AppleTVテレビチャンネル更新しました！
-        fi  
-      
-    - name: 微信推送
-      if: env.WECHAT_NOTIFICATION == 'true' && !cancelled()  
-      run: |
-        if [[ "${{steps.status.outputs.STATUS}}" == "change" ]]
-        then
-          curl https://sc.ftqq.com/${{secrets.ServerChan}}.send?text=AppleTV电视频道已更新!
+          curl -d "text=AppleTVライブチャンネル更新しました！" -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendmessage?chat_id=${{ secrets.TELEGRAM_CHAT_ID }}"
         fi
         
