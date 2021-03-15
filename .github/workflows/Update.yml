@@ -178,7 +178,7 @@ jobs:
       run: |
         if [[ "${{steps.status.outputs.STATUS}}" == "change" ]]
         then
-          curl https://api.telegram.org/bot${{ secrets.TELEGRAM_TOKEN }}/sendmessage?chat_id=${{ secrets.TELEGRAM_TO }}&text=AppleTV电视频道已更新!
+          curl https://api.telegram.org/bot${{ secrets.TELEGRAM_TOKEN }}/sendmessage?chat_id=${{ secrets.TELEGRAM_TO }}&text=AppleTVテレビチャンネル更新しました！
         fi  
       
     - name: 微信推送
