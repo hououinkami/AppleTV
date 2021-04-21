@@ -16,6 +16,7 @@ on:
 env:
   TZ: Asia/Shanghai
   TELEGRAM_NOTIFICATION: true
+  TELEGRAM_NOTIFICATION_CONTENT: <b>📺 AppleTVライブチャンネル更新しました！</b>
   SOURCE: https://raw.githubusercontent.com/panda-mute/iptv/master/list.m3u
   SOURCE_NAME: panda.m3u
   SOURCE_Sason: http://tv.sason.xyz/new.m3u
@@ -184,6 +185,7 @@ jobs:
       run: |
         if [[ "${{steps.status.outputs.STATUS}}" == "change" ]]
         then
-          curl -d "text=📺 AppleTVライブチャンネル更新しました！" -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendmessage?chat_id=${{ secrets.TELEGRAM_CHAT_ID }}"
+          curl -s "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" -d "chat_id=${{ secrets.TELEGRAM_CHAT_ID }}&text=${{ secrets.TELEGRAM_NOTIFICATION_CONTENT }}&parse_mode=HTML"
+          # curl -d "text=📺 AppleTVライブチャンネル更新しました！" -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendmessage?chat_id=${{ secrets.TELEGRAM_CHAT_ID }}"
         fi
         
