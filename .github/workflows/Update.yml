@@ -185,7 +185,7 @@ jobs:
       run: |
         if [[ "${{steps.status.outputs.STATUS}}" == "change" ]]
         then
-          curl -s "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" -d "chat_id=${{ secrets.TELEGRAM_CHAT_ID }}&text=${{ secrets.TELEGRAM_NOTIFICATION_CONTENT }}&parse_mode=HTML"
+          curl -s "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" -d "chat_id=${{ secrets.TELEGRAM_CHAT_ID }}&text=${{ env.TELEGRAM_NOTIFICATION_CONTENT }}&parse_mode=HTML"
           # curl -d "text=📺 AppleTVライブチャンネル更新しました！" -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendmessage?chat_id=${{ secrets.TELEGRAM_CHAT_ID }}"
         fi
         
