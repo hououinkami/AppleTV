@@ -17,16 +17,8 @@ env:
   TZ: Asia/Shanghai
   TELEGRAM_NOTIFICATION: true
   TELEGRAM_NOTIFICATION_CONTENT: <b>📺 AppleTVライブチャンネル更新しました！</b>
-  SOURCE: https://raw.githubusercontent.com/panda-mute/iptv/master/list.m3u
-  SOURCE_NAME: panda.m3u
-  SOURCE_Sason: http://tv.sason.xyz/new.m3u
-  SOURCE_Sason_NAME: sason.m3u
-  SOURCE_boye: http://tv.boye.ml/iptv/tv.m3u
-  SOURCE_boye_NAME: boye.m3u
-  SOURCE_panda: https://raw.githubusercontent.com/panda-mute/iptv/master/list.m3u
-  SOURCE_panda_NAME: panda.m3u
-  SOURCE_homenet6: https://homenet6.github.io/list.m3u
-  SOURCE_homenet6_NAME: homenet6.m3u
+  SOURCE: https://raw.githubusercontent.com/LiuYi0526/IPTV/master/IPTV.m3u
+  SOURCE_NAME: IPTV_tmp.m3u
   GROUP_NAME_CCTV: 央视频道
   GROUP_NAME_SATT: 卫视频道
   GROUP_NAME_HK: 香港频道
@@ -69,23 +61,12 @@ jobs:
         {
           if($0~/\#EXTM3U/) {print $0};
           if($0~/\#央视|\#卫视/) {print $0};
-          if($0~/央视频道"|卫视频道"/ && $0!~/CHC|移动|联通/) {m=NR; n=NR+1};
+          if($0~/CCTV-|卫视/ && $0!~/购物/) {m=NR; n=NR+1};
           if(m<=NR && NR<=n) {
-            gsub("央视频道","'"$GROUP_NAME_CCTV"'");
-            gsub("央视频道","'"$GROUP_NAME_SATT"'");
-            gsub("高清","")
+            gsub("中国央视","'"$GROUP_NAME_CCTV"'");
+            gsub("中国卫视","'"$GROUP_NAME_SATT"'");
+            gsub(" 高清","")
             if($0~/深圳/) {gsub("tvg-id=\"[0-9]{1,2}\"","tvg-id=\"26\"")};
-            # if($0~/新闻/) {
-              # print $0;
-              # getline; ysp=$0;
-              # gsub("2000204603","2000296203",ysp);
-            # };
-            # if($0~/湖南卫视/) {
-              # print $0;
-              # getline;
-              # print ysp;
-              # next;
-            # };
             print $0;
           };
         }
