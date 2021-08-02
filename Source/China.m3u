@@ -8,9 +8,9 @@ http://39.134.39.39/PLTV/88888888/224/3221226251/index.m3u8
 #EXTINF:-1 tvg-id="4" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4.png" group-title="央视频道", CCTV-4 中文国际
 http://111.20.105.60:6060/yinhe/2/ch00000090990000001333/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 tvg-id="Dummy" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTV/master/TVlogos/CCTV4America.jpg" group-title="央视频道", CCTV-4 中文国际美洲
-http://183.131.128.233/mgsp.live.miguvideo.com:8088/migu/kailu/20200324/cctv4meihd/57/index.m3u8?&encrypt=
+http://39.134.216.5/live.hcs.cmvideo.cn:8088/migu/kailu/20200324/cctv4meihd/57/index.m3u8?ProgramID=&encrypt=1
 #EXTINF:-1 tvg-id="Dummy" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTV/master/TVlogos/CCTV4Europe.jpg" group-title="央视频道", CCTV-4 中文国际欧洲
-http://183.131.128.233/mgsp.live.miguvideo.com:8088/migu/kailu/20200324/cctv4ouhd/57/index.m3u8?&encrypt=
+http://39.134.216.5/live.hcs.cmvideo.cn:8088/migu/kailu/20200324/cctv4ouhd/57/index.m3u8?ProgramID=&encrypt=1
 #EXTINF:-1 tvg-id="5" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5.png" group-title="央视频道", CCTV-5 体育
 http://39.134.39.39/PLTV/88888888/224/3221226224/index.m3u8
 #EXTINF:-1 tvg-id="6" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5+.png" group-title="央视频道", CCTV-5+ 体育赛事
@@ -173,7 +173,5 @@ http://39.134.176.167/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/32212303
 http://223.110.243.163/ott.js.chinamobile.com/PLTV/3/224/3221227749/index.m3u8
 #EXTINF:-1 tvg-id="Dummy" tvg-logo="https://pic.17qq.com/uploads/ddfephiijz.jpeg" group-title="卫视频道", IPTV4K
 http://124.232.231.246:6610/000000001001/201500000218/index.m3u8?IASHttpSessionId=SLB2046220190906022827233263&m3u8_level=2
-#EXTINF:-1 tvg-id="Dummy" tvg-logo="noimage.png" group-title="台灣", 卫视电影台
-http://103.47.132.164/PLTV/88888888/224/3221227147/index.m3u8
 #EXTINF:-1 tvg-id="Dummy" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTV/master/TVlogos/VOAChina.png" group-title="海外", VOA卫视
 https://voa-lh.akamaihd.net/i/voa_mpls_tvmc8@326847/master.m3u8
