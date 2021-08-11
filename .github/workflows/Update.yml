@@ -163,11 +163,11 @@ jobs:
           git push origin master
         fi
 
-    - name: 移除workflow运行
+    - name: Delete workflow runs
       uses: GitRML/delete-workflow-runs@main
       with:
         retain_days: 1
-        keep_minimum_runs: 3
+        keep_minimum_runs: 11
 
     - name: Telegram推送
       if: env.TELEGRAM_NOTIFICATION == 'true' && !cancelled()  
