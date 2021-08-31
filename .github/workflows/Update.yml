@@ -79,7 +79,7 @@ jobs:
         ' $SOURCE_NAME>china1.tmp
 
         # 获取卫视
-        awk -F',' '
+        awk -F'"' '
         {
           name=$1;
           url=$2;
