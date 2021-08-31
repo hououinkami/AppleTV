@@ -57,8 +57,6 @@ jobs:
       run : |
         wget $SOURCE -O $SOURCE_NAME
         wget $SOURCE2 -O $SOURCE_NAME2
-        awk "/陕西银河,/,/齐秦的歌,/" $SOURCE_NAME2>weishi.tmp
-
     
     - name: 国内频道
       run : |
@@ -79,13 +77,8 @@ jobs:
         ' $SOURCE_NAME>china1.tmp
 
         # 获取卫视
-        awk -F, '
-        {
-          name=$1;
-          url=$2;
-          if($0~/卫视/ && $0!~/3M/) {print name "\n" url};
-        }
-        ' weishi.tmp>china2.tmp
+        awk "/陕西银河,/,/齐秦的歌,/" $SOURCE_NAME2>weishi.tmp
+        awk 'BEGIN{RS=","}{print $1}' weishi.tmp>china2.tmp
         cat china*.tmp>China.m3u
 
 
