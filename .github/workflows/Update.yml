@@ -18,7 +18,7 @@ env:
   TELEGRAM_NOTIFICATION: true
   TELEGRAM_NOTIFICATION_CONTENT: <b>📺 AppleTVライブチャンネル更新しました！</b>
   SOURCE: https://raw.githubusercontent.com/lamdow8/lamdow8.github.io/master/list.txt
-  SOURCE_NAME: IPTV_tmp.m3u
+  SOURCE_NAME: IPTV_tmp.txt
   GROUP_NAME_CCTV: 央视频道
   GROUP_NAME_SATT: 卫视频道
   GROUP_NAME_HK: 香港频道
@@ -67,20 +67,7 @@ jobs:
         }
         ' yangshi.tmp>china1.tmp
 
-        # 获取卫视
-        # 从指定行打印到第4个空行
-        awk 'BEGIN{FS="\n"; RS="\n\n"}/卫视频道,/{printf "%s\n\n",$0; getline; print; printf "%s\n\n",$0; getline; print; printf "%s\n\n",$0; getline; print}' $SOURCE_NAME>weishi.tmp
-        # 倒序打印至倒数第1个空行
-        awk '
-        {line[NR]=$0}END{i=NR
-        while(i>0)
-        {
-            if(line[i]~/^$/){break};
-            print line[i];
-            i=i-1;
-        }
-        }
-        ' weishi.tmp>china2.tmp
+        
 
         cat china*.tmp>Source/China.m3u
 
