@@ -84,7 +84,7 @@ jobs:
           if($0~/卫视/ && $0!~/3M/) {print name "\n" url};
         }
         ' weishi.tmp>china2.tmp
-        cat china*.tmp>China.m3u
+        cat china*.tmp>Source/China.m3u
 
 
     - name: 重新排序国内频道并更换透明图标
@@ -152,6 +152,7 @@ jobs:
       run : |
         rm $SOURCE_NAME
         rm *tmp*.m3u
+        rm *.tmp
         ls
     
     - name: 判断是否有变更
