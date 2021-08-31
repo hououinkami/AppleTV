@@ -72,16 +72,13 @@ jobs:
         awk 'BEGIN{FS="\n"; RS="\n\n"}/卫视频道,/{printf "%s\n\n",$0; getline; print; printf "%s\n\n",$0; getline; print; printf "%s\n\n",$0; getline; print}' $SOURCE_NAME>weishi.tmp
         # 倒序打印至倒数第1个空行
         awk '
-        {line[NR]=$0}
-        END 
+        {line[NR]=$0}END{i=NR
+        while(i>0)
         {
-          i=NR
-          while(i>0)
-          {
             if(line[i]~/^$/){break};
             print line[i];
             i=i-1;
-          }
+        }
         }
         ' weishi.tmp>china2.tmp
 
