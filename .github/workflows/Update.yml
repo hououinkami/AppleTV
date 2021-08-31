@@ -57,6 +57,7 @@ jobs:
       run : |
         wget $SOURCE -O $SOURCE_NAME
         wget $SOURCE2 -O $SOURCE_NAME2
+        awk "/陕西银河,/,/齐秦的歌,/" $SOURCE_NAME2>weishi.tmp
 
     
     - name: 国内频道
@@ -78,7 +79,6 @@ jobs:
         ' $SOURCE_NAME>china1.tmp
 
         # 获取卫视
-        awk "/陕西银河,/,/齐秦的歌,/" $SOURCE_NAME2>weishi.tmp
         awk -F',' '
         {
           name=$1;
