@@ -79,7 +79,6 @@ jobs:
 
         # 获取卫视
         awk "/陕西银河,/,/齐秦的歌,/" $SOURCE_NAME2>weishi.tmp
-        ls
         awk -F',' '
         {
           name=$1;
