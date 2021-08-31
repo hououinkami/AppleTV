@@ -17,10 +17,8 @@ env:
   TZ: Asia/Shanghai
   TELEGRAM_NOTIFICATION: true
   TELEGRAM_NOTIFICATION_CONTENT: <b>📺 AppleTVライブチャンネル更新しました！</b>
-  SOURCE: https://raw.githubusercontent.com/lamdow8/lamdow8.github.io/master/list.m3u
-  SOURCE2: https://raw.githubusercontent.com/lamdow8/lamdow8.github.io/master/list.txt
+  SOURCE: https://raw.githubusercontent.com/lamdow8/lamdow8.github.io/master/list.txt
   SOURCE_NAME: IPTV_tmp.m3u
-  SOURCE_NAME2: IPTV_tmp2.m3u
   GROUP_NAME_CCTV: 央视频道
   GROUP_NAME_SATT: 卫视频道
   GROUP_NAME_HK: 香港频道
@@ -56,36 +54,38 @@ jobs:
     - name: 获取最新源
       run : |
         wget $SOURCE -O $SOURCE_NAME
-        wget $SOURCE2 -O $SOURCE_NAME2
     
     - name: 国内频道
       run : |
-        awk '
-        {
-          if($0~/\#EXTM3U/) {print $0};
-          if($0~/group-title=\"央视\"/) {m=NR; n=NR+1};
-          if(m<=NR && NR<=n) {
-            gsub("央视","'"$GROUP_NAME_CCTV"'");
-            gsub("中国卫视","'"$GROUP_NAME_SATT"'");
-            gsub(" 高清","")
-            gsub("高清","")
-            if($0~/深圳/) {gsub("tvg-id=\"[0-9]{1,2}\"","tvg-id=\"26\"")};
-            print $0;
-          };
-        }
-        ' $SOURCE_NAME>china1.tmp
-
-        # 获取卫视
-        awk "/陕西银河,/,/齐秦的歌,/" $SOURCE_NAME2>weishi.tmp
+        # 获取央视
+        awk 'BEGIN{FS="\n"; RS="\n\n"}/央视频道,/{printf "%s\n\n",$0;}' $SOURCE_NAME>yangshi.tmp
         awk -F, '
         {
           name=$1;
           url=$2;
-          if($0~/卫视/ && $0!~/3M/) {print name "\n" url};
+          if($0~/CCTV/) {print name "\n" url};
+        }
+        ' yangshi.tmp>china1.tmp
+
+        # 获取卫视
+        # 从指定行打印到第4个空行
+        awk 'BEGIN{FS="\n"; RS="\n\n"}/卫视频道,/{printf "%s\n\n",$0; getline; print; printf "%s\n\n",$0; getline; print; printf "%s\n\n",$0; getline; print}' $SOURCE_NAME>weishi.tmp
+        # 倒序打印至倒数第1个空行
+        awk '
+        {line[NR]=$0}
+        END 
+        {
+          i=NR
+          while(i>0)
+          {
+            if(line[i]~/^$/){break};
+            print line[i];
+            i=i-1;
+          }
         }
         ' weishi.tmp>china2.tmp
-        cat china*.tmp>Source/China.m3u
 
+        cat china*.tmp>Source/China.m3u
 
     - name: 重新排序国内频道并更换透明图标
       run : |
@@ -111,6 +111,7 @@ jobs:
           };
           gsub("group-title=\"..央视.*\"","group-title=\"'"$GROUP_NAME_CCTV"'\"");
           gsub("group-title=\"..卫视.*\"","group-title=\"'"$GROUP_NAME_SATT"'\"");
+          if(info~/卫视频道高清/) {exit};
         }
         ' ChannelList/China.list>China.m3u
 
