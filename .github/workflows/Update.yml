@@ -61,6 +61,7 @@ jobs:
         awk '!NF{f=0} /央视频道,/ {f=1} f' $SOURCE_NAME>yangshi.tmp
         awk -F, '
         {
+          gsub("\$.*","");
           name=$1;
           url=$2;
           if($0~/CCTV/) {print name "\n" url};
@@ -79,6 +80,7 @@ jobs:
         awk -F, '
         {
           gsub(" HD","");
+          gsub("\$.*","");
           name=$1;
           url=$2;
           if($0~/卫视/) {print name "\n" url};
@@ -111,6 +113,7 @@ jobs:
           };
           gsub("group-title=\"..央视.*\"","group-title=\"'"$GROUP_NAME_CCTV"'\"");
           gsub("group-title=\"..卫视.*\"","group-title=\"'"$GROUP_NAME_SATT"'\"");
+          if(info~/卫视频道标清/) {exit};
         }
         ' ChannelList/China.list>China.m3u
 
@@ -152,7 +155,7 @@ jobs:
       run : |
         rm $SOURCE_NAME
         rm *tmp*.m3u
-        #rm *.tmp
+        rm *.tmp
         ls
     
     - name: 判断是否有变更
