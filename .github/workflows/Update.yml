@@ -71,7 +71,7 @@ jobs:
         # 从指定行打印到第4个空行
         awk 'BEGIN{i=1} /卫视频道,/,0 {
           if(length($0)==0) {i++};
-          if(i<=2) {print $0}
+          if(i<=4) {print $0}
         }
         ' $SOURCE_NAME>weishi.tmp
         # 倒序打印至倒数第1个空行
@@ -154,7 +154,7 @@ jobs:
       run : |
         rm $SOURCE_NAME
         rm *tmp*.m3u
-        #rm *.tmp
+        rm *.tmp
         ls
     
     - name: 判断是否有变更
