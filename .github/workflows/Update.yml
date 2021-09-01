@@ -61,7 +61,7 @@ jobs:
         awk '!NF{f=0} /央视频道,/ {f=1} f' $SOURCE_NAME>yangshi.tmp
         awk -F, '
         {
-          gsub("\$.*","");
+          gsub(/\$.*/,"");
           name=$1;
           url=$2;
           if($0~/CCTV/) {print name "\n" url};
@@ -80,7 +80,7 @@ jobs:
         awk -F, '
         {
           gsub(" HD","");
-          gsub("\$.*","");
+          gsub(/\$.*/,"");
           name=$1;
           url=$2;
           if($0~/卫视/) {print name "\n" url};
