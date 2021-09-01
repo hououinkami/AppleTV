@@ -69,7 +69,7 @@ jobs:
 
         # 获取卫视
         # 从指定行打印到第4个空行
-        awk 'BEGIN{FS="\n"; RS="\n\n"}/卫视频道,/{printf "%s\n\n",$0; getline; }' $SOURCE_NAME>weishi.tmp
+        awk 'BEGIN{FS="\n"; RS="\n\n"}/卫视频道,/{printf "%s\n\n",$0; getline; print;}' $SOURCE_NAME>weishi.tmp
         # 倒序打印至倒数第1个空行
         awk '
         {line[NR]=$0}END{i=NR
