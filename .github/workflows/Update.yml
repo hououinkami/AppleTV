@@ -75,16 +75,7 @@ jobs:
         }
         ' $SOURCE_NAME>weishi.tmp
         # 倒序打印至倒数第1个空行
-        awk '
-        {line[NR]=$0}END{i=NR
-        while(i>0)
-        {
-            if(line[i]~/^$/){break};
-            print line[i];
-            i=i-1;
-        }
-        }
-        ' weishi.tmp>weishi2.tmp
+        awk '{line[NR]=$0}END{t=NR; b=1; for(i=t; i>0; i--) {if(length(line[i])==0) {b++}; if(b<=1) {print line[i]}}}' weishi.tmp>weishi2.tmp
         awk -F, '
         {
           name=$1;
@@ -161,7 +152,7 @@ jobs:
       run : |
         rm $SOURCE_NAME
         rm *tmp*.m3u
-        #rm *.tmp
+        rm *.tmp
         ls
     
     - name: 判断是否有变更
