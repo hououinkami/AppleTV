@@ -84,7 +84,14 @@ jobs:
             i=i-1;
         }
         }
-        ' weishi.tmp>china2.tmp
+        ' weishi.tmp>weishi2.tmp
+        awk -F, '
+        {
+          name=$1;
+          url=$2;
+          if($0~/卫视/) {print name "\n" url};
+        }
+        ' weishi2.tmp>china2.tmp
 
         cat china*.tmp>Source/China.m3u
 
