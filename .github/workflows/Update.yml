@@ -78,6 +78,7 @@ jobs:
         awk '{line[NR]=$0}END{t=NR; b=1; for(i=t; i>0; i--) {if(length(line[i])==0) {b++}; if(b<=1) {print line[i]}}}' weishi.tmp>weishi2.tmp
         awk -F, '
         {
+          gsub(" HD","");
           name=$1;
           url=$2;
           if($0~/卫视/) {print name "\n" url};
