@@ -161,7 +161,7 @@ jobs:
       run : |
         rm $SOURCE_NAME
         rm *tmp*.m3u
-        rm *.tmp
+        #rm *.tmp
         ls
     
     - name: 判断是否有变更
