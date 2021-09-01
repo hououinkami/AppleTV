@@ -111,7 +111,6 @@ jobs:
           };
           gsub("group-title=\"..央视.*\"","group-title=\"'"$GROUP_NAME_CCTV"'\"");
           gsub("group-title=\"..卫视.*\"","group-title=\"'"$GROUP_NAME_SATT"'\"");
-          if(info~/卫视频道高清/) {exit};
         }
         ' ChannelList/China.list>China.m3u
 
