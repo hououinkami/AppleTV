@@ -16,7 +16,7 @@ on:
 env:
   TZ: Asia/Shanghai
   TELEGRAM_NOTIFICATION: true
-  TELEGRAM_NOTIFICATION_CONTENT: <b>📺 AppleTVライブチャンネル更新しました！</b>
+  TELEGRAM_NOTIFICATION_CONTENT: <b>📺 AppleTVライブチャンネルが更新しました！</b>
   SOURCE: https://raw.githubusercontent.com/lamdow8/lamdow8.github.io/master/list.txt
   SOURCE_NAME: IPTV_tmp.txt
   GROUP_NAME_CCTV: 央视频道
@@ -152,7 +152,7 @@ jobs:
       run : |
         rm $SOURCE_NAME
         rm *tmp*.m3u
-        rm *.tmp
+        #rm *.tmp
         ls
     
     - name: 判断是否有变更
