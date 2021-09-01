@@ -1,9 +1,85 @@
-📺卫视频道,#genre#
+🇨🇳央视频道,#genre#
+央视新闻,https://newsalic.v.myalicdn.com:443/news/news10_1/index.m3u8
+CCTV-1综合,http://39.135.138.59:18890/PLTV/88888910/224/3221225642/index.m3u8$江西宜春8M
+CCTV-2财经,http://39.135.138.59:18890/PLTV/88888910/224/3221225643/index.m3u8$江西宜春8M
+CCTV-3综艺,http://39.135.138.59:18890/PLTV/88888910/224/3221225634/index.m3u8$江西宜春8M
+CCTV-4国际,http://39.135.138.59:18890/PLTV/88888910/224/3221225621/index.m3u8$江西宜春8M
+CCTV-5体育,http://39.135.138.59:18890/PLTV/88888910/224/3221225633/index.m3u8$江西宜春8M
+CCTV-5+体育赛事,http://39.135.138.59:18890/PLTV/88888910/224/3221225706/index.m3u8$江西宜春8M
+CCTV-6电影,http://39.135.138.59:18890/PLTV/88888910/224/3221225632/index.m3u8$江西宜春8M
+CCTV-7国防军事,http://39.135.138.59:18890/PLTV/88888910/224/3221225644/index.m3u8$江西宜春8M
+CCTV-8电视剧,http://39.135.138.59:18890/PLTV/88888910/224/3221225631/index.m3u8$江西宜春8M
+CCTV-9纪录,http://39.135.138.59:18890/PLTV/88888910/224/3221225646/index.m3u8$江西宜春8M
+CCTV-10科教,http://39.135.138.59:18890/PLTV/88888910/224/3221225636/index.m3u8$江西宜春8M
+CCTV-11戏曲,http://39.135.138.59:18890/PLTV/88888910/224/3221225628/index.m3u8$江西宜春8M
+CCTV-12社会与法,http://39.135.138.59:18890/PLTV/88888910/224/3221225637/index.m3u8$江西宜春8M
+CCTV-13新闻,http://39.135.138.59:18890/PLTV/88888910/224/3221225638/index.m3u8$江西宜春3.5M
+CCTV-14少儿,http://39.135.138.59:18890/PLTV/88888910/224/3221225639/index.m3u8$江西宜春4M
+CCTV-15音乐,http://39.135.138.59:18890/PLTV/88888910/224/3221225641/index.m3u8$江西宜春4M
+CCTV-17农业农村,http://39.135.138.59:18890/PLTV/88888910/224/3221225909/index.m3u8$江西宜春8M
 
-东南卫视 HD,rtsp://183.252.166.199/PLTV/88888888/224/3221226121/10000100000000060000000002358085_0.smil$福建8M
-东南卫视 HD,rtsp://183.252.166.199/PLTV/88888888/224/3221226121/10000100000000060000000002358085_0.smil$福建8M
+CCTV-1综合,http://223.110.241.137:6610/gitv/live1/G_CCTV-1-HQ/G_CCTV-1-HQ/.m3u8$银河
+CCTV-2财经,http://223.110.241.137:6610/gitv/live1/G_CCTV-2-HD/G_CCTV-2-HD/.m3u8$银河
+CCTV-3综艺,http://223.110.241.137:6610/gitv/live1/G_CCTV-3-HQ/G_CCTV-3-HQ/.m3u8$银河
+CCTV-4国际,http://223.110.241.137:6610/gitv/live1/G_CCTV-4-HQ/G_CCTV-4-HQ/.m3u8$银河
+CCTV-5体育,http://223.110.241.137:6610/gitv/live1/G_CCTV-5-HQ/G_CCTV-5-HQ/.m3u8$银河
+CCTV-5+体育赛事,http://223.110.241.137:6610/gitv/live1/G_CCTV-5PLUS-HQ/G_CCTV-5PLUS-HQ/.m3u8$银河
+CCTV-6电影,http://223.110.241.137:6610/gitv/live1/G_CCTV-6-HQ/G_CCTV-6-HQ/.m3u8$银河
+CCTV-7国防军事,http://223.110.241.137:6610/gitv/live1/G_CCTV-7-HQ/G_CCTV-7-HQ/.m3u8$银河
+CCTV-8电视剧,http://223.110.241.137:6610/gitv/live1/G_CCTV-8-HQ/G_CCTV-8-HQ/.m3u8$银河
+CCTV-10科教,http://223.110.241.137:6610/gitv/live1/G_CCTV-10-HQ/G_CCTV-10-HQ/.m3u8$银河
+CCTV-11戏曲,http://223.110.241.137:6610/gitv/live1/G_CCTV-11-HQ/G_CCTV-11-HQ/.m3u8$银河
+CCTV-13新闻,http://223.110.241.137:6610/gitv/live1/G_CCTV-13-HQ/G_CCTV-13-HQ/.m3u8$银河
 
-东方卫视 HD,rtsp://183.252.166.199/PLTV/88888888/224/3221226041/10000100000000060000000002296882_0.smil$福建8M
-东方卫视 HD,rtsp://183.252.166.199/PLTV/88888888/224/3221226041/10000100000000060000000002296882_0.smil$福建8M
+CCTV-1综合,http://39.134.134.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226346/1.m3u8$北京8M
+CCTV-1综合,http://39.134.134.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226431/1.m3u8$北京8M
+CCTV-2财经,http://39.134.134.88/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226371/1.m3u8$北京8M
+CCTV-2财经,http://39.134.134.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226472/1.m3u8$北京8M
+CCTV-3综艺,http://39.134.134.88/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226471/1.m3u8$北京8M
+CCTV-4国际,http://39.134.134.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226335/1.m3u8$北京4M
+CCTV-5体育,http://39.134.134.88/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226469/1.m3u8$北京8M
+CCTV-5+体育赛事,http://39.134.134.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226349/1.m3u8$北京4M
+CCTV-5+体育赛事,http://39.134.134.88/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226458/1.m3u8$北京8M
+CCTV-7国防军事,http://39.134.134.88/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226467/1.m3u8$北京8M
+CCTV-8电视剧,http://39.134.134.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226485/1.m3u8$北京8M
+CCTV-9纪录,http://39.134.134.88/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226465/1.m3u8$北京8M
+CCTV-10科教,http://39.134.134.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226464/1.m3u8$北京8M
+CCTV-11戏曲,http://39.134.134.88/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226463/1.m3u8$北京8M
+CCTV-12社会与法,http://39.134.134.88/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226462/1.m3u8$北京8M
+CCTV-13新闻,http://39.134.134.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226316/1.m3u8$北京4M
+CCTV-15音乐,http://39.134.134.88/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226333/1.m3u8$北京4M
+CCTV-17农业农村,http://39.134.134.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226318/1.m3u8$北京4M
 
-北京卫视 HD,rtsp://183.252.166.199/PLTV/88888888/224/3221226092/10000100000000060000000002296930_0.smil$福建8M
+CCTV-1综合,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226231/index.m3u8$陕西12M
+CCTV-2财经,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226224/index.m3u8$陕西12M
+CCTV-3综艺,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226009/index.m3u8$陕西5M
+CCTV-4国际,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226223/index.m3u8$陕西12M
+CCTV-5体育,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226395/index.m3u8$陕西3M
+CCTV-5+体育赛事,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226221/index.m3u8$陕西12M
+CCTV-6电影,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226011/index.m3u8$陕西5M
+CCTV-7国防军事,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226192/index.m3u8$陕西3M
+CCTV-8电视剧,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226012/index.m3u8$陕西5M
+CCTV-9纪录,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226197/index.m3u8$陕西3M
+CCTV-10科教,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226189/index.m3u8$陕西3M
+CCTV-12社会与法,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226190/index.m3u8$陕西3M
+CCTV-14少儿,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226193/index.m3u8$陕西3M
+CCTV-17农业农村,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226198/index.m3u8$陕西3M
+IPTV5+ 7.5M1080,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226345/index.m3u8$陕西7.5M
+CCTV-1综合,http://39.134.19.228:6410/yinhe/2/ch00000090990000001331/index.m3u8?virtualDomain=yinhe.live_hls.zte.com$陕西银河12M
+CCTV-2财经http://39.134.19.228:6410/yinhe/2/ch00000090990000001332/index.m3u8?virtualDomain=yinhe.live_hls.zte.com$陕西银河12M
+CCTV-3综艺,http://39.134.19.228:6410/yinhe/2/ch00000090990000001598/index.m3u8?virtualDomain=yinhe.live_hls.zte.com$陕西银河5M
+CCTV-4国际,http://39.134.19.228:6410/yinhe/2/ch00000090990000001333/index.m3u8?virtualDomain=yinhe.live_hls.zte.com$陕西银河12M
+CCTV-5体育,http://39.134.19.228:6410/yinhe/2/ch00000090990000001850/index.m3u8?virtualDomain=yinhe.live_hls.zte.com$陕西银河3M
+CCTV-5+体育赛事,http://39.134.19.228:6410/yinhe/2/ch00000090990000001334/index.m3u8?virtualDomain=yinhe.live_hls.zte.com$陕西银河12M
+CCTV-6电影,http://39.134.19.228:6410/yinhe/2/ch00000090990000001859/index.m3u8?virtualDomain=yinhe.live_hls.zte.com$陕西银河5M
+CCTV-7国防军事,http://39.134.19.228:6410/yinhe/2/ch00000090990000001291/index.m3u8?virtualDomain=yinhe.live_hls.zte.com$陕西银河3M
+CCTV-8电视剧,http://39.134.19.228:6410/yinhe/2/ch00000090990000001869/index.m3u8?virtualDomain=yinhe.live_hls.zte.com$陕西银河5M
+CCTV-9纪录,http://39.134.19.228:6410/yinhe/2/ch00000090990000001294/index.m3u8?virtualDomain=yinhe.live_hls.zte.com$陕西银河3M
+CCTV-10科教,http://39.134.19.228:6410/yinhe/2/ch00000090990000001288/index.m3u8?virtualDomain=yinhe.live_hls.zte.com$陕西银河3M
+CCTV-11戏曲,rtsp://183.252.176.54:554/PLTV/88888888/224/3221225996/10000100000000060000000002296743_0.smil
+CCTV-12社会与法,http://39.134.19.228:6410/yinhe/2/ch00000090990000001289/index.m3u8?virtualDomain=yinhe.live_hls.zte.com$陕西银河3M
+CCTV-13新闻,rtsp://183.252.176.54:554/PLTV/88888888/224/3221226104/10000100000000060000000002298296_0.smil$福建8M
+CCTV-14少儿,http://39.134.19.228:6410/yinhe/2/ch00000090990000001292/index.m3u8?virtualDomain=yinhe.live_hls.zte.com$陕西银河3M
+CCTV-15音乐,rtsp://183.252.166.199/PLTV/88888888/224/3221225998/10000100000000060000000002296745_0.smil$福建8M
+CCTV-17农业农村,http://39.134.19.228:6410/yinhe/2/ch00000090990000001295/index.m3u8?virtualDomain=yinhe.live_hls.zte.com$陕西银河3M
+IPTV5+ 7.5M1080,http://39.134.19.228:6410/yinhe/2/ch00000090990000001592/index.m3u8?virtualDomain=yinhe.live_hls.zte.com$陕西银河7.5M

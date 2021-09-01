@@ -32,4 +32,36 @@ CCTV-15音乐
 http://39.135.138.59:18890/PLTV/88888910/224/3221225641/index.m3u8$江西宜春4M
 CCTV-17农业农村
 http://39.135.138.59:18890/PLTV/88888910/224/3221225909/index.m3u8$江西宜春8M
-北京卫视 HD,rtsp://183.252.166.199/PLTV/88888888/224/3221226092/10000100000000060000000002296930_0.smil$福建8M
+IPTV5+ 7.5M1080,http://39.134.19.228:6410/yinhe/2/ch00000090990000001592/index.m3u8?virtualDomain=yinhe.live_hls.zte.com$陕西银河7.5M
+CCTV-17农业农村,http://39.134.19.228:6410/yinhe/2/ch00000090990000001295/index.m3u8?virtualDomain=yinhe.live_hls.zte.com$陕西银河3M
+CCTV-15音乐,rtsp://183.252.166.199/PLTV/88888888/224/3221225998/10000100000000060000000002296745_0.smil$福建8M
+CCTV-14少儿,http://39.134.19.228:6410/yinhe/2/ch00000090990000001292/index.m3u8?virtualDomain=yinhe.live_hls.zte.com$陕西银河3M
+CCTV-13新闻,rtsp://183.252.176.54:554/PLTV/88888888/224/3221226104/10000100000000060000000002298296_0.smil$福建8M
+CCTV-12社会与法,http://39.134.19.228:6410/yinhe/2/ch00000090990000001289/index.m3u8?virtualDomain=yinhe.live_hls.zte.com$陕西银河3M
+CCTV-11戏曲,rtsp://183.252.176.54:554/PLTV/88888888/224/3221225996/10000100000000060000000002296743_0.smil
+CCTV-10科教,http://39.134.19.228:6410/yinhe/2/ch00000090990000001288/index.m3u8?virtualDomain=yinhe.live_hls.zte.com$陕西银河3M
+CCTV-9纪录,http://39.134.19.228:6410/yinhe/2/ch00000090990000001294/index.m3u8?virtualDomain=yinhe.live_hls.zte.com$陕西银河3M
+CCTV-8电视剧,http://39.134.19.228:6410/yinhe/2/ch00000090990000001869/index.m3u8?virtualDomain=yinhe.live_hls.zte.com$陕西银河5M
+CCTV-7国防军事,http://39.134.19.228:6410/yinhe/2/ch00000090990000001291/index.m3u8?virtualDomain=yinhe.live_hls.zte.com$陕西银河3M
+CCTV-6电影,http://39.134.19.228:6410/yinhe/2/ch00000090990000001859/index.m3u8?virtualDomain=yinhe.live_hls.zte.com$陕西银河5M
+CCTV-5+体育赛事,http://39.134.19.228:6410/yinhe/2/ch00000090990000001334/index.m3u8?virtualDomain=yinhe.live_hls.zte.com$陕西银河12M
+CCTV-5体育,http://39.134.19.228:6410/yinhe/2/ch00000090990000001850/index.m3u8?virtualDomain=yinhe.live_hls.zte.com$陕西银河3M
+CCTV-4国际,http://39.134.19.228:6410/yinhe/2/ch00000090990000001333/index.m3u8?virtualDomain=yinhe.live_hls.zte.com$陕西银河12M
+CCTV-3综艺,http://39.134.19.228:6410/yinhe/2/ch00000090990000001598/index.m3u8?virtualDomain=yinhe.live_hls.zte.com$陕西银河5M
+CCTV-2财经http://39.134.19.228:6410/yinhe/2/ch00000090990000001332/index.m3u8?virtualDomain=yinhe.live_hls.zte.com$陕西银河12M
+CCTV-1综合,http://39.134.19.228:6410/yinhe/2/ch00000090990000001331/index.m3u8?virtualDomain=yinhe.live_hls.zte.com$陕西银河12M
+IPTV5+ 7.5M1080,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226345/index.m3u8$陕西7.5M
+CCTV-17农业农村,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226198/index.m3u8$陕西3M
+CCTV-14少儿,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226193/index.m3u8$陕西3M
+CCTV-12社会与法,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226190/index.m3u8$陕西3M
+CCTV-10科教,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226189/index.m3u8$陕西3M
+CCTV-9纪录,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226197/index.m3u8$陕西3M
+CCTV-8电视剧,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226012/index.m3u8$陕西5M
+CCTV-7国防军事,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226192/index.m3u8$陕西3M
+CCTV-6电影,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226011/index.m3u8$陕西5M
+CCTV-5+体育赛事,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226221/index.m3u8$陕西12M
+CCTV-5体育,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226395/index.m3u8$陕西3M
+CCTV-4国际,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226223/index.m3u8$陕西12M
+CCTV-3综艺,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226009/index.m3u8$陕西5M
+CCTV-2财经,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226224/index.m3u8$陕西12M
+CCTV-1综合,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226231/index.m3u8$陕西12M
