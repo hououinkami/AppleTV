@@ -1,39 +1,39 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
 # 央视频道
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV-1" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" group-title="央视频道",CCTV-1 综合
-
+http://39.134.134.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226318/1.m3u8
 #EXTINF:-1 tvg-id="2" tvg-name="CCTV-2" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV2.png" group-title="央视频道",CCTV-2 财经
-
+http://39.134.134.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226472/1.m3u8
 #EXTINF:-1 tvg-id="3" tvg-name="CCTV-3" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV3.png" group-title="央视频道",CCTV-3 综艺
-
+http://39.134.134.88/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226471/1.m3u8
 #EXTINF:-1 tvg-id="4" tvg-name="CCTV-4" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4.png" group-title="央视频道",CCTV-4 中文国际
-
+http://39.134.134.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226335/1.m3u8
 #EXTINF:-1 tvg-id="5" tvg-name="CCTV-5" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5.png" group-title="央视频道",CCTV-5 体育
-
+http://39.134.134.88/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226458/1.m3u8
 #EXTINF:-1 tvg-id="6" tvg-name="CCTV-5+" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5+.png" group-title="央视频道",CCTV-5+ 体育赛事
-
+http://39.134.134.88/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226458/1.m3u8
 #EXTINF:-1 tvg-id="7" tvg-name="CCTV-6" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV6.png" group-title="央视频道",CCTV-6 电影
-
+http://39.134.134.88/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226458/1.m3u8
 #EXTINF:-1 tvg-id="8" tvg-name="CCTV-7" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV7.png" group-title="央视频道",CCTV-7 国防军事
-
+http://39.134.134.88/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226467/1.m3u8
 #EXTINF:-1 tvg-id="9" tvg-name="CCTV-8" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV8.png" group-title="央视频道",CCTV-8 电视剧
-
+http://39.134.134.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226485/1.m3u8
 #EXTINF:-1 tvg-id="10" tvg-name="CCTV-9" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV9.png" group-title="央视频道",CCTV-9 纪录
-
+http://39.134.134.88/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226465/1.m3u8
 #EXTINF:-1 tvg-id="11" tvg-name="CCTV-10" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV10.png" group-title="央视频道",CCTV-10 科教
-
+http://39.134.134.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226464/1.m3u8
 #EXTINF:-1 tvg-id="12" tvg-name="CCTV-11" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV11.png" group-title="央视频道",CCTV-11 戏曲
-
+http://39.134.134.88/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226463/1.m3u8
 #EXTINF:-1 tvg-id="13" tvg-name="CCTV-12" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV12.png" group-title="央视频道",CCTV-12 社会与法
-
+http://39.134.134.88/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226462/1.m3u8
 #EXTINF:-1 tvg-id="14" tvg-name="CCTV-13" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV13.png" group-title="央视频道",CCTV-13 新闻
-
+http://39.134.134.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226316/1.m3u8
 #EXTINF:-1 tvg-id="15" tvg-name="CCTV-14" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV14.png" group-title="央视频道",CCTV-14 少儿
-
+http://39.134.134.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226316/1.m3u8
 #EXTINF:-1 tvg-id="16" tvg-name="CCTV-15" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV15.png" group-title="央视频道",CCTV-15 音乐
-
+http://39.134.134.88/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226333/1.m3u8
 #EXTINF:-1 tvg-id="17" tvg-name="CCTV-17" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV17.png" group-title="央视频道",CCTV-17 农业农村
-
+http://39.134.134.84/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226318/1.m3u8
 
 # 卫视频道高清
 #EXTINF:-1 tvg-id="31" tvg-name="深圳卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shenzhen.png" group-title="卫视频道",深圳卫视
