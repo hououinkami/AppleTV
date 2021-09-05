@@ -74,7 +74,7 @@ jobs:
           gsub(/\$.*/,"");
           name=$1;
           url=$2;
-          if($0~/卫视/) {print name "\n" url};
+          if($0~/CCTV/) {print name "\n" url};
         }
         ' yangshi2.tmp>china1.tmp
 
