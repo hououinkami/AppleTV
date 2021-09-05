@@ -19,6 +19,8 @@ env:
   TELEGRAM_NOTIFICATION_CONTENT: <b>📺 AppleTVライブチャンネルが更新しました！</b>
   SOURCE: https://raw.githubusercontent.com/lamdow8/lamdow8.github.io/master/list.txt
   SOURCE_NAME: IPTV_tmp.txt
+  CCTV_NUM: 3
+  SATT_NUM: 3
   GROUP_NAME_CCTV: 央视频道
   GROUP_NAME_SATT: 卫视频道
   GROUP_NAME_HK: 香港频道
@@ -58,21 +60,29 @@ jobs:
     - name: 国内频道
       run : |
         # 获取央视
-        awk '!NF{f=0} /央视频道,/ {f=1} f' $SOURCE_NAME>yangshi.tmp
+        # 从指定行打印到指定空行
+        awk 'BEGIN{i=1} /央视频道,/,0 {
+          if(length($0)==0) {i++};
+          if(i<=$CCTV_NUM) {print $0}
+        }
+        ' $SOURCE_NAME>yangshi.tmp
+        # 倒序打印至倒数第1个空行
+        awk '{line[NR]=$0}END{t=NR; b=1; for(i=t; i>0; i--) {if(length(line[i])==0) {b++}; if(b<=1) {print line[i]}}}' yangshi.tmp>yangshi2.tmp
         awk -F, '
         {
+          gsub(" HD","");
           gsub(/\$.*/,"");
           name=$1;
           url=$2;
-          if($0~/CCTV/) {print name "\n" url};
+          if($0~/卫视/) {print name "\n" url};
         }
-        ' yangshi.tmp>china1.tmp
+        ' yangshi2.tmp>china1.tmp
 
         # 获取卫视
-        # 从指定行打印到第4个空行
+        # 从指定行打印到指定空行
         awk 'BEGIN{i=1} /卫视频道,/,0 {
           if(length($0)==0) {i++};
-          if(i<=4) {print $0}
+          if(i<=$SATT_NUM) {print $0}
         }
         ' $SOURCE_NAME>weishi.tmp
         # 倒序打印至倒数第1个空行
