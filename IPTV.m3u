@@ -74,7 +74,7 @@ http://39.134.19.228:6410/yinhe/2/ch00000090990000001297/index.m3u8?virtualDomai
 #EXTM3U
 # 日本频道
 #EXTINF:-1 tvg-id="901" tvg-name="" tvg-logo="https://pbs.twimg.com/profile_images/1209053168870416389/lFgBlkWY_400x400.jpg" group-title="日本频道",日テレNEWS24
-https://n24-cdn-live-b.ntv.co.jp/ch01/High.m3u8
+https://www.news24.jp/livestream/index.m3u8
 #EXTINF:-1 tvg-id="902" tvg-name="" tvg-logo="" tvg-logo="https://static.epg.best/jp/TBSNews.jp.png" group-title="日本频道",TBS News
 https://tbs1.media.ylive.jp/d6d710ed2c204b4cb9ffea55a16a5f40/ap-northeast-1/5690807595001/playlist.m3u8
 #EXTINF:-1 tvg-id="903" tvg-name="" tvg-logo="https://img.discogs.com/A63jK_qkTXN-WDU6b4TumBpogDI=/fit-in/500x500/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/L-1390841-1513989715-5028.png.jpg" group-title="日本频道",NHK Eテレ
