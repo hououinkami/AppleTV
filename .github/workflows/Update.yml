@@ -5,7 +5,7 @@ on:
     branches:
       - beta
     path:
-      - '.github/workflows/*.yml'
+      - '**.yml'
   release:
     types: [published]
   schedule:
@@ -20,7 +20,7 @@ env:
   SOURCE: https://raw.githubusercontent.com/lamdow8/lamdow8.github.io/master/list.txt
   SOURCE_NAME: IPTV_tmp.txt
   CCTV_NUM: 4
-  CCTV_KEYWORD: $银河
+  CCTV_KEYWORD: 银河
   SATT_NUM: 4
   SATT_KEYWORD: 广西移动
   GROUP_NAME_CCTV: 央视频道
