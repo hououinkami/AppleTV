@@ -5,7 +5,7 @@ on:
     branches:
       - beta
     path:
-      - '*.yml'
+      - '/.github/workflows/*.yml'
   release:
     types: [published]
   schedule:
@@ -19,8 +19,10 @@ env:
   TELEGRAM_NOTIFICATION_CONTENT: <b>📺 AppleTVライブチャンネルが更新しました！</b>
   SOURCE: https://raw.githubusercontent.com/lamdow8/lamdow8.github.io/master/list.txt
   SOURCE_NAME: IPTV_tmp.txt
-  CCTV_NUM: 3
-  SATT_NUM: 3
+  CCTV_NUM: 4
+  CCTV_KEYWORD: 银河
+  SATT_NUM: 4
+  SATT_KEYWORD: 广西移动
   GROUP_NAME_CCTV: 央视频道
   GROUP_NAME_SATT: 卫视频道
   GROUP_NAME_HK: 香港频道
