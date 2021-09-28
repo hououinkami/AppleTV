@@ -5,7 +5,7 @@ on:
     branches:
       - beta
     path:
-      - '**.yml'
+      - '.github/workflows/**.yml'
   release:
     types: [published]
   schedule:
@@ -20,7 +20,7 @@ env:
   SOURCE: https://raw.githubusercontent.com/lamdow8/lamdow8.github.io/master/list.txt
   SOURCE_NAME: IPTV_tmp.txt
   CCTV_NUM: 4
-  CCTV_KEYWORD: 银河
+  CCTV_KEYWORD: $银河
   SATT_NUM: 4
   SATT_KEYWORD: 广西移动
   GROUP_NAME_CCTV: 央视频道
@@ -66,7 +66,7 @@ jobs:
         awk 'BEGIN{i=1;j=1} /央视频道,/,0 {
           if(length($0)==0) {i++};
           # if(i<='"$CCTV_NUM"') {print $0};
-          if(S0~'"$CCTV_KEYWORD"') {j=i}
+          if(S0~/'"$CCTV_KEYWORD"'/) {j=i}
           if(i<=j) {print $0};
         }
         ' $SOURCE_NAME>yangshi.tmp
