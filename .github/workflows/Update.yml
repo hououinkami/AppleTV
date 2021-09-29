@@ -74,7 +74,7 @@ jobs:
             if(i<='"$CCTV_NUM"') {print $0};
             if(i=='"$CCTV_NUM"'+1 && isExist==0 && length($0)==0) {printf("\n")};
           }
-	      }
+        }
         ' $SOURCE_NAME>yangshi.tmp
         # 倒序打印至倒数第1个空行
         awk '{line[NR]=$0}END{t=NR; b=1; for(i=t; i>0; i--) {if(length(line[i])==0) {b++}; if(b<=1) {print line[i]}}}' yangshi.tmp>yangshi2.tmp
