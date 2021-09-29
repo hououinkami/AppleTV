@@ -74,7 +74,7 @@ jobs:
           if(isExist==0) {
             if(length($0)==0) {i++};
             if(i<='"$CCTV_NUM"') {print $0};
-          }
+          };
         }
         ' $SOURCE_NAME>yangshi.tmp
         # 倒序打印至倒数第1个空行
