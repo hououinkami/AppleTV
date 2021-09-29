@@ -66,7 +66,7 @@ jobs:
         # 从指定行打印到指定空行
         awk 'BEGIN{i=1;isExist=0} /央视频道,/,/卫视频道,/ {
           if($0~/'"$CCTV_KEYWORD"'/) {
-            
+            if(isExist==0) {printf("\n")};
             isExist=1;
             print $0;
           }
@@ -97,7 +97,6 @@ jobs:
             print $0;
           };
           if(isExist==1 && $0~/高尔夫网球/) {exit};
-          }
         }
         ' $SOURCE_NAME>yangshipaid.tmp
         # 倒序打印至倒数第1个空行
