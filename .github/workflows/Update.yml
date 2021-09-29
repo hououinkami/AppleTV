@@ -64,7 +64,7 @@ jobs:
       run : |
         # 央视频道
         # 从指定行打印到指定空行
-        awk 'BEGIN{i=1;isExist=0} /央视频道,/,/卫视频道,/ {
+        awk 'BEGIN{i=1;isExist=0} /央视频道,/,0 {
           if($0~/'"$CCTV_KEYWORD"'/) {
             if(isExist==0) {printf("\n")};
             isExist=1;
