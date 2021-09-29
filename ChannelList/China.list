@@ -18,6 +18,16 @@
 #EXTINF:-1 tvg-id="16" tvg-name="CCTV-15" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV15.png" group-title="央视频道",CCTV-15 音乐
 #EXTINF:-1 tvg-id="17" tvg-name="CCTV-17" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV17.png" group-title="央视频道",CCTV-17 农业农村
 
+# 央视收费频道
+#EXTINF:-1 tvg-id="21" tvg-name="世界地理" tvg-logo="https://github.com/hououinkami/AppleTV/raw/master/ChannelLogo/China/CCTVSJDL.png" group-title="央视频道",CCTV-世界地理
+#EXTINF:-1 tvg-id="22" tvg-name="风云音乐" tvg-logo="https://github.com/hououinkami/AppleTV/raw/master/ChannelLogo/China/CCTVFYYY.png" group-title="央视频道",CCTV-风云音乐
+#EXTINF:-1 tvg-id="23" tvg-name="风云足球" tvg-logo="https://github.com/hououinkami/AppleTV/raw/master/ChannelLogo/China/CCTVFYZQ.png" group-title="央视频道",CCTV-风云足球
+#EXTINF:-1 tvg-id="24" tvg-name="风云剧场" tvg-logo="https://github.com/hououinkami/AppleTV/raw/master/ChannelLogo/China/CCTVFYJC.png" group-title="央视频道",CCTV-风云剧场
+#EXTINF:-1 tvg-id="25" tvg-name="第一剧场" tvg-logo="https://github.com/hououinkami/AppleTV/raw/master/ChannelLogo/China/CCTVDYJC.png" group-title="央视频道",CCTV-第一剧场
+#EXTINF:-1 tvg-id="26" tvg-name="怀旧剧场" tvg-logo="https://github.com/hououinkami/AppleTV/raw/master/ChannelLogo/China/CCTVHJJC.png" group-title="央视频道",CCTV-怀旧剧场
+#EXTINF:-1 tvg-id="27" tvg-name="女性时尚" tvg-logo="https://github.com/hououinkami/AppleTV/raw/master/ChannelLogo/China/CCTVNXSS.png" group-title="央视频道",CCTV-女性时尚
+#EXTINF:-1 tvg-id="28" tvg-name="文化精品" tvg-logo="https://github.com/hououinkami/AppleTV/raw/master/ChannelLogo/China/CCTVWHJP.png" group-title="央视频道",CCTV-文化精品
+
 # 卫视频道高清
 #EXTINF:-1 tvg-id="31" tvg-name="深圳卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shenzhen.png" group-title="卫视频道",深圳卫视
 #EXTINF:-1 tvg-id="32" tvg-name="北京卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="卫视频道",北京卫视

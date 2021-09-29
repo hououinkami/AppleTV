@@ -21,6 +21,7 @@ env:
   SOURCE_NAME: IPTV_tmp.txt
   CCTV_NUM: 4
   CCTV_KEYWORD: 江西宜春
+  CCTVPaid_KEYWORD: 39.136.18.76
   SATT_NUM: 4
   SATT_KEYWORD: 广西移动
   GROUP_NAME_CCTV: 央视频道
@@ -61,10 +62,11 @@ jobs:
     
     - name: 国内频道
       run : |
-        # 获取央视
+        # 央视频道
         # 从指定行打印到指定空行
-        awk 'BEGIN{i=1;isExist=0} /央视频道,/,0 {
+        awk 'BEGIN{i=1;isExist=0} /央视频道,/,/卫视频道,/ {
           if($0~/'"$CCTV_KEYWORD"'/) {
+            if(isExist==0) {printf("\n")};
             isExist=1;
             print $0;
           };
@@ -72,7 +74,6 @@ jobs:
           if(isExist==0) {
             if(length($0)==0) {i++};
             if(i<='"$CCTV_NUM"') {print $0};
-            if(i=='"$CCTV_NUM"'+1 && isExist==0 && length($0)==0) {printf("\n")};
           }
         }
         ' $SOURCE_NAME>yangshi.tmp
@@ -84,14 +85,38 @@ jobs:
           gsub(/\$.*/,"");
           name=$1;
           url=$2;
-          if($0~/CCTV/) {print name "\n" url};
+          print name "\n" url;
         }
-        ' yangshi2.tmp>china1.tmp
+        ' yangshi2.tmp>china1_1.tmp
 
-        # 获取卫视
+        # 央视收费频道
         # 从指定行打印到指定空行
-        awk 'BEGIN{i=1;isExist=0} /卫视频道,/,0 {
+        awk 'BEGIN{i=1;isExist=0} /央视频道,/,/卫视频道,/ {
+          if($0~/'"$CCTVPaid_KEYWORD"'/) {
+            isExist=1;
+            print $0;
+          };
+          if(isExist==1 && $0~/高尔夫网球/) {exit};
+          }
+        }
+        ' $SOURCE_NAME>yangshipaid.tmp
+        # 倒序打印至倒数第1个空行
+        awk '{line[NR]=$0}END{t=NR; b=1; for(i=t; i>0; i--) {if(length(line[i])==0) {b++}; if(b<=1) {print line[i]}}}' yangshipaid.tmp>yangshipaid2.tmp
+        awk -F, '
+        {
+          gsub(" HD","");
+          gsub(/\$.*/,"");
+          name=$1;
+          url=$2;
+          print name "\n" url;
+        }
+        ' yangshipaid2.tmp>china1_2.tmp
+
+        # 卫视频道
+        # 从指定行打印到指定空行
+        awk 'BEGIN{i=1;isExist=0} /卫视频道,/,/香港频道,/ {
           if($0~/'"$SATT_KEYWORD"'/) {
+            if(isExist==0) {printf("\n")};
             isExist=1;
             print $0;
           };
@@ -99,7 +124,6 @@ jobs:
           if(isExist==0) {
             if(length($0)==0) {i++};
             if(i<='"$SATT_NUM"') {print $0};
-            if(i=='"$SATT_NUM"'+1 && isExist==0 && length($0)==0) {printf("\n")};
           }
         }
         ' $SOURCE_NAME>weishi.tmp
@@ -111,7 +135,7 @@ jobs:
           gsub(/\$.*/,"");
           name=$1;
           url=$2;
-          if($0~/卫视/) {print name "\n" url};
+          print name "\n" url;
         }
         ' weishi2.tmp>china2.tmp
 
