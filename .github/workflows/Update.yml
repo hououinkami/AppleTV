@@ -23,7 +23,7 @@ env:
   CCTV_KEYWORD: 江西宜春
   CCTVPaid_KEYWORD: 39.136.18.76
   SATT_NUM: 4
-  SATT_KEYWORD: 广西移动
+  SATT_KEYWORD: 江西宜春
   GROUP_NAME_CCTV: 央视频道
   GROUP_NAME_SATT: 卫视频道
   GROUP_NAME_HK: 香港频道
