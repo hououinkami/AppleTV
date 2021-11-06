@@ -145,14 +145,19 @@ jobs:
         awk -F'"' '
         {
           info=$0;
-          name=$4" ";
+          name=$4;
           print info;
-          if(info~/EXTINF/ && info!~/体育赛事/) {
+          gsub("group-title=\"..央视.*\"","group-title=\"'"$GROUP_NAME_CCTV"'\"");
+          gsub("group-title=\"..卫视.*\"","group-title=\"'"$GROUP_NAME_SATT"'\"");
+          if(info~/卫视频道标清/) {exit};
+          if(info~/综合/) {
+            name="综合";
             close("Source/China.m3u");
             cmd="awk '\''/"name"/{getline;print}'\'' Source/China.m3u";
             cmd | getline churl;
             print churl;
             close(cmd);
+            next;
           };
           if(info~/体育赛事/) {
             name="体育赛事";
@@ -161,10 +166,15 @@ jobs:
             cmd | getline churl;
             print churl;
             close(cmd);
+            next;
           };
-          gsub("group-title=\"..央视.*\"","group-title=\"'"$GROUP_NAME_CCTV"'\"");
-          gsub("group-title=\"..卫视.*\"","group-title=\"'"$GROUP_NAME_SATT"'\"");
-          if(info~/卫视频道标清/) {exit};
+          if(info~/EXTINF/) {
+            close("Source/China.m3u");
+            cmd="awk '\''/"name"/{getline;print}'\'' Source/China.m3u";
+            cmd | getline churl;
+            print churl;
+            close(cmd);
+          };
         }
         ' ChannelList/China.list>China.m3u
 
