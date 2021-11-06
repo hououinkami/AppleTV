@@ -145,7 +145,8 @@ jobs:
         awk -F'"' '
         {
           info=$0;
-          name=$4;
+          gap=" ";
+          name=$4$gap;
           print info;
           if(info~/EXTINF/ && info!~/体育赛事/) {
             close("Source/China.m3u");
