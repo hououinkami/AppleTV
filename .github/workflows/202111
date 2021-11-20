@@ -1,0 +1,260 @@
+name: 生成自用Apple TV直播列表
+
+on:
+  push:
+    branches:
+      - beta
+    path:
+      - '.github/workflows/Update.yml'
+  release:
+    types: [published]
+  schedule:
+    - cron: 0 4,16 * * *
+  watch:
+    types: [started]
+
+env:
+  TZ: Asia/Shanghai
+  TELEGRAM_NOTIFICATION: true
+  TELEGRAM_NOTIFICATION_CONTENT: <b>📺 AppleTVライブチャンネルが更新しました！</b>
+  SOURCE: https://raw.githubusercontent.com/lamdow8/lamdow8.github.io/master/list.txt
+  SOURCE_NAME: IPTV_tmp.txt
+  CCTV_NUM: 4
+  CCTV_KEYWORD: 江西宜春
+  CCTVPaid_KEYWORD: 39.136.18.76
+  SATT_NUM: 4
+  SATT_KEYWORD: 江西宜春
+  GROUP_NAME_CCTV: 央视频道
+  GROUP_NAME_SATT: 卫视频道
+  GROUP_NAME_HK: 香港频道
+  GROUP_NAME_JP: 日本频道
+  GROUP_NAME_EN: 英文频道
+  GROUP_NAME_SCI: 科教记录
+  GROUP_NAME_TW: 台湾频道
+  GROUP_NAME_MO: 澳门频道
+  HKTW_ADD: false
+
+jobs:
+  GenerateList:
+    if: github.event.repository.owner.id == github.event.sender.id
+    runs-on: macos-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
+      with:
+        ref: master
+        fetch-depth: 0
+        lfs: true
+    
+    - name: Set git identity
+      run : |
+        git config --global user.email "hououinkami@gmail.com"
+        git config --global user.name "hououinkami"
+    
+    - name: 获取当前日期
+      id: date
+      run: echo "::set-output name=DATE::$(date +'%Y-%m-%d')"
+    
+    - name: 获取最新源
+      run : |
+        wget $SOURCE -O $SOURCE_NAME
+    
+    - name: 国内频道
+      run : |
+        # 央视频道
+        # 从指定行打印到指定空行
+        awk 'BEGIN{i=1;isExist=0} /央视频道,/,/卫视频道,/ {
+          if($0~/'"$CCTV_KEYWORD"'/) {
+            if(isExist==0) {printf("\n")};
+            isExist=1;
+            print $0;
+          }
+          if(isExist==1 && length($0)==0) {exit};
+          if(isExist==0) {
+            if(length($0)==0) {i++};
+            if(i<='"$CCTV_NUM"') {print $0};
+          }
+        }
+        ' $SOURCE_NAME>yangshi.tmp
+        # 倒序打印至倒数第1个空行
+        awk '{line[NR]=$0}END{t=NR; b=1; for(i=t; i>0; i--) {if(length(line[i])==0) {b++}; if(b<=1) {print line[i]}}}' yangshi.tmp>yangshi2.tmp
+        awk -F, '
+        {
+          gsub(" HD","");
+          gsub(/\$.*/,"");
+          name=$1;
+          url=$2;
+          print name "\n" url;
+        }
+        ' yangshi2.tmp>china1_1.tmp
+
+        # 央视收费频道
+        # 从指定行打印到指定空行
+        awk 'BEGIN{i=1;isExist=0} /央视频道,/,/卫视频道,/ {
+          if($0~/'"$CCTVPaid_KEYWORD"'/) {
+            isExist=1;
+            print $0;
+          };
+          if(isExist==1 && $0~/高尔夫网球/) {exit};
+        }
+        ' $SOURCE_NAME>yangshipaid.tmp
+        # 倒序打印至倒数第1个空行
+        awk '{line[NR]=$0}END{t=NR; b=1; for(i=t; i>0; i--) {if(length(line[i])==0) {b++}; if(b<=1) {print line[i]}}}' yangshipaid.tmp>yangshipaid2.tmp
+        awk -F, '
+        {
+          gsub(" HD","");
+          gsub(/\$.*/,"");
+          name=$1;
+          url=$2;
+          print name "\n" url;
+        }
+        ' yangshipaid2.tmp>china1_2.tmp
+
+        # 卫视频道
+        # 从指定行打印到指定空行
+        awk 'BEGIN{i=1;isExist=0} /卫视频道,/,/香港频道,/ {
+          if($0~/'"$SATT_KEYWORD"'/) {
+            if(isExist==0) {printf("\n")};
+            isExist=1;
+            print $0;
+          };
+          if(isExist==1 && length($0)==0) {exit};
+          if(isExist==0) {
+            if(length($0)==0) {i++};
+            if(i<='"$SATT_NUM"') {print $0};
+          }
+        }
+        ' $SOURCE_NAME>weishi.tmp
+        # 倒序打印至倒数第1个空行
+        awk '{line[NR]=$0}END{t=NR; b=1; for(i=t; i>0; i--) {if(length(line[i])==0) {b++}; if(b<=1) {print line[i]}}}' weishi.tmp>weishi2.tmp
+        awk -F, '
+        {
+          gsub(" HD","");
+          gsub(/\$.*/,"");
+          name=$1;
+          url=$2;
+          print name "\n" url;
+        }
+        ' weishi2.tmp>china2.tmp
+
+        cat china*.tmp>Source/China.m3u
+
+    - name: 重新排序国内频道并更换透明图标
+      run : |
+        awk -F'"' '
+        {
+          info=$0;
+          name=$4;
+          print info;
+          gsub("group-title=\"..央视.*\"","group-title=\"'"$GROUP_NAME_CCTV"'\"");
+          gsub("group-title=\"..卫视.*\"","group-title=\"'"$GROUP_NAME_SATT"'\"");
+          if(info~/卫视频道标清/) {exit};
+          if(info~/综合/) {
+            name="综合";
+            close("Source/China.m3u");
+            cmd="awk '\''/"name"/{getline;print}'\'' Source/China.m3u";
+            cmd | getline churl;
+            print churl;
+            close(cmd);
+            next;
+          };
+          if(info~/体育赛事/) {
+            name="体育赛事";
+            close("Source/China.m3u");
+            cmd="awk '\''/"name"/{getline;print}'\'' Source/China.m3u";
+            cmd | getline churl;
+            print churl;
+            close(cmd);
+            next;
+          };
+          if(info~/EXTINF/) {
+            close("Source/China.m3u");
+            cmd="awk '\''/"name"/{getline;print}'\'' Source/China.m3u";
+            cmd | getline churl;
+            print churl;
+            close(cmd);
+          };
+        }
+        ' ChannelList/China.list>China.m3u
+
+    - name: 外文频道
+      run : |
+        # 日本频道
+        awk '
+        {
+          gsub("group-title=\"..日本.*\"","group-title=\"'"$GROUP_NAME_JP"'\"");
+          print $0;
+        }
+        ' ChannelList/Japan.list>Japantmp1.m3u
+
+        cat Japantmp*.m3u > Japan.m3u
+
+        # 英文频道
+        awk '
+        {
+          gsub("group-title=\"..英文.*\"","group-title=\"'"$GROUP_NAME_EN"'\"");
+          print $0;
+        }
+        ' ChannelList/English.list>English.m3u
+
+    - name: 科学记录频道
+      run : |
+        awk '
+        {
+          gsub("group-title=\"..科教.*\"","group-title=\"'"$GROUP_NAME_SCI"'\"");
+          print $0;
+        }
+        ' ChannelList/Sciences.list>Sciencestmp1.m3u
+
+        cat Sciencestmp*.m3u > Sciences.m3u
+
+    - name: 生成AppleTV总列表
+      run : cat China.m3u Japan.m3u English.m3u > IPTV.m3u
+    
+    - name: 删除临时文件
+      run : |
+        rm $SOURCE_NAME
+        rm *tmp*.m3u
+        rm *.tmp
+        ls
+    
+    - name: 判断是否有变更
+      id: status
+      run: |
+        STR1="nothing to commit, working tree clean"
+        STR2="Changes not staged for commit"
+        out=$(git status)
+        if [[ "$(echo $out | grep "$STR1")" != "" ]]
+        then
+          echo "::set-output name=STATUS::"nochange""
+        fi
+        if [[ "$(echo $out | grep "$STR2")" != "" ]]
+        then
+          echo "::set-output name=STATUS::"change""
+        fi
+    
+    - name: 合并到仓库
+      run : |
+        if [[ "${{steps.status.outputs.STATUS}}" == "change" ]]
+        then
+          git add .
+          git commit -m  "Update:${{steps.date.outputs.DATE}}"
+          git push origin master
+        fi
+
+    - name: 移除workflow运行
+      uses: GitRML/delete-workflow-runs@main
+      with:
+        retain_days: 1
+        keep_minimum_runs: 3
+
+    - name: Telegram推送
+      if: env.TELEGRAM_NOTIFICATION == 'true' && !cancelled()  
+      run: |
+        if [[ "${{steps.status.outputs.STATUS}}" == "change" ]]
+        then
+          curl -s "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" -d "chat_id=${{ secrets.TELEGRAM_CHAT_ID }}&text=${{ env.TELEGRAM_NOTIFICATION_CONTENT }}&parse_mode=HTML"
+          # curl -d "text=📺 AppleTVライブチャンネル更新しました！" -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendmessage?chat_id=${{ secrets.TELEGRAM_CHAT_ID }}"
+        fi
+        
