@@ -63,7 +63,7 @@ jobs:
     - name: 国内频道
       run : |
         # 央视频道
-        awk -F, '
+        awk -F, ' /央视频道,/,/各省卫视,/
         {
           name=$1;
           url=$2;
@@ -72,7 +72,7 @@ jobs:
         ' $SOURCE_NAME>china1.tmp
 
         # 卫视频道
-        awk -F, '
+        awk -F, ' /各省卫视,/,/地方台,/
         {
           name=$1;
           url=$2;
