@@ -17,7 +17,7 @@ env:
   TZ: Asia/Shanghai
   TELEGRAM_NOTIFICATION: true
   TELEGRAM_NOTIFICATION_CONTENT: <b>📺 AppleTVライブチャンネルが更新しました！</b>
-  SOURCE: https://raw.githubusercontent.com/lamdow8/lamdow8.github.io/master/list.txt
+  SOURCE: https://raw.githubusercontent.com/vip-weizhen/tvlist/main/dszb.js
   SOURCE_NAME: IPTV_tmp.txt
   CCTV_NUM: 4
   CCTV_KEYWORD: 江西宜春
@@ -64,79 +64,17 @@ jobs:
       run : |
         # 央视频道
         # 从指定行打印到指定空行
-        awk 'BEGIN{i=1;isExist=0} /央视频道,/,/卫视频道,/ {
-          if($0~/'"$CCTV_KEYWORD"'/) {
-            if(isExist==0) {printf("\n")};
-            isExist=1;
-            print $0;
-          }
-          if(isExist==1 && length($0)==0) {exit};
-          if(isExist==0) {
-            if(length($0)==0) {i++};
-            if(i<='"$CCTV_NUM"') {print $0};
-          }
+        awk ' /央视频道,/,/各省卫视,/ {
+          print $0;
         }
-        ' $SOURCE_NAME>yangshi.tmp
-        # 倒序打印至倒数第1个空行
-        awk '{line[NR]=$0}END{t=NR; b=1; for(i=t; i>0; i--) {if(length(line[i])==0) {b++}; if(b<=1) {print line[i]}}}' yangshi.tmp>yangshi2.tmp
-        awk -F, '
-        {
-          gsub(" HD","");
-          gsub(/\$.*/,"");
-          name=$1;
-          url=$2;
-          print name "\n" url;
-        }
-        ' yangshi2.tmp>china1_1.tmp
-
-        # 央视收费频道
-        # 从指定行打印到指定空行
-        awk 'BEGIN{i=1;isExist=0} /央视频道,/,/卫视频道,/ {
-          if($0~/'"$CCTVPaid_KEYWORD"'/) {
-            isExist=1;
-            print $0;
-          };
-          if(isExist==1 && $0~/高尔夫网球/) {exit};
-        }
-        ' $SOURCE_NAME>yangshipaid.tmp
-        # 倒序打印至倒数第1个空行
-        awk '{line[NR]=$0}END{t=NR; b=1; for(i=t; i>0; i--) {if(length(line[i])==0) {b++}; if(b<=1) {print line[i]}}}' yangshipaid.tmp>yangshipaid2.tmp
-        awk -F, '
-        {
-          gsub(" HD","");
-          gsub(/\$.*/,"");
-          name=$1;
-          url=$2;
-          print name "\n" url;
-        }
-        ' yangshipaid2.tmp>china1_2.tmp
+        ' $SOURCE_NAME>china1.tmp
 
         # 卫视频道
         # 从指定行打印到指定空行
-        awk 'BEGIN{i=1;isExist=0} /卫视频道,/,/香港频道,/ {
-          if($0~/'"$SATT_KEYWORD"'/) {
-            if(isExist==0) {printf("\n")};
-            isExist=1;
-            print $0;
-          };
-          if(isExist==1 && length($0)==0) {exit};
-          if(isExist==0) {
-            if(length($0)==0) {i++};
-            if(i<='"$SATT_NUM"') {print $0};
-          }
+        awk ' /各省卫视,/,/地方台,/ {
+          print $0;
         }
-        ' $SOURCE_NAME>weishi.tmp
-        # 倒序打印至倒数第1个空行
-        awk '{line[NR]=$0}END{t=NR; b=1; for(i=t; i>0; i--) {if(length(line[i])==0) {b++}; if(b<=1) {print line[i]}}}' weishi.tmp>weishi2.tmp
-        awk -F, '
-        {
-          gsub(" HD","");
-          gsub(/\$.*/,"");
-          name=$1;
-          url=$2;
-          print name "\n" url;
-        }
-        ' weishi2.tmp>china2.tmp
+        ' $SOURCE_NAME>china2.tmp
 
         cat china*.tmp>Source/China.m3u
 
