@@ -63,16 +63,20 @@ jobs:
     - name: 国内频道
       run : |
         # 央视频道
-        # 从指定行打印到指定空行
-        awk ' /央视频道,/,/各省卫视,/ {
-          print $0;
+        awk -F, '
+        {
+          name=$1;
+          url=$2;
+          print name "\n" url;
         }
         ' $SOURCE_NAME>china1.tmp
 
         # 卫视频道
-        # 从指定行打印到指定空行
-        awk ' /各省卫视,/,/地方台,/ {
-          print $0;
+        awk -F, '
+        {
+          name=$1;
+          url=$2;
+          print name "\n" url;
         }
         ' $SOURCE_NAME>china2.tmp
 
