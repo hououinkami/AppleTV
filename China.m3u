@@ -1,78 +1,78 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
 # 央视频道
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV-1" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" group-title="央视频道",CCTV-1 综合
-http://snlive.scsntv.com:8091/live/xwzh.m3u8
+
 #EXTINF:-1 tvg-id="2" tvg-name="CCTV-2" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV2.png" group-title="央视频道",CCTV-2 财经
-http://snlive.scsntv.com:8091/live/xwzh.m3u8
+
 #EXTINF:-1 tvg-id="3" tvg-name="CCTV-3" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV3.png" group-title="央视频道",CCTV-3 综艺
-http://snlive.scsntv.com:8091/live/xwzh.m3u8
+
 #EXTINF:-1 tvg-id="4" tvg-name="CCTV-4" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4.png" group-title="央视频道",CCTV-4 中文国际
-http://snlive.scsntv.com:8091/live/xwzh.m3u8
+
 #EXTINF:-1 tvg-id="5" tvg-name="CCTV-5" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5.png" group-title="央视频道",CCTV-5 体育
-http://snlive.scsntv.com:8091/live/xwzh.m3u8
+
 #EXTINF:-1 tvg-id="5" tvg-name="CCTV-5+" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5+.png" group-title="央视频道",CCTV-5+ 体育赛事
-http://snlive.scsntv.com:8091/live/xwzh.m3u8
+
 #EXTINF:-1 tvg-id="6" tvg-name="CCTV-6" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV6.png" group-title="央视频道",CCTV-6 电影
-http://snlive.scsntv.com:8091/live/xwzh.m3u8
+
 #EXTINF:-1 tvg-id="7" tvg-name="CCTV-7" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV7.png" group-title="央视频道",CCTV-7 国防军事
-http://snlive.scsntv.com:8091/live/xwzh.m3u8
+
 #EXTINF:-1 tvg-id="8" tvg-name="CCTV-8" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV8.png" group-title="央视频道",CCTV-8 电视剧
-http://snlive.scsntv.com:8091/live/xwzh.m3u8
+
 #EXTINF:-1 tvg-id="9" tvg-name="CCTV-9" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV9.png" group-title="央视频道",CCTV-9 纪录
-http://snlive.scsntv.com:8091/live/xwzh.m3u8
+
 #EXTINF:-1 tvg-id="10" tvg-name="CCTV-10" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV10.png" group-title="央视频道",CCTV-10 科教
-http://snlive.scsntv.com:8091/live/xwzh.m3u8
+
 #EXTINF:-1 tvg-id="11" tvg-name="CCTV-11" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV11.png" group-title="央视频道",CCTV-11 戏曲
-http://snlive.scsntv.com:8091/live/xwzh.m3u8
+
 #EXTINF:-1 tvg-id="12" tvg-name="CCTV-12" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV12.png" group-title="央视频道",CCTV-12 社会与法
-http://snlive.scsntv.com:8091/live/xwzh.m3u8
+
 #EXTINF:-1 tvg-id="13" tvg-name="CCTV-13" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV13.png" group-title="央视频道",CCTV-13 新闻
-http://snlive.scsntv.com:8091/live/xwzh.m3u8
+
 #EXTINF:-1 tvg-id="14" tvg-name="CCTV-14" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV14.png" group-title="央视频道",CCTV-14 少儿
-http://snlive.scsntv.com:8091/live/xwzh.m3u8
+
 #EXTINF:-1 tvg-id="15" tvg-name="CCTV-15" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV15.png" group-title="央视频道",CCTV-15 音乐
-http://snlive.scsntv.com:8091/live/xwzh.m3u8
+
 #EXTINF:-1 tvg-id="16" tvg-name="CCTV-16" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV16.png" group-title="央视频道",CCTV-16 奥林匹克
-http://snlive.scsntv.com:8091/live/xwzh.m3u8
+
 http://liveop.cctv.cn/hls/CCTV16HD/playlist.m3u8
 #EXTINF:-1 tvg-id="17" tvg-name="CCTV-17" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV17.png" group-title="央视频道",CCTV-17 农业农村
-http://snlive.scsntv.com:8091/live/xwzh.m3u8
+
 #EXTINF:-1 tvg-id="18" tvg-name="CCTV-4K" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4k.png" group-title="央视频道",CCTV-4K 超高清
-http://snlive.scsntv.com:8091/live/xwzh.m3u8
+
 
 # 央视收费频道
 #EXTINF:-1 tvg-id="21" tvg-name="发现之旅" tvg-logo="https://github.com/hououinkami/AppleTV/raw/master/ChannelLogo/China/CCTV_FXZL.png" group-title="央视频道",CCTV-发现之旅
-http://snlive.scsntv.com:8091/live/xwzh.m3u8
+
 #EXTINF:-1 tvg-id="21" tvg-name="世界地理" tvg-logo="https://github.com/hououinkami/AppleTV/raw/master/ChannelLogo/China/CCTV_SJDL.png" group-title="央视频道",CCTV-世界地理
-http://snlive.scsntv.com:8091/live/xwzh.m3u8
+
 #EXTINF:-1 tvg-id="22" tvg-name="风云音乐" tvg-logo="https://github.com/hououinkami/AppleTV/raw/master/ChannelLogo/China/CCTV_FYYY.png" group-title="央视频道",CCTV-风云音乐
-http://snlive.scsntv.com:8091/live/xwzh.m3u8
+
 #EXTINF:-1 tvg-id="23" tvg-name="风云足球" tvg-logo="https://github.com/hououinkami/AppleTV/raw/master/ChannelLogo/China/CCTV_FYZQ.png" group-title="央视频道",CCTV-风云足球
-http://snlive.scsntv.com:8091/live/xwzh.m3u8
+
 #EXTINF:-1 tvg-id="24" tvg-name="风云剧场" tvg-logo="https://github.com/hououinkami/AppleTV/raw/master/ChannelLogo/China/CCTV_FYJC.png" group-title="央视频道",CCTV-风云剧场
-http://snlive.scsntv.com:8091/live/xwzh.m3u8
+
 #EXTINF:-1 tvg-id="25" tvg-name="第一剧场" tvg-logo="https://github.com/hououinkami/AppleTV/raw/master/ChannelLogo/China/CCTV_DYJC.png" group-title="央视频道",CCTV-第一剧场
-http://snlive.scsntv.com:8091/live/xwzh.m3u8
+
 #EXTINF:-1 tvg-id="26" tvg-name="怀旧剧场" tvg-logo="https://github.com/hououinkami/AppleTV/raw/master/ChannelLogo/China/CCTV_HJJC.png" group-title="央视频道",CCTV-怀旧剧场
-http://snlive.scsntv.com:8091/live/xwzh.m3u8
+
 #EXTINF:-1 tvg-id="26" tvg-name="新科动漫" tvg-logo="https://github.com/hououinkami/AppleTV/raw/master/ChannelLogo/China/CCTV_XKDM.png" group-title="央视频道",CCTV-新科动漫
-http://snlive.scsntv.com:8091/live/xwzh.m3u8
+
 #EXTINF:-1 tvg-id="26" tvg-name="台球" tvg-logo="https://github.com/hououinkami/AppleTV/raw/master/ChannelLogo/China/CCTV_YSTQ.png" group-title="央视频道",CCTV-台球
-http://snlive.scsntv.com:8091/live/xwzh.m3u8
+
 #EXTINF:-1 tvg-id="26" tvg-name="高尔夫" tvg-logo="https://github.com/hououinkami/AppleTV/raw/master/ChannelLogo/China/CCTV_GOLF.png" group-title="央视频道",CCTV-高尔夫·网球
-http://snlive.scsntv.com:8091/live/xwzh.m3u8
+
 #EXTINF:-1 tvg-id="27" tvg-name="女性时尚" tvg-logo="https://github.com/hououinkami/AppleTV/raw/master/ChannelLogo/China/CCTV_NXSS.png" group-title="央视频道",CCTV-女性时尚
-http://snlive.scsntv.com:8091/live/xwzh.m3u8
+
 #EXTINF:-1 tvg-id="27" tvg-name="中学生" tvg-logo="https://github.com/hououinkami/AppleTV/raw/master/ChannelLogo/China/CCTV_ZXS.png" group-title="央视频道",CCTV-中学生
-http://snlive.scsntv.com:8091/live/xwzh.m3u8
+
 #EXTINF:-1 tvg-id="28" tvg-name="文化精品" tvg-logo="https://github.com/hououinkami/AppleTV/raw/master/ChannelLogo/China/CCTV_WHJP.png" group-title="央视频道",CCTV-文化精品
-http://snlive.scsntv.com:8091/live/xwzh.m3u8
+
 #EXTINF:-1 tvg-id="28" tvg-name="老故事" tvg-logo="https://github.com/hououinkami/AppleTV/raw/master/ChannelLogo/China/CCTV_LGS.png" group-title="央视频道",CCTV-老故事
-http://snlive.scsntv.com:8091/live/xwzh.m3u8
+
 #EXTINF:-1 tvg-id="28" tvg-name="兵器科技" tvg-logo="https://github.com/hououinkami/AppleTV/raw/master/ChannelLogo/China/CCTV_BQKJ.png" group-title="央视频道",CCTV-兵器科技
-http://snlive.scsntv.com:8091/live/xwzh.m3u8
+
 #EXTINF:-1 tvg-id="28" tvg-name="电视指南" tvg-logo="https://github.com/hououinkami/AppleTV/raw/master/ChannelLogo/China/CCTV_DSZN.png" group-title="央视频道",CCTV-电视指南
-http://snlive.scsntv.com:8091/live/xwzh.m3u8
+
 
 # 卫视频道高清
 #EXTINF:-1 tvg-id="51" tvg-name="深圳卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shenzhen.png" group-title="卫视频道",深圳卫视
