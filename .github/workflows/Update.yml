@@ -63,11 +63,9 @@ jobs:
     - name: 国内频道
       run : |
         # 央视频道
-        awk -F, '
+        awk ' /央视频道,/,/地方频道,/
         {
-          name=$1;
-          url=$2;
-          print name "\n" url;
+          print $0;
         }
         ' $SOURCE_NAME>china1.tmp
 
@@ -78,9 +76,9 @@ jobs:
           url=$2;
           print name "\n" url;
         }
-        ' $SOURCE_NAME>china2.tmp
+        ' china1.tmp>china2.tmp
 
-        cat china1.tmp>Source/China.m3u
+        cat china2.tmp>Source/China.m3u
 
     - name: 重新排序国内频道并更换透明图标
       run : |
