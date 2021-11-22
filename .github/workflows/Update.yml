@@ -86,12 +86,12 @@ jobs:
       run : |
         awk -F'"' '
         {
-          info=$0;
-          name=$4;
-          print info;
           gsub("group-title=\"..央视.*\"","group-title=\"'"$GROUP_NAME_CCTV"'\"");
           gsub("group-title=\"..卫视.*\"","group-title=\"'"$GROUP_NAME_SATT"'\"");
           gsub("CCTV-", "CCTV")
+          info=$0;
+          name=$4;
+          print info;
           if(info~/卫视频道标清/) {exit};
           if(info~/CCTV1\"/) {
             name="CCTV01";
