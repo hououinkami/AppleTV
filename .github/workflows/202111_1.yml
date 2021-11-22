@@ -17,7 +17,7 @@ env:
   TZ: Asia/Shanghai
   TELEGRAM_NOTIFICATION: true
   TELEGRAM_NOTIFICATION_CONTENT: <b>📺 AppleTVライブチャンネルが更新しました！</b>
-  SOURCE: https://raw.githubusercontent.com/StanleyChen0924/IPTV/main/channels/test.txt
+  SOURCE: https://raw.githubusercontent.com/vip-weizhen/tvlist/main/dszb.js
   SOURCE_NAME: IPTV_tmp.txt
   CCTV_NUM: 4
   CCTV_KEYWORD: 江西宜春
@@ -80,7 +80,7 @@ jobs:
         }
         ' $SOURCE_NAME>china2.tmp
 
-        cat china1.tmp>Source/China.m3u
+        cat china*.tmp>Source/China.m3u
 
     - name: 重新排序国内频道并更换透明图标
       run : |
