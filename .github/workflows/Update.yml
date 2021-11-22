@@ -63,9 +63,11 @@ jobs:
     - name: 国内频道
       run : |
         # 央视频道
-        awk ' /央视频道,/,/地方频道,/
+        awk '
         {
-          print $0;
+          if($0~/CCTV1,/) {gsub("CCTV1","CCTV01"); print $0};
+          if($0~/CCTV/) {print $0};
+          if($0~/卫视/) {print $0};
         }
         ' $SOURCE_NAME>china1.tmp
 
@@ -89,9 +91,10 @@ jobs:
           print info;
           gsub("group-title=\"..央视.*\"","group-title=\"'"$GROUP_NAME_CCTV"'\"");
           gsub("group-title=\"..卫视.*\"","group-title=\"'"$GROUP_NAME_SATT"'\"");
+          gsub("CCTV-", "CCTV")
           if(info~/卫视频道标清/) {exit};
-          if(info~/综合/) {
-            name="综合";
+          if(info~/CCTV1\"/) {
+            name="CCTV01";
             close("Source/China.m3u");
             cmd="awk '\''/"name"/{getline;print}'\'' Source/China.m3u";
             cmd | getline churl;
@@ -99,8 +102,7 @@ jobs:
             close(cmd);
             next;
           };
-          if(info~/体育赛事/) {
-            name="体育赛事";
+          if(info~/CCTV5\+/) {
             close("Source/China.m3u");
             cmd="awk '\''/"name"/{getline;print}'\'' Source/China.m3u";
             cmd | getline churl;
