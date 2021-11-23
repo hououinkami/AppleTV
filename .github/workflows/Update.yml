@@ -107,7 +107,7 @@ jobs:
           print info;
           if(info~/央视收费频道/) {exit};
           if(info~/体育赛事/) {
-            name="CCTV5\+";
+            name="CCTV-5\+";
             close("Source/China.m3u");
             cmd="awk '\''/"name"/{getline;print}'\'' Source/China.m3u";
             cmd | getline churl;
@@ -191,6 +191,7 @@ jobs:
       run : |
         rm $SOURCE_NAME
         rm *tmp*.m3u
+        rm *tmp*.txt
         rm *.tmp
         ls
     
