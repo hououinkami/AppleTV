@@ -99,13 +99,14 @@ jobs:
       run : |
         awk -F'"' '
         {
-          gsub("group-title=\"..央视.*\"","group-title=\"'"$GROUP_NAME_CCTV"'\"");
-          gsub("group-title=\"..卫视.*\"","group-title=\"'"$GROUP_NAME_SATT"'\"");
+          gsub("group-title=\"央视频道\"","group-title=\"'"$GROUP_NAME_CCTV"'\"");
+          gsub("group-title=\"卫视频道\"","group-title=\"'"$GROUP_NAME_SATT"'\"");
+          if('"$GROUP_NAME_CCTV"'==false && $0~/EXTM3U/) {print "#EXTM3U"; next};
           info=$0;
           name=$4;
           print info;
           if(info~/央视收费频道/) {exit};
-          if(info~/EXTINF/ && info!~/奥林匹克/) {
+          if(info~/EXTINF/ && info!~/奥林匹克|超高清/) {
             close("Source/China.m3u");
             cmd="awk '\''/"name"/{getline;print}'\'' Source/China.m3u";
             cmd | getline churl;
@@ -117,13 +118,13 @@ jobs:
 
         awk -F'"' '
         {
-          gsub("group-title=\"..央视.*\"","group-title=\"央视频道2\"");
-          gsub("group-title=\"..卫视.*\"","group-title=\"卫视频道2\"");
+          gsub("group-title=\"央视频道\"","group-title=\"央视频道2\"");
+          gsub("group-title=\"卫视频道\"","group-title=\"卫视频道2\"");
           info=$0;
           name=$4;
           print info;
           if(info~/央视收费频道/) {exit};
-          if(info~/EXTINF/ && info!~/奥林匹克/) {
+          if(info~/EXTINF/ && info!~/奥林匹克|超高清/) {
             close("china2.tmp");
             cmd="awk '\''/"name"/{getline;print}'\'' china2.tmp";
             cmd | getline churl;
