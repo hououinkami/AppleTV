@@ -101,7 +101,7 @@ jobs:
         {
           gsub("group-title=\"央视频道\"","group-title=\"'"$GROUP_NAME_CCTV"'\"");
           gsub("group-title=\"卫视频道\"","group-title=\"'"$GROUP_NAME_SATT"'\"");
-          if('"$GROUP_NAME_CCTV"'==false && $0~/EXTM3U/) {print "#EXTM3U"; next};
+          if($0~/EXTM3U/) {print "#EXTM3U"; next};
           info=$0;
           name=$4;
           print info;
