@@ -106,6 +106,15 @@ jobs:
           name=$4;
           print info;
           if(info~/央视收费频道/) {exit};
+          if(info~/体育赛事/) {
+            name="CCTV5\+";
+            close("Source/China.m3u");
+            cmd="awk '\''/"name"/{getline;print}'\'' Source/China.m3u";
+            cmd | getline churl;
+            print churl;
+            close(cmd);
+            next;
+          };
           if(info~/EXTINF/ && info!~/奥林匹克|超高清/) {
             close("Source/China.m3u");
             cmd="awk '\''/"name"/{getline;print}'\'' Source/China.m3u";
@@ -120,10 +129,20 @@ jobs:
         {
           gsub("group-title=\"央视频道\"","group-title=\"央视频道2\"");
           gsub("group-title=\"卫视频道\"","group-title=\"卫视频道2\"");
+          if($0~/EXTM3U/) {print "#EXTM3U"; next};
           info=$0;
           name=$4;
           print info;
-          if(info~/央视收费频道/) {exit};
+          if(info~/卫视频道标清/) {exit};
+          if(info~/体育赛事/) {
+            name="体育赛事";
+            close("Source/China.m3u");
+            cmd="awk '\''/"name"/{getline;print}'\'' Source/China.m3u";
+            cmd | getline churl;
+            print churl;
+            close(cmd);
+            next;
+          };
           if(info~/EXTINF/ && info!~/奥林匹克|超高清/) {
             close("china2.tmp");
             cmd="awk '\''/"name"/{getline;print}'\'' china2.tmp";
