@@ -17,8 +17,12 @@ env:
   TZ: Asia/Shanghai
   TELEGRAM_NOTIFICATION: true
   TELEGRAM_NOTIFICATION_CONTENT: <b>📺 AppleTVライブチャンネルが更新しました！</b>
-  SOURCE: https://raw.githubusercontent.com/StanleyChen0924/IPTV/main/channels/test.txt
-  SOURCE_NAME: IPTV_tmp.txt
+  SOURCE: https://raw.githubusercontent.com/lamdow8/lamdow8.github.io/master/list.txt
+  SOURCE_NAME: source.tmp
+  CCTV_NUM: 1
+  CCTV_KEYWORD: 广西移动
+  SATT_NUM: 1
+  SATT_KEYWORD: 广西移动
   GROUP_NAME_CCTV: 央视频道
   GROUP_NAME_SATT: 卫视频道
   GROUP_NAME_HK: 香港频道
@@ -27,8 +31,7 @@ env:
   GROUP_NAME_SCI: 科教记录
   GROUP_NAME_TW: 台湾频道
   GROUP_NAME_MO: 澳门频道
-  ADD_EPG: false
-  
+  HKTW_ADD: false
 
 jobs:
   GenerateList:
@@ -55,59 +58,79 @@ jobs:
     - name: 获取最新源
       run : |
         wget $SOURCE -O $SOURCE_NAME
-        wget https://raw.githubusercontent.com/vip-weizhen/tvlist/main/dszb.js -O IPTV_tmp2.txt
     
     - name: 国内频道
       run : |
-        # 源1
-        awk '
-        {
-          if($0~/CCTV/) {gsub("CCTV","CCTV-"); print $0};
-          if($0~/卫视/) {print $0};
+        # 央视频道
+        # 从指定行打印到指定空行
+        awk 'BEGIN{i=1;isExist=0} /央视频道,/,/卫视频道,/ {
+          if($0~/'"$CCTV_KEYWORD"'/) {
+            if(isExist==0) {printf("\n")};
+            isExist=1;
+            print $0;
+          }
+          if(isExist==1 && length($0)==0) {exit};
+          if(isExist==0) {
+            if(length($0)==0) {i++};
+            if(i<='"$CCTV_NUM"') {print $0};
+          }
         }
-        ' $SOURCE_NAME>1.tmp
-
+        ' $SOURCE_NAME>yangshi.tmp
+        # 倒序打印至倒数第1个空行
+        awk '{line[NR]=$0}END{t=NR; b=1; for(i=t; i>0; i--) {if(length(line[i])==0) {b++}; if(b<=1) {print line[i]}}}' yangshi.tmp>yangshi2.tmp
+        # 分行输出
         awk -F, '
         {
+          gsub(" HD","");
+          gsub(/\$.*/,"");
           name=$1;
           url=$2;
           print name "\n" url;
         }
-        ' 1.tmp>china1.tmp
+        ' yangshi.tmp>china1.tmp
 
-        cat china1.tmp>Source/China.m3u
-
-        # 源2
-        awk '
-        {
-          if($0~/CCTV-/) {print $0};
-          if($0~/卫视/) {print $0};
+        # 卫视频道
+        # 从指定行打印到指定空行
+        awk 'BEGIN{i=1;isExist=0} /卫视频道,/,/香港频道,/ {
+          if($0~/'"$SATT_KEYWORD"'/) {
+            if(isExist==0) {printf("\n")};
+            isExist=1;
+            print $0;
+          };
+          if(isExist==1 && length($0)==0) {exit};
+          if(isExist==0) {
+            if(length($0)==0) {i++};
+            if(i<='"$SATT_NUM"') {print $0};
+          }
         }
-        ' IPTV_tmp2.txt>2.tmp
-
+        ' $SOURCE_NAME>weishi.tmp
+        # 倒序打印至倒数第1个空行
+        awk '{line[NR]=$0}END{t=NR; b=1; for(i=t; i>0; i--) {if(length(line[i])==0) {b++}; if(b<=1) {print line[i]}}}' weishi.tmp>weishi2.tmp
+        # 分行输出
         awk -F, '
         {
+          gsub(" HD","");
+          gsub(/\$.*/,"");
           name=$1;
           url=$2;
           print name "\n" url;
         }
-        ' 2.tmp>china2.tmp
+        ' weishi.tmp>china2.tmp
 
-        cat china1.tmp>Source/China.m3u
+        cat china*.tmp>Source/China.m3u
 
     - name: 重新排序国内频道并更换透明图标
       run : |
         awk -F'"' '
         {
-          gsub("group-title=\"央视频道\"","group-title=\"'"$GROUP_NAME_CCTV"'\"");
-          gsub("group-title=\"卫视频道\"","group-title=\"'"$GROUP_NAME_SATT"'\"");
-          if($0~/EXTM3U/) {print "#EXTM3U"; next};
           info=$0;
           name=$4;
           print info;
-          if(info~/央视收费频道/) {exit};
-          if(info~/体育赛事/) {
-            name="CCTV-5\+";
+          gsub(/group-title=\"..央视.*\"/, "group-title=\"'"$GROUP_NAME_CCTV"'\"");
+          gsub(/group-title=\"..卫视.*\"/, "group-title=\"'"$GROUP_NAME_SATT"'\"");
+          if(info~/卫视频道标清/) {exit};
+          if(info~/综合/) {
+            name="综合";
             close("Source/China.m3u");
             cmd="awk '\''/"name"/{getline;print}'\'' Source/China.m3u";
             cmd | getline churl;
@@ -115,25 +138,6 @@ jobs:
             close(cmd);
             next;
           };
-          if(info~/EXTINF/ && info!~/奥林匹克|超高清/) {
-            close("Source/China.m3u");
-            cmd="awk '\''/"name"/{getline;print}'\'' Source/China.m3u";
-            cmd | getline churl;
-            print churl;
-            close(cmd);
-          };
-        }
-        ' ChannelList/China.list>China.m3u
-
-        awk -F'"' '
-        {
-          gsub("group-title=\"央视频道\"","group-title=\"央视频道2\"");
-          gsub("group-title=\"卫视频道\"","group-title=\"卫视频道2\"");
-          if($0~/EXTM3U/) {print "#EXTM3U"; next};
-          info=$0;
-          name=$4;
-          print info;
-          if(info~/卫视频道标清/) {exit};
           if(info~/体育赛事/) {
             name="体育赛事";
             close("Source/China.m3u");
@@ -143,15 +147,15 @@ jobs:
             close(cmd);
             next;
           };
-          if(info~/EXTINF/ && info!~/奥林匹克|超高清/) {
-            close("china2.tmp");
-            cmd="awk '\''/"name"/{getline;print}'\'' china2.tmp";
+          if(info~/EXTINF/) {
+            close("Source/China.m3u");
+            cmd="awk '\''/"name"/{getline;print}'\'' Source/China.m3u";
             cmd | getline churl;
             print churl;
             close(cmd);
           };
         }
-        ' ChannelList/China.list>China_tmp.m3u
+        ' ChannelList/China.list>China.m3u
 
     - name: 外文频道
       run : |
@@ -185,13 +189,12 @@ jobs:
         cat Sciencestmp*.m3u > Sciences.m3u
 
     - name: 生成AppleTV总列表
-      run : cat China.m3u China_tmp.m3u Japan.m3u English.m3u > IPTV.m3u
+      run : cat China.m3u Japan.m3u English.m3u > IPTV.m3u
     
     - name: 删除临时文件
       run : |
         rm $SOURCE_NAME
         rm *tmp*.m3u
-        rm *tmp*.txt
         rm *.tmp
         ls
     
