@@ -19,9 +19,7 @@ env:
   TELEGRAM_NOTIFICATION_CONTENT: <b>📺 AppleTVライブチャンネルが更新しました！</b>
   SOURCE: https://raw.githubusercontent.com/lamdow8/lamdow8.github.io/master/list.txt
   SOURCE_NAME: source.tmp
-  CCTV_NUM: 1
   CCTV_KEYWORD: 广西移动
-  SATT_NUM: 1
   SATT_KEYWORD: 广西移动
   GROUP_NAME_CCTV: 央视频道
   GROUP_NAME_SATT: 卫视频道
@@ -70,14 +68,8 @@ jobs:
             print $0;
           }
           if(isExist==1 && length($0)==0) {exit};
-          if(isExist==0) {
-            if(length($0)==0) {i++};
-            if(i<='"$CCTV_NUM"') {print $0};
-          }
         }
         ' $SOURCE_NAME>yangshi.tmp
-        # 倒序打印至倒数第1个空行
-        awk '{line[NR]=$0}END{t=NR; b=1; for(i=t; i>0; i--) {if(length(line[i])==0) {b++}; if(b<=1) {print line[i]}}}' yangshi.tmp>yangshi2.tmp
         # 分行输出
         awk -F, '
         {
@@ -98,14 +90,8 @@ jobs:
             print $0;
           };
           if(isExist==1 && length($0)==0) {exit};
-          if(isExist==0) {
-            if(length($0)==0) {i++};
-            if(i<='"$SATT_NUM"') {print $0};
-          }
         }
         ' $SOURCE_NAME>weishi.tmp
-        # 倒序打印至倒数第1个空行
-        awk '{line[NR]=$0}END{t=NR; b=1; for(i=t; i>0; i--) {if(length(line[i])==0) {b++}; if(b<=1) {print line[i]}}}' weishi.tmp>weishi2.tmp
         # 分行输出
         awk -F, '
         {
@@ -147,7 +133,7 @@ jobs:
             close(cmd);
             next;
           };
-          if(info~/EXTINF/) {
+          if(info~/EXTINF/ && info!~/奥林匹克|超高清/) {
             close("Source/China.m3u");
             cmd="awk '\''/"name"/{getline;print}'\'' Source/China.m3u";
             cmd | getline churl;
