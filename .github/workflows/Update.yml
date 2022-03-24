@@ -38,9 +38,9 @@ jobs:
 
     steps:
     - name: Checkout
-      uses: actions/checkout@master
+      uses: actions/checkout@v3
       with:
-        ref: master
+        ref: main
         fetch-depth: 0
         lfs: true
     
@@ -205,7 +205,7 @@ jobs:
         then
           git add .
           git commit -m  "Update:${{steps.date.outputs.DATE}}"
-          git push origin master
+          git push origin main
         fi
 
     - name: 移除workflow运行
