@@ -69,7 +69,47 @@ jobs:
             print $0;
           };
         }
-        ' $SOURCE_NAME>China.m3u
+        ' $SOURCE_NAME>china1.tmp
+
+        cat china*.tmp>Source/China.m3u
+
+    - name: 重新排序国内频道并更换透明图标
+      run : |
+        awk -F'"' '
+        {
+          info=$0;
+          name=$4;
+          print info;
+          gsub(/group-title=\"..央视.*\"/, "group-title=\"'"$GROUP_NAME_CCTV"'\"");
+          gsub(/group-title=\"..卫视.*\"/, "group-title=\"'"$GROUP_NAME_SATT"'\"");
+          if(info~/卫视频道标清/) {exit};
+          if(info~/综合/) {
+            name="综合";
+            close("Source/China.m3u");
+            cmd="awk '\''/"name"/{getline;print}'\'' Source/China.m3u";
+            cmd | getline churl;
+            print churl;
+            close(cmd);
+            next;
+          };
+          if(info~/体育赛事/) {
+            name="体育赛事";
+            close("Source/China.m3u");
+            cmd="awk '\''/"name"/{getline;print}'\'' Source/China.m3u";
+            cmd | getline churl;
+            print churl;
+            close(cmd);
+            next;
+          };
+          if(info~/EXTINF/ && info!~/奥林匹克|超高清/) {
+            close("Source/China.m3u");
+            cmd="awk '\''/"name"/{getline;print}'\'' Source/China.m3u";
+            cmd | getline churl;
+            print churl;
+            close(cmd);
+          };
+        }
+        ' ChannelList/China.list>China.m3u
 
     - name: 外文频道
       run : |
