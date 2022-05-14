@@ -94,7 +94,7 @@ jobs:
             next;
           };
           if(info~/体育赛事/) {
-            name="CCTV-5\+";
+            name="\"6\"";
             close("Source/China.m3u");
             cmd="awk '\''/"name"/{getline;print}'\'' Source/China.m3u";
             cmd | getline churl;
