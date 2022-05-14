@@ -65,7 +65,7 @@ jobs:
           if($0~/group-title=\"央视\"/ || $0~/group-title=\"卫视\"/) {m=NR; n=NR+1};
           if(m<=NR && NR<=n) {
             gsub("央视","'"$GROUP_NAME_CCTV"'");
-            gsub("\"CCTV,"\"CCTV-);
+            gsub("\"CCTV","\"CCTV-");
             gsub("\"卫视","\"'"$GROUP_NAME_SATT"'");
             print $0;
           };
