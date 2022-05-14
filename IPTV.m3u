@@ -1,41 +1,41 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
 # 央视频道
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV-1" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" group-title="央视频道",CCTV-1 综合
-
+http://117.148.179.155/TVOD/88888888/224/3221231471/index.m3u8
 #EXTINF:-1 tvg-id="2" tvg-name="CCTV-2" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV2.png" group-title="央视频道",CCTV-2 财经
-
+http://117.148.179.156/TVOD/88888888/224/3221232362/index.m3u8
 #EXTINF:-1 tvg-id="3" tvg-name="CCTV-3" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV3.png" group-title="央视频道",CCTV-3 综艺
-
+http://117.148.179.140/TVOD/88888888/224/3221231528/index.m3u8
 #EXTINF:-1 tvg-id="4" tvg-name="CCTV-4" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4.png" group-title="央视频道",CCTV-4 中文国际
-
+http://39.135.138.59:18890/PLTV/88888910/224/3221225621/index.m3u8
 #EXTINF:-1 tvg-id="5" tvg-name="CCTV-5" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5.png" group-title="央视频道",CCTV-5 体育
-
+http://125.210.152.19:9090/live/hzgq-cctv5gq-h264.m3u8
 #EXTINF:-1 tvg-id="5" tvg-name="CCTV-5+" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5+.png" group-title="央视频道",CCTV-5+ 体育赛事
-
+http://125.210.152.19:9090/live/hzgq-cctv5gq-h264.m3u8
 #EXTINF:-1 tvg-id="6" tvg-name="CCTV-6" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV6.png" group-title="央视频道",CCTV-6 电影
-
+http://111.20.33.93/TVOD/88888893/224/3221226393/index.m3u8
 #EXTINF:-1 tvg-id="7" tvg-name="CCTV-7" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV7.png" group-title="央视频道",CCTV-7 国防军事
-
+http://117.148.179.160/PLTV/88888888/224/3221231633/index.m3u8
 #EXTINF:-1 tvg-id="8" tvg-name="CCTV-8" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV8.png" group-title="央视频道",CCTV-8 电视剧
-
+http://117.148.179.160/TVOD/88888888/224/3221231694/index.m3u8
 #EXTINF:-1 tvg-id="9" tvg-name="CCTV-9" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV9.png" group-title="央视频道",CCTV-9 纪录
-
+http://117.148.179.162/TVOD/88888888/224/3221231697/index.m3u8
 #EXTINF:-1 tvg-id="10" tvg-name="CCTV-10" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV10.png" group-title="央视频道",CCTV-10 科教
-
+http://117.148.179.175/TVOD/88888888/224/3221231666/index.m3u8
 #EXTINF:-1 tvg-id="11" tvg-name="CCTV-11" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV11.png" group-title="央视频道",CCTV-11 戏曲
-
+http://39.135.138.59:18890/PLTV/88888910/224/3221225628/index.m3u8
 #EXTINF:-1 tvg-id="12" tvg-name="CCTV-12" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV12.png" group-title="央视频道",CCTV-12 社会与法
-
+http://117.148.179.150/TVOD/88888888/224/3221231660/index.m3u8
 #EXTINF:-1 tvg-id="13" tvg-name="CCTV-13" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV13.png" group-title="央视频道",CCTV-13 新闻
-#EXTINF:-1 tvg-id="15" tvg-name="CCTV14" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV14.png" group-title="央视频道", CCTV14
+http://112.25.47.24/gitv_live/G_CCTV-13-HQ/G_CCTV-13-HQ.m3u8
 #EXTINF:-1 tvg-id="14" tvg-name="CCTV-14" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV14.png" group-title="央视频道",CCTV-14 少儿
-#EXTINF:-1 tvg-id="15" tvg-name="CCTV14" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV14.png" group-title="央视频道", CCTV14
+http://117.148.179.182/TVOD/88888888/224/3221231648/index.m3u8
 #EXTINF:-1 tvg-id="15" tvg-name="CCTV-15" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV15.png" group-title="央视频道",CCTV-15 音乐
-#EXTINF:-1 tvg-id="15" tvg-name="CCTV14" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV14.png" group-title="央视频道", CCTV14
+http://117.148.179.169/TVOD/88888888/224/3221231693/index.m3u8
 #EXTINF:-1 tvg-id="16" tvg-name="CCTV-16" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV16.png" group-title="央视频道",CCTV-16 奥林匹克
 http://liveop.cctv.cn/hls/CCTV16HD/playlist.m3u8
 #EXTINF:-1 tvg-id="17" tvg-name="CCTV-17" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV17.png" group-title="央视频道",CCTV-17 农业农村
-#EXTINF:-1 tvg-id="15" tvg-name="CCTV14" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV14.png" group-title="央视频道", CCTV14
+http://117.148.179.167/TVOD/88888888/224/3221231772/index.m3u8
 #EXTINF:-1 tvg-id="18" tvg-name="CCTV-4K" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4k.png" group-title="央视频道",CCTV-4K 超高清
 http://liveop.cctv.cn/hls/4KHD/playlist.m3u8
 
