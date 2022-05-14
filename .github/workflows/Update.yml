@@ -102,7 +102,7 @@ jobs:
             close(cmd);
             next;
           };
-          if(info~/EXTINF/ && info!~/奥林匹克|超高清/) {
+          if(info~/EXTINF/ && info!~/奥林匹克|超高清|\"5.*深圳/) {
             close("Source/China.m3u");
             cmd="awk '\''/"name"/{getline;print}'\'' Source/China.m3u";
             cmd | getline churl;
