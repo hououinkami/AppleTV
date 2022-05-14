@@ -65,7 +65,8 @@ jobs:
           if($0~/group-title=\"央视\"/ || $0~/group-title=\"卫视\"/) {m=NR; n=NR+1};
           if(m<=NR && NR<=n) {
             gsub("央视","'"$GROUP_NAME_CCTV"'");
-            gsub("卫视","'"$GROUP_NAME_SATT"'");
+            gsub(\"CCTV,\"CCTV-);
+            gsub("\"卫视","\"'"$GROUP_NAME_SATT"'");
             print $0;
           };
         }
@@ -84,7 +85,7 @@ jobs:
           gsub(/group-title=\"..卫视.*\"/, "group-title=\"'"$GROUP_NAME_SATT"'\"");
           if(info~/卫视频道标清/) {exit};
           if(info~/综合/) {
-            name="综合";
+            name="CCTV-1\"";
             close("Source/China.m3u");
             cmd="awk '\''/"name"/{getline;print}'\'' Source/China.m3u";
             cmd | getline churl;
@@ -93,7 +94,7 @@ jobs:
             next;
           };
           if(info~/体育赛事/) {
-            name="体育赛事";
+            name="CCTV-5\+";
             close("Source/China.m3u");
             cmd="awk '\''/"name"/{getline;print}'\'' Source/China.m3u";
             cmd | getline churl;
