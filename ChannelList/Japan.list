@@ -4,11 +4,13 @@
 https://n24-cdn-live.ntv.co.jp/ch01/high.m3u8
 
 #EXTINF:-1 tvg-id="NHKGeneralTV.jp" tvg-name="NHK General TV" tvg-country="JP" tvg-language="Japanese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/NHK_General_TV_logo.svg/800px-NHK_General_TV_logo.svg.png" group-title="F 日本频道",NHK総合
-https://nhk1.mov3.co/hls/nhk.m3u8
+https://nhk2.mov3.co/hls/nhk.m3u8
 #EXTINF:-1 tvg-id="TBS.jp" tvg-name="TBS" tvg-country="JP" tvg-language="Japanese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Tokyo_Broadcasting_System_logo_2020.svg/2880px-Tokyo_Broadcasting_System_logo_2020.svg.png" group-title="F 日本频道",TBSテレビ
 https://tbs.mov3.co/hls/tbs.m3u8
 #EXTINF:-1 tvg-id="FujiTV.jp" tvg-name="Fuji TV" tvg-country="JP" tvg-language="Japanese" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/Fuji_TV_logo.svg/1200px-Fuji_TV_logo.svg.png" group-title="F 日本频道",フジテレビ
-https://fujitv1.mov3.co/hls/fujitv.m3u8
+https://fujitv2.mov3.co/hls/fujitv.m3u8
+#EXTINF:-1 tvg-id="NipponTV.jp",Nippon TV (540p) [Not 24/7]
+https://ntv2.mov3.co/hls/ntv.m3u8
 #EXTINF:-1 tvg-id="ATX.jp" tvg-name="AT-X" tvg-country="JP" tvg-language="Japanese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/AT-X_logo.svg/2880px-AT-X_logo.svg.png" group-title="F 日本频道",AT-X
 https://sub2.neetball.net/live/neet.m3u8
 #EXTINF:-1 tvg-id="AnimaxJapan.jp" tvg-name="Animax Japan" tvg-country="JP" tvg-language="Japanese;English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Animax_logo.svg/2880px-Animax_logo.svg.png" group-title="F 日本频道",ANIMAX
