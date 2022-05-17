@@ -131,5 +131,3 @@ http://219.151.31.38/liveplay-kk.rtxapp.com/live/program/live/jykt/1300000/mnf.m
 http://liveru.cgtn.com/1000r/prog_index.m3u8
 #EXTINF:-1 tvg-id="20" tvg-name="CGTN" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/cgtn.png" group-title="央视频道", 西班牙中国环球电视网CGTN
 http://livees.cgtn.com/1000e/prog_index.m3u8
-#EXTINF:-1 tvg-id="5" tvg-name="CCTV5" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5.png" group-title="央视频道", CC-TV
-https://granicusliveus3-a.akamaihd.net/charlotte/G0055_002/playlist.m3u8
