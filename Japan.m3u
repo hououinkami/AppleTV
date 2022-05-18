@@ -2,17 +2,25 @@
 # 日本频道
 #EXTINF:-1 tvg-id="201" tvg-name="NTV News24" tvg-logo="https://pbs.twimg.com/profile_images/1209053168870416389/lFgBlkWY_400x400.jpg" group-title="日本频道",日テレNEWS24
 https://n24-cdn-live.ntv.co.jp/ch01/index_high.m3u8
-#EXTINF:-1 tvg-id="202" tvg-name="NHK General TV" tvg-country="JP" tvg-language="Japanese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/NHK_General_TV_logo.svg/800px-NHK_General_TV_logo.svg.png" group-title="日本频道",NHK総合
+#EXTINF:-1 tvg-id="202" tvg-name="NHK General TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/NHK_General_TV_logo.svg/800px-NHK_General_TV_logo.svg.png" group-title="日本频道",NHK総合
 https://nhk2.mov3.co/hls/nhk.m3u8
-#EXTINF:-1 tvg-id="203" tvg-name="Fuji TV" tvg-country="JP" tvg-language="Japanese" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/Fuji_TV_logo.svg/1200px-Fuji_TV_logo.svg.png" group-title="日本频道",フジテレビ
+#EXTINF:-1 tvg-id="203" tvg-name="Fuji TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/Fuji_TV_logo.svg/1200px-Fuji_TV_logo.svg.png" group-title="日本频道",フジテレビ
 https://fujitv2.mov3.co/hls/fujitv.m3u8
 #EXTINF:-1 tvg-id="204" tvg-name="Nippon TV" tvg-logo="https://static.epg.best/jp/NipponTV.jp.png" group-title="日本频道",日本テレビ
 https://ntv2.mov3.co/hls/ntv.m3u8
-#EXTINF:-1 tvg-id="205" tvg-name="TBS" tvg-country="JP" tvg-language="Japanese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Tokyo_Broadcasting_System_logo_2020.svg/2880px-Tokyo_Broadcasting_System_logo_2020.svg.png" group-title="日本频道",TBSテレビ
+#EXTINF:-1 tvg-id="205" tvg-name="TBS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Tokyo_Broadcasting_System_logo_2020.svg/2880px-Tokyo_Broadcasting_System_logo_2020.svg.png" group-title="日本频道",TBSテレビ
 https://tbs1.mov3.co/hls/tbs.m3u8
-#EXTINF:-1 tvg-id="206" tvg-name="AT-X" tvg-country="JP" tvg-language="Japanese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/AT-X_logo.svg/2880px-AT-X_logo.svg.png" group-title="日本频道",AT-X
+#EXTINF:-1 tvg-id="206" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FNN_logo.svg/2880px-FNN_logo.svg.png" group-title="日本频道",フジニュースネットワーク
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCoQBJMzcwmXrRSHBFAlTsIw/live
+#EXTINF:-1 tvg-id="207" tvg-name="" tvg-logo="https://newsdig.ismcdn.jp/mwimgs/f/5/-/img_f5d72f587b90c8e581b63bf8d2d61ac619307.png" group-title="日本频道",TBS NEWS DIG Powered by JNN
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UC6AG81pAkf6Lbi_1VC5NmPA/live
+#EXTINF:-1 tvg-id="208" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/ANN_logo.svg/2880px-ANN_logo.svg.png" group-title="日本频道",オールニッポン・ニュースネットワーク
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCGCZAYq5Xxojl_tSXcVJhiQ/live
+#EXTINF:-1 tvg-id="209" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Htb_logo.svg/1920px-Htb_logo.svg.png" group-title="日本频道",北海道テレビ放送ニュース
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCSWOnDD1KIriGmyQ7SgNA4A/live
+#EXTINF:-1 tvg-id="210" tvg-name="AT-X" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/AT-X_logo.svg/2880px-AT-X_logo.svg.png" group-title="日本频道",AT-X
 https://sub2.neetball.net/live/neet.m3u8
-#EXTINF:-1 tvg-id="207" tvg-name="Animax Japan" tvg-country="JP" tvg-language="Japanese;English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Animax_logo.svg/2880px-Animax_logo.svg.png" group-title="日本频道",ANIMAX
+#EXTINF:-1 tvg-id="211" tvg-name="Animax Japan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Animax_logo.svg/2880px-Animax_logo.svg.png" group-title="日本频道",ANIMAX
 https://livecdn.fptplay.net/hda3/animaxport_hls.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="301" tvg-name="" tvg-logo="https://img.discogs.com/A63jK_qkTXN-WDU6b4TumBpogDI=/fit-in/500x500/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/L-1390841-1513989715-5028.png.jpg" group-title="日本频道",NHK Eテレ
@@ -57,9 +65,3 @@ http://192.240.127.34:1935/live/cs11.stream/playlist.m3u8
 http://192.240.127.34:1935/live/cs18.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="321" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Weathernews_logo.svg/1200px-Weathernews_logo.svg.png" group-title="日本频道",ウェザーニュース
 http://movie.mcas.jp/mcas/smil:wn1.smil/chunklist_b1800000.m3u8
-#EXTINF:-1 tvg-id="322" tvg-name="" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-548-400x400.png" group-title="日本频道",ジャパネットチャンネルDX
-http://bcsecurelivehls-i.akamaihd.net/hls/live/265320/5043843989001/140130JTDX/index_1200.m3u8
-#EXTINF:-1 tvg-id="323" tvg-name="" tvg-logo="https://www.wowow.co.jp/service/fg/img/ch_cinema_logo.png" group-title="日本频道",WOWOWシネマ
-http://192.240.127.34:1935/live/cs27.stream/playlist.m3u8?wowzasessionid=1300220279
-#EXTINF:-1 tvg-id="324" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/37/QVC_logo_2015.png" group-title="日本频道",QVCジャパン
-http://cdn-live1.qvc.jp/iPhone/800/800.m3u8
