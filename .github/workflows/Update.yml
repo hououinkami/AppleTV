@@ -17,7 +17,7 @@ env:
   TZ: Asia/Shanghai
   TELEGRAM_NOTIFICATION: true
   TELEGRAM_NOTIFICATION_CONTENT: <b>📺 AppleTVライブチャンネルが更新しました！</b>
-  SOURCE: https://img.whalenas.com:283/file/iptv.m3u
+  SOURCE: https://raw.githubusercontent.com/Kimentanm/aptv/main/m3u/iptv.m3u
   SOURCE_NAME: source.tmp
   CCTV_KEYWORD: 广西移动
   SATT_KEYWORD: 广西移动
