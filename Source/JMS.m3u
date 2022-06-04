@@ -43,7 +43,7 @@ http://liveop.cctv.cn/hls/4KHD/playlist.m3u8
 #EXTINF:-1 tvg-id="21" tvg-name="发现之旅" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV_FXZL.png" group-title="央视频道",CCTV-发现之旅
 https://php.52sf.ga/jmstvbf.php?id=151
 #EXTINF:-1 tvg-id="21" tvg-name="世界地理" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV_SJDL.png" group-title="央视频道",CCTV-世界地理
-https://php.52sf.ga/jmstvsx.php?id=095
+https://php.52sf.ga/jmstvsx.php?id=177
 #EXTINF:-1 tvg-id="22" tvg-name="风云音乐" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV_FYYY.png" group-title="央视频道",CCTV-风云音乐
 https://php.52sf.ga/jmstvsx.php?id=098
 #EXTINF:-1 tvg-id="23" tvg-name="风云足球" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV_FYZQ.png" group-title="央视频道",CCTV-风云足球
@@ -58,7 +58,7 @@ https://php.52sf.ga/jmstvsx.php?id=092
 #EXTINF:-1 tvg-id="26" tvg-name="高尔夫" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV_GOLF.png" group-title="央视频道",CCTV-高尔夫·网球
 https://php.52sf.ga/jmstvhf.php?id=122
 #EXTINF:-1 tvg-id="27" tvg-name="女性时尚" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV_NXSS.png" group-title="央视频道",CCTV-女性时尚
-https://php.52sf.ga/jmstvsx.php?id=035
+https://php.52sf.ga/jmstvsx.php?id=176
 #EXTINF:-1 tvg-id="27" tvg-name="中学生" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV_ZXS.png" group-title="央视频道",CCTV-中学生
 https://php.52sf.ga/jmstvsx.php?id=069
 #EXTINF:-1 tvg-id="28" tvg-name="文化精品" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV_WHJP.png" group-title="央视频道",CCTV-文化精品
