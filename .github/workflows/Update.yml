@@ -82,7 +82,7 @@ jobs:
           print info;
           gsub(/group-title=\"..央视.*\"/, "group-title=\"'"$GROUP_NAME_CCTV"'\"");
           gsub(/group-title=\"..卫视.*\"/, "group-title=\"'"$GROUP_NAME_SATT"'\"");
-          if(info~/央视收费频道/) {exit};
+          if(length(info)==0) {exit};
           if(info~/综合/) {
             name="CCTV1\"";
             close("Source/China.m3u");
@@ -144,7 +144,7 @@ jobs:
 
     - name: 生成AppleTV总列表
       run : |
-        cat China.m3u Japan.m3u English.m3u > IPTV.m3u
+        cat China.m3u Japan.m3u > IPTV.m3u
     
     - name: 删除临时文件
       run : |

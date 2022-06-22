@@ -1,5 +1,4 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
-# 央视频道
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" group-title="央视频道",CCTV-1 综合
 #EXTINF:-1 tvg-id="2" tvg-name="CCTV2" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV2.png" group-title="央视频道",CCTV-2 财经
 #EXTINF:-1 tvg-id="3" tvg-name="CCTV3" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV3.png" group-title="央视频道",CCTV-3 综艺
@@ -22,7 +21,6 @@ http://liveop.cctv.cn/hls/CCTV16HD/playlist.m3u8
 #EXTINF:-1 tvg-id="18" tvg-name="CCTV4K" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4k.png" group-title="央视频道",CCTV-4K 超高清
 http://liveop.cctv.cn/hls/4KHD/playlist.m3u8
 
-# 卫视频道高清
 #EXTINF:-1 tvg-id="51" tvg-name="深圳卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shenzhen.png" group-title="卫视频道",深圳卫视
 http://ye23.win/iptv/sztv.php?id=1
 #EXTINF:-1 tvg-id="52" tvg-name="深圳都市" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shenzhen.png" group-title="卫视频道",深圳都市
@@ -45,7 +43,6 @@ http://ye23.win/iptv/sztv.php?id=7
 #EXTINF:-1 tvg-id="66" tvg-name="浙江卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/zhejiang.png" group-title="卫视频道",浙江卫视
 #EXTINF:-1 tvg-id="67" tvg-name="江苏卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangsu.png" group-title="卫视频道",江苏卫视
 #EXTINF:-1 tvg-id="68" tvg-name="东南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/dongnan.png" group-title="卫视频道",东南卫视
-
 #EXTINF:-1 tvg-id="69" tvg-name="安徽卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/anhui.png" group-title="卫视频道",安徽卫视
 #EXTINF:-1 tvg-id="70" tvg-name="湖北卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hubei.png" group-title="卫视频道",湖北卫视
 #EXTINF:-1 tvg-id="71" tvg-name="天津卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/tianjin.png" group-title="卫视频道",天津卫视
@@ -55,7 +52,25 @@ http://ye23.win/iptv/sztv.php?id=7
 #EXTINF:-1 tvg-id="75" tvg-name="黑龙江卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/heilongjiang.png" group-title="卫视频道",黑龙江卫视
 #EXTINF:-1 tvg-id="76" tvg-name="重庆卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/chongqing.png" group-title="卫视频道",重庆卫视
 
-# 央视收费频道
+#EXTINF:-1 tvg-id="77" tvg-name="广西卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/guangxi.png" group-title="卫视频道",广西卫视
+#EXTINF:-1 tvg-id="78" tvg-name="四川卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/sichuan.png" group-title="卫视频道",四川卫视
+#EXTINF:-1 tvg-id="79" tvg-name="河南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/henan.png" group-title="卫视频道",河南卫视
+#EXTINF:-1 tvg-id="80" tvg-name="河北卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hebei.png" group-title="卫视频道",河北卫视
+#EXTINF:-1 tvg-id="81" tvg-name="吉林卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jilin.png" group-title="卫视频道",吉林卫视
+#EXTINF:-1 tvg-id="82" tvg-name="贵州卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/guizhou.png" group-title="卫视频道",贵州卫视
+#EXTINF:-1 tvg-id="83" tvg-name="山西卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shanxi_.png" group-title="卫视频道",山西卫视
+#EXTINF:-1 tvg-id="84" tvg-name="陕西卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shanxi.png" group-title="卫视频道",陕西卫视
+#EXTINF:-1 tvg-id="85" tvg-name="云南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/yunnan.png" group-title="卫视频道",云南卫视
+#EXTINF:-1 tvg-id="86" tvg-name="甘肃卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/gansu.png" group-title="卫视频道",甘肃卫视
+#EXTINF:-1 tvg-id="87" tvg-name="海南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/lvyou.png" group-title="卫视", 海南卫视
+#EXTINF:-1 tvg-id="88" tvg-name="旅游卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/lvyou.png" group-title="卫视", 旅游卫视
+#EXTINF:-1 tvg-id="89" tvg-name="三沙卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/sansha.png" group-title="卫视", 三沙卫视
+#EXTINF:-1 tvg-id="90" tvg-name="西藏卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/xizang.png" group-title="卫视频道",西藏卫视
+#EXTINF:-1 tvg-id="91" tvg-name="青海卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/qinghai.png" group-title="卫视频道",青海卫视
+#EXTINF:-1 tvg-id="92" tvg-name="新疆卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/xinjiang.png" group-title="卫视频道",新疆卫视
+#EXTINF:-1 tvg-id="93" tvg-name="兵团卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/bingtuan.png" group-title="卫视", 兵团卫视
+#EXTINF:-1 tvg-id="94" tvg-name="内蒙古卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/neimeng.png" group-title="卫视频道",内蒙古卫视
+
 #EXTINF:-1 tvg-id="21" tvg-name="发现之旅" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV_FXZL.png" group-title="央视频道",CCTV-发现之旅
 #EXTINF:-1 tvg-id="21" tvg-name="世界地理" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV_SJDL.png" group-title="央视频道",CCTV-世界地理
 #EXTINF:-1 tvg-id="22" tvg-name="风云音乐" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV_FYYY.png" group-title="央视频道",CCTV-风云音乐
@@ -73,18 +88,3 @@ http://ye23.win/iptv/sztv.php?id=7
 #EXTINF:-1 tvg-id="28" tvg-name="兵器科技" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV_BQKJ.png" group-title="央视频道",CCTV-兵器科技
 #EXTINF:-1 tvg-id="28" tvg-name="电视指南" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV_DSZN.png" group-title="央视频道",CCTV-电视指南
 
-# 卫视频道标清
-#EXTINF:-1 tvg-id="77" tvg-name="河南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/henan.png" group-title="卫视频道",河南卫视
-#EXTINF:-1 tvg-id="78" tvg-name="河北卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hebei.png" group-title="卫视频道",河北卫视
-#EXTINF:-1 tvg-id="79" tvg-name="贵州卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/guizhou.png" group-title="卫视频道",贵州卫视
-#EXTINF:-1 tvg-id="80" tvg-name="广西卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/guangxi.png" group-title="卫视频道",广西卫视
-#EXTINF:-1 tvg-id="81" tvg-name="青海卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/qinghai.png" group-title="卫视频道",青海卫视
-#EXTINF:-1 tvg-id="82" tvg-name="新疆卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/xinjiang.png" group-title="卫视频道",新疆卫视
-#EXTINF:-1 tvg-id="83" tvg-name="四川卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/sichuan.png" group-title="卫视频道",四川卫视
-#EXTINF:-1 tvg-id="84" tvg-name="吉林卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jilin.png" group-title="卫视频道",吉林卫视
-#EXTINF:-1 tvg-id="85" tvg-name="山西卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shanxi_.png" group-title="卫视频道",山西卫视
-#EXTINF:-1 tvg-id="86" tvg-name="陕西卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shanxi.png" group-title="卫视频道",陕西卫视
-#EXTINF:-1 tvg-id="87" tvg-name="云南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/yunnan.png" group-title="卫视频道",云南卫视
-#EXTINF:-1 tvg-id="88" tvg-name="甘肃卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/gansu.png" group-title="卫视频道",甘肃卫视
-#EXTINF:-1 tvg-id="89" tvg-name="西藏卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/xizang.png" group-title="卫视频道",西藏卫视
-#EXTINF:-1 tvg-id="90" tvg-name="内蒙古卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/neimeng.png" group-title="卫视频道",内蒙古卫视

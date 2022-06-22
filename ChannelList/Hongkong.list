@@ -1,5 +1,3 @@
-#EXTM3U
-# 香港频道
 #EXTINF:-1 tvg-id="101" tvg-name="TVB新闻" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/Hongkong/TVB_News.png" group-title="香港频道",無綫新聞台
 #EXTINF:-1 tvg-id="102" tvg-name="TVB财经资讯" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/Hongkong/TVB_Finance.png" group-title="香港频道",無綫財經資訊台
 #EXTINF:-1 tvg-id="103" tvg-name="翡翠台" tvg-logo="https://vignette.wikia.nocookie.net/evchk/images/8/88/Tvb_Jade_cap.png" group-title="香港频道",翡翠台
