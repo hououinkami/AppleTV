@@ -1,5 +1,3 @@
-#EXTM3U
-# 科教记录频道
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cloudimages.broadwayworld.com/columnpic10/6806A00D565-E4DD-E043-3EB35FCDE22B937B.jpg" group-title="科教记录",Discovery
 rtmp://ivi.bupt.edu.cn:1935/livetv/discovery
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cloudimages.broadwayworld.com/columnpic10/6806A00D565-E4DD-E043-3EB35FCDE22B937B.jpg" group-title="科教记录",Discovery Science
