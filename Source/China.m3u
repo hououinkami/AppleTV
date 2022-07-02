@@ -28,9 +28,9 @@ http://39.135.138.58:18890/PLTV/88888910/224/3221225627/index.m3u8codeyj
 #EXTINF:-1 tvg-id="12" tvg-name="CCTV11" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV11.png" group-title="央视频道", CCTV11
 http://39.135.138.58:18890/PLTV/88888910/224/3221225626/index.m3u8codeyj
 #EXTINF:-1 tvg-id="13" tvg-name="CCTV12" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV12.png" group-title="央视频道", CCTV12
-http://222.240.82.92:9901/tsfile/live/0012_1.m3u8
+http://39.134.65.181/PLTV/88888888/224/3221225669/1.m3u8
 #EXTINF:-1 tvg-id="14" tvg-name="CCTV13" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV13.png" group-title="央视频道", CCTV13
-http://222.240.82.92:9901/tsfile/live/0013_1.m3u8
+http://39.134.65.173/PLTV/88888888/224/3221225812/1.m3u8
 #EXTINF:-1 tvg-id="15" tvg-name="CCTV14" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV14.png" group-title="央视频道", CCTV14
 http://39.135.138.58:18890/PLTV/88888910/224/3221225640/index.m3u8codeyj
 #EXTINF:-1 tvg-id="16" tvg-name="CCTV15" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV15.png" group-title="央视频道", CCTV15
