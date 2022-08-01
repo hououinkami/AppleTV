@@ -8,7 +8,7 @@ http://39.134.65.173/PLTV/88888888/224/3221225799/1.m3u8
 #EXTINF:-1 tvg-id="4" tvg-name="CCTV4" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4.png" group-title="央视频道", CCTV4
 http://39.136.48.18:8089/PLTV/88888888/224/3221225757/index.m3u8
 #EXTINF:-1 tvg-id="106" tvg-name="CCTV4K" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4k.png" group-title="央视频道", CCTV4K
-http://117.148.129.85:80/PLTV/88888888/224/3221233413/1.m3u8
+https://www.whalenas.com/cctv4k/index.php
 #EXTINF:-1 tvg-id="5" tvg-name="CCTV5" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5.png" group-title="央视频道", CCTV5
 http://111.20.33.93/PLTV/88888893/224/3221226395/index.m3u8
 #EXTINF:-1 tvg-id="6" tvg-name="CCTV5+" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5+.png" group-title="央视频道", CCTV5+
