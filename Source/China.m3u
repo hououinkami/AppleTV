@@ -24,11 +24,11 @@ http://117.148.129.93:80/PLTV/88888888/224/3221233350/1.m3u8
 #EXTINF:-1,tvg-id="CCTV9" tvg-name="CCTV9" tvg-logo="https://epg.112114.xyz/logo/CCTV9.png" group-title="央视频道", CCTV9
 http://39.134.65.183/PLTV/88888888/224/3221225676/1.m3u8
 #EXTINF:-1,tvg-id="CCTV10" tvg-name="CCTV10" tvg-logo="https://epg.112114.xyz/logo/CCTV10.png" group-title="央视频道", CCTV10
-http://39.136.48.11:8089/PLTV/88888888/224/3221225761/index.m3u8
+http://39.134.65.142/PLTV/88888888/224/3221225677/index.m3u8
 #EXTINF:-1,tvg-id="CCTV11" tvg-name="CCTV11" tvg-logo="https://epg.112114.xyz/logo/CCTV11.png" group-title="央视频道", CCTV11
 http://39.134.65.142/PLTV/88888888/224/3221225517/index.m3u8
 #EXTINF:-1,tvg-id="CCTV12" tvg-name="CCTV12" tvg-logo="https://epg.112114.xyz/logo/CCTV12.png" group-title="央视频道", CCTV12
-http://39.136.48.2:8089/PLTV/88888888/224/3221225763/index.m3u8
+http://39.134.65.208/PLTV/88888888/224/3221225669/index.m3u8
 #EXTINF:-1,tvg-id="CCTV13" tvg-name="CCTV13" tvg-logo="https://epg.112114.xyz/logo/CCTV13.png" group-title="央视频道", CCTV13
 http://39.134.67.99/PLTV/88888888/224/3221225812/index.m3u8
 #EXTINF:-1,tvg-id="CCTV14" tvg-name="CCTV14" tvg-logo="https://epg.112114.xyz/logo/CCTV14.png" group-title="央视频道", CCTV14
