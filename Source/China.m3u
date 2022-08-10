@@ -76,21 +76,21 @@ http://39.134.66.110/PLTV/88888888/224/3221225503/index.m3u8
 #EXTINF:-1,tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://epg.112114.xyz/logo/四川卫视.png" group-title="卫视频道", 四川卫视
 http://39.135.138.59:18890/PLTV/88888910/224/3221225733/index.m3u8
 #EXTINF:-1,tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://epg.112114.xyz/logo/山东卫视.png" group-title="卫视频道", 山东卫视
-http://117.148.179.137/PLTV/88888888/224/3221227909/index.m3u8
+http://111.20.33.93/TVOD/88888893/224/3221226209/index.m3u8
 #EXTINF:-1,tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://epg.112114.xyz/logo/黑龙江卫视.png" group-title="卫视频道", 黑龙江卫视
-http://117.148.179.162/TVOD/88888888/224/3221231520/index.m3u8
+http://39.134.66.110/PLTV/88888888/224/3221225985/index.m3u8
 #EXTINF:-1,tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://epg.112114.xyz/logo/东方卫视.png" group-title="卫视频道", 东方卫视
-http://117.148.179.167/PLTV/88888888/224/3221231450/index.m3u8?zweimd
+http://39.134.66.110/PLTV/88888888/224/3221225672/index.m3u8
 #EXTINF:-1,tvg-id="青海卫视" tvg-name="青海卫视" tvg-logo="https://epg.112114.xyz/logo/青海卫视.png" group-title="卫视频道", 青海卫视
 http://125.210.152.19:9090/live/hszx-qhtv-h264.m3u8
 #EXTINF:-1,tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://epg.112114.xyz/logo/北京卫视.png" group-title="卫视频道", 北京卫视
-http://117.148.179.136/PLTV/88888888/224/3221231567/index.m3u8?zweimd
+http://111.20.33.70/PLTV/88888893/224/3221226222/index.m3u8
 #EXTINF:-1,tvg-id="广西卫视" tvg-name="广西卫视" tvg-logo="https://epg.112114.xyz/logo/广西卫视.png" group-title="卫视频道", 广西卫视
-http://117.148.179.164/PLTV/88888888/224/3221231600/index.m3u8?zweimd
+http://39.134.115.163:8080/PLTV/88888910/224/3221225731/index.m3u8
 #EXTINF:-1,tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://epg.112114.xyz/logo/河北卫视.png" group-title="卫视频道", 河北卫视
-http://117.148.179.179/PLTV/88888888/224/3221231411/index.m3u8?zweimd
+http://39.134.115.163:8080/PLTV/88888910/224/3221225732/index.m3u8
 #EXTINF:-1,tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://epg.112114.xyz/logo/重庆卫视.png" group-title="卫视频道", 重庆卫视
-http://117.148.179.155/PLTV/88888888/224/3221231508/index.m3u8?zweimd
+http://111.20.33.70/PLTV/88888893/224/3221226202/index.m3u8
 #EXTINF:-1,tvg-id="陕西卫视" tvg-name="陕西卫视" tvg-logo="https://epg.112114.xyz/logo/陕西卫视.png" group-title="卫视频道", 陕西卫视
 http://111.20.33.70/PLTV/88888893/224/3221225821/index.m3u8
 #EXTINF:-1,tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://epg.112114.xyz/logo/浙江卫视.png" group-title="卫视频道", 浙江卫视
