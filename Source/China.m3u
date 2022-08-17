@@ -40,7 +40,7 @@ http://111.20.33.70/PLTV/88888893/224/3221226921/index.m3u8
 #EXTINF:-1,tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://epg.112114.xyz/logo/CCTV16.png" group-title="央视频道", CCTV16奥林匹克
 http://39.135.138.60:18890/TVOD/88888910/224/3221226233/index.m3u8
 #EXTINF:-1,tvg-id="CCTV17" tvg-name="CCTV17" tvg-logo="https://epg.112114.xyz/logo/CCTV17.png" group-title="央视频道", CCTV17
-http://111.20.33.93/TVOD/88888893/224/3221226208/index.m3u8
+http://39.134.66.110/PLTV/88888888/224/3221225708/index.m3u8
 #EXTINF:-1,tvg-id="发现之旅" tvg-name="发现之旅" tvg-logo="https://epg.112114.xyz/logo/发现之旅.png" group-title="央视频道", CCTV发现之旅
 http://111.20.33.70/PLTV/88888893/224/3221226235/index.m3u8
 #EXTINF:-1,tvg-id="女性时尚" tvg-name="女性时尚" tvg-logo="https://epg.112114.xyz/logo/女性时尚.png" group-title="央视频道", CCTV女性时尚
