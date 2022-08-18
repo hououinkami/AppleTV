@@ -4,15 +4,15 @@ http://39.134.66.110/PLTV/88888888/224/3221225816/index.m3u8
 #EXTINF:-1,tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://epg.112114.xyz/logo/CCTV2.png" group-title="央视频道", CCTV2
 http://39.136.48.18:8089/PLTV/88888888/224/3221225751/index.m3u8
 #EXTINF:-1,tvg-id="CCTV3" tvg-name="CCTV3" tvg-logo="https://epg.112114.xyz/logo/CCTV3.png" group-title="央视频道", CCTV3
-http://39.134.65.173/PLTV/88888888/224/3221225799/1.m3u8
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225647/index.m3u8
 #EXTINF:-1,tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://epg.112114.xyz/logo/CCTV4.png" group-title="央视频道", CCTV4
 http://111.20.33.70/PLTV/88888893/224/3221226223/index.m3u8
 #EXTINF:-1,tvg-id="CCTV4K" tvg-name="CCTV4K" tvg-logo="https://epg.112114.xyz/logo/CCTV4K.png" group-title="央视频道", CCTV4K
 http://open.live-web.timetv.cn/live03/cctv4k.m3u8
 #EXTINF:-1,tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="https://epg.112114.xyz/logo/CCTV5.png" group-title="央视频道", CCTV5
-http://39.134.65.179/PLTV/88888888/224/3221225818/1.m3u8
+http://39.136.48.18:8089/PLTV/88888888/224/3221226425/index.m3u8
 #EXTINF:-1,tvg-id="CCTV5+" tvg-name="CCTV5+" tvg-logo="https://epg.112114.xyz/logo/CCTV5+.png" group-title="央视频道", CCTV5+
-http://39.134.65.181/PLTV/88888888/224/3221225507/1.m3u8
+http://39.134.66.66/PLTV/88888888/224/3221225507/index.m3u8
 #EXTINF:-1,tvg-id="CCTV6" tvg-name="CCTV6" tvg-logo="https://epg.112114.xyz/logo/CCTV6.png" group-title="央视频道", CCTV6
 http://39.134.66.2/PLTV/88888888/224/3221225814/index.m3u8
 #EXTINF:-1,tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://epg.112114.xyz/logo/CCTV7.png" group-title="央视频道", CCTV7
@@ -22,7 +22,7 @@ http://183.207.248.12/PLTV/3/224/3221227204/index.m3u8
 #EXTINF:-1,tvg-id="" tvg-name="" tvg-logo="https://epg.112114.xyz/logo/CCTV8K.png" group-title="央视频道", CCTV8K
 http://117.148.129.93:80/PLTV/88888888/224/3221233350/1.m3u8
 #EXTINF:-1,tvg-id="CCTV9" tvg-name="CCTV9" tvg-logo="https://epg.112114.xyz/logo/CCTV9.png" group-title="央视频道", CCTV9
-http://39.134.65.183/PLTV/88888888/224/3221225676/1.m3u8
+http://39.136.48.18:8089/PLTV/88888888/224/3221225759/index.m3u8
 #EXTINF:-1,tvg-id="CCTV10" tvg-name="CCTV10" tvg-logo="https://epg.112114.xyz/logo/CCTV10.png" group-title="央视频道", CCTV10
 http://39.134.65.142/PLTV/88888888/224/3221225677/index.m3u8
 #EXTINF:-1,tvg-id="CCTV11" tvg-name="CCTV11" tvg-logo="https://epg.112114.xyz/logo/CCTV11.png" group-title="央视频道", CCTV11
