@@ -66,6 +66,7 @@ jobs:
           if(m<=NR && NR<=n) {
             gsub("央视","'"$GROUP_NAME_CCTV"'");
             gsub("\"卫视","\"'"$GROUP_NAME_SATT"'");
+            gsub("CCTV5\+\"","CCTV5\+体育赛事\"");
             print $0;
           };
         }
@@ -93,7 +94,7 @@ jobs:
             next;
           };
           if(info~/体育赛事/) {
-            name="CCTV5\+";
+            name="体育赛事";
             close("Source/China.m3u");
             cmd="awk '\''/"name"/{getline;print}'\'' Source/China.m3u";
             cmd | getline churl;
