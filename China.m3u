@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" group-title="央视频道",CCTV-1 综合
-http://111.20.33.93/PLTV/88888893/224/3221226231/index.m3u8
+http://111.20.33.70/PLTV/88888893/224/3221226457/index.m3u8
 #EXTINF:-1 tvg-id="2" tvg-name="CCTV2" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV2.png" group-title="央视频道",CCTV-2 财经
 http://111.20.33.70/PLTV/88888893/224/3221226224/index.m3u8
 #EXTINF:-1 tvg-id="3" tvg-name="CCTV3" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV3.png" group-title="央视频道",CCTV-3 综艺
@@ -37,20 +37,6 @@ http://liveop.cctv.cn/hls/CCTV16HD/playlist.m3u8
 http://39.135.138.59:18890/PLTV/88888910/224/3221225908/index.m3u8
 #EXTINF:-1 tvg-id="18" tvg-name="CCTV4K" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4k.png" group-title="央视频道",CCTV-4K 超高清
 http://liveop.cctv.cn/hls/4KHD/playlist.m3u8
-#EXTINF:-1 tvg-id="51" tvg-name="深圳卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shenzhen.png" group-title="卫视频道",深圳卫视
-http://ye23.win/iptv/sztv.php?id=1
-#EXTINF:-1 tvg-id="52" tvg-name="深圳都市" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shenzhen.png" group-title="卫视频道",深圳都市
-http://ye23.win/iptv/sztv.php?id=2
-#EXTINF:-1 tvg-id="53" tvg-name="深圳电视剧" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shenzhen.png" group-title="卫视频道",深圳电视剧
-http://ye23.win/iptv/sztv.php?id=3
-#EXTINF:-1 tvg-id="54" tvg-name="深圳公共" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shenzhen.png" group-title="卫视频道",深圳公共
-http://ye23.win/iptv/sztv.php?id=4
-#EXTINF:-1 tvg-id="55" tvg-name="深圳财经生活" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shenzhen.png" group-title="卫视频道",深圳财经生活
-http://ye23.win/iptv/sztv.php?id=5
-#EXTINF:-1 tvg-id="56" tvg-name="深圳娱乐" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shenzhen.png" group-title="卫视频道",深圳娱乐
-http://ye23.win/iptv/sztv.php?id=6
-#EXTINF:-1 tvg-id="57" tvg-name="深圳少儿" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shenzhen.png" group-title="卫视频道",深圳少儿
-http://ye23.win/iptv/sztv.php?id=7
 #EXTINF:-1 tvg-id="61" tvg-name="深圳卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shenzhen.png" group-title="卫视频道",深圳卫视
 http://111.40.196.25/PLTV/88888888/224/3221225537/index.m3u8?zweimd
 #EXTINF:-1 tvg-id="62" tvg-name="北京卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="卫视频道",北京卫视
