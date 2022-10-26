@@ -9,7 +9,7 @@ on:
   release:
     types: [published]
   schedule:
-    - cron: */2 0 * * *
+    - cron: */2 * * * *
   watch:
     types: [started]
 
