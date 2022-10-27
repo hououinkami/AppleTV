@@ -2,6 +2,9 @@ name: 生成自用Apple TV直播列表
 
 on:
   workflow_dispatch:
+  push:
+    path:
+      - '.github/workflows/Update.yml'
   schedule:
     - cron: 0 */1 * * *
   watch:
@@ -27,7 +30,6 @@ env:
 
 jobs:
   GenerateList:
-    if: github.event.repository.owner.id == github.event.sender.id
     runs-on: macos-latest
 
     steps:
