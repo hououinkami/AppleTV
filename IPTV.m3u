@@ -1,8 +1,8 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" group-title="央视频道",CCTV-1 综合
-http://111.20.33.70/PLTV/88888893/224/3221226457/index.m3u8
+http://111.13.42.238/PLTV/88888888/224/3221226564/1.m3u8?icpid=88888888&amp;from=1&amp;hms_devid=461
 #EXTINF:-1 tvg-id="2" tvg-name="CCTV2" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV2.png" group-title="央视频道",CCTV-2 财经
-http://111.20.33.70/PLTV/88888893/224/3221226224/index.m3u8
+http://39.134.115.163:8080/PLTV/88888910/224/3221225619/index.m3u8
 #EXTINF:-1 tvg-id="3" tvg-name="CCTV3" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV3.png" group-title="央视频道",CCTV-3 综艺
 http://111.20.33.93/PLTV/88888893/224/3221226397/index.m3u8
 #EXTINF:-1 tvg-id="4" tvg-name="CCTV4" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4.png" group-title="央视频道",CCTV-4 中文国际
