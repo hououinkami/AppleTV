@@ -58,15 +58,15 @@ jobs:
         awk '
         {
           if($0~/\#EXTM3U/) {print $0};
-          if($0~/group-title=\"央视\"/ || $0~/group-title=\"卫视\"/) {m=NR; n=NR+1};
+          if($0~/group-title=\"央视IPV6\"/ || $0~/group-title=\"卫视IPV6\"/) {m=NR; n=NR+1};
           if(m<=NR && NR<=n) {
-            gsub("央视","'"$GROUP_NAME_CCTV"'");
-            gsub("\"卫视","\"'"$GROUP_NAME_SATT"'");
+            gsub("央视IPV6","'"$GROUP_NAME_CCTV"'");
+            gsub("\"卫视IPV6","\"'"$GROUP_NAME_SATT"'");
             gsub(/CCTV5.\"/,"CCTV5+体育赛事\"");
             print $0;
           };
         }
-        ' $SOURCE_NAME>china1.tmp
+        ' $SOURCE_NAME>china6.tmp
 
         cat china*.tmp>Source/China.m3u
 
