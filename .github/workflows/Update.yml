@@ -47,7 +47,7 @@ jobs:
     
     - name: 获取当前日期
       id: date
-      run: echo "::set-output name=DATE::$(date +'%Y-%m-%d')"
+      run: echo "DATE=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
     
     - name: 获取最新源
       run : |
@@ -157,11 +157,11 @@ jobs:
         out=$(git status)
         if [[ "$(echo $out | grep "$STR1")" != "" ]]
         then
-          echo "::set-output name=STATUS::"nochange""
+          echo "STATUS="nochange"" >> $GITHUB_OUTPUT
         fi
         if [[ "$(echo $out | grep "$STR2")" != "" ]]
         then
-          echo "::set-output name=STATUS::"change""
+          echo "STATUS="change"" >> $GITHUB_OUTPUT
         fi
     
     - name: 合并到仓库
