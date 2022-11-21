@@ -115,7 +115,7 @@ jobs:
         {
           if($0~/\"online\"/) {m=NR; n=NR+1};
           if(m<=NR && NR<=n) {
-            gsub(/ (.*p)/,"");
+            gsub(/ \(.*p\)/,"");
             gsub(/\",/,"\",group-title=\"'"$GROUP_NAME_JP"'\",");
             print $0;
           };
@@ -128,7 +128,6 @@ jobs:
           name=$4;
           print info;
           gsub(/group-title=\"..日本.*\"/, "group-title=\"'"$GROUP_NAME_JP"'\"");
-          if(length(info)==0) {exit};
           if(info~/EXTINF/ && info!~/URLARU/) {
             close("Source/Japan.m3u");
             cmd="awk '\''/"name"/{getline;print}'\'' Source/Japan.m3u";
