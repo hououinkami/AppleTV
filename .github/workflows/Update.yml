@@ -116,11 +116,12 @@ jobs:
           if($0~/\"online\"/) {m=NR; n=NR+1};
           if(m<=NR && NR<=n) {
             gsub(/ \(.*p\)/,"");
+            gsub(",TBS",",TBS TV");
             gsub(/\",/,"\" group-title=\"'"$GROUP_NAME_JP"'\",");
             print $0;
           };
         }
-        ' japan.tmp>Source/japan.m3u
+        ' japan.tmp>Source/Japan.m3u
 
         awk -F'"' '
         {
