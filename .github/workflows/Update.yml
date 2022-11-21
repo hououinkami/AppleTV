@@ -137,7 +137,7 @@ jobs:
             close(cmd);
           };
         }
-        ' ChannelList/China.list>Japan.m3u
+        ' ChannelList/Japan.list>Japan.m3u
 
     - name: 英文频道
       run : |
