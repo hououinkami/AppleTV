@@ -108,19 +108,39 @@ jobs:
         }
         ' ChannelList/China.list>China.m3u
 
-    - name: 外文频道
+    - name: 日本频道
       run : |
-        # 日本频道
+        wget https://raw.githubusercontent.com/iptv-org/iptv/master/streams/jp.m3u -O japan.tmp
         awk '
         {
-          gsub("group-title=\"..日本.*\"","group-title=\"'"$GROUP_NAME_JP"'\"");
-          print $0;
+          if($0~/\"online\"/) {m=NR; n=NR+1};
+          if(m<=NR && NR<=n) {
+            gsub(/ (.*p)/,"");
+            gsub(/\",/,"\",group-title=\"'"$GROUP_NAME_JP"'\",");
+            print $0;
+          };
         }
-        ' ChannelList/Japan.list>Japantmp1.m3u
+        ' japan.tmp>Source/japan.m3u
 
-        cat Japantmp*.m3u > Japan.m3u
+        awk -F'"' '
+        {
+          info=$0;
+          name=$4;
+          print info;
+          gsub(/group-title=\"..日本.*\"/, "group-title=\"'"$GROUP_NAME_JP"'\"");
+          if(length(info)==0) {exit};
+          if(info~/EXTINF/ && info!~/URLARU/) {
+            close("Source/Japan.m3u");
+            cmd="awk '\''/"name"/{getline;print}'\'' Source/Japan.m3u";
+            cmd | getline churl;
+            print churl;
+            close(cmd);
+          };
+        }
+        ' ChannelList/China.list>Japan.m3u
 
-        # 英文频道
+    - name: 英文频道
+      run : |
         awk '
         {
           gsub("group-title=\"..英文.*\"","group-title=\"'"$GROUP_NAME_EN"'\"");
