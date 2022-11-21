@@ -1,0 +1,28 @@
+#EXTINF:-1 tvg-id="301" tvg-name="" tvg-logo="https://img.discogs.com/A63jK_qkTXN-WDU6b4TumBpogDI=/fit-in/500x500/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/L-1390841-1513989715-5028.png.jpg" group-title="日本频道",NHK Eテレ
+http://203.162.235.41:16901
+#EXTINF:-1 tvg-id="302" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/NHK_General_TV_logo.svg/800px-NHK_General_TV_logo.svg.png" group-title="日本频道",NHK総合
+http://203.162.235.41:16903
+#EXTINF:-1 tvg-id="303" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/Fuji_TV_logo.svg/1200px-Fuji_TV_logo.svg.png" group-title="日本频道",フジテレビ
+http://203.162.235.41:16904
+#EXTINF:-1 tvg-id="304" tvg-name="" tvg-logo="https://static.epg.best/jp/NipponTV.jp.png" group-title="日本频道",日本テレビ
+http://203.162.235.41:16905
+#EXTINF:-1 tvg-id="305" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/TV_Asahi_Logo.svg/300px-TV_Asahi_Logo.svg.png" group-title="日本频道",テレビ朝日
+http://203.162.235.41:16906
+#EXTINF:-1 tvg-id="306" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Tokyo_Broadcasting_System_logo_2020.svg/2880px-Tokyo_Broadcasting_System_logo_2020.svg.png" group-title="日本频道",TBSテレビ
+http://203.162.235.41:16907
+#EXTINF:-1 tvg-id="307" tvg-name="" tvg-logo="https://static.epg.best/jp/TVTokyo.jp.png" group-title="日本频道",テレビ東京
+http://203.162.235.41:16908
+#EXTINF:-1 tvg-id="308" tvg-name="" tvg-logo="https://www.hikaritv.net/resources/hikari/pc/images/ch_logo/ch220/bs101.png" group-title="日本频道",NHK BS1
+http://203.162.235.41:16909
+#EXTINF:-1 tvg-id="309" tvg-name="" tvg-logo="https://www.hikaritv.net/resources/hikari/pc/images/ch_logo/ch220/bs103.png" group-title="日本频道",NHK BSプレミアム
+http://203.162.235.41:16910
+#EXTINF:-1 tvg-id="310" tvg-name="" tvg-logo="https://www.zne-iptv.com/wp-content/uploads/2017/10/22-BS-FUJI-770x480.jpg" group-title="日本频道",BSフジ
+http://203.162.235.41:16911
+#EXTINF:-1 tvg-id="311" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/BS4_logo.svg/400px-BS4_logo.svg.png" group-title="日本频道",BS日テレ
+http://203.162.235.41:16912
+#EXTINF:-1 tvg-id="312" tvg-name="" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-161-400x400.png" group-title="日本频道",BS-TBS
+http://203.162.235.41:16913
+#EXTINF:-1 tvg-id="313" tvg-name="" tvg-logo="https://yt3.ggpht.com/-FkWAXqmEgwA/AAAAAAAAAAI/AAAAAAAAAAA/JiEyTIJj6qg/s900-c-k-no/photo.jpg" group-title="日本频道",BS朝日
+http://203.162.235.41:16914
+#EXTINF:-1 tvg-id="314" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d8/BS_TV_Tokyo_logo.png" group-title="日本频道",BSテレビ東京
+http://203.162.235.41:16915
