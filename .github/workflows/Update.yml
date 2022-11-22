@@ -16,14 +16,12 @@ env:
   TELEGRAM_NOTIFICATION_CONTENT: <b>📺 AppleTVライブチャンネルが更新しました！</b>
   SOURCE: https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u
   SOURCE_NAME: source.tmp
-  CCTV_KEYWORD: 广西移动
-  SATT_KEYWORD: 广西移动
   GROUP_NAME_CCTV: 央视频道
   GROUP_NAME_SATT: 卫视频道
-  GROUP_NAME_HK: 香港频道
   GROUP_NAME_JP: 日本频道
   GROUP_NAME_EN: 英文频道
   GROUP_NAME_SCI: 科教记录
+  GROUP_NAME_HK: 香港频道
   GROUP_NAME_TW: 台湾频道
   GROUP_NAME_MO: 澳门频道
   HKTW_ADD: false
@@ -68,6 +66,19 @@ jobs:
         }
         ' $SOURCE_NAME>china6.tmp
 
+        awk '
+        {
+          if($0~/\#EXTM3U/) {print $0};
+          if($0~/group-title=\"央视\"/ || $0~/group-title=\"卫视\"/) {m=NR; n=NR+1};
+          if(m<=NR && NR<=n) {
+            gsub("央视","'"$GROUP_NAME_CCTV"'");
+            gsub("\"卫视","\"'"$GROUP_NAME_SATT"'");
+            gsub(/CCTV5.\"/,"CCTV5+体育赛事\"");
+            print $0;
+          };
+        }
+        ' $SOURCE_NAME>china4.tmp
+
         cat china*.tmp>Source/China.m3u
 
     - name: 重新排序国内频道并更换透明图标
@@ -98,7 +109,7 @@ jobs:
             close(cmd);
             next;
           };
-          if(info~/EXTINF/ && info!~/奥林匹克|超高清|\"5.*深圳/) {
+          if(info~/EXTINF/ && info!~/HaveURL/) {
             close("Source/China.m3u");
             cmd="awk '\''/"name"/{getline;print}'\'' Source/China.m3u";
             cmd | getline churl;
