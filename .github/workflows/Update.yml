@@ -111,6 +111,7 @@ jobs:
           gsub(/group-title=\"卫视.*\"/, "group-title=\"'"$GROUP_NAME_SATT"'\"");
           # 到第一个空行为止 if(length(info)==0) {exit};
           if(info~/\#EXIT/) {exit};
+          if($0~/\#EXTM3U/) {print $0};
           if(info~/综合/) {
             name="CCTV1\"";
             close("Source/China.m3u");
@@ -166,13 +167,17 @@ jobs:
         {
           info=$0;
           name=$4;
-          print info;
           gsub(/group-title=\"..日本.*\"/, "group-title=\"'"$GROUP_NAME_JP"'\"");
+          if($0~/\#EXTM3U/) {print $0};
           if(info~/EXTINF/ && info!~/URLARU/) {
+            churl="null";
             close("Source/Japan.m3u");
             cmd="awk '\''/"name"/{getline;print}'\'' Source/Japan.m3u";
             cmd | getline churl;
-            print churl;
+            if(churl!="null") {
+              print info;
+              print churl;
+            };
             close(cmd);
           };
         }
