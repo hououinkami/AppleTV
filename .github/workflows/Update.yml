@@ -198,11 +198,12 @@ jobs:
     
     - name: 删除临时文件
       run : |
-        rm $SOURCE_NAME
+        rm *.tmp
         rm *tmp*
         ls
     
     - name: 判断是否有变更
+      if: (!cancelled())
       id: status
       run: |
         STR1="nothing to commit, working tree clean"
@@ -218,6 +219,7 @@ jobs:
         fi
     
     - name: 合并到仓库
+      if: (!cancelled())
       run : |
         if [[ "${{steps.status.outputs.STATUS}}" == "change" ]]
         then
@@ -227,6 +229,7 @@ jobs:
         fi
 
     - name: 移除workflow运行
+      if: (!cancelled())
       uses: GitRML/delete-workflow-runs@main
       with:
         retain_days: 1
