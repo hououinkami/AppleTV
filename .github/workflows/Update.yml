@@ -90,8 +90,9 @@ jobs:
         awk '
         {
           if($0~/group-title=\"卫视\"/ && $0!~/tvg-name=\"..卫视\".*tvg-logo/) {gsub("\"卫视","\"'"$GROUP_NAME_LOCAL"'")};
+          gsub("\"电视指南","\"CCTV电视指南");
           if($0!~/tvg-name=\"CCTV/) {gsub(/group-title=\"数字\"/, "group-title=\"'"$GROUP_NAME_DIG"'\"")};
-          if($0!~/tvg-name=\"CCTV/ && $0~/group-title=\"'"$GROUP_NAME_DIG"'\"/) {m=NR; n=NR+1};
+          if(($0!~/tvg-name=\"CCTV/ && $0~/group-title=\"'"$GROUP_NAME_DIG"'\"/) || $0~/group-title=\"'"$GROUP_NAME_LOCAL"'\"/) {m=NR; n=NR+1};
           if(m<=NR && NR<=n) {
             print $0;
           };
@@ -129,11 +130,11 @@ jobs:
             next;
           };
           if(info~/EXTINF/ && info!~/HaveURL/) {
-            churl="";
+            churl="NOTHING";
             close("Source/China.m3u");
             cmd="awk '\''/"name"/{getline;print}'\'' Source/China.m3u";
             cmd | getline churl;
-            if(length(churl)==0) {
+            if(churl=="NOTHING") {
               print info;
               print churl;
             };
