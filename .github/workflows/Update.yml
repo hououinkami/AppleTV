@@ -137,7 +137,8 @@ jobs:
             cmd | getline churl;
             #if(length(churl)==0) {
               print info;
-              print length(churl);
+              print churl;
+              echo length(churl)
             #};
             close(cmd);
           };
