@@ -130,11 +130,10 @@ jobs:
             next;
           };
           if(info~/EXTINF/ && info!~/HaveURL/) {
-            churl="NOTHING";
             close("Source/China.m3u");
             cmd="awk '\''/"name"/{getline;print}'\'' Source/China.m3u";
             cmd | getline churl;
-            if(churl=="NOTHING") {
+            if(length(churl)==0) {
               print info;
               print churl;
             };
