@@ -116,6 +116,7 @@ jobs:
             close("Source/China.m3u");
             cmd="awk '\''/"name"/{getline;print}'\'' Source/China.m3u";
             cmd | getline churl;
+            print info;
             print churl;
             close(cmd);
             next;
@@ -125,6 +126,7 @@ jobs:
             close("Source/China.m3u");
             cmd="awk '\''/"name"/{getline;print}'\'' Source/China.m3u";
             cmd | getline churl;
+            print info;
             print churl;
             close(cmd);
             next;
@@ -133,10 +135,10 @@ jobs:
             close("Source/China.m3u");
             cmd="awk '\''/"name"/{getline;print}'\'' Source/China.m3u";
             cmd | getline churl;
-            if(length(churl)==0) {
+            #if(length(churl)==0) {
               print info;
-              print churl;
-            };
+              print length(churl);
+            #};
             close(cmd);
           };
         }
