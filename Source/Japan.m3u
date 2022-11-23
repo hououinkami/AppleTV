@@ -62,8 +62,6 @@ https://tbs2.mov3.co/hls/tbs.m3u8
 http://redlabmcdn.s.llnwi.net/nv02/ryowa5hd/index.m3u8
 #EXTINF:-1 tvg-id="JOTXDTV.jp" status="online" group-title="日本",TV Tokyo
 http://redlabmcdn.s.llnwi.net/nv02/ryowa6hd/index.m3u8
-#EXTINF:-1 tvg-id="JSports1.jp" status="online" group-title="日本",J Sports 1 [Not 24/7]
-http://redlabmcdn.s.llnwi.net/nv02/bs15hd/index.m3u8
 #EXTINF:-1 tvg-id="JSports2.jp" status="online" group-title="日本",J Sports 2 [Not 24/7]
 http://redlabmcdn.s.llnwi.net/nv02/bs11hd/index.m3u8
 #EXTINF:-1 tvg-id="JSports3.jp" status="online" group-title="日本",J Sports 3 [Not 24/7]

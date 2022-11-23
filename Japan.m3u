@@ -39,8 +39,6 @@ https://cdnv148.cloudrsst.com/jptv/disney_junior/playlist.m3u8
 https://cdnv148.cloudrsst.com/jptv/jkids_540/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="MTV Japan" tvg-logo="" group-title="日本频道",MTV Japan
 http://cdnv148.cloudrsst.com:1935/jptv/mtv/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="J Sports 1" tvg-logo="" group-title="日本频道",J Sports 1
-http://redlabmcdn.s.llnwi.net/nv02/bs15hd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="J Sports 2" tvg-logo="" group-title="日本频道",J Sports 2
 http://redlabmcdn.s.llnwi.net/nv02/bs11hd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="J Sports 3" tvg-logo="" group-title="日本频道",J Sports 3
