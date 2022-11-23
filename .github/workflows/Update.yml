@@ -14,16 +14,21 @@ env:
   TZ: Asia/Shanghai
   TELEGRAM_NOTIFICATION: true
   TELEGRAM_NOTIFICATION_CONTENT: <b>📺 AppleTVライブチャンネルが更新しました！</b>
-  SOURCE: https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u
+  SOURCE1: https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u
+  SOURCE1_NAME: source1.tmp
+  SOURCEV6: https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u
+  SOURCEV6_NAME: source6.tmp
   SOURCE_NAME: source.tmp
-  GROUP_NAME_CCTV: 央视频道
-  GROUP_NAME_SATT: 卫视频道
-  GROUP_NAME_JP: 日本频道
-  GROUP_NAME_EN: 英文频道
+  GROUP_NAME_CCTV: 央视
+  GROUP_NAME_SATT: 卫视
+  GROUP_NAME_JP: 日本
+  GROUP_NAME_EN: 英文
   GROUP_NAME_SCI: 科教记录
-  GROUP_NAME_HK: 香港频道
-  GROUP_NAME_TW: 台湾频道
-  GROUP_NAME_MO: 澳门频道
+  GROUP_NAME_HK: 香港
+  GROUP_NAME_TW: 台湾
+  GROUP_NAME_MO: 澳门
+  GROUP_NAME_LOCAL: 地方
+  GROUP_NAME_DIG: 数字
   HKTW_ADD: false
 
 jobs:
@@ -49,10 +54,26 @@ jobs:
     
     - name: 获取最新源
       run : |
-        wget $SOURCE -O $SOURCE_NAME
+        wget $SOURCE1 -O $SOURCE1_NAME
+        wget $SOURCEV6 -O $SOURCEV6_NAME
     
     - name: 国内频道
       run : |
+        awk '
+        {
+          gsub("\"央视","\"'"$GROUP_NAME_CCTV"'");
+          gsub(/CCTV5.\"/,"CCTV5+体育赛事\"");
+          gsub("\"电视指南","\"CCTV电视指南");
+          if($0~/tvg-name=\"CCTV/) {gsub(/group-title=\"数字\"/, "group-title=\"'"$GROUP_NAME_CCTV"'\"")};
+          if($0~/tvg-name=\"..卫视\".*tvg-logo/) {gsub("\"卫视","\"'"$GROUP_NAME_SATT"'")};
+          if($0~/\#EXTM3U/) {print $0};
+          if($0~/group-title=\"'"$GROUP_NAME_CCTV"'\"/ || $0~/group-title=\"'"$GROUP_NAME_SATT"'\"/) {m=NR; n=NR+1};
+          if(m<=NR && NR<=n) {
+            print $0;
+          };
+        }
+        ' $SOURCEV6_NAME>china6.tmp
+
         awk '
         {
           if($0~/\#EXTM3U/) {print $0};
@@ -64,22 +85,20 @@ jobs:
             print $0;
           };
         }
-        ' $SOURCE_NAME>china6.tmp
-
+        ' $SOURCE1_NAME>china1.tmp
+        
         awk '
         {
-          if($0~/\#EXTM3U/) {print $0};
-          if($0~/group-title=\"央视\"/ || $0~/group-title=\"卫视\"/) {m=NR; n=NR+1};
+          if($0~/group-title=\"卫视\"/ && $0!~/tvg-name=\"..卫视\".*tvg-logo/) {gsub("\"卫视","\"'"$GROUP_NAME_LOCAL"'")};
+          if($0!~/tvg-name=\"CCTV/) {gsub(/group-title=\"数字\"/, "group-title=\"'"$GROUP_NAME_DIG"'\"")};
+          if($0~/group-title=\"'"$GROUP_NAME_DIG"'\"/) {m=NR; n=NR+1};
           if(m<=NR && NR<=n) {
-            gsub("央视","'"$GROUP_NAME_CCTV"'");
-            gsub("\"卫视","\"'"$GROUP_NAME_SATT"'");
-            gsub(/CCTV5.\"/,"CCTV5+体育赛事\"");
             print $0;
           };
         }
-        ' $SOURCE_NAME>china4.tmp
+        ' $SOURCEV6_NAME>Source/Digital.m3u
 
-        cat china*.tmp>Source/China.m3u
+        cat china6.tmp china1.tmp > Source/China.m3u
 
     - name: 重新排序国内频道并更换透明图标
       run : |
@@ -87,10 +106,11 @@ jobs:
         {
           info=$0;
           name=$4;
-          print info;
           gsub(/group-title=\"..央视.*\"/, "group-title=\"'"$GROUP_NAME_CCTV"'\"");
           gsub(/group-title=\"..卫视.*\"/, "group-title=\"'"$GROUP_NAME_SATT"'\"");
-          if(length(info)==0) {exit};
+          print info;
+          # 到第一个空行为止 if(length(info)==0) {exit};
+          if(info~/\#EXIT/) {exit};
           if(info~/综合/) {
             name="CCTV1\"";
             close("Source/China.m3u");
@@ -117,7 +137,9 @@ jobs:
             close(cmd);
           };
         }
-        ' ChannelList/China.list>China.m3u
+        ' ChannelList/China.list>China.tmp
+
+        cat China.tmp Source/Digital.m3u > China.m3u
 
     - name: 日本频道
       run : |
