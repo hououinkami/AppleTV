@@ -115,6 +115,8 @@ https://cdnv148.cloudrsst.com/jptv/igasennmonn_720/playlist.m3u8
 #EXTINF:-1 tvg-id="NihonEigaSenmonChannel.jp" status="online" group-title="日本",Nihon Eiga Senmon
 https://cdnv148.cloudrsst.com/jptv/igasennmonn_540/playlist.m3u8
 #EXTINF:-1 tvg-id="NipponTV.jp" status="online" group-title="日本",Nippon TV [Not 24/7]
+https://ntv3.mov3.co/hls/ntv.m3u8
+#EXTINF:-1 tvg-id="NipponTV.jp" status="online" group-title="日本",Nippon TV [Not 24/7]
 http://redlabmcdn.s.llnwi.net/nv02/ryowa3hd/index.m3u8
 #EXTINF:-1 tvg-id="NitteleGPlus.jp" status="online" group-title="日本",Nittele G+ Sports & News
 https://cdnv148.cloudrsst.com/jptv/japan_tv_G_540/playlist.m3u8
