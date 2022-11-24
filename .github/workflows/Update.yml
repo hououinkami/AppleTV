@@ -65,14 +65,21 @@ jobs:
           gsub(/CCTV5.\"/,"CCTV5+体育赛事\"");
           gsub("\"电视指南","\"CCTV电视指南");
           if($0~/tvg-name=\"CCTV/) {gsub(/group-title=\"数字\"/, "group-title=\"'"$GROUP_NAME_CCTV"'\"")};
-          if($0~/tvg-name=\"..卫视\".*tvg-logo/) {gsub("\"卫视","\"'"$GROUP_NAME_SATT"'")};
+          if($0~/tvg-name=\"..卫视\".*tvg-logo/ || $0~/凤凰/) {gsub(/group-title=\".*\"/, "group-title=\"'"$GROUP_NAME_SATT"'\"")};
+          if($0~/group-title=\"卫视\"/ && $0!~/tvg-name=\".*卫视\".*tvg-logo/) {gsub("\"卫视","\"'"$GROUP_NAME_LOCAL"'")};
+          if($0!~/tvg-name=\"CCTV/) {gsub(/group-title=\"数字\"/, "group-title=\"'"$GROUP_NAME_DIG"'\"")};
+        }
+        ' $SOURCEV6_NAME>chinav6.tmp
+
+        awk '
+        {
           if($0~/\#EXTM3U/) {print $0};
           if($0~/group-title=\"'"$GROUP_NAME_CCTV"'\"/ || $0~/group-title=\"'"$GROUP_NAME_SATT"'\"/) {m=NR; n=NR+1};
           if(m<=NR && NR<=n) {
             print $0;
           };
         }
-        ' $SOURCEV6_NAME>china6.tmp
+        ' chinav6.tmp>china6.tmp
 
         awk '
         {
@@ -89,15 +96,13 @@ jobs:
         
         awk '
         {
-          if($0~/group-title=\"卫视\"/ && $0!~/tvg-name=\".*卫视\".*tvg-logo/) {gsub("\"卫视","\"'"$GROUP_NAME_LOCAL"'")};
-          gsub("\"电视指南","\"CCTV电视指南");
-          if($0!~/tvg-name=\"CCTV/) {gsub(/group-title=\"数字\"/, "group-title=\"'"$GROUP_NAME_DIG"'\"")};
-          if(($0!~/tvg-name=\"CCTV/ && $0~/group-title=\"'"$GROUP_NAME_DIG"'\"/) || $0~/group-title=\"'"$GROUP_NAME_LOCAL"'\"/) {m=NR; n=NR+1};
+          if($0~/\#EXTM3U/) {print $0};
+          if($0!~/湖南|江西|海南/ && ($0!~/group-title=\"'"$GROUP_NAME_CCTV"'\"/ || $0~/group-title=\"'"$GROUP_NAME_SATT"'\"/)) {m=NR; n=NR+1};
           if(m<=NR && NR<=n) {
             print $0;
           };
         }
-        ' $SOURCEV6_NAME>Source/Digital.m3u
+        ' chinav6.tmp>Source/Other.m3u
 
         cat china6.tmp china1.tmp > Source/China.m3u
 
@@ -146,7 +151,7 @@ jobs:
         }
         ' ChannelList/China.list>China.tmp
 
-        cat China.tmp Source/Digital.m3u > China.m3u
+        cat China.tmp Source/Other.m3u > China.m3u
 
     - name: 日本频道
       run : |
