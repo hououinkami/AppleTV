@@ -77,6 +77,8 @@ jobs:
         }
         ' $SOURCEV6_NAME>chinav6.tmp
 
+        cat chinav6.tmp
+
         awk '
         {
           if($0~/\#EXTM3U/) {print $0};
@@ -86,6 +88,8 @@ jobs:
           };
         }
         ' chinav6.tmp>china6.tmp
+
+        cat china6.tmp
 
         awk '
         {
@@ -102,8 +106,8 @@ jobs:
         
         awk '
         {
-          if($0~/\#EXTM3U/) {print $0};
           if($0~/湖南|江西|海南|group-title=\"'"$GROUP_NAME_CCTV"'\"|group-title=\"'"$GROUP_NAME_SATT"'\"/) {next};
+          if($0~/\#EXTM3U/) {print $0};
           if($0~/NEWTV/) {gsub(",", ",NEWTV")};
           if($0~/group-title=/) {m=NR; n=NR+1};
           if(m<=NR && NR<=n) {
@@ -111,6 +115,8 @@ jobs:
           };
         }
         ' chinav6.tmp>Source/Other.m3u
+
+        cat Source/Other.m3u
 
         cat china6.tmp china1.tmp > Source/China.m3u
 
