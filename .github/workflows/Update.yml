@@ -71,7 +71,6 @@ jobs:
           gsub(/tvg-name=\"中国教育/,"tvg-name=\"CETV");
           if($0~/tvg-name=\"CCTV/) {gsub(/group-title=\".*\"/, "group-title=\"'"$GROUP_NAME_CCTV"'\"")};
           if($0~/group-title=\"卫视\"/ && $0!~/tvg-name=\".*卫视\".*tvg-logo/) {gsub("\"卫视","\"'"$GROUP_NAME_LOCAL"'")};
-          gsub(/职教频道/,"CETV4");
           if($0~/tvg-name=\".*卫视\".*tvg-logo/ || $0~/凤凰/) {gsub(/group-title=\".*\"/, "group-title=\"'"$GROUP_NAME_SATT"'\"")};
           if($0!~/tvg-name=\"CCTV/) {gsub(/group-title=\"数字\"/, "group-title=\"'"$GROUP_NAME_DIG"'\"")};
           print $0;
@@ -107,7 +106,7 @@ jobs:
         
         awk '
         {
-          if($0~/湖南|江西|海南|group-title=\"'"$GROUP_NAME_CCTV"'\"|group-title=\"'"$GROUP_NAME_SATT"'\"/) {next};
+          if($0~/湖南|江西|海南|第一财经|中国交通|group-title=\"'"$GROUP_NAME_CCTV"'\"|group-title=\"'"$GROUP_NAME_SATT"'\"/) {next};
           if($0~/\#EXTM3U/) {print $0};
           if($0~/NEWTV/) {gsub(",", ",NEWTV")};
           if($0~/group-title=/) {m=NR; n=NR+1};
