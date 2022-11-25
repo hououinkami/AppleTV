@@ -3,8 +3,12 @@ name: 生成自用Apple TV直播列表
 on:
   workflow_dispatch:
   push:
-    path:
-      - '.github/workflows/Update.yml'
+    branches:
+      - main
+    paths:
+      - '.github/workflows/*.yml'
+      - 'ChannelList/*.list'
+      - 'ChannelLogo/*/*.png'
   schedule:
     - cron: 0 */1 * * *
   watch:
