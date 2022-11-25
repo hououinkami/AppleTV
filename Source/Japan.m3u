@@ -105,8 +105,6 @@ http://redlabmcdn.s.llnwi.net/nv02/ryowa1hd/index.m3u8
 #EXTINF:-1 tvg-id="NHKGeneralTV.jp" status="online" group-title="日本",NHK G [Not 24/7]
 http://redlabmcdn.s.llnwi.net/nv02/ryowa2hd/index.m3u8
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp" status="online" group-title="日本",NHK World Japan
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCSPEjw8F2nQDtmUKPFNF7_A/live
-#EXTINF:-1 tvg-id="NHKWorldJapan.jp" status="online" group-title="日本",NHK World Japan
 https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp" status="online" group-title="日本",NHK World Japan
 https://nhkwlive-xjp.akamaized.net/hls/live/2003458/nhkwlive-xjp-en/index.m3u8
@@ -120,8 +118,6 @@ https://ntv3.mov3.co/hls/ntv.m3u8
 http://redlabmcdn.s.llnwi.net/nv02/ryowa3hd/index.m3u8
 #EXTINF:-1 tvg-id="NitteleGPlus.jp" status="online" group-title="日本",Nittele G+ Sports & News
 https://cdnv148.cloudrsst.com/jptv/japan_tv_G_540/playlist.m3u8
-#EXTINF:-1 tvg-id="NTVNews24.jp" status="online" group-title="日本",NTV News24
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCuTAXTexrhetbOe3zgskJBQ/live
 #EXTINF:-1 tvg-id="NTVNews24.jp" status="online" group-title="日本",NTV News24
 https://n24-cdn-live.ntv.co.jp/ch01/index.m3u8
 #EXTINF:-1 tvg-id="NTVNews24.jp" status="online" group-title="日本",NTV News24
@@ -146,8 +142,6 @@ http://redlabmcdn.s.llnwi.net/nv02/bs10hd/index.m3u8
 https://cdnv148.cloudrsst.com/jptv/starch3_720/playlist.m3u8
 #EXTINF:-1 tvg-id="Star3.jp" status="online" group-title="日本",Star 3 [Not 24/7]
 https://cdnv148.cloudrsst.com/jptv/starch3_540/playlist.m3u8
-#EXTINF:-1 tvg-id="TBSNews.jp" status="online" group-title="日本",TBS TV News
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UC6AG81pAkf6Lbi_1VC5NmPA/live
 #EXTINF:-1 tvg-id="ToeiChannel.jp" status="online" group-title="日本",Toei Channel [Not 24/7]
 https://cdnv148.cloudrsst.com/jptv/toa_540/playlist.m3u8
 #EXTINF:-1 tvg-id="TokyoMX1.jp" status="online" group-title="日本",Tokyo MX1
