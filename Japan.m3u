@@ -35,6 +35,8 @@ http://redlabmcdn.s.llnwi.net/nv02/bs14hd/index.m3u8
 https://sub.neetball.net/live/neet.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Disney Channel Japan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/78/Disney_Channel_Germany_Logo_2014.png" group-title="日本频道",Disney Channel
 http://redlabmcdn.s.llnwi.net/nv02/bs13hd/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="J Sports 1" tvg-logo="" group-title="日本频道",J Sports 1
+http://redlabmcdn.s.llnwi.net/nv02/bs15hd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="J Sports 2" tvg-logo="" group-title="日本频道",J Sports 2
 http://redlabmcdn.s.llnwi.net/nv02/bs11hd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="J Sports 3" tvg-logo="" group-title="日本频道",J Sports 3
