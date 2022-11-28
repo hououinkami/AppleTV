@@ -207,8 +207,6 @@ http://redlabmcdn.s.llnwi.net/nv02/bs04hd/index.m3u8
 http://redlabmcdn.s.llnwi.net/nv02/bs07hd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BS Nippon" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/BS4_logo.svg/400px-BS4_logo.svg.png" group-title="日本频道",BS日テレ
 http://redlabmcdn.s.llnwi.net/nv02/bs03hd/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BS TV Tokyo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d8/BS_TV_Tokyo_logo.png" group-title="日本频道",BSテレビ東京
-http://redlabmcdn.s.llnwi.net/nv02/bs06hd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BS TBS" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-161-400x400.png" group-title="日本频道",BS TBS
 http://redlabmcdn.s.llnwi.net/nv02/bs05hd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BS12" tvg-logo="https://newscast.jp/attachments/xArVCNpA09ehqbc12Why.png" group-title="日本频道",BS12
