@@ -146,16 +146,8 @@ http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227222/index.m3u
 #EXTINF:-1 tvg-id="112" tvg-name="凤凰资讯" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangzixun.png" group-title="卫视",鳳凰資訊
 http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227226/index.m3u8?servicetype=1
 #EXTM3U
-#EXTINF:-1 tvg-id="USANetwork.us" tvg-name="CBS New York" group-title="国际",CBS New York
-http://31.14.41.118:8080/Matt26746595/WmU5aBL80E/145846
 #EXTINF:-1 tvg-id="pbskids.us" tvg-name="PBS KIDS" group-title="国际",PBS KIDS
 http://31.14.41.118:8080/Matt26746595/WmU5aBL80E/146681
-#EXTINF:-1 tvg-name="NBA TV | HD" group-title="NBA",NBA TV
-http://31.14.41.118:8080/Matt26746595/WmU5aBL80E/30855
-#EXTINF:-1 tvg-id="ABCKXTV.us" tvg-name="ABC Sacramento" group-title="国际",ABC Sacramento
-http://31.14.41.118:8080/Matt26746595/WmU5aBL80E/145812
-#EXTINF:-1 tvg-name="ABC Saint Paul" group-title="国际",ABC Saint Paul
-http://31.14.41.118:8080/Matt26746595/WmU5aBL80E/145813
 #EXTINF:-1 tvg-id="CBSWOIO.us" tvg-name="CBS Cleveland" group-title="国际",CBS Cleveland
 http://31.14.41.118:8080/Matt26746595/WmU5aBL80E/145830
 #EXTINF:-1 tvg-id="CBS5KCTV.us" tvg-name="CBS Kansas City" group-title="国际",CBS Kansas City
@@ -172,44 +164,20 @@ http://31.14.41.118:8080/Matt26746595/WmU5aBL80E/145855
 http://31.14.41.118:8080/Matt26746595/WmU5aBL80E/145864
 #EXTINF:-1 tvg-name="CBS WMAZ Macon GA" group-title="CBS",CBS WMAZ Macon GA
 http://31.14.41.118:8080/Matt26746595/WmU5aBL80E/145865
-#EXTINF:-1 tvg-id="AspireTV.us" tvg-name="ASPIRE" group-title="国际",ASPIRE
-http://31.14.41.118:8080/Matt26746595/WmU5aBL80E/145919
 #EXTINF:-1 tvg-id="buzzertv.us" tvg-name="BUZZR" group-title="国际",BUZZR
 http://31.14.41.118:8080/Matt26746595/WmU5aBL80E/145930
-#EXTINF:-1 tvg-id="24/7 1000 WAYS TO DIE" tvg-name="DIY Network" group-title="国际",DIY Network
-http://31.14.41.118:8080/Matt26746595/WmU5aBL80E/145947
 #EXTINF:-1 tvg-id="dust.us" tvg-name="FUSE" group-title="国际",FUSE
 http://31.14.41.118:8080/Matt26746595/WmU5aBL80E/145953
-#EXTINF:-1 tvg-id="fyi.us" tvg-name="FYI" group-title="国际",FYI
-http://31.14.41.118:8080/Matt26746595/WmU5aBL80E/145957
-#EXTINF:-1 tvg-id="hallmark.us" tvg-name="HALLMARK CHANNEL" group-title="国际",HALLMARK CHANNEL
-http://31.14.41.118:8080/Matt26746595/WmU5aBL80E/145962
 #EXTINF:-1 tvg-id="HallmarkMoviesMysteries.us" tvg-name="HALLMARK MOVIES AND MYSTERIES" group-title="国际",HALLMARK MOVIES AND MYSTERIES
 http://31.14.41.118:8080/Matt26746595/WmU5aBL80E/145964
-#EXTINF:-1 tvg-id="historychannel.us" tvg-name="HISTORY CHANNEL" group-title="国际",HISTORY CHANNEL
-http://31.14.41.118:8080/Matt26746595/WmU5aBL80E/145967
-#EXTINF:-1 tvg-id="hgtv.us" tvg-name="HGTV " group-title="国际",HGTV
-http://31.14.41.118:8080/Matt26746595/WmU5aBL80E/145966
-#EXTINF:-1 tvg-id="Ovation.us" tvg-name="OVATION" group-title="国际",OVATION
-http://31.14.41.118:8080/Matt26746595/WmU5aBL80E/145985
 #EXTINF:-1 tvg-id="qvc.us" tvg-name="QVC" group-title="国际",QVC
 http://31.14.41.118:8080/Matt26746595/WmU5aBL80E/145991
-#EXTINF:-1 tvg-name="TASTEMADE" group-title="国际",TASTEMADE
-http://31.14.41.118:8080/Matt26746595/WmU5aBL80E/145999
 #EXTINF:-1 tvg-id="truTV.us" tvg-name="TRUTV EAST" group-title="国际",TRUTV EAST
 http://31.14.41.118:8080/Matt26746595/WmU5aBL80E/146005
-#EXTINF:-1 tvg-id="TVOne.us" tvg-name="TV ONE" group-title="国际",TV ONE
-http://31.14.41.118:8080/Matt26746595/WmU5aBL80E/146007
-#EXTINF:-1 tvg-id="USANetwork.us" tvg-name="USA NETWORK" group-title="国际",USA NETWORK
-http://31.14.41.118:8080/Matt26746595/WmU5aBL80E/146008
-#EXTINF:-1 tvg-id="FoodNetwork.us" tvg-name="TEEN NICK" group-title="国际",TEEN NICK
-http://31.14.41.118:8080/Matt26746595/WmU5aBL80E/146682
 #EXTINF:-1 tvg-id="SkySportsMainEvent.uk" tvg-name="Sky Sports Main Event" group-title="国际",Sky Sports Main Event
 http://31.14.41.118:8080/Matt26746595/WmU5aBL80E/35029
 #EXTINF:-1 tvg-id="SkySportsArena.uk" tvg-name="Sky Sports Arena UHD UK*" group-title="国际",Sky Sports Arena  
 http://31.14.41.118:8080/Matt26746595/WmU5aBL80E/35048
-#EXTINF:-1 tvg-name="ET Live" group-title="24/7 ",ET Live
-http://31.14.41.118:8080/Matt26746595/WmU5aBL80E/146736
 #EXTINF:-1 tvg-id="6245" tvg-name="CHC动作电影" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHC1.jpg" group-title="数字",动作电影 
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002055/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 tvg-id="6246" tvg-name="CHC家庭电影" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHC2.jpg" group-title="数字",家庭影院
@@ -242,7 +210,7 @@ http://[2409:8087:5011:1020::15]/180000001001/00000001000000001017000000440665/i
 http://[2409:8087:4400:20:1:a0f:11:9]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226570/index.m3u8
 #EXTINF:-1 tvg-id="欢笑剧场" tvg-name="欢笑剧场" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/huanxiao.png" group-title="数字",欢笑剧场
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002156/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-#EXTINF:-1 tvg-id="6242" tvg-name="求索动物“ tvg-logo="https://live.fanmingming.com/tv/QSDW.png" group-title="数字",求索动物
+#EXTINF:-1 tvg-id="6242" tvg-name="求索动物“ tvg-logo=" tvg-logo="https://live.fanmingming.com/tv/QSDW.png" group-title="数字",求索动物
 http://[2409:8087:4402:20:1:1216:401:41]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226118/index.m3u8
 #EXTINF:-1 tvg-id="6244" tvg-name="求索生活" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/QSJL.png" group-title="数字",求索生活
 http://[2409:8087:4402:20:1:1216:401:43]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226116/index.m3u8
