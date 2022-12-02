@@ -69,7 +69,8 @@ jobs:
           gsub(/CCTV5.\"/,"CCTV5+体育赛事\"");
           gsub("\"电视指南","\"CCTV电视指南");
           gsub(/tvg-name=\"中国教育/,"tvg-name=\"CETV");
-          if($0~/tvg-name=\"CCTV/) {gsub(/group-title=\".*\"/, "group-title=\"'"$GROUP_NAME_CCTV"'\"")};
+          if($0~/NEWTV/) {gsub(",",",NEWTV")};
+          if($0~/tvg-name=\"(CCTV|CETV)/) {gsub(/group-title=\".*\"/, "group-title=\"'"$GROUP_NAME_CCTV"'\"")};
           if($0~/group-title=\"卫视\"/ && $0!~/tvg-name=\".*卫视\".*tvg-logo/) {gsub("\"卫视","\"'"$GROUP_NAME_LOCAL"'")};
           if($0~/tvg-name=\".*卫视\".*tvg-logo/ || $0~/凤凰/) {gsub(/group-title=\".*\"/, "group-title=\"'"$GROUP_NAME_SATT"'\"")};
           if($0!~/tvg-name=\"CCTV/) {gsub(/group-title=\"数字\"/, "group-title=\"'"$GROUP_NAME_DIG"'\"")};
@@ -77,6 +78,7 @@ jobs:
         }
         ' $SOURCEV6_NAME>chinav6.tmp
 
+        echo "V6源临时文件"
         cat chinav6.tmp
 
         awk '
@@ -89,6 +91,7 @@ jobs:
         }
         ' chinav6.tmp>china6.tmp
 
+        echo "V6源央视卫视"
         cat china6.tmp
 
         awk '
@@ -106,9 +109,8 @@ jobs:
         
         awk '
         {
-          if($0~/湖南|江西|海南|第一财经|中国交通|group-title=\"'"$GROUP_NAME_CCTV"'\"|group-title=\"'"$GROUP_NAME_SATT"'\"/) {next};
+          if($0~/地方|第一财经|中国交通|group-title=\"'"$GROUP_NAME_CCTV"'\"|group-title=\"'"$GROUP_NAME_SATT"'\"/) {next};
           if($0~/\#EXTM3U/) {print $0};
-          if($0~/NEWTV/) {gsub(",", ",NEWTV")};
           if($0~/group-title=/) {m=NR; n=NR+1};
           if(m<=NR && NR<=n) {
             print $0;
@@ -116,6 +118,7 @@ jobs:
         }
         ' chinav6.tmp>Source/Other.m3u
 
+        echo "V6源其它频道"
         cat Source/Other.m3u
 
         cat china6.tmp china1.tmp > Source/China.m3u
