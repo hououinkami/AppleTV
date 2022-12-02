@@ -146,9 +146,9 @@ http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227222/index.m3u
 #EXTINF:-1 tvg-id="112" tvg-name="凤凰资讯" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangzixun.png" group-title="卫视",鳳凰資訊
 http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227226/index.m3u8?servicetype=1
 #EXTM3U
-#EXTINF:-1,tvg-id="1874" tvg-name="北京体育" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="北京",体育休闲
+#EXTINF:-1 tvg-id="1874" tvg-name="北京体育" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="北京",体育休闲
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001329/index.m3u8?virtualDomain=yinhe.live_hls.zte.com 
-#EXTINF:-1,tvg-id="1872" tvg-name="北京纪实" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="北京",纪实科教
+#EXTINF:-1 tvg-id="1872" tvg-name="北京纪实" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="北京",纪实科教
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225675/2/index.m3u8
 #EXTINF:-1 tvg-id="6245" tvg-name="CHC动作电影" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHC1.jpg" group-title="数字",动作电影 
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002055/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
@@ -203,8 +203,6 @@ http://redlabmcdn.s.llnwi.net/nv02/bs03hd/index.m3u8
 http://redlabmcdn.s.llnwi.net/nv02/ryowa4hd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TBS TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Tokyo_Broadcasting_System_logo_2020.svg/2880px-Tokyo_Broadcasting_System_logo_2020.svg.png" group-title="日本频道",TBSテレビ
 https://tbs2.mov3.co/hls/tbs.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BS Asahi" tvg-logo="https://yt3.ggpht.com/-FkWAXqmEgwA/AAAAAAAAAAI/AAAAAAAAAAA/JiEyTIJj6qg/s900-c-k-no/photo.jpg" group-title="日本频道",BS朝日
-http://redlabmcdn.s.llnwi.net/nv02/bs04hd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BS Fuji" tvg-logo="https://www.zne-iptv.com/wp-content/uploads/2017/10/22-BS-FUJI-770x480.jpg" group-title="日本频道",BSフジ
 http://redlabmcdn.s.llnwi.net/nv02/bs07hd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BS Nippon" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/BS4_logo.svg/400px-BS4_logo.svg.png" group-title="日本频道",BS日テレ
@@ -217,6 +215,8 @@ http://redlabmcdn.s.llnwi.net/nv02/bs05hd/index.m3u8
 http://redlabmcdn.s.llnwi.net/nv02/bs08hd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Gunma TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Gtv_logo_ja_01.svg/500px-Gtv_logo_ja_01.svg.png" group-title="日本频道",群馬テレビ
 https://movie.mcas.jp/switcher/smil:mcas8.smil/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Animax" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Animax_logo.svg/2880px-Animax_logo.svg.png" group-title="日本频道",ANIMAX
+http://redlabmcdn.s.llnwi.net/nv02/bs14hd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="AT-X" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/AT-X_logo.svg/2880px-AT-X_logo.svg.png" group-title="日本频道",AT-X
 https://sub.neetball.net/live/neet.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Disney Channel Japan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/78/Disney_Channel_Germany_Logo_2014.png" group-title="日本频道",Disney Channel
