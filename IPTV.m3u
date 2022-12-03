@@ -148,6 +148,8 @@ http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221226251/index.m3
 #EXTM3U
 #EXTINF:-1 tvg-id="纯享4K" tvg-name="纯享4K" tvg-logo="https://live.fanmingming.com/tv/4K.png" group-title="数字",纯享4K
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225786/index.m3u8
+#EXTINF:-1 tvg-id="苏州4K" tvg-name="苏州4K" tvg-logo="https://epg.112114.xyz/logo/SZTV.png" group-title="数字",4K频道
+http://liveshowbak2.kan0512.com/ksz-norecord/csztv4k_4k.m3u8
 #EXTINF:-1 tvg-id="20" tvg-name="CGTN" tvg-logo="https://live.fanmingming.com/tv/cgtn.png" group-title="国际",CGTN新闻
 http://[2409:8087:5011:1020::1f]/180000001001/00000001000000000002000000028019/main.m3u8?IASHttpSessionId=OTT
 #EXTINF:-1 tvg-id="891" tvg-name="CGTNDocumentary" tvg-logo="https://live.fanmingming.com/tv/CGTNDoc.png" group-title="国际",CGTN纪实
@@ -215,6 +217,8 @@ http://redlabmcdn.s.llnwi.net/nv02/bs03hd/index.m3u8
 http://redlabmcdn.s.llnwi.net/nv02/ryowa4hd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TBS TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Tokyo_Broadcasting_System_logo_2020.svg/2880px-Tokyo_Broadcasting_System_logo_2020.svg.png" group-title="日本频道",TBSテレビ
 https://tbs2.mov3.co/hls/tbs.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="BS Asahi" tvg-logo="https://yt3.ggpht.com/-FkWAXqmEgwA/AAAAAAAAAAI/AAAAAAAAAAA/JiEyTIJj6qg/s900-c-k-no/photo.jpg" group-title="日本频道",BS朝日
+http://redlabmcdn.s.llnwi.net/nv02/bs04hd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BS Fuji" tvg-logo="https://www.zne-iptv.com/wp-content/uploads/2017/10/22-BS-FUJI-770x480.jpg" group-title="日本频道",BSフジ
 http://redlabmcdn.s.llnwi.net/nv02/bs07hd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BS Nippon" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/BS4_logo.svg/400px-BS4_logo.svg.png" group-title="日本频道",BS日テレ

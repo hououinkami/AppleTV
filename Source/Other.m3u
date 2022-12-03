@@ -1,6 +1,8 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="纯享4K" tvg-name="纯享4K" tvg-logo="https://live.fanmingming.com/tv/4K.png" group-title="数字",纯享4K
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225786/index.m3u8
+#EXTINF:-1 tvg-id="苏州4K" tvg-name="苏州4K" tvg-logo="https://epg.112114.xyz/logo/SZTV.png" group-title="数字",4K频道
+http://liveshowbak2.kan0512.com/ksz-norecord/csztv4k_4k.m3u8
 #EXTINF:-1 tvg-id="20" tvg-name="CGTN" tvg-logo="https://live.fanmingming.com/tv/cgtn.png" group-title="国际",CGTN新闻
 http://[2409:8087:5011:1020::1f]/180000001001/00000001000000000002000000028019/main.m3u8?IASHttpSessionId=OTT
 #EXTINF:-1 tvg-id="891" tvg-name="CGTNDocumentary" tvg-logo="https://live.fanmingming.com/tv/CGTNDoc.png" group-title="国际",CGTN纪实
