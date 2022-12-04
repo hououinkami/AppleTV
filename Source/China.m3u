@@ -129,6 +129,8 @@ http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227181/index.m3u
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225727/2/index.m3u8
 #EXTINF:-1 tvg-id="68" tvg-name="厦门卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/xiamen.png" group-title="卫视",厦门卫视
 http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226781/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-id="海峡卫视" tvg-name="海峡卫视" tvg-logo="https://epg.112114.xyz/logo/海峡卫视.png" group-title="卫视",海峡卫视
+http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227198/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 #EXTM3U
 #EXTINF:-1,tvg-id="" tvg-name="咪咕体育" tvg-logo="https://epg.112114.xyz/logo/咪咕体育.png" group-title="其他",咪咕体育
 http://39.135.41.243/PLTV/88888888/224/3221226716/index.m3u8?hls
