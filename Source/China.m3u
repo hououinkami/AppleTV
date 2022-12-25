@@ -33,20 +33,20 @@ http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225641/index.m3
 http://[2409:8087:2001:20:2800:0:df6e:eb18]/ott.mobaibox.com/PLTV/3/224/3221228127/index.m3u8
 #EXTINF:-1 tvg-id="17" tvg-name="CCTV17" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV17.png" group-title="央视",CCTV-17 
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225909/index.m3u8
+#EXTINF:-1 tvg-id="6" tvg-name="CCTV5+体育赛事" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5+.png" group-title="央视",CCTV-5+
+http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225706/index.m3u8
+#EXTINF:-1 tvg-id="73" tvg-name="CETV1台" tvg-logo="https://i.imgur.com/AMcIAOV.png" group-title="央视",CETV-1
+http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225917/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-id="7245" tvg-name="CETV4台" tvg-logo="https://i.imgur.com/BRe0ybV.png" group-title="央视",CETV-4
+http://[2409:8087:5011:1020::15]/180000001001/00000001000000001017000000440665/index.m3u8
 #EXTINF:-1 tvg-id="106" tvg-name="CCTV4K" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4k.png" group-title="央视",CCTV-4K  
 http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226998/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178&type=IPv6
 #EXTINF:-1 tvg-id="141" tvg-name="凤凰中文" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangzhongwen.png" group-title="卫视",凤凰中文
 http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227222/index.m3u8?servicetype=1
 #EXTINF:-1 tvg-id="142" tvg-name="凤凰资讯" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangzixun.png" group-title="卫视",凤凰资讯
 http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227226/index.m3u8?servicetype=1
-#EXTINF:-1 tvg-id="143" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangxianggang.png" group-title="卫视",凤凰香港
+#EXTINF:-1 tvg-id="143" tvg-name="凤凰香港" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangxianggang.png" group-title="卫视",凤凰香港
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221226251/index.m3u8
-#EXTINF:-1 tvg-id="6" tvg-name="CCTV5+体育赛事" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5+.png" group-title="央视",体育赛事
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225706/index.m3u8
-#EXTINF:-1 tvg-id="73" tvg-name="CETV1台" tvg-logo="https://i.imgur.com/AMcIAOV.png" group-title="央视",CETV-1
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225917/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="7245" tvg-name="CETV4台" tvg-logo="https://i.imgur.com/BRe0ybV.png" group-title="央视",CETV-4
-http://[2409:8087:5011:1020::15]/180000001001/00000001000000001017000000440665/index.m3u8
 #EXTINF:-1 tvg-id="6563" tvg-name="CCTV兵器科技" tvg-logo="https://live.fanmingming.com/tv/CCTVPAYFEE8.jpg" group-title="央视",兵器科技
 http://[2409:8087:7001:20:2::3]:80/dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226975/index.m3u8
 #EXTINF:-1 tvg-id="6562" tvg-name="CCTV怀旧剧场" tvg-logo="https://live.fanmingming.com/tv/CCTVPAYFEE7.jpg" group-title="央视",怀旧剧场
