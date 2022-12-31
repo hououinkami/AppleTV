@@ -1,0 +1,84 @@
+#EXTINF:-1 tvg-id="Animax.jp" status="timeout" group-title="日本",Animax
+http://redlabmcdn.s.llnwi.net/nv02/bs14hd/index.m3u8
+#EXTINF:-1 tvg-id="ATX.jp" status="timeout" group-title="日本",AT-X
+https://sub.neetball.net/live/neet.m3u8
+#EXTINF:-1 tvg-id="BS12.jp" status="timeout" group-title="日本",BS 12
+http://redlabmcdn.s.llnwi.net/nv02/bs08hd/index.m3u8
+#EXTINF:-1 tvg-id="BSAsahi.jp" status="timeout" group-title="日本",BS Asahi
+http://redlabmcdn.s.llnwi.net/nv02/bs04hd/index.m3u8
+#EXTINF:-1 tvg-id="BSFuji.jp" status="timeout" group-title="日本",BS Fuji TV
+http://redlabmcdn.s.llnwi.net/nv02/bs07hd/index.m3u8
+#EXTINF:-1 tvg-id="BSNipponTV.jp" status="timeout" group-title="日本",BS Nippon TV
+http://redlabmcdn.s.llnwi.net/nv02/bs03hd/index.m3u8
+#EXTINF:-1 tvg-id="BSTBS.jp" status="timeout" group-title="日本",BS TBS
+http://redlabmcdn.s.llnwi.net/nv02/bs05hd/index.m3u8
+#EXTINF:-1 tvg-id="BSTVTokyo.jp" status="timeout" group-title="日本",BS TV Tokyo [Not 24/7]
+http://redlabmcdn.s.llnwi.net/nv02/bs06hd/index.m3u8
+#EXTINF:-1 tvg-id="CGNTVJapan.jp" status="timeout" group-title="日本",CGNTV
+http://cgntv-glive.ofsdelivery.net/live/_definst_/cgntv_jp/playlist.m3u8
+#EXTINF:-1 tvg-id="CGNTVJapan.jp" status="timeout" group-title="日本",CGNTV Japan
+http://cgntv-glive.ofsdelivery.net/live/cgntv_jp/playlist.m3u8
+#EXTINF:-1 tvg-id="DisneyChannelJapan.jp" status="timeout" group-title="日本",Disney Channel Japan [Not 24/7]
+http://redlabmcdn.s.llnwi.net/nv02/bs13hd/index.m3u8
+#EXTINF:-1 tvg-id="GSTV.jp" status="timeout" group-title="日本",GSTV
+https://gstv-tnz-gsmediastreaming.preview-jpea.channel.media.azure.net/dfd06b62-e9d1-4a7f-bcbb-89d2ecbc82ee/preview.ism/manifest(format=mpd-time-csf,audio-only=false)
+#EXTINF:-1 tvg-id="GunmaTV.jp" status="timeout" group-title="日本",Gunma TV
+https://movie.mcas.jp/switcher/smil:mcas8.smil/master.m3u8
+#EXTINF:-1 tvg-id="JOCXDTV.jp" status="timeout" group-title="日本",Fuji TV
+http://redlabmcdn.s.llnwi.net/nv02/ryowa7hd/index.m3u8
+#EXTINF:-1 tvg-id="JOMXDTV.jp" status="timeout" group-title="日本",Tokyo MX1
+http://redlabmcdn.s.llnwi.net/nv02/ryowa8hd/index.m3u8
+#EXTINF:-1 tvg-id="JORXDTV.jp" status="timeout" group-title="日本",TBS TV [Not 24/7]
+https://tbs2.mov3.co/hls/tbs.m3u8
+#EXTINF:-1 tvg-id="JORXDTV.jp" status="timeout" group-title="日本",TBS TV [Not 24/7]
+http://redlabmcdn.s.llnwi.net/nv02/ryowa5hd/index.m3u8
+#EXTINF:-1 tvg-id="JOTXDTV.jp" status="timeout" group-title="日本",TV Tokyo
+http://redlabmcdn.s.llnwi.net/nv02/ryowa6hd/index.m3u8
+#EXTINF:-1 tvg-id="JSports1.jp" status="timeout" group-title="日本",J Sports 1 [Not 24/7]
+http://redlabmcdn.s.llnwi.net/nv02/bs15hd/index.m3u8
+#EXTINF:-1 tvg-id="JSports2.jp" status="timeout" group-title="日本",J Sports 2 [Not 24/7]
+http://redlabmcdn.s.llnwi.net/nv02/bs11hd/index.m3u8
+#EXTINF:-1 tvg-id="JSports3.jp" status="timeout" group-title="日本",J Sports 3 [Not 24/7]
+http://redlabmcdn.s.llnwi.net/nv02/bs12hd/index.m3u8
+#EXTINF:-1 tvg-id="NewJapanProWrestlingWorld.jp" status="timeout" group-title="日本",New Japan Pro Wrestling World
+https://aka-amd-njpwworld-hls-enlive.akamaized.net/hls/video/njpw_en/njpw_en_channel01_3/playlist_DVR.m3u8
+#EXTINF:-1 tvg-id="NHKBS1.jp" status="timeout" group-title="日本",NHK BS1
+http://redlabmcdn.s.llnwi.net/nv02/bs01hd/index.m3u8
+#EXTINF:-1 tvg-id="NHKBSPremium.jp" status="timeout" group-title="日本",NHK BSP
+http://redlabmcdn.s.llnwi.net/nv02/bs02hd/index.m3u8
+#EXTINF:-1 tvg-id="NHKEducationalTV.jp" status="timeout" group-title="日本",NHK E [Not 24/7]
+http://redlabmcdn.s.llnwi.net/nv02/ryowa1hd/index.m3u8
+#EXTINF:-1 tvg-id="NHKGeneralTV.jp" status="timeout" group-title="日本",NHK G [Not 24/7]
+http://redlabmcdn.s.llnwi.net/nv02/ryowa2hd/index.m3u8
+#EXTINF:-1 tvg-id="NHKWorldJapan.jp" status="timeout" group-title="日本",NHK World Japan
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="NHKWorldJapan.jp" status="timeout" group-title="日本",NHK World Japan
+https://nhkwlive-xjp.akamaized.net/hls/live/2003458/nhkwlive-xjp-en/index.m3u8
+#EXTINF:-1 tvg-id="NipponTV.jp" status="timeout" group-title="日本",Nippon TV [Not 24/7]
+https://ntv3.mov3.co/hls/ntv.m3u8
+#EXTINF:-1 tvg-id="NipponTV.jp" status="timeout" group-title="日本",Nippon TV [Not 24/7]
+http://redlabmcdn.s.llnwi.net/nv02/ryowa3hd/index.m3u8
+#EXTINF:-1 tvg-id="NTVNews24.jp" status="timeout" group-title="日本",NTV News24
+https://n24-cdn-live.ntv.co.jp/ch01/index.m3u8
+#EXTINF:-1 tvg-id="NTVNews24.jp" status="timeout" group-title="日本",NTV News24
+https://n24-cdn-live.ntv.co.jp/ch02/index.m3u8
+#EXTINF:-1 tvg-id="ShopChannel.jp" status="timeout" group-title="日本",Shop Channel [Not 24/7]
+https://stream3.shopch.jp/HLS/master.m3u8
+#EXTINF:-1 tvg-id="Star1.jp" status="timeout" group-title="日本",Star 1 [Not 24/7]
+http://redlabmcdn.s.llnwi.net/nv02/bs09hd/index.m3u8
+#EXTINF:-1 tvg-id="Star2.jp" status="timeout" group-title="日本",Star 2 [Not 24/7]
+http://redlabmcdn.s.llnwi.net/nv02/bs10hd/index.m3u8
+#EXTINF:-1 tvg-id="TokyoMX1.jp" status="timeout" group-title="日本",Tokyo MX1
+https://movie.mcas.jp/mcas/mx1_2/master.m3u8
+#EXTINF:-1 tvg-id="TokyoMX1.jp" status="timeout" group-title="日本",Tokyo MX1
+https://movie.mcas.jp/mcas/mx_live_2/master.m3u8
+#EXTINF:-1 tvg-id="TokyoMX1.jp" status="timeout" group-title="日本",Tokyo MX1
+https://movie.mcas.jp/mcas/smil:mx1_prod.smil/master.m3u8
+#EXTINF:-1 tvg-id="TokyoMX2.jp" status="timeout" group-title="日本",Tokyo MX2
+https://movie.mcas.jp/mcas/mx2_2/master.m3u8
+#EXTINF:-1 tvg-id="TokyoMX2.jp" status="timeout" group-title="日本",Tokyo MX2
+https://movie.mcas.jp/mcas/smil:mx2_prod.smil/master.m3u8
+#EXTINF:-1 tvg-id="TVAsahi.jp" status="timeout" group-title="日本",TV Asahi
+http://redlabmcdn.s.llnwi.net/nv02/ryowa4hd/index.m3u8
+#EXTINF:-1 tvg-id="Weathernews.jp" status="timeout" group-title="日本",Weathernews
+http://movie.mcas.jp/mcas/wn1_2/master.m3u8
