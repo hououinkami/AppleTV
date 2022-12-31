@@ -175,7 +175,7 @@ jobs:
         wget https://raw.githubusercontent.com/iptv-org/iptv/master/streams/jp.m3u -O japan.tmp
         awk '
         {
-          if($0~/\"online\"/) {m=NR; n=NR+1};
+          if($0~/\"online\"|\"timeout\"/) {m=NR; n=NR+1};
           if(m<=NR && NR<=n) {
             gsub(/ \(.*p\)/,"");
             gsub(",TBS",",TBS TV");
