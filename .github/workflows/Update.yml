@@ -189,7 +189,7 @@ jobs:
         {
           info=$0;
           name=$4;
-          gsub(/group-title=\"..日本.*\"/, "group-title=\"'"$GROUP_NAME_JP"'\"");
+          gsub(/group-title=\"日本.*\"/, "group-title=\"'"$GROUP_NAME_JP"'\"");
           if($0~/\#EXTM3U/) {print $0};
           if(info~/EXTINF/ && info!~/URLARU/) {
             churl="null";
