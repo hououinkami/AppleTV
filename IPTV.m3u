@@ -231,8 +231,6 @@ http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226887/index.m3u
 #EXTINF:-1 tvg-id="纯享4K" tvg-name="纯享4K" tvg-logo="https://live.fanmingming.com/tv/纯享4K.png" group-title="超清",纯享超清
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225786/index.m3u8
 #EXTM3U
-#EXTINF:-1 tvg-id="" tvg-name="NHK G" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/NHK_General_TV_logo.svg/800px-NHK_General_TV_logo.svg.png" group-title="日本",NHK総合
-http://redlabmcdn.s.llnwi.net/nv02/ryowa2hd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="NHK BS1" tvg-logo="https://www.hikaritv.net/resources/hikari/pc/images/ch_logo/ch220/bs101.png" group-title="日本",NHK BS1
 http://redlabmcdn.s.llnwi.net/nv02/bs01hd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="NHK BSP" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/21/NHK_BSプレミアム_新ロゴ.png" group-title="日本",NHK BSプレミアム
@@ -261,8 +259,6 @@ http://redlabmcdn.s.llnwi.net/nv02/bs05hd/index.m3u8
 http://redlabmcdn.s.llnwi.net/nv02/bs08hd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Gunma TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Gtv_logo_ja_01.svg/500px-Gtv_logo_ja_01.svg.png" group-title="日本",群馬テレビ
 https://movie.mcas.jp/switcher/smil:mcas8.smil/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Animax" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Animax_logo.svg/2880px-Animax_logo.svg.png" group-title="日本",ANIMAX
-http://redlabmcdn.s.llnwi.net/nv02/bs14hd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="AT-X" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/AT-X_logo.svg/2880px-AT-X_logo.svg.png" group-title="日本",AT-X
 https://sub.neetball.net/live/neet.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Disney Channel Japan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/78/Disney_Channel_Germany_Logo_2014.png" group-title="日本",Disney Channel
