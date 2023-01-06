@@ -2,16 +2,14 @@
 http://redlabmcdn.s.llnwi.net/nv02/bs14hd/index.m3u8
 #EXTINF:-1 tvg-id="ATX.jp" status="timeout" group-title="日本",AT-X
 https://sub.neetball.net/live/neet.m3u8
+#EXTINF:-1 tvg-id="BS12.jp" status="timeout" group-title="日本",BS 12
+http://redlabmcdn.s.llnwi.net/nv02/bs08hd/index.m3u8
 #EXTINF:-1 tvg-id="BSAsahi.jp" status="timeout" group-title="日本",BS Asahi
 http://redlabmcdn.s.llnwi.net/nv02/bs04hd/index.m3u8
 #EXTINF:-1 tvg-id="BSFuji.jp" status="timeout" group-title="日本",BS Fuji TV
 http://redlabmcdn.s.llnwi.net/nv02/bs07hd/index.m3u8
 #EXTINF:-1 tvg-id="BSNipponTV.jp" status="timeout" group-title="日本",BS Nippon TV
 http://redlabmcdn.s.llnwi.net/nv02/bs03hd/index.m3u8
-#EXTINF:-1 tvg-id="BSTBS.jp" status="timeout" group-title="日本",BS TBS
-http://redlabmcdn.s.llnwi.net/nv02/bs05hd/index.m3u8
-#EXTINF:-1 tvg-id="BSTVTokyo.jp" status="timeout" group-title="日本",BS TV Tokyo [Not 24/7]
-http://redlabmcdn.s.llnwi.net/nv02/bs06hd/index.m3u8
 #EXTINF:-1 tvg-id="CGNTVJapan.jp" status="timeout" group-title="日本",CGNTV
 http://cgntv-glive.ofsdelivery.net/live/_definst_/cgntv_jp/playlist.m3u8
 #EXTINF:-1 tvg-id="CGNTVJapan.jp" status="timeout" group-title="日本",CGNTV Japan
@@ -44,6 +42,8 @@ http://redlabmcdn.s.llnwi.net/nv02/bs01hd/index.m3u8
 http://redlabmcdn.s.llnwi.net/nv02/bs02hd/index.m3u8
 #EXTINF:-1 tvg-id="NHKEducationalTV.jp" status="timeout" group-title="日本",NHK E [Not 24/7]
 http://redlabmcdn.s.llnwi.net/nv02/ryowa1hd/index.m3u8
+#EXTINF:-1 tvg-id="NHKGeneralTV.jp" status="timeout" group-title="日本",NHK G [Not 24/7]
+http://redlabmcdn.s.llnwi.net/nv02/ryowa2hd/index.m3u8
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp" status="timeout" group-title="日本",NHK World Japan
 https://hls.youtb.workers.dev/channel/UCSPEjw8F2nQDtmUKPFNF7_A.m3u8
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp" status="timeout" group-title="日本",NHK World Japan
@@ -78,7 +78,5 @@ https://movie.mcas.jp/mcas/smil:mx1_prod.smil/master.m3u8
 https://movie.mcas.jp/mcas/mx2_2/master.m3u8
 #EXTINF:-1 tvg-id="TokyoMX2.jp" status="timeout" group-title="日本",Tokyo MX2
 https://movie.mcas.jp/mcas/smil:mx2_prod.smil/master.m3u8
-#EXTINF:-1 tvg-id="TVAsahi.jp" status="timeout" group-title="日本",TV Asahi
-http://redlabmcdn.s.llnwi.net/nv02/ryowa4hd/index.m3u8
 #EXTINF:-1 tvg-id="Weathernews.jp" status="timeout" group-title="日本",Weathernews
 http://movie.mcas.jp/mcas/wn1_2/master.m3u8
