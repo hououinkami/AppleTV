@@ -255,10 +255,10 @@ http://redlabmcdn.s.llnwi.net/nv02/bs03hd/index.m3u8
 http://redlabmcdn.s.llnwi.net/nv02/bs06hd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BS TBS" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-161-400x400.png" group-title="日本",BS TBS
 http://redlabmcdn.s.llnwi.net/nv02/bs05hd/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BS12" tvg-logo="https://newscast.jp/attachments/xArVCNpA09ehqbc12Why.png" group-title="日本",BS12
-http://redlabmcdn.s.llnwi.net/nv02/bs08hd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Gunma TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Gtv_logo_ja_01.svg/500px-Gtv_logo_ja_01.svg.png" group-title="日本",群馬テレビ
 https://movie.mcas.jp/switcher/smil:mcas8.smil/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Animax" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Animax_logo.svg/2880px-Animax_logo.svg.png" group-title="日本",ANIMAX
+http://redlabmcdn.s.llnwi.net/nv02/bs14hd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="AT-X" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/AT-X_logo.svg/2880px-AT-X_logo.svg.png" group-title="日本",AT-X
 https://sub.neetball.net/live/neet.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Disney Channel Japan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/78/Disney_Channel_Germany_Logo_2014.png" group-title="日本",Disney Channel
