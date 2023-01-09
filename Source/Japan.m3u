@@ -6,8 +6,6 @@ https://sub.neetball.net/live/neet.m3u8
 http://redlabmcdn.s.llnwi.net/nv02/bs08hd/index.m3u8
 #EXTINF:-1 tvg-id="BSAsahi.jp" status="timeout" group-title="日本",BS Asahi
 http://redlabmcdn.s.llnwi.net/nv02/bs04hd/index.m3u8
-#EXTINF:-1 tvg-id="BSFuji.jp" status="timeout" group-title="日本",BS Fuji TV
-http://redlabmcdn.s.llnwi.net/nv02/bs07hd/index.m3u8
 #EXTINF:-1 tvg-id="BSNipponTV.jp" status="timeout" group-title="日本",BS Nippon TV
 http://redlabmcdn.s.llnwi.net/nv02/bs03hd/index.m3u8
 #EXTINF:-1 tvg-id="BSTBS.jp" status="timeout" group-title="日本",BS TBS
