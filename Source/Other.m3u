@@ -45,6 +45,8 @@ http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227190/index.m3u
 http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227188/index.m3u8?servicetype=1
 #EXTINF:-1 tvg-id="福建电视剧" tvg-name="福建电视剧" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/dongnan.png" group-title="数字",福建视剧
 http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227079/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-id="福建经济" tvg-name="福建经济" tvg-logo="https://live.fanmingming.com/tv/dongnan.png" group-title="数字",福建经济
+http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227184/index.m3u8?servicetype=1
 #EXTINF:-1 tvg-id="海南少儿" tvg-name="海南少儿" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/lvyou.png" group-title="数字",海南少儿
 http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/08984400000000060000000000000323/index.m3u8?IAS
 #EXTINF:-1 tvg-id="海南文旅" tvg-name="海南文旅" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/lvyou.png" group-title="数字",海南文旅
