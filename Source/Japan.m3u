@@ -49,6 +49,8 @@ http://redlabmcdn.s.llnwi.net/nv02/ryowa1hd/index.m3u8
 #EXTINF:-1 tvg-id="NHKGeneralTV.jp" status="timeout" group-title="日本",NHK G [Not 24/7]
 http://redlabmcdn.s.llnwi.net/nv02/ryowa2hd/index.m3u8
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp" status="timeout" group-title="日本",NHK World Japan
+https://hls.youtb.workers.dev/channel/UCSPEjw8F2nQDtmUKPFNF7_A.m3u8
+#EXTINF:-1 tvg-id="NHKWorldJapan.jp" status="timeout" group-title="日本",NHK World Japan
 https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp" status="timeout" group-title="日本",NHK World Japan
 https://nhkwlive-xjp.akamaized.net/hls/live/2003458/nhkwlive-xjp-en/index.m3u8
@@ -56,6 +58,8 @@ https://nhkwlive-xjp.akamaized.net/hls/live/2003458/nhkwlive-xjp-en/index.m3u8
 https://ntv3.mov3.co/hls/ntv.m3u8
 #EXTINF:-1 tvg-id="NipponTV.jp" status="timeout" group-title="日本",Nippon TV [Not 24/7]
 http://redlabmcdn.s.llnwi.net/nv02/ryowa3hd/index.m3u8
+#EXTINF:-1 tvg-id="NTVNews24.jp" status="timeout" group-title="日本",NTV News24
+https://hls.youtb.workers.dev/channel/UCuTAXTexrhetbOe3zgskJBQ.m3u8
 #EXTINF:-1 tvg-id="NTVNews24.jp" status="timeout" group-title="日本",NTV News24
 https://n24-cdn-live.ntv.co.jp/ch01/index.m3u8
 #EXTINF:-1 tvg-id="NTVNews24.jp" status="timeout" group-title="日本",NTV News24
@@ -66,6 +70,8 @@ https://stream3.shopch.jp/HLS/master.m3u8
 http://redlabmcdn.s.llnwi.net/nv02/bs09hd/index.m3u8
 #EXTINF:-1 tvg-id="Star2.jp" status="timeout" group-title="日本",Star 2 [Not 24/7]
 http://redlabmcdn.s.llnwi.net/nv02/bs10hd/index.m3u8
+#EXTINF:-1 tvg-id="TBSNews.jp" status="timeout" group-title="日本",TBS TV News
+https://hls.youtb.workers.dev/channel/UC6AG81pAkf6Lbi_1VC5NmPA.m3u8
 #EXTINF:-1 tvg-id="TokyoMX1.jp" status="timeout" group-title="日本",Tokyo MX1
 https://movie.mcas.jp/mcas/mx1_2/master.m3u8
 #EXTINF:-1 tvg-id="TokyoMX1.jp" status="timeout" group-title="日本",Tokyo MX1
