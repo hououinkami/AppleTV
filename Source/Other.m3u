@@ -25,6 +25,8 @@ http://[2409:8087:5011:1020::2b]/180000001002/00000001000000000090000000215608/m
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221226194/index.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-id="江西经济生活" tvg-name="江西经济生活" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangxi.png" group-title="数字",江西经生
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221226206/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-id="江西新闻" tvg-name="江西新闻" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangxi.png" group-title="数字",江西新闻
+http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225615/index.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-id="福建少儿" tvg-name="福建少儿" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/dongnan.png" group-title="数字",福建少儿
 http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227194/index.m3u8?servicetype=1
 #EXTINF:-1 tvg-id="福建综合" tvg-name="福建综合" tvg-logo="https://live.fanmingming.com/tv/dongnan.png" group-title="数字",福建综合
@@ -45,8 +47,6 @@ http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/08984400000000060000000000000322/ind
 http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/08984400000000060000000000000382/index.m3u8?IAS 
 #EXTINF:-1 tvg-id="海南自贸" tvg-name="海南自贸" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/lvyou.png" group-title="数字",海南自贸
 http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/08984400000000060000000000000320/index.m3u8?IAS 
-#EXTINF:-1 tvg-id="海南经济" tvg-name="海南经济" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/lvyou.png" group-title="数字",海南经济
-http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/08984400000000060000000000000320/index.m3u8?IAS
 #EXTINF:-1 tvg-id="1988" tvg-name="上海纪实" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shanghaijishi.png" group-title="数字",纪实人文
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225655/index.m3u8
 #EXTINF:-1 tvg-id="1976" tvg-name="SiTV乐游" tvg-logo="https://epg.112114.xyz/logo/SITV乐游.png" group-title="数字",乐游频道
