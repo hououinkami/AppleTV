@@ -8,7 +8,7 @@ http://redlabmcdn.s.llnwi.net/nv02/bs02hd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="NHK E" tvg-logo="https://img.discogs.com/A63jK_qkTXN-WDU6b4TumBpogDI=/fit-in/500x500/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/L-1390841-1513989715-5028.png.jpg" group-title="日本",NHK Eテレ
 http://redlabmcdn.s.llnwi.net/nv02/ryowa1hd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Fuji TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/Fuji_TV_logo.svg/1200px-Fuji_TV_logo.svg.png" group-title="日本",フジテレビ
-http://redlabmcdn.s.llnwi.net/nv02/bs07hd/index.m3u8
+http://redlabmcdn.s.llnwi.net/nv02/ryowa7hd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Nippon TV" tvg-logo="https://static.epg.best/jp/NipponTV.jp.png" group-title="日本",日本テレビ
 http://redlabmcdn.s.llnwi.net/nv02/bs03hd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TV Asahi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/TV_Asahi_Logo.svg/300px-TV_Asahi_Logo.svg.png" group-title="日本",テレビ朝日
@@ -17,8 +17,6 @@ http://redlabmcdn.s.llnwi.net/nv02/ryowa4hd/index.m3u8
 https://tbs2.mov3.co/hls/tbs.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BS Asahi" tvg-logo="https://yt3.ggpht.com/-FkWAXqmEgwA/AAAAAAAAAAI/AAAAAAAAAAA/JiEyTIJj6qg/s900-c-k-no/photo.jpg" group-title="日本",BS朝日
 http://redlabmcdn.s.llnwi.net/nv02/bs04hd/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BS Fuji" tvg-logo="https://www.zne-iptv.com/wp-content/uploads/2017/10/22-BS-FUJI-770x480.jpg" group-title="日本",BSフジ
-http://redlabmcdn.s.llnwi.net/nv02/bs07hd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BS Nippon" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/BS4_logo.svg/400px-BS4_logo.svg.png" group-title="日本",BS日テレ
 http://redlabmcdn.s.llnwi.net/nv02/bs03hd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BS TV Tokyo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d8/BS_TV_Tokyo_logo.png" group-title="日本",BSテレビ東京
@@ -31,6 +29,8 @@ http://redlabmcdn.s.llnwi.net/nv02/bs08hd/index.m3u8
 https://movie.mcas.jp/switcher/smil:mcas8.smil/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Animax" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Animax_logo.svg/2880px-Animax_logo.svg.png" group-title="日本",ANIMAX
 http://redlabmcdn.s.llnwi.net/nv02/bs14hd/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="AT-X" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/AT-X_logo.svg/2880px-AT-X_logo.svg.png" group-title="日本",AT-X
+https://sub.neetball.net/live/neet.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Disney Channel Japan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/78/Disney_Channel_Germany_Logo_2014.png" group-title="日本",Disney Channel
 http://redlabmcdn.s.llnwi.net/nv02/bs13hd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="J Sports 1" tvg-logo="" group-title="日本",J Sports 1
