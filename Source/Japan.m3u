@@ -18,6 +18,8 @@ http://redlabmcdn.s.llnwi.net/nv02/bs06hd/index.m3u8
 http://cgntv-glive.ofsdelivery.net/live/_definst_/cgntv_jp/playlist.m3u8
 #EXTINF:-1 tvg-id="CGNTVJapan.jp" status="timeout" group-title="日本",CGNTV Japan
 http://cgntv-glive.ofsdelivery.net/live/cgntv_jp/playlist.m3u8
+#EXTINF:-1 tvg-id="ChannelNeco.jp" status="timeout" group-title="日本",Neco
+https://cdn.us195.jpnettv.live/jptv/Neco/playlist.m3u8
 #EXTINF:-1 tvg-id="DisneyChannelJapan.jp" status="timeout" group-title="日本",Disney Channel Japan [Not 24/7]
 http://redlabmcdn.s.llnwi.net/nv02/bs13hd/index.m3u8
 #EXTINF:-1 tvg-id="GSTV.jp" status="timeout" group-title="日本",GSTV
@@ -36,8 +38,6 @@ http://redlabmcdn.s.llnwi.net/nv02/ryowa5hd/index.m3u8
 http://redlabmcdn.s.llnwi.net/nv02/ryowa6hd/index.m3u8
 #EXTINF:-1 tvg-id="JSports1.jp" status="timeout" group-title="日本",J Sports 1 [Not 24/7]
 http://redlabmcdn.s.llnwi.net/nv02/bs15hd/index.m3u8
-#EXTINF:-1 tvg-id="JSports2.jp" status="timeout" group-title="日本",J Sports 2 [Not 24/7]
-http://redlabmcdn.s.llnwi.net/nv02/bs11hd/index.m3u8
 #EXTINF:-1 tvg-id="JSports3.jp" status="timeout" group-title="日本",J Sports 3 [Not 24/7]
 http://redlabmcdn.s.llnwi.net/nv02/bs12hd/index.m3u8
 #EXTINF:-1 tvg-id="NHKBS1.jp" status="timeout" group-title="日本",NHK BS1
@@ -58,6 +58,8 @@ https://nhkwlive-xjp.akamaized.net/hls/live/2003458/nhkwlive-xjp-en/index.m3u8
 https://ntv3.mov3.co/hls/ntv.m3u8
 #EXTINF:-1 tvg-id="NipponTV.jp" status="timeout" group-title="日本",Nippon TV [Not 24/7]
 http://redlabmcdn.s.llnwi.net/nv02/ryowa3hd/index.m3u8
+#EXTINF:-1 tvg-id="NitteleGPlus.jp" status="timeout" group-title="日本",Nittele G+ Sports & News
+https://cdn.us195.jpnettv.live/jptv/japan_tv_G_540/playlist.m3u8
 #EXTINF:-1 tvg-id="NTVNews24.jp" status="timeout" group-title="日本",NTV News24
 https://hls.youtb.workers.dev/channel/UCuTAXTexrhetbOe3zgskJBQ.m3u8
 #EXTINF:-1 tvg-id="NTVNews24.jp" status="timeout" group-title="日本",NTV News24
@@ -73,8 +75,6 @@ http://redlabmcdn.s.llnwi.net/nv02/bs10hd/index.m3u8
 #EXTINF:-1 tvg-id="TBSNews.jp" status="timeout" group-title="日本",TBS TV News
 https://hls.youtb.workers.dev/channel/UC6AG81pAkf6Lbi_1VC5NmPA.m3u8
 #EXTINF:-1 tvg-id="TokyoMX1.jp" status="timeout" group-title="日本",Tokyo MX1
-https://neetball.net/live/test2.m3u8
-#EXTINF:-1 tvg-id="TokyoMX1.jp" status="timeout" group-title="日本",Tokyo MX1
 https://movie.mcas.jp/mcas/mx1_2/master.m3u8
 #EXTINF:-1 tvg-id="TokyoMX1.jp" status="timeout" group-title="日本",Tokyo MX1
 https://movie.mcas.jp/mcas/mx_live_2/master.m3u8
@@ -88,3 +88,5 @@ https://movie.mcas.jp/mcas/smil:mx2_prod.smil/master.m3u8
 http://redlabmcdn.s.llnwi.net/nv02/ryowa4hd/index.m3u8
 #EXTINF:-1 tvg-id="Weathernews.jp" status="timeout" group-title="日本",Weathernews
 http://movie.mcas.jp/mcas/wn1_2/master.m3u8
+#EXTINF:-1 tvg-id="WOWOWLive.jp" status="timeout" group-title="日本",WOWOW Live
+http://cdn.us195.jpnettv.live:1935/jptv/wowlive_540/playlist.m3u8

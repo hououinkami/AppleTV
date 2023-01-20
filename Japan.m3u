@@ -37,10 +37,10 @@ https://sub.neetball.net/live/neet.m3u8
 http://redlabmcdn.s.llnwi.net/nv02/bs13hd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="J Sports 1" tvg-logo="" group-title="日本",J Sports 1
 http://redlabmcdn.s.llnwi.net/nv02/bs15hd/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="J Sports 2" tvg-logo="" group-title="日本",J Sports 2
-http://redlabmcdn.s.llnwi.net/nv02/bs11hd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="J Sports 3" tvg-logo="" group-title="日本",J Sports 3
 http://redlabmcdn.s.llnwi.net/nv02/bs12hd/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Neco" tvg-logo="https://www.necoweb.com/neco/assets/images/header_neco@2x.png" group-title="日本",映画・チャンネルNECO
+https://cdn.us195.jpnettv.live/jptv/Neco/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Tokyo MX1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Tokyo_metropolitan_television_logo_%28rainbow%29.svg/600px-Tokyo_metropolitan_television_logo_%28rainbow%29.svg.png" group-title="日本",Tokyo MX 1
 http://redlabmcdn.s.llnwi.net/nv02/ryowa8hd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Tokyo MX2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Tokyo_metropolitan_television_logo_%28rainbow%29.svg/600px-Tokyo_metropolitan_television_logo_%28rainbow%29.svg.png" group-title="日本",Tokyo MX 2
