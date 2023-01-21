@@ -49,8 +49,6 @@ http://redlabmcdn.s.llnwi.net/nv02/ryowa1hd/index.m3u8
 #EXTINF:-1 tvg-id="NHKGeneralTV.jp" status="timeout" group-title="日本",NHK G [Not 24/7]
 http://redlabmcdn.s.llnwi.net/nv02/ryowa2hd/index.m3u8
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp" status="timeout" group-title="日本",NHK World Japan
-https://hls.youtb.workers.dev/channel/UCSPEjw8F2nQDtmUKPFNF7_A.m3u8
-#EXTINF:-1 tvg-id="NHKWorldJapan.jp" status="timeout" group-title="日本",NHK World Japan
 https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp" status="timeout" group-title="日本",NHK World Japan
 https://nhkwlive-xjp.akamaized.net/hls/live/2003458/nhkwlive-xjp-en/index.m3u8
