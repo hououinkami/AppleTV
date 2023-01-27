@@ -75,7 +75,7 @@ jobs:
           if($0~/tvg-name=\"(CCTV|CETV|CGTN)/) {gsub(/group-title=\".*\"/, "group-title=\"'"$GROUP_NAME_CCTV"'\"")};
           if($0~/group-title=\"卫视\"/ && $0!~/tvg-name=\".*卫视\".*tvg-logo/) {gsub("\"卫视","\"'"$GROUP_NAME_LOCAL"'")};
           if($0~/tvg-name=\".*卫视\".*tvg-logo/ || $0~/凤凰/) {gsub(/group-title=\".*\"/, "group-title=\"'"$GROUP_NAME_SATT"'\"")};
-          if($0!~/tvg-name=\"('"$GROUP_NAME_CCTV"' | '"$GROUP_NAME_SATT"' | '"$GROUP_NAME_LOCAL"')\"/) {gsub(/group-title=\".*\"/, "group-title=\"'"$GROUP_NAME_DIG"'\"")};
+          if($0!~/group-title=\"('"$GROUP_NAME_CCTV"' | '"$GROUP_NAME_SATT"' | '"$GROUP_NAME_LOCAL"')\"/) {gsub(/group-title=\".*\"/, "group-title=\"'"$GROUP_NAME_DIG"'\"")};
           print $0;
         }
         ' $SOURCEV6_NAME>chinav6.tmp
