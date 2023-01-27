@@ -67,6 +67,7 @@ jobs:
         awk '
         {
           gsub("\"央视","\"'"$GROUP_NAME_CCTV"'");
+          if($0~/(tvg-name=\"CCTV | CCTV4K)/) {gsub(/group-title=\".*\"/, "group-title=\"'"$GROUP_NAME_CCTV"'\"")};
           gsub(/CCTV5.\"/,"CCTV5+体育赛事\"");
           gsub("\"电视指南","\"CCTV电视指南");
           gsub(/tvg-name=\"中国教育/,"tvg-name=\"CETV");
@@ -99,9 +100,9 @@ jobs:
             print $0;
           };
         }
-        ' chinav6.tmp>Source/Local.m3u
+        ' chinav6.tmp>local.tmp
 
-        # 生成V4央视卫视
+        # 生成APTV央视卫视
         awk '
         {
           if($0~/\#EXTM3U/) {print $0};
@@ -113,7 +114,7 @@ jobs:
             print $0;
           };
         }
-        ' $SOURCE1_NAME>china4.tmp
+        ' $SOURCE1_NAME>china1.tmp
 
         # 生成V6数字电视台
         awk '
@@ -127,7 +128,7 @@ jobs:
         }
         ' chinav6.tmp>Source/Other.m3u
 
-        cat china6.tmp china4.tmp > Source/China.m3u
+        cat china6.tmp china1.tmp > Source/China.m3u
 
     - name: 重新排序国内频道并更换透明图标
       run : |
@@ -174,7 +175,7 @@ jobs:
         }
         ' ChannelList/China.list>China.tmp
 
-        cat China.tmp Source/Local.m3u Source/Other.m3u > China.m3u
+        cat China.tmp local.tmp Source/Other.m3u > China.m3u
 
     - name: 日本频道
       run : |
