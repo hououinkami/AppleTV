@@ -127,7 +127,7 @@ jobs:
         }
         ' chinav6.tmp>Source/Other.m3u
 
-        cat china6.tmp china1.tmp > Source/China.m3u
+        cat china6.tmp china4.tmp > Source/China.m3u
 
     - name: 重新排序国内频道并更换透明图标
       run : |
