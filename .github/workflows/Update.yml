@@ -127,7 +127,7 @@ jobs:
         # 生成V6数字电视台
         awk '
         {
-          if($0~/group-title=\"'"$GROUP_NAME_CCTV"'\" | group-title=\"'"$GROUP_NAME_SATT"'\" | group-title=\"'"$GROUP_NAME_LOCAL"'\"/) {next};
+          if($0~/group-title=\"('"$GROUP_NAME_CCTV"'\"|'"$GROUP_NAME_SATT"'|'"$GROUP_NAME_LOCAL"')\"/) {next};
           if($0~/\#EXTM3U/) {print $0};
           if($0~/group-title=/) {m=NR; n=NR+1};
           if(m<=NR && NR<=n) {
