@@ -79,6 +79,8 @@ jobs:
           print $0;
         }
         ' $SOURCEV6_NAME>chinav6.tmp
+        echo "********V6临时文件********"
+        cat chinav6.tmp
 
         # 生成V6央视卫视
         awk '
@@ -90,6 +92,8 @@ jobs:
           };
         }
         ' chinav6.tmp>china6.tmp
+        echo "********V6央视卫视********"
+        cat china6.tmp
 
         # 生成V6地方电视台
         awk '
@@ -101,6 +105,8 @@ jobs:
           };
         }
         ' chinav6.tmp>local.tmp
+        echo "********V6地方频道********"
+        cat local.tmp
 
         # 生成APTV央视卫视
         awk '
@@ -115,6 +121,8 @@ jobs:
           };
         }
         ' $SOURCE1_NAME>china1.tmp
+        echo "********APTV临时文件********"
+        cat china1.tmp
 
         # 生成V6数字电视台
         awk '
@@ -127,6 +135,8 @@ jobs:
           };
         }
         ' chinav6.tmp>Source/Other.m3u
+        echo "********V6其他********"
+        cat Source/Other.m3u
 
         cat china6.tmp china1.tmp > Source/China.m3u
 
