@@ -57,8 +57,6 @@ http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002264/index.m3
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225508/2/index.m3u8
 #EXTINF:-1 tvg-id="6590" tvg-name="国学频道" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/SHUOWENJIEZI.jpg" group-title="数字",国学频道
 http://[2409:8087:4400:20:1:a0f:11:9]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226629/index.m3u8
-#EXTINF:-1 tvg-id="爱上4K" tvg-name="爱上4K" tvg-logo="https://epg.112114.xyz/logo/爱上4K.png" group-title="数字",爱上4K
-http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001709/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 tvg-id="纯享4K" tvg-name="纯享4K" tvg-logo="https://live.fanmingming.com/tv/纯享4K.png" group-title="数字",纯享超清
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225786/index.m3u8
 #EXTINF:-1 tvg-id="芒果综艺" tvg-name="芒果综艺" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hunan.png" group-title="数字",芒果综艺
