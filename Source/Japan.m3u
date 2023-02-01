@@ -8,10 +8,10 @@ http://redlabmcdn.s.llnwi.net/nv02/bs08hd/index.m3u8
 http://redlabmcdn.s.llnwi.net/nv02/bs04hd/index.m3u8
 #EXTINF:-1 tvg-id="BSFuji.jp" status="timeout" group-title="日本",BS Fuji TV
 http://redlabmcdn.s.llnwi.net/nv02/bs07hd/index.m3u8
-#EXTINF:-1 tvg-id="BSNipponTV.jp" status="timeout" group-title="日本",BS Nippon TV
-http://redlabmcdn.s.llnwi.net/nv02/bs03hd/index.m3u8
 #EXTINF:-1 tvg-id="BSTBS.jp" status="timeout" group-title="日本",BS TBS
 http://redlabmcdn.s.llnwi.net/nv02/bs05hd/index.m3u8
+#EXTINF:-1 tvg-id="BSTVTokyo.jp" status="timeout" group-title="日本",BS TV Tokyo [Not 24/7]
+http://redlabmcdn.s.llnwi.net/nv02/bs06hd/index.m3u8
 #EXTINF:-1 tvg-id="CGNTVJapan.jp" status="timeout" group-title="日本",CGNTV
 http://cgntv-glive.ofsdelivery.net/live/_definst_/cgntv_jp/playlist.m3u8
 #EXTINF:-1 tvg-id="CGNTVJapan.jp" status="timeout" group-title="日本",CGNTV Japan
