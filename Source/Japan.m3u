@@ -12,8 +12,6 @@ http://redlabmcdn.s.llnwi.net/nv02/bs07hd/index.m3u8
 http://redlabmcdn.s.llnwi.net/nv02/bs03hd/index.m3u8
 #EXTINF:-1 tvg-id="BSTBS.jp" status="online" group-title="日本",BS TBS
 http://redlabmcdn.s.llnwi.net/nv02/bs05hd/index.m3u8
-#EXTINF:-1 tvg-id="BSTVTokyo.jp" status="online" group-title="日本",BS TV Tokyo [Not 24/7]
-http://redlabmcdn.s.llnwi.net/nv02/bs06hd/index.m3u8
 #EXTINF:-1 tvg-id="CGNTVJapan.jp" status="timeout" group-title="日本",CGNTV
 http://cgntv-glive.ofsdelivery.net/live/_definst_/cgntv_jp/playlist.m3u8
 #EXTINF:-1 tvg-id="CGNTVJapan.jp" status="timeout" group-title="日本",CGNTV Japan
@@ -46,8 +44,6 @@ http://redlabmcdn.s.llnwi.net/nv02/bs01hd/index.m3u8
 http://redlabmcdn.s.llnwi.net/nv02/bs02hd/index.m3u8
 #EXTINF:-1 tvg-id="NHKEducationalTV.jp" status="online" group-title="日本",NHK E [Not 24/7]
 http://redlabmcdn.s.llnwi.net/nv02/ryowa1hd/index.m3u8
-#EXTINF:-1 tvg-id="NHKGeneralTV.jp" status="online" group-title="日本",NHK G [Not 24/7]
-http://redlabmcdn.s.llnwi.net/nv02/ryowa2hd/index.m3u8
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp" status="online" group-title="日本",NHK World Japan
 https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp" status="online" group-title="日本",NHK World Japan
