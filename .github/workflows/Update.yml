@@ -138,7 +138,7 @@ jobs:
         echo "********V6其他********"
         cat Source/Other.m3u
 
-        cat china6.tmp china1.tmp > Source/China.m3u
+        cat china6.tmp china1.tmp > Source/CCTV.m3u
 
     - name: 重新排序国内频道并更换透明图标
       run : |
@@ -153,8 +153,8 @@ jobs:
           if($0~/\#EXTM3U/) {print $0};
           if(info~/综合/) {
             name="CCTV1\"";
-            close("Source/China.m3u");
-            cmd="awk '\''/"name"/{getline;print}'\'' Source/China.m3u";
+            close("Source/CCTV.m3u");
+            cmd="awk '\''/"name"/{getline;print}'\'' Source/CCTV.m3u";
             cmd | getline churl;
             print info;
             print churl;
@@ -163,8 +163,8 @@ jobs:
           };
           if(info~/体育赛事/) {
             name="体育赛事";
-            close("Source/China.m3u");
-            cmd="awk '\''/"name"/{getline;print}'\'' Source/China.m3u";
+            close("Source/CCTV.m3u");
+            cmd="awk '\''/"name"/{getline;print}'\'' Source/CCTV.m3u";
             cmd | getline churl;
             print info;
             print churl;
@@ -173,8 +173,8 @@ jobs:
           };
           if(info~/EXTINF/ && info!~/HaveURL/) {
             churl="null";
-            close("Source/China.m3u");
-            cmd="awk '\''/"name"/{getline;print}'\'' Source/China.m3u";
+            close("Source/CCTV.m3u");
+            cmd="awk '\''/"name"/{getline;print}'\'' Source/CCTV.m3u";
             cmd | getline churl;
             if(churl!="null") {
               print info;
