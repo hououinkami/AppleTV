@@ -56,18 +56,12 @@ https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
 https://nhkwlive-xjp.akamaized.net/hls/live/2003458/nhkwlive-xjp-en/index.m3u8
 #EXTINF:-1 tvg-id="NipponTV.jp" status="online" group-title="日本",Nippon TV [Not 24/7]
 https://ntv3.mov3.co/hls/ntv.m3u8
-#EXTINF:-1 tvg-id="NipponTV.jp" status="online" group-title="日本",Nippon TV [Not 24/7]
-http://redlabmcdn.s.llnwi.net/nv02/ryowa3hd/index.m3u8
-#EXTINF:-1 tvg-id="NTVNews24.jp" status="online" group-title="日本",NTV News24
-https://ythls.onrender.com/channel/UCuTAXTexrhetbOe3zgskJBQ.m3u8
 #EXTINF:-1 tvg-id="NTVNews24.jp" status="online" group-title="日本",NTV News24
 https://n24-cdn-live.ntv.co.jp/ch01/index.m3u8
 #EXTINF:-1 tvg-id="NTVNews24.jp" status="online" group-title="日本",NTV News24
 https://n24-cdn-live.ntv.co.jp/ch02/index.m3u8
 #EXTINF:-1 tvg-id="ShopChannel.jp" status="online" group-title="日本",Shop Channel [Not 24/7]
 https://stream3.shopch.jp/HLS/master.m3u8
-#EXTINF:-1 tvg-id="Star1.jp" status="online" group-title="日本",Star 1 [Not 24/7]
-http://redlabmcdn.s.llnwi.net/nv02/bs09hd/index.m3u8
 #EXTINF:-1 tvg-id="Star2.jp" status="online" group-title="日本",Star 2 [Not 24/7]
 http://redlabmcdn.s.llnwi.net/nv02/bs10hd/index.m3u8
 #EXTINF:-1 tvg-id="TBSNews.jp" status="online" group-title="日本",TBS TV News
