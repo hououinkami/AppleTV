@@ -15,6 +15,8 @@ http://redlabmcdn.s.llnwi.net/nv02/bs03hd/index.m3u8
 http://redlabmcdn.s.llnwi.net/nv02/ryowa4hd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TBS TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Tokyo_Broadcasting_System_logo_2020.svg/2880px-Tokyo_Broadcasting_System_logo_2020.svg.png" group-title="日本",TBSテレビ
 https://tbs2.mov3.co/hls/tbs.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="BS Asahi" tvg-logo="https://yt3.ggpht.com/-FkWAXqmEgwA/AAAAAAAAAAI/AAAAAAAAAAA/JiEyTIJj6qg/s900-c-k-no/photo.jpg" group-title="日本",BS朝日
+http://redlabmcdn.s.llnwi.net/nv02/bs04hd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BS Fuji" tvg-logo="https://www.zne-iptv.com/wp-content/uploads/2017/10/22-BS-FUJI-770x480.jpg" group-title="日本",BSフジ
 http://redlabmcdn.s.llnwi.net/nv02/bs07hd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BS Nippon" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/BS4_logo.svg/400px-BS4_logo.svg.png" group-title="日本",BS日テレ
