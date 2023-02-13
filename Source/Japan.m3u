@@ -4,8 +4,6 @@ http://redlabmcdn.s.llnwi.net/nv02/bs14hd/index.m3u8
 https://sub.neetball.net/live/neet.m3u8
 #EXTINF:-1 tvg-id="BS12.jp" status="online" group-title="日本",BS 12
 http://redlabmcdn.s.llnwi.net/nv02/bs08hd/index.m3u8
-#EXTINF:-1 tvg-id="BSAsahi.jp" status="online" group-title="日本",BS Asahi
-http://redlabmcdn.s.llnwi.net/nv02/bs04hd/index.m3u8
 #EXTINF:-1 tvg-id="BSFuji.jp" status="online" group-title="日本",BS Fuji TV
 http://redlabmcdn.s.llnwi.net/nv02/bs07hd/index.m3u8
 #EXTINF:-1 tvg-id="BSNipponTV.jp" status="online" group-title="日本",BS Nippon TV
@@ -24,8 +22,6 @@ http://redlabmcdn.s.llnwi.net/nv02/bs13hd/index.m3u8
 https://gstv-tnz-gsmediastreaming.preview-jpea.channel.media.azure.net/dfd06b62-e9d1-4a7f-bcbb-89d2ecbc82ee/preview.ism/manifest(format=mpd-time-csf,audio-only=false)
 #EXTINF:-1 tvg-id="GunmaTV.jp" status="online" group-title="日本",Gunma TV
 https://movie.mcas.jp/switcher/smil:mcas8.smil/master.m3u8
-#EXTINF:-1 tvg-id="JOCXDTV.jp" status="online" group-title="日本",Fuji TV
-http://redlabmcdn.s.llnwi.net/nv02/ryowa7hd/index.m3u8
 #EXTINF:-1 tvg-id="JOMXDTV.jp" status="online" group-title="日本",Tokyo MX1
 http://redlabmcdn.s.llnwi.net/nv02/ryowa8hd/index.m3u8
 #EXTINF:-1 tvg-id="JORXDTV.jp" status="online" group-title="日本",TBS TV [Not 24/7]
