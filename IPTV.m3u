@@ -254,12 +254,12 @@ http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226887/index.m3u
 #EXTINF:-1 tvg-id="欢笑剧场" tvg-name="SiTV欢笑剧场" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/huanxiao.png" group-title="数字",欢笑剧场
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002156/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 #EXTM3U
+#EXTINF:-1 tvg-id="" tvg-name="NHK G" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/NHK_General_TV_logo.svg/800px-NHK_General_TV_logo.svg.png" group-title="日本",NHK総合
+http://redlabmcdn.s.llnwi.net/nv02/ryowa2hd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="NHK BS1" tvg-logo="https://www.hikaritv.net/resources/hikari/pc/images/ch_logo/ch220/bs101.png" group-title="日本",NHK BS1
 http://redlabmcdn.s.llnwi.net/nv02/bs01hd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="NHK BSP" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/21/NHK_BSプレミアム_新ロゴ.png" group-title="日本",NHK BSプレミアム
 http://redlabmcdn.s.llnwi.net/nv02/bs02hd/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="NHK E" tvg-logo="https://img.discogs.com/A63jK_qkTXN-WDU6b4TumBpogDI=/fit-in/500x500/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/L-1390841-1513989715-5028.png.jpg" group-title="日本",NHK Eテレ
-http://redlabmcdn.s.llnwi.net/nv02/ryowa1hd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Fuji TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/Fuji_TV_logo.svg/1200px-Fuji_TV_logo.svg.png" group-title="日本",フジテレビ
 http://redlabmcdn.s.llnwi.net/nv02/bs07hd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Nippon TV" tvg-logo="https://static.epg.best/jp/NipponTV.jp.png" group-title="日本",日本テレビ
