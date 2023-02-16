@@ -34,6 +34,7 @@ env:
   GROUP_NAME_LOCAL: 地方
   GROUP_NAME_DIG: 数字
   HKTW_ADD: false
+  GET: false
 
 jobs:
   GenerateList:
@@ -188,6 +189,7 @@ jobs:
         cat China.tmp local.tmp Source/Other.m3u > China.m3u
 
     - name: 日本频道
+      if: env.GET == 'true'
       run : |
         wget https://raw.githubusercontent.com/iptv-org/iptv/master/streams/jp.m3u -O japan.tmp
         awk '
