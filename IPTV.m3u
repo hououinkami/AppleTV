@@ -148,10 +148,22 @@ http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227226/index.m3u
 #EXTINF:-1 tvg-id="113" tvg-name="凤凰香港" tvg-logo="https://live.fanmingming.com/tv/fenghuangxianggang.png" group-title="卫视",鳳凰香港
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221226251/index.m3u8
 #EXTM3U
+#EXTINF:-1 tvg-id="1880" tvg-name="BTV新闻" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="地方",北京新闻 
+http://iptv.cooltv.top/tv/btime.php?id=btvxw
+#EXTINF:-1 tvg-id="1873" tvg-name="BTV文艺" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="地方",北京文艺 
+http://iptv.cooltv.top/tv/btime.php?id=btvwy
+#EXTINF:-1 tvg-id="1875" tvg-name="BTV影视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="地方",北京影视 
+http://iptv.cooltv.top/tv/btime.php?id=btvys
+#EXTINF:-1 tvg-id="1876" tvg-name="BTV财经" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="地方",北京财经 
+http://iptv.cooltv.top/tv/btime.php?id=btvcj
+#EXTINF:-1 tvg-id="1878" tvg-name="BTV生活" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="地方",北京生活 
+http://iptv.cooltv.top/tv/btime.php?id=btvsh
 #EXTINF:-1 tvg-id="1877" tvg-name="BTV体育" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="地方",体育休闲
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001329/index.m3u8?virtualDomain=yinhe.live_hls.zte.com 
 #EXTINF:-1 tvg-id="1872" tvg-name="北京纪实" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="地方",纪实科教
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225675/2/index.m3u8
+#EXTINF:-1 tvg-id="湖南经视" tvg-name="湖南经视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hunan.png" group-title="地方",湖南经视 
+http://[2409:8087:5050:20::3023]/000000001000/HD-8000k-1080P-hunanjingshi/index.m3u8
 #EXTINF:-1 tvg-id="湖南娱乐" tvg-name="湖南娱乐" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hunan.png" group-title="地方",湖南娱乐
 http://[2409:8087:5011:1020::1f]/180000001001/00000001000000001001000000000040/main.m3u8?IASHttpSessionId=OTT
 #EXTINF:-1 tvg-id="湖南都市" tvg-name="湖南都市" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hunan.png" group-title="地方",湖南都市
@@ -168,6 +180,22 @@ http://[2409:8087:5011:1020::1f]/180000001001/00000001000000001016000000368716/m
 http://[2409:8087:5011:1020::1f]/180000001001/00000001000000001001000000000037/main.m3u8?IASHttpSessionId=OTT
 #EXTINF:-1 tvg-id="江西少儿" tvg-name="江西少儿" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangxi.png" group-title="地方",江西少儿
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221226194/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="http://iptv.cooltv.top/logo/hends.png" group-title="地方",河南都市
+http://[2409:8087:4400:20:1:a0f:12:c]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226430/index.m3u8
+#EXTINF:-1 tvg-logo="http://iptv.cooltv.top/logo/hendsj.png" group-title="地方",河南视剧
+http://[2409:8087:4400:20:1:a0f:12:c]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226521/index.m3u8
+#EXTINF:-1 tvg-logo="http://iptv.cooltv.top/logo/henms.png" group-title="地方",河南民生
+http://[2409:8087:4400:20:1:a0f:12:30]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226685/index.m3u8
+#EXTINF:-1 tvg-logo="http://iptv.cooltv.top/logo/henfz.png" group-title="地方",河南法治
+http://[2409:8087:4402:20:1:1216:401:3d]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226724/index.m3u8
+#EXTINF:-1 tvg-logo="http://iptv.cooltv.top/logo/henxw.png" group-title="地方",河南新闻
+http://[2409:8087:4402:20:1:1216:401:3c]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226544/index.m3u8
+#EXTINF:-1 tvg-logo="http://iptv.cooltv.top/logo/hengg.png" group-title="地方",河南公共
+http://[2409:8087:4402:20:1:1216:401:29]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226566/index.m3u8
+#EXTINF:-1 tvg-logo="http://iptv.cooltv.top/logo/henxc.png" group-title="地方",河南乡村
+http://[2409:8087:4402:20:1:1216:401:38]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226443/index.m3u8
+#EXTINF:-1 tvg-logo="http://iptv.cooltv.top/logo/hengj.png" group-title="地方",河南国际
+http://[2409:8087:4402:20:1:1216:401:3d]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226588/index.m3u8
 #EXTINF:-1 tvg-id="海南少儿" tvg-name="海南少儿" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/lvyou.png" group-title="地方",海南少儿
 http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/08984400000000060000000000000323/index.m3u8?IAS
 #EXTINF:-1 tvg-id="海南文旅" tvg-name="海南文旅" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/lvyou.png" group-title="地方",海南文旅
