@@ -34,7 +34,7 @@ env:
   GROUP_NAME_LOCAL: 地方
   GROUP_NAME_DIG: 数字
   HKTW_ADD: false
-  GET: false
+  GET: true
 
 jobs:
   GenerateList:
