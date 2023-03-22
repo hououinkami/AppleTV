@@ -148,6 +148,16 @@ http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227226/index.m3u
 #EXTINF:-1 tvg-id="113" tvg-name="凤凰香港" tvg-logo="https://live.fanmingming.com/tv/fenghuangxianggang.png" group-title="卫视",鳳凰香港
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221226251/index.m3u8
 #EXTM3U
+#EXTINF:-1 tvg-id="1880" tvg-name="BTV新闻" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="地方",北京新闻
+http://live.cooltv.top/tv/btime.php?id=btvxw
+#EXTINF:-1 tvg-id="1875" tvg-name="BTV影视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="地方",北京影视
+http://live.cooltv.top/tv/btime.php?id=btvys
+#EXTINF:-1 tvg-id="1873" tvg-name="BTV文艺" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="地方",北京文艺
+http://live.cooltv.top/tv/btime.php?id=btvwy
+#EXTINF:-1 tvg-id="1876" tvg-name="BTV财经" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="地方",北京财经
+http://live.cooltv.top/tv/btime.php?id=btvcj
+#EXTINF:-1 tvg-id="1878" tvg-name="BTV生活" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="地方",北京生活
+http://live.cooltv.top/tv/btime.php?id=btvsh
 #EXTINF:-1 tvg-id="1877" tvg-name="BTV体育" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="地方",体育休闲
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001329/index.m3u8?virtualDomain=yinhe.live_hls.zte.com 
 #EXTINF:-1 tvg-id="1872" tvg-name="北京纪实" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="地方",纪实科教
@@ -253,7 +263,7 @@ http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226712/index.m3u
 http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226692/index.m3u8?servicetype=1
 #EXTINF:-1 tvg-id="芒果综艺" tvg-name="芒果综艺" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hunan.png" group-title="数字",芒果综艺
 http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226887/index.m3u8?servicetype=1
-#EXTINF:-1 tvg-id="6242" tvg-name="求索动物" tvg-logo="https://live.fanmingming.com/tv/QSDW.png" group-title="数字",求索动物
+#EXTINF:-1 tvg-id="6242" tvg-name="求索动物" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/QSDW.png" group-title="数字",求索动物
 http://[2409:8087:4402:20:1:1216:401:41]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226118/index.m3u8
 #EXTINF:-1 tvg-id="6243" tvg-name="求索生活" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/QSSH.png" group-title="数字",求索生活
 http://[2409:8087:4402:20:1:1216:401:43]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226116/index.m3u8
@@ -263,7 +273,7 @@ http://[2409:8087:4402:20:1:1216:401:46]/iptv.cdn.ha.chinamobile.com/PLTV/888888
 http://[2409:8087:4402:20:1:1216:401:38]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226114/index.m3u8
 #EXTINF:-1 tvg-id="1981" tvg-name="SiTV生活时尚" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/shenghuoshishang.png" group-title="数字",生活时尚
 http://[2409:8087:4400:20:1:a0f:11:9]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226570/index.m3u8
-#EXTINF:-1 tvg-id="法治天地" tvg-name="Sitv法治天地" tvg-logo="https://epg.112114.xyz/logo/SITV法治天地.png" group-title="数字",法治天地
+#EXTINF:-1 tvg-id="法治天地" tvg-name="Sitv法治天地" tvg-logo="http://live.cooltv.top/logo/fztd.png" group-title="数字",法治天地
 http://[2409:8087:4400:20:1:a0f:11:9]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226655/index.m3u8
 #EXTINF:-1 tvg-id="欢笑剧场" tvg-name="SiTV欢笑剧场" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/huanxiao.png" group-title="数字",欢笑剧场
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002156/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
@@ -277,7 +287,7 @@ http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227208/index.m3u
 http://[2409:8087:4400:20:1:a0f:12:2e]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226558/index.m3u8
 #EXTINF:-1 tvg-id="五星体育" tvg-name="五星体育" tvg-logo="https://epg.112114.xyz/logo/五星体育.png" group-title="数字",五星体育
 http://[2409:8c3c:1300:806:74::b]/liveplay-kk.rtxapp.com/live/program/live/wxtyhd8m/8000000/mnf.m3u8
-#EXTINF:-1 tvg-id="上海第一财经" tvg-name="上海第一财经" tvg-logo="https://live.fanmingming.com/tv/上海第一财经.png" group-title="数字",第一财经
+#EXTINF:-1 tvg-id="上海第一财经" tvg-name="上海第一财经" tvg-logo="http://live.cooltv.top/logo/dycj.png" group-title="数字",第一财经
 http://[2409:8087:7001:20:2::3]:80/dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226966/index.m3u8
 #EXTINF:-1 tvg-id="东方财经" tvg-name="东方财经" tvg-logo="https://epg.112114.xyz/logo/东方财经.png" group-title="数字",东方财经
 http://[2409:8087:4400:20:1:a0f:11:9]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226583/index.m3u8
