@@ -162,27 +162,27 @@ http://live.cooltv.top/tv/btime.php?id=btvsh
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001329/index.m3u8?virtualDomain=yinhe.live_hls.zte.com 
 #EXTINF:-1 tvg-id="1872" tvg-name="北京纪实" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="地方",纪实科教
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225675/2/index.m3u8
-#EXTINF:-1 tvg-id="湖南经视" tvg-name="湖南经视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hunan.png" group-title="地方",湖南经视 
+#EXTINF:-1 tvg-id="湖南经视" tvg-name="湖南经视" tvg-logo="http://live.cooltv.top/logo/hnjs.png" group-title="地方",湖南经视 
 http://[2409:8087:5050:20::3023]/000000001000/HD-8000k-1080P-hunanjingshi/index.m3u8
-#EXTINF:-1 tvg-id="湖南娱乐" tvg-name="湖南娱乐" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hunan.png" group-title="地方",湖南娱乐
+#EXTINF:-1 tvg-id="湖南娱乐" tvg-name="湖南娱乐" tvg-logo="http://live.cooltv.top/logo/hnyl.png" group-title="地方",湖南娱乐
 http://[2409:8087:5011:1020::1f]/180000001001/00000001000000001001000000000040/main.m3u8?IASHttpSessionId=OTT
-#EXTINF:-1 tvg-id="湖南都市" tvg-name="湖南都市" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hunan.png" group-title="地方",湖南都市
+#EXTINF:-1 tvg-id="湖南都市" tvg-name="湖南都市" tvg-logo="http://live.cooltv.top/logo/hnds.png" group-title="地方",湖南都市
 http://[2409:8087:5011:1020::1f]/180000001001/00000001000000001001000000000041/main.m3u8?IASHttpSessionId=OTT
-#EXTINF:-1 tvg-id="湖南电影" tvg-name="湖南电影" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hunan.png" group-title="地方",湖南电影
+#EXTINF:-1 tvg-id="湖南电影" tvg-name="湖南电影" tvg-logo="http://live.cooltv.top/logo/hndy.png" group-title="地方",湖南电影
 http://[2409:8087:5011:1020::1f]/180000001001/00000001000000001001000000000038/main.m3u8?IASHttpSessionId=OTT
-#EXTINF:-1 tvg-id="湖南爱晚" tvg-name="湖南爱晚高清" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hunan.png" group-title="地方",湖南爱晚
+#EXTINF:-1 tvg-id="湖南爱晚" tvg-name="湖南爱晚高清" tvg-logo="http://live.cooltv.top/logo/hnaw.png" group-title="地方",湖南爱晚
 http://[2409:8087:5011:1020::1f]/180000001001/00000001000000001001000000000044/main.m3u8?IASHttpSessionId=OTT
-#EXTINF:-1 tvg-id="湖南国际" tvg-name="湖南卫视国际" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hunan.png" group-title="地方",湖南国际
+#EXTINF:-1 tvg-id="湖南国际" tvg-name="湖南卫视国际" tvg-logo="http://live.cooltv.top/logo/hngj.png" group-title="地方",湖南国际
 http://[2409:8087:5011:1020::1f]/180000001001/00000001000000001001000000000045/main.m3u8?IASHttpSessionId=OTT
 #EXTINF:-1 tvg-id="湖南教育台" tvg-name="湖南教育台" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hunan.png" group-title="地方",湖南教育
 http://[2409:8087:5011:1020::1f]/180000001001/00000001000000001016000000368716/main.m3u8?IASHttpSessionId=OTT
-#EXTINF:-1 tvg-id="湖南电视剧" tvg-name="湖南电视剧" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hunan.png" group-title="地方",湖南视剧
+#EXTINF:-1 tvg-id="湖南电视剧" tvg-name="湖南电视剧" tvg-logo="http://live.cooltv.top/logo/hndsj.png" group-title="地方",湖南视剧
 http://[2409:8087:5011:1020::1f]/180000001001/00000001000000001001000000000037/main.m3u8?IASHttpSessionId=OTT
-#EXTINF:-1 tvg-id="江西少儿" tvg-name="江西少儿" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangxi.png" group-title="地方",江西少儿
+#EXTINF:-1 tvg-id="江西少儿" tvg-name="江西少儿" tvg-logo="http://live.cooltv.top/logo/jx6.png" group-title="地方",江西少儿
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221226194/index.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-id="江西教育" tvg-name="江西教育" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangxi.png" group-title="地方",江西教育 
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221226197/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="江西经济生活" tvg-name="江西经济生活" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangxi.png" group-title="地方",江西经生
+#EXTINF:-1 tvg-id="江西经济生活" tvg-name="江西经济生活" tvg-logo="http://live.cooltv.top/logo/jx3.png" group-title="地方",江西经生
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221226206/index.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-id="江西新闻" tvg-name="江西新闻" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangxi.png" group-title="地方",江西新闻 
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225615/index.m3u8?fmt=ts2hls
@@ -202,23 +202,23 @@ http://[2409:8087:4402:20:1:1216:401:29]/iptv.cdn.ha.chinamobile.com/PLTV/888888
 http://[2409:8087:4402:20:1:1216:401:38]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226443/index.m3u8
 #EXTINF:-1 tvg-id="河南国际" tvg-name="河南国际" tvg-logo="http://live.cooltv.top/logo/hengj.png" group-title="地方",河南国际
 http://[2409:8087:4402:20:1:1216:401:3d]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226588/index.m3u8
-#EXTINF:-1 tvg-id="海南少儿" tvg-name="海南少儿" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/lvyou.png" group-title="地方",海南少儿
+#EXTINF:-1 tvg-id="海南少儿" tvg-name="海南少儿" tvg-logo="http://live.cooltv.top/logo/hnse.png" group-title="地方",海南少儿
 http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/08984400000000060000000000000323/index.m3u8?IAS
-#EXTINF:-1 tvg-id="海南文旅" tvg-name="海南文旅" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/lvyou.png" group-title="地方",海南文旅
+#EXTINF:-1 tvg-id="海南文旅" tvg-name="海南文旅" tvg-logo="http://live.cooltv.top/logo/hnwl.png" group-title="地方",海南文旅
 http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/08984400000000060000000000000322/index.m3u8?IAS
-#EXTINF:-1 tvg-id="海南公共" tvg-name="海南公共" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/lvyou.png" group-title="地方",海南公共
+#EXTINF:-1 tvg-id="海南公共" tvg-name="海南公共" tvg-logo="http://live.cooltv.top/logo/hngg.png" group-title="地方",海南公共
 http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/08984400000000060000000000000382/index.m3u8?IAS  
-#EXTINF:-1 tvg-id="海南自贸" tvg-name="海南自贸" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/lvyou.png" group-title="地方",海南自贸
+#EXTINF:-1 tvg-id="海南自贸" tvg-name="海南自贸" tvg-logo="http://live.cooltv.top/logo/hnjj.png" group-title="地方",海南自贸
 http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/08984400000000060000000000000320/index.m3u8?IAS 
-#EXTINF:-1 tvg-id="福建少儿" tvg-name="福建少儿" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/dongnan.png" group-title="地方",福建少儿
+#EXTINF:-1 tvg-id="福建少儿" tvg-name="福建少儿" tvg-logo="http://live.cooltv.top/logo/fjsepd.png" group-title="地方",福建少儿
 http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227194/index.m3u8?servicetype=1
-#EXTINF:-1 tvg-id="福建旅游" tvg-name="福建旅游" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/dongnan.png" group-title="地方",福建旅游
+#EXTINF:-1 tvg-id="福建旅游" tvg-name="福建旅游" tvg-logo="http://live.cooltv.top/logo/fjlypd.png" group-title="地方",福建旅游
 http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227190/index.m3u8?servicetype=1
-#EXTINF:-1 tvg-id="福建综合" tvg-name="福建综合" tvg-logo="https://live.fanmingming.com/tv/dongnan.png" group-title="地方",福建综合
+#EXTINF:-1 tvg-id="福建综合" tvg-name="福建综合" tvg-logo="http://live.cooltv.top/logo/fjzh.png" group-title="地方",福建综合
 http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227149/index.m3u8?servicetype=1
-#EXTINF:-1 tvg-id="福建文体" tvg-name="福建文体" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/dongnan.png" group-title="地方",福建文体
+#EXTINF:-1 tvg-id="福建文体" tvg-name="福建文体" tvg-logo="http://live.cooltv.top/logo/fjwt.png" group-title="地方",福建文体
 http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227188/index.m3u8?servicetype=1
-#EXTINF:-1 tvg-id="福建电视剧" tvg-name="福建电视剧" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/dongnan.png" group-title="地方",福建视剧
+#EXTINF:-1 tvg-id="福建电视剧" tvg-name="福建电视剧" tvg-logo="http://live.cooltv.top/logo/fjdsj.png" group-title="地方",福建视剧
 http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227079/index.m3u8?servicetype=1
 #EXTINF:-1 tvg-id="福建新闻" tvg-name="福建新闻" tvg-logo="http://live.cooltv.top/logo/fjxwpd.png" group-title="地方",福建新闻
 http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227180/index.m3u8?servicetype=1
