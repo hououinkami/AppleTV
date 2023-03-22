@@ -184,8 +184,10 @@ http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221226194/index.m3
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221226197/index.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-id="江西经济生活" tvg-name="江西经济生活" tvg-logo="http://live.cooltv.top/logo/jx3.png" group-title="地方",江西经生
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221226206/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="江西新闻" tvg-name="江西新闻" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangxi.png" group-title="地方",江西新闻 
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225615/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-id="江西都市" tvg-name="江西都市" tvg-logo="http://live.cooltv.top/logo/jx2.png" group-title="地方",江西都市
+http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225584/2/index.m3u8
+#EXTINF:-1 tvg-id="江西公共农业" tvg-name="江西公共农业" tvg-logo="http://live.cooltv.top/logo/jx5.png" group-title="地方",江西公农
+http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225578/2/index.m3u8
 #EXTINF:-1 tvg-id="河南都市" tvg-name="河南都市" tvg-logo="http://live.cooltv.top/logo/hends.png" group-title="地方",河南都市
 http://[2409:8087:4400:20:1:a0f:12:c]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226430/index.m3u8
 #EXTINF:-1 tvg-id="河南视剧" tvg-name="河南电视剧" tvg-logo="http://live.cooltv.top/logo/hendsj.png" group-title="地方",河南视剧
@@ -194,8 +196,6 @@ http://[2409:8087:4400:20:1:a0f:12:c]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/
 http://[2409:8087:4400:20:1:a0f:12:30]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226685/index.m3u8
 #EXTINF:-1 tvg-id="河南法治" tvg-name="河南法治" tvg-logo="http://live.cooltv.top/logo/henfz.png" group-title="地方",河南法治
 http://[2409:8087:4402:20:1:1216:401:3d]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226724/index.m3u8
-#EXTINF:-1 tvg-id="河南新闻" tvg-name="河南新闻" tvg-logo="http://live.cooltv.top/logo/henxw.png" group-title="地方",河南新闻
-http://[2409:8087:4402:20:1:1216:401:3c]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226544/index.m3u8
 #EXTINF:-1 tvg-id="河南公共" tvg-name="河南公共" tvg-logo="http://live.cooltv.top/logo/hengg.png" group-title="地方",河南公共
 http://[2409:8087:4402:20:1:1216:401:29]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226566/index.m3u8
 #EXTINF:-1 tvg-id="河南乡村" tvg-name="河南乡村" tvg-logo="http://live.cooltv.top/logo/henxc.png" group-title="地方",河南乡村
@@ -210,6 +210,8 @@ http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/08984400000000060000000000000322/ind
 http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/08984400000000060000000000000382/index.m3u8?IAS  
 #EXTINF:-1 tvg-id="海南自贸" tvg-name="海南自贸" tvg-logo="http://live.cooltv.top/logo/hnjj.png" group-title="地方",海南自贸
 http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/08984400000000060000000000000320/index.m3u8?IAS 
+#EXTINF:-1 tvg-id="福建经济" tvg-name="福建经济" tvg-logo="http://live.cooltv.top/logo/fjjjpd.png" group-title="地方",福建经济
+http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227184/index.m3u8?servicetype=1
 #EXTINF:-1 tvg-id="福建少儿" tvg-name="福建少儿" tvg-logo="http://live.cooltv.top/logo/fjsepd.png" group-title="地方",福建少儿
 http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227194/index.m3u8?servicetype=1
 #EXTINF:-1 tvg-id="福建旅游" tvg-name="福建旅游" tvg-logo="http://live.cooltv.top/logo/fjlypd.png" group-title="地方",福建旅游
@@ -220,8 +222,6 @@ http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227149/index.m3u
 http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227188/index.m3u8?servicetype=1
 #EXTINF:-1 tvg-id="福建电视剧" tvg-name="福建电视剧" tvg-logo="http://live.cooltv.top/logo/fjdsj.png" group-title="地方",福建视剧
 http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227079/index.m3u8?servicetype=1
-#EXTINF:-1 tvg-id="福建新闻" tvg-name="福建新闻" tvg-logo="http://live.cooltv.top/logo/fjxwpd.png" group-title="地方",福建新闻
-http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227180/index.m3u8?servicetype=1
 #EXTINF:-1 tvg-id="福建乡村" tvg-name="福建乡村振兴公共频道" tvg-logo="http://live.cooltv.top/logo/fjxc.png" group-title="地方",福建乡村
 http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227153/index.m3u8?servicetype=1
 #EXTINF:-1 tvg-id="福建教育" tvg-name="福建教育" tvg-logo="http://live.cooltv.top/logo/fetv.png" group-title="地方",福建教育
