@@ -176,21 +176,21 @@ http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221226197/index.m3
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221226206/index.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-id="江西新闻" tvg-name="江西新闻" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangxi.png" group-title="地方",江西新闻 
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225615/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="河南都市" tvg-name="河南都市" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/henan.png" group-title="地方",河南都市
+#EXTINF:-1 tvg-id="河南都市" tvg-name="河南都市" tvg-logo="http://live.cooltv.top/logo/hends.png" group-title="地方",河南都市
 http://[2409:8087:4400:20:1:a0f:12:c]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226430/index.m3u8
-#EXTINF:-1 tvg-id="河南视剧" tvg-name="河南电视剧" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/henan.png" group-title="地方",河南视剧
+#EXTINF:-1 tvg-id="河南视剧" tvg-name="河南电视剧" tvg-logo="http://live.cooltv.top/logo/hendsj.png" group-title="地方",河南视剧
 http://[2409:8087:4400:20:1:a0f:12:c]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226521/index.m3u8
-#EXTINF:-1 tvg-id="河南民生" tvg-name="河南民生" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/henan.png" group-title="地方",河南民生
+#EXTINF:-1 tvg-id="河南民生" tvg-name="河南民生" tvg-logo="http://live.cooltv.top/logo/henms.png" group-title="地方",河南民生
 http://[2409:8087:4400:20:1:a0f:12:30]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226685/index.m3u8
-#EXTINF:-1 tvg-id="河南法治" tvg-name="河南法治" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/henan.png" group-title="地方",河南法治
+#EXTINF:-1 tvg-id="河南法治" tvg-name="河南法治" tvg-logo="http://live.cooltv.top/logo/henfz.png" group-title="地方",河南法治
 http://[2409:8087:4402:20:1:1216:401:3d]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226724/index.m3u8
-#EXTINF:-1 tvg-id="河南新闻" tvg-name="河南新闻" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/henan.png" group-title="地方",河南新闻
+#EXTINF:-1 tvg-id="河南新闻" tvg-name="河南新闻" tvg-logo="http://live.cooltv.top/logo/henxw.png" group-title="地方",河南新闻
 http://[2409:8087:4402:20:1:1216:401:3c]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226544/index.m3u8
-#EXTINF:-1 tvg-id="河南公共" tvg-name="河南公共" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/henan.png" group-title="地方",河南公共
+#EXTINF:-1 tvg-id="河南公共" tvg-name="河南公共" tvg-logo="http://live.cooltv.top/logo/hengg.png" group-title="地方",河南公共
 http://[2409:8087:4402:20:1:1216:401:29]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226566/index.m3u8
-#EXTINF:-1 tvg-id="河南乡村" tvg-name="河南乡村" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/henan.png" group-title="地方",河南乡村
+#EXTINF:-1 tvg-id="河南乡村" tvg-name="河南乡村" tvg-logo="http://live.cooltv.top/logo/henxc.png" group-title="地方",河南乡村
 http://[2409:8087:4402:20:1:1216:401:38]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226443/index.m3u8
-#EXTINF:-1 tvg-id="河南国际" tvg-name="河南国际" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/henan.png" group-title="地方",河南国际
+#EXTINF:-1 tvg-id="河南国际" tvg-name="河南国际" tvg-logo="http://live.cooltv.top/logo/hengj.png" group-title="地方",河南国际
 http://[2409:8087:4402:20:1:1216:401:3d]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226588/index.m3u8
 #EXTINF:-1 tvg-id="海南少儿" tvg-name="海南少儿" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/lvyou.png" group-title="地方",海南少儿
 http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/08984400000000060000000000000323/index.m3u8?IAS
