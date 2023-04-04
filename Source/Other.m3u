@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="纯享4K" tvg-name="纯享4K" tvg-logo="https://live.fanmingming.com/tv/纯享4K.png" group-title="数字",纯享超清
- 
+http://[2409:8087:2001:20:2800:0:df6e:eb03]/wh7f454c46tw1981574683_-2118700426/ott.mobaibox.com/PLTV/3/224/3221228165/index.m3u8?icpid=3&RTS=1659435610&from=40&popid=40&hms_devid=2039&prioritypopid=40&vqe=3 
 #EXTINF:-1 tvg-id="1976" tvg-name="SiTV乐游" tvg-logo="https://live.fanmingming.com/tv/乐游.png" group-title="数字",乐游频道
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002157/index.m3u8/?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 tvg-id="1988" tvg-name="上海纪实" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shanghaijishi.png" group-title="数字",纪实人文
