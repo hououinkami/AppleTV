@@ -1,8 +1,6 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/4KU.png" group-title="数字",醇享超清
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225786/2/index.m3u8
-#EXTINF:-1 tvg-id="4K超高清电影" tvg-name="4K超高清电影" tvg-logo="" group-title="数字",4K超高清 
-http://live.aptvapp.com/sxg.php?id=emdy4k_8000
+#EXTINF:-1 tvg-id="醇享超清" tvg-name="醇享超清" tvg-logo="" group-title="数字",醇享超清
+http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225786/index.m3u8 
 #EXTINF:-1 tvg-id="1976" tvg-name="SiTV乐游" tvg-logo="https://live.fanmingming.com/tv/乐游.png" group-title="数字",乐游频道
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002157/index.m3u8/?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 tvg-id="1988" tvg-name="上海纪实" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shanghaijishi.png" group-title="数字",纪实人文
