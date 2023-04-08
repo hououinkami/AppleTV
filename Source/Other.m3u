@@ -1,11 +1,7 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="亚洲新闻台" tvg-name="亚洲新闻台" tvg-logo="" group-title="数字",亚洲新闻
-https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
-#EXTINF:-1 tvg-id="NHKWORLD" tvg-name="NHKWORLD" tvg-logo="" group-title="数字",NHK世界
-https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/4KU.png" group-title="数字",醇享超清
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225786/2/index.m3u8
-#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/4K电影4K.png" group-title="数字",4K超高清 
+#EXTINF:-1 tvg-id="4K超高清电影" tvg-name="4K超高清电影" tvg-logo="" group-title="数字",4K超高清 
 http://live.aptvapp.com/sxg.php?id=emdy4k_8000
 #EXTINF:-1 tvg-id="1976" tvg-name="SiTV乐游" tvg-logo="https://live.fanmingming.com/tv/乐游.png" group-title="数字",乐游频道
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002157/index.m3u8/?virtualDomain=yinhe.live_hls.zte.com
