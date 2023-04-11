@@ -37,7 +37,7 @@ http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221226230/index.m3
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225909/index.m3u8
 #EXTINF:-1 tvg-id="中国教育1台" tvg-name="CETV1台" tvg-logo="http://live.cooltv.top/logo/cetv1.png" group-title="央视",CETV-1
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225917/2/index.m3u8
-#EXTINF:-1 tvg-id="中国教育4台" tvg-name="CETV4台" tvg-logo="hhttp://live.cooltv.top/logo/cetv4.png" group-title="央视",CETV-4
+#EXTINF:-1 tvg-id="中国教育4台" tvg-name="CETV4台" tvg-logo="http://live.cooltv.top/logo/cetv4.png" group-title="央视",CETV-4
 http://[2409:8087:5011:1020::15]/180000001001/00000001000000001017000000440665/index.m3u8
 #EXTINF:-1 tvg-id="20" tvg-name="CGTN" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/cgtn.png" group-title="央视",环球新闻
 http://[2409:8087:5011:1020::1f]/180000001001/00000001000000000002000000028019/main.m3u8?IASHttpSessionId=OTT
