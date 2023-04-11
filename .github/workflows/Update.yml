@@ -16,7 +16,7 @@ on:
 
 env:
   TZ: Asia/Shanghai
-  TELEGRAM_NOTIFICATION: true
+  TELEGRAM_NOTIFICATION: false
   TELEGRAM_NOTIFICATION_CONTENT: <b>📺 AppleTVライブチャンネルが更新しました！</b>
   SOURCE1: https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u
   SOURCE1_NAME: source1.tmp
