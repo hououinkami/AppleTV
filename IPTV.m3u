@@ -60,11 +60,11 @@ http://[2409:8087:7001:20:2::3]:80/dbiptv.sn.chinamobile.com/PLTV/88888893/224/3
 #EXTINF:-1 tvg-id="35" tvg-name="兵器科技" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV_BQKJ.png" group-title="央视",CCTV-兵器科技
 http://[2409:8087:7001:20:2::3]:80/dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226975/index.m3u8
 #EXTINF:-1 tvg-id="41" tvg-name="CETV1" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/中国教育1台.png" group-title="央视",CETV-1
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225917/2/index.m3u8
+https://live.goodiptv.club/api/bestv.php?id=zgjy1t8m/8000000
 #EXTINF:-1 tvg-id="42" tvg-name="CETV4" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/中国教育4台.png" group-title="央视",CETV-4
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225937/2/index.m3u8
+https://live.goodiptv.club/api/bestv.php?id=zgjy4hd8m/8000000
 #EXTINF:-1 tvg-id="45" tvg-name="CGTN" tvg-logo="https://live.fanmingming.com/tv/cgtn.png" group-title="央视",CGTN
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225747/2/index.m3u8
+http://121.51.249.103/tlivecloud-ipv6.ysp.cctv.cn/ysp/2001656803.m3u8
 #EXTINF:-1,tvg-id="47" tvg-name="CNC英文" tvg-logo="https://epg.112114.xyz/logo/CNC英文.png" group-title="央视",CNC World
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225693/2/index.m3u8
 #EXTINF:-1,tvg-id="48" tvg-name="CNC中文" tvg-logo="https://epg.112114.xyz/logo/CNC中文.png" group-title="央视",CNC
