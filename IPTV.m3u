@@ -32,7 +32,7 @@ http://[2409:8087:2001:20:2800:0:df6e:eb22]/wh7f454c46tw340147088_1594094424/ott
 #EXTINF:-1 tvg-id="15" tvg-name="CCTV15" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV15.png" group-title="央视",CCTV-15 音乐
 http://[2409:8087:2001:20:2800:0:df6e:eb22]/wh7f454c46tw434828587_188325560/ott.mobaibox.com/PLTV/3/224/3221228404/index.m3u8?icpid=3&RTS=1668595229&from=40&popid=40&hms_devid=2291&prioritypopid=40&vqe=3
 #EXTINF:-1 tvg-id="16" tvg-name="CCTV16" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV16.png" group-title="央视",CCTV-16 奥林匹克
-http://[2409:8087:2001:20:2800:0:df6e:eb0b]/wh7f454c46tw456909575_2098882473/ott.mobaibox.com/PLTV/3/224/3221228144/index.m3u8?icpid=3&RTS=1668595251&from=40&popid=40&hms_devid=2038&prioritypopid=40&vqe=3
+http://[2409:8087:2001:20:2800:0:df6e:eb18]/ott.mobaibox.com/PLTV/3/224/3221228127/index.m3u8
 #EXTINF:-1 tvg-id="17" tvg-name="CCTV17" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV17.png" group-title="央视",CCTV-17 农业农村
 http://[2409:8087:2001:20:2800:0:df6e:eb23]/wh7f454c46tw483903016_-67353299/ott.mobaibox.com/PLTV/3/224/3221228407/index.m3u8?icpid=3&RTS=1668595278&from=40&popid=40&hms_devid=2291&prioritypopid=40&vqe=3
 #EXTINF:-1 tvg-id="18" tvg-name="CCTV4K" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4k.png" group-title="央视",CCTV-4K 超高清
@@ -64,7 +64,9 @@ http://txycetvbl.centv.cn/cetv1/ypd.m3u8
 #EXTINF:-1 tvg-id="42" tvg-name="CETV4" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/中国教育4台.png" group-title="央视",CETV-4
 http://txycetvbl.centv.cn/cetv4/zjpd.m3u8
 #EXTINF:-1 tvg-id="45" tvg-name="CGTN" tvg-logo="https://live.fanmingming.com/tv/cgtn.png" group-title="央视",CGTN
-http://brics.bonus-tv.ru/cdn/brics/chinese/tracks-v1a1/index.m3u8
+http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225745/1.m3u8
+#EXTINF:-1 tvg-id="46" tvg-name="CGTNDocumentary" tvg-logo="https://live.fanmingming.com/tv/CGTNDoc.png" group-title="央视",CGTN Documentary
+http://[2409:8087:5e01:34::20]:6610/ZTE_CMS/00000001000000060000000000000528/index.m3u8?IAS
 #EXTINF:-1 tvg-id="61" tvg-name="深圳卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shenzhen.png" group-title="卫视",深圳卫视
 http://[2409:8087:2001:20:2800:0:df6e:eb11]/wh7f454c46tw3025923625_628894334/ott.mobaibox.com/PLTV/3/224/3221227555/index.m3u8?icpid=3&RTS=1668597820&from=40&popid=40&hms_devid=2110&prioritypopid=40&vqe=3
 #EXTINF:-1 tvg-id="62" tvg-name="北京卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="卫视",北京卫视

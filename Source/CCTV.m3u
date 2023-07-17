@@ -32,7 +32,7 @@ http://[2409:8087:2001:20:2800:0:df6e:eb22]/wh7f454c46tw340147088_1594094424/ott
 #EXTINF:-1 tvg-id="16" tvg-name="CCTV15" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV15.png" group-title="央视",CCTV-15
 http://[2409:8087:2001:20:2800:0:df6e:eb22]/wh7f454c46tw434828587_188325560/ott.mobaibox.com/PLTV/3/224/3221228404/index.m3u8?icpid=3&RTS=1668595229&from=40&popid=40&hms_devid=2291&prioritypopid=40&vqe=3
 #EXTINF:-1 tvg-id="17" tvg-name="CCTV16" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV16.png" group-title="央视",CCTV-16
-http://[2409:8087:2001:20:2800:0:df6e:eb0b]/wh7f454c46tw456909575_2098882473/ott.mobaibox.com/PLTV/3/224/3221228144/index.m3u8?icpid=3&RTS=1668595251&from=40&popid=40&hms_devid=2038&prioritypopid=40&vqe=3
+http://[2409:8087:2001:20:2800:0:df6e:eb18]/ott.mobaibox.com/PLTV/3/224/3221228127/index.m3u8
 #EXTINF:-1 tvg-id="18" tvg-name="CCTV17" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV17.png" group-title="央视",CCTV-17
 http://[2409:8087:2001:20:2800:0:df6e:eb23]/wh7f454c46tw483903016_-67353299/ott.mobaibox.com/PLTV/3/224/3221228407/index.m3u8?icpid=3&RTS=1668595278&from=40&popid=40&hms_devid=2291&prioritypopid=40&vqe=3
 #EXTINF:-1 tvg-id="中国教育1台" tvg-name="CETV1台" tvg-logo="https://raw.githubusercontent.com/YueChan/Live/main/CETV.png" group-title="央视",CETV-01
@@ -47,10 +47,10 @@ http://txycetvbl.centv.cn/cetv4/zjpd.m3u8
 http://[2409:8087:2001:20:2800:0:df6e:eb27]/wh7f454c46tw3352677969_1732462333/ott.mobaibox.com/PLTV/3/224/3221228524/index.m3u8?icpid=3&RTS=1668336154&from=40&popid=40&hms_devid=2293&prioritypopid=40&vqe=3
 #EXTINF:-1 tvg-id="142" tvg-name="凤凰资讯" tvg-logo="https://epg.112114.xyz/logo/凤凰资讯.png" group-title="卫视",凤凰资讯
 http://[2409:8087:2001:20:2800:0:df6e:eb24]/wh7f454c46tw3553140416_-2021535160/ott.mobaibox.com/PLTV/3/224/3221228527/index.m3u8?icpid=3&RTS=1668336354&from=40&popid=40&hms_devid=2292&prioritypopid=40&vqe=3
-#EXTINF:-1 tvg-id="TVBRICS中文" tvg-name="CGTN" tvg-logo="https://raw.githubusercontent.com/YueChan/Live/main/CGTN.png" group-title="央视",金砖中文
-http://brics.bonus-tv.ru/cdn/brics/chinese/tracks-v1a1/index.m3u8
-#EXTINF:-1 tvg-id="TVBRICS英文" tvg-name="CGTN" tvg-logo="https://raw.githubusercontent.com/YueChan/Live/main/CGTN.png" group-title="央视",金砖英文
-http://brics.bonus-tv.ru/cdn/brics/english/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" tvg-logo="https://raw.githubusercontent.com/YueChan/Live/main/CGTN.png" group-title="央视",中国环球
+http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225745/1.m3u8
+#EXTINF:-1 tvg-id="CGTNDocumentary" tvg-name="CGTNDocumentary" tvg-logo="https://raw.githubusercontent.com/YueChan/Live/main/CGTN.png" group-title="央视",环球纪录
+http://[2409:8087:5e01:34::20]:6610/ZTE_CMS/00000001000000060000000000000528/index.m3u8?IAS
 #EXTINF:-1 tvg-id="30" tvg-name="北京卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="卫视",北京卫视
 http://[2409:8087:2001:20:2800:0:df6e:eb0b]/wh7f454c46tw2687876293_-1703018199/ott.mobaibox.com/PLTV/3/224/3221227508/index.m3u8?icpid=3&RTS=1668597482&from=40&popid=40&hms_devid=2038&prioritypopid=40&vqe=3
 #EXTINF:-1 tvg-id="31" tvg-name="东方卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/dongfang.png" group-title="卫视",东方卫视
