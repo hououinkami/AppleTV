@@ -206,13 +206,18 @@ jobs:
         }
         ' ChannelList/China.list>China_v4.m3u
 
+        awk '
+        {
+          gsub("\"央视","\"'"$GROUP_NAME_CCTVv6"'");
+          gsub("\"卫视","\"'"$GROUP_NAME_SATTv6"'");
+          print $0;
+        }
+        ' ChannelList/China.list>Chinalist.tmp
 
         awk -F'"' '
         {
           info=$0;
           name=$4;
-          gsub("\"央视","\"'"$GROUP_NAME_CCTVv6"'");
-          gsub("\"卫视","\"'"$GROUP_NAME_SATTv6"'");
           # 到第一个空行为止 if(length(info)==0) {exit};
           if(info~/\#EXIT/) {exit};
           if($0~/\#EXTM3U/) {print $0};
@@ -248,7 +253,7 @@ jobs:
             close(cmd);
           };
         }
-        ' ChannelList/China.list>China_v6.tmp
+        ' Chinalist.tmp>China_v6.tmp
 
         cat China_v6.tmp localv6.tmp Source/Otherv6.m3u > China_v6.m3u
 
