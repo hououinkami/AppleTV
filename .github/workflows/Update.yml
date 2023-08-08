@@ -25,14 +25,16 @@ env:
   SOURCE_NAME: source.tmp
   GROUP_NAME_CCTV: 央视
   GROUP_NAME_SATT: 卫视
+  GROUP_NAME_CCTVv6: 央视IPv6
+  GROUP_NAME_SATTv6: 卫视IPv6
+  GROUP_NAME_LOCAL: 地方IPv6
+  GROUP_NAME_DIG: 数字IPv6
   GROUP_NAME_JP: 日本
   GROUP_NAME_EN: 英文
   GROUP_NAME_SCI: 科教记录
   GROUP_NAME_HK: 香港
   GROUP_NAME_TW: 台湾
   GROUP_NAME_MO: 澳门
-  GROUP_NAME_LOCAL: 地方IPv6
-  GROUP_NAME_DIG: 数字IPv6
   HKTW_ADD: false
   GET: true
 
@@ -209,8 +211,8 @@ jobs:
         {
           info=$0;
           name=$4;
-          gsub(/group-title=\"央视.*\"/, "group-title=\"'"$GROUP_NAME_CCTV"'IPv6\"");
-          gsub(/group-title=\"卫视.*\"/, "group-title=\"'"$GROUP_NAME_SATT"'IPv6\"");
+          gsub(/group-title=\"央视.*\"/, "group-title=\"'"$GROUP_NAME_CCTVv6"'\"");
+          gsub(/group-title=\"卫视.*\"/, "group-title=\"'"$GROUP_NAME_SATTv6"'\"");
           # 到第一个空行为止 if(length(info)==0) {exit};
           if(info~/\#EXIT/) {exit};
           if($0~/\#EXTM3U/) {print $0};
