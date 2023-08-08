@@ -167,8 +167,8 @@ jobs:
         {
           info=$0;
           name=$4;
-          gsub(/group-title=\"央视.*\"/, "group-title=\"'"$GROUP_NAME_CCTV"'\"");
-          gsub(/group-title=\"卫视.*\"/, "group-title=\"'"$GROUP_NAME_SATT"'\"");
+          gsub(/group-title=\"央视\"/, "group-title=\"'"$GROUP_NAME_CCTV"'\"");
+          gsub(/group-title=\"卫视\"/, "group-title=\"'"$GROUP_NAME_SATT"'\"");
           # 到第一个空行为止 if(length(info)==0) {exit};
           if(info~/\#EXIT/) {exit};
           if($0~/\#EXTM3U/) {print $0};
@@ -211,8 +211,8 @@ jobs:
         {
           info=$0;
           name=$4;
-          gsub(/group-title=\"央视.*\"/, "group-title=\"'"$GROUP_NAME_CCTVv6"'\"");
-          gsub(/group-title=\"卫视.*\"/, "group-title=\"'"$GROUP_NAME_SATTv6"'\"");
+          gsub(/group-title=\"央视\"/, "group-title=\"'"$GROUP_NAME_CCTVv6"'\"");
+          gsub(/group-title=\"卫视\"/, "group-title=\"'"$GROUP_NAME_SATTv6"'\"");
           # 到第一个空行为止 if(length(info)==0) {exit};
           if(info~/\#EXIT/) {exit};
           if($0~/\#EXTM3U/) {print $0};
