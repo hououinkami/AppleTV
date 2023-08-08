@@ -69,16 +69,16 @@ jobs:
         # 生成V6临时文件
         awk '
         {
-          gsub("\"央视","\"'"$GROUP_NAME_CCTV"'");
-          if($0~/(tvg-name=\"CCTV|CCTV4K)/) {gsub(/group-title=\".*\"/, "group-title=\"'"$GROUP_NAME_CCTV"'\"")};
+          gsub("\"央视","\"'"$GROUP_NAME_CCTVv6"'");
+          if($0~/(tvg-name=\"CCTV|CCTV4K)/) {gsub(/group-title=\".*\"/, "group-title=\"'"$GROUP_NAME_CCTVv6"'\"")};
           gsub(/CCTV5.\"/,"CCTV5+体育赛事\"");
           gsub("\"电视指南","\"CCTV电视指南");
           gsub(/tvg-name=\"中国教育/,"tvg-name=\"CETV");
           if($0~/NEWTV/) {gsub(",",",NEWTV")};
-          if($0~/tvg-name=\"(CCTV|CETV|CGTN)/) {gsub(/group-title=\".*\"/, "group-title=\"'"$GROUP_NAME_CCTV"'\"")};
+          if($0~/tvg-name=\"(CCTV|CETV|CGTN)/) {gsub(/group-title=\".*\"/, "group-title=\"'"$GROUP_NAME_CCTVv6"'\"")};
           if($0~/group-title=\"卫视\"/ && $0!~/tvg-name=\".*卫视\".*tvg-logo/) {gsub("\"卫视","\"'"$GROUP_NAME_LOCAL"'")};
-          if($0~/tvg-name=\".*卫视\".*tvg-logo/ || $0~/凤凰/) {gsub(/group-title=\".*\"/, "group-title=\"'"$GROUP_NAME_SATT"'\"")};
-          if($0!~/group-title=\"('"$GROUP_NAME_CCTV"'|'"$GROUP_NAME_SATT"'|'"$GROUP_NAME_LOCAL"')\"/) {gsub(/group-title=\".*\"/, "group-title=\"'"$GROUP_NAME_DIG"'\"")};
+          if($0~/tvg-name=\".*卫视\".*tvg-logo/ || $0~/凤凰/) {gsub(/group-title=\".*\"/, "group-title=\"'"$GROUP_NAME_SATTv6"'\"")};
+          if($0!~/group-title=\"('"$GROUP_NAME_CCTVv6"'|'"$GROUP_NAME_SATTv6"'|'"$GROUP_NAME_LOCAL"')\"/) {gsub(/group-title=\".*\"/, "group-title=\"'"$GROUP_NAME_DIG"'\"")};
           print $0;
         }
         ' $SOURCE2_NAME>chinav6.tmp
@@ -89,7 +89,7 @@ jobs:
         awk '
         {
           if($0~/\#EXTM3U/) {print $0};
-          if($0~/group-title=\"'"$GROUP_NAME_CCTV"'\"/ || $0~/group-title=\"'"$GROUP_NAME_SATT"'\"/) {m=NR; n=NR+1};
+          if($0~/group-title=\"'"$GROUP_NAME_CCTVv6"'\"/ || $0~/group-title=\"'"$GROUP_NAME_SATTv6"'\"/) {m=NR; n=NR+1};
           if(m<=NR && NR<=n) {
             print $0;
           };
@@ -117,8 +117,8 @@ jobs:
           if($0~/\#EXTM3U/) {print $0};
           if($0~/group-title=\"央视IPV6\"/ || $0~/group-title=\"卫视IPV6\"/ || $0~/group-title=\"其他\"/) {m=NR; n=NR+1};
           if(m<=NR && NR<=n) {
-            gsub("央视IPV6","'"$GROUP_NAME_CCTV"'");
-            gsub("\"卫视IPV6","\"'"$GROUP_NAME_SATT"'");
+            gsub("央视IPV6","'"$GROUP_NAME_CCTVv6"'");
+            gsub("\"卫视IPV6","\"'"$GROUP_NAME_SATTv6"'");
             gsub(/CCTV5.\"/,"CCTV5+体育赛事\"");
             print $0;
           };
@@ -130,7 +130,7 @@ jobs:
         # 生成V6数字电视台
         awk '
         {
-          if($0~/group-title=\"('"$GROUP_NAME_CCTV"'|'"$GROUP_NAME_SATT"'|'"$GROUP_NAME_LOCAL"')\"/) {next};
+          if($0~/group-title=\"('"$GROUP_NAME_CCTVv6"'|'"$GROUP_NAME_SATTv6"'|'"$GROUP_NAME_LOCAL"')\"/) {next};
           if($0~/\#EXTM3U/) {print $0};
           if($0~/group-title=/) {m=NR; n=NR+1};
           if(m<=NR && NR<=n) {
