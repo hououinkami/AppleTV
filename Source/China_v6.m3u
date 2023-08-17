@@ -35,21 +35,23 @@ http://[2409:8087:2001:20:2800:0:df6e:eb22]/wh7f454c46tw434828587_188325560/ott.
 http://[2409:8087:2001:20:2800:0:df6e:eb18]/ott.mobaibox.com/PLTV/3/224/3221228127/index.m3u8
 #EXTINF:-1 tvg-id="18" tvg-name="CCTV17" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV17.png" group-title="央视IPv6",CCTV-17
 http://[2409:8087:2001:20:2800:0:df6e:eb23]/wh7f454c46tw483903016_-67353299/ott.mobaibox.com/PLTV/3/224/3221228407/index.m3u8?icpid=3&RTS=1668595278&from=40&popid=40&hms_devid=2291&prioritypopid=40&vqe=3
-#EXTINF:-1 tvg-id="中国教育1台" tvg-name="CETV1台" tvg-logo="https://raw.githubusercontent.com/YueChan/Live/main/CETV.png" group-title="央视IPv6",CETV-01
+#EXTINF:-1 tvg-id="中国教育1台" tvg-name="CETV1台" tvg-logo="https://raw.githubusercontent.com/YueChan/Live/main/CETV1.png" group-title="央视IPv6",CETV-01
 http://txycetvbl.centv.cn/cetv1/ypd.m3u8
-#EXTINF:-1 tvg-id="中国教育2台" tvg-name="CETV2台" tvg-logo="https://raw.githubusercontent.com/YueChan/Live/main/CETV.png" group-title="央视IPv6",CETV-02
+#EXTINF:-1 tvg-id="中国教育2台" tvg-name="CETV2台" tvg-logo="https://raw.githubusercontent.com/YueChan/Live/main/CETV2.png" group-title="央视IPv6",CETV-02
 http://txycetvbl.centv.cn/cetv2/2020tsytk.m3u8
-#EXTINF:-1 tvg-id="中国教育3台" tvg-name="CETV3台" tvg-logo="https://raw.githubusercontent.com/YueChan/Live/main/CETV.png" group-title="央视IPv6",CETV-03
+#EXTINF:-1 tvg-id="中国教育3台" tvg-name="CETV3台" tvg-logo="https://raw.githubusercontent.com/YueChan/Live/main/CETV3.png" group-title="央视IPv6",CETV-03
 http://txycetvbl.centv.cn/cetv3/bjdm.m3u8
-#EXTINF:-1 tvg-id="中国教育4台" tvg-name="CETV4台" tvg-logo="https://raw.githubusercontent.com/YueChan/Live/main/CETV.png" group-title="央视IPv6",CETV-04
+#EXTINF:-1 tvg-id="中国教育4台" tvg-name="CETV4台" tvg-logo="https://raw.githubusercontent.com/YueChan/Live/main/CETV4.png" group-title="央视IPv6",CETV-04
 http://txycetvbl.centv.cn/cetv4/zjpd.m3u8
+#EXTINF:-1 tvg-id="凤凰香港" tvg-name="凤凰香港" tvg-logo="https://live.fanmingming.com/tv/凤凰卫视香港台.png" group-title="卫视IPv6",凤凰香港
+http://[2409:8087:2001:20:2800:0:df6e:eb1d]:80/ott.mobaibox.com/PLTV/1/224/3221228530/1.m3u8
 #EXTINF:-1 tvg-id="141" tvg-name="凤凰中文" tvg-logo="https://epg.112114.xyz/logo/凤凰中文.png" group-title="卫视IPv6",凤凰中文
 http://[2409:8087:2001:20:2800:0:df6e:eb24]/wh7f454c46tw3553140416_-2021535160/ott.mobaibox.com/PLTV/3/224/3221228527/index.m3u8?icpid=3&RTS=1668336354&from=40&popid=40&hms_devid=2292&prioritypopid=40&vqe=3
 #EXTINF:-1 tvg-id="142" tvg-name="凤凰资讯" tvg-logo="https://epg.112114.xyz/logo/凤凰资讯.png" group-title="卫视IPv6",凤凰资讯
 http://[2409:8087:2001:20:2800:0:df6e:eb27]/wh7f454c46tw3352677969_1732462333/ott.mobaibox.com/PLTV/3/224/3221228524/index.m3u8?icpid=3&RTS=1668336154&from=40&popid=40&hms_devid=2293&prioritypopid=40&vqe=3
-#EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" tvg-logo="https://raw.githubusercontent.com/YueChan/Live/main/CGTN.png" group-title="央视IPv6",中国环球
+#EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" tvg-logo="https://raw.githubusercontent.com/YueChan/Live/main/中国环球.jpeg" group-title="央视IPv6",中国环球
 http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225745/1.m3u8
-#EXTINF:-1 tvg-id="CGTNDocumentary" tvg-name="CGTNDocumentary" tvg-logo="https://raw.githubusercontent.com/YueChan/Live/main/CGTN.png" group-title="央视IPv6",环球纪录
+#EXTINF:-1 tvg-id="CGTNDocumentary" tvg-name="CGTNDocumentary" tvg-logo="https://raw.githubusercontent.com/YueChan/Live/main/环球纪录.jpeg" group-title="央视IPv6",环球纪录
 http://[2409:8087:5e01:34::20]:6610/ZTE_CMS/00000001000000060000000000000528/index.m3u8?IAS
 #EXTINF:-1 tvg-id="30" tvg-name="北京卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="卫视IPv6",北京卫视
 http://[2409:8087:2001:20:2800:0:df6e:eb0b]/wh7f454c46tw2687876293_-1703018199/ott.mobaibox.com/PLTV/3/224/3221227508/index.m3u8?icpid=3&RTS=1668597482&from=40&popid=40&hms_devid=2038&prioritypopid=40&vqe=3
@@ -107,7 +109,7 @@ http://[2409:8087:2001:20:2800:0:df6e:eb1b]/wh7f454c46tw1221605145_-1738716276/o
 http://[2409:8087:2001:20:2800:0:df6e:eb0b]/wh7f454c46tw993550557_162751766/ott.mobaibox.com/PLTV/3/224/3221228290/index.m3u8?icpid=3&RTS=1668604377&from=40&popid=40&hms_devid=2038&prioritypopid=40&vqe=3
 #EXTINF:-1 tvg-id="58" tvg-name="云南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/yunnan.png" group-title="卫视IPv6",云南卫视
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001223/index.m3u8?
-#EXTINF:-1 tvg-id="CCTV4K超高清" tvg-name="CCTV4K超清" tvg-logo="https://raw.githubusercontent.com/YueChan/Live/main/4KCQ.png" group-title="央视IPv6",CCTV-4K
+#EXTINF:-1 tvg-id="CCTV4K超高清" tvg-name="CCTV4K超清" tvg-logo="https://raw.githubusercontent.com/YueChan/Live/main/CCTV4K.png" group-title="央视IPv6",CCTV-4K
 http://liveop.cctv.cn/hls/4KHD/playlist.m3u8
 #EXTINF:-1 tvg-id="6559" tvg-name="CCTV风云剧场" tvg-logo="https://epg.112114.xyz/logo/风云剧场.png" group-title="央视IPv6",风云剧场
 http://[2409:8087:7001:20:2::3]:80/dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226950/index.m3u8
