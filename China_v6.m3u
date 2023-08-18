@@ -64,7 +64,7 @@ http://txycetvbl.centv.cn/cetv1/ypd.m3u8
 #EXTINF:-1 tvg-id="42" tvg-name="CETV4" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/中国教育4台.png" group-title="央视IPv6",CETV-4
 http://txycetvbl.centv.cn/cetv4/zjpd.m3u8
 #EXTINF:-1 tvg-id="45" tvg-name="CGTN" tvg-logo="https://live.fanmingming.com/tv/cgtn.png" group-title="央视IPv6",CGTN
-http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225745/1.m3u8
+http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001024/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 tvg-id="46" tvg-name="CGTNDocumentary" tvg-logo="https://live.fanmingming.com/tv/CGTNDoc.png" group-title="央视IPv6",CGTN Documentary
 http://[2409:8087:5e01:34::20]:6610/ZTE_CMS/00000001000000060000000000000528/index.m3u8?IAS
 #EXTINF:-1 tvg-id="61" tvg-name="深圳卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shenzhen.png" group-title="卫视IPv6",深圳卫视
@@ -189,10 +189,10 @@ http://[2409:8087:2001:20:2800:0:df6e:eb0b]/wh7f454c46tw993550557_162751766/ott.
 #EXTINF:-1 tvg-id="58" tvg-name="云南卫视" group-title="地方IPv6",云南卫视
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001223/index.m3u8?
 #EXTM3U
-#EXTINF:-1 group-title="数字IPv6",金砖中文
-http://brics.bonus-tv.ru/cdn/brics/chinese/tracks-v1a1/index.m3u8
-#EXTINF:-1 group-title="数字IPv6",金砖中文
-http://brics.bonus-tv.ru/cdn/brics/english/tracks-v1a1/index.m3u8
+#EXTINF:-1 group-title="数字IPv6",Clarity4K
+https://d3thiix3tzne5u.cloudfront.net/playlist2160p.m3u8 
+#EXTINF:-1 group-title="数字IPv6",L' Nature
+https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8 
 #EXTINF:-1 tvg-id="NHK" tvg-name="NHK" group-title="数字IPv6",NHK世界
 https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
 #EXTINF:-1 tvg-id="CNA" tvg-name="CNA" group-title="数字IPv6",CNA新闻
@@ -263,3 +263,5 @@ http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002055/index.m3
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002085/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 tvg-id="6241" tvg-name="CHC高清电影" group-title="数字IPv6",高清电影
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002065/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
+#EXTINF:-1 tvg-id="华数高清" tvg-name="华数高清" group-title="数字IPv6",华数高清
+http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000003000004748/index.m3u8?channel-id=wasusyt&Contentid=6000000003000004748&livemode=1&stbId=3，，，，0，105

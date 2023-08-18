@@ -50,7 +50,7 @@ http://[2409:8087:2001:20:2800:0:df6e:eb24]/wh7f454c46tw3553140416_-2021535160/o
 #EXTINF:-1 tvg-id="142" tvg-name="凤凰资讯" group-title="卫视IPv6",凤凰资讯
 http://[2409:8087:2001:20:2800:0:df6e:eb27]/wh7f454c46tw3352677969_1732462333/ott.mobaibox.com/PLTV/3/224/3221228524/index.m3u8?icpid=3&RTS=1668336154&from=40&popid=40&hms_devid=2293&prioritypopid=40&vqe=3
 #EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" group-title="央视IPv6",中国环球
-http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225745/1.m3u8
+http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001024/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 tvg-id="CGTNDocumentary" tvg-name="CGTNDocumentary" group-title="央视IPv6",环球纪录
 http://[2409:8087:5e01:34::20]:6610/ZTE_CMS/00000001000000060000000000000528/index.m3u8?IAS
 #EXTINF:-1 tvg-id="CCTV4K超高清" tvg-name="CCTV4K超清" group-title="央视IPv6",CCTV-4K
