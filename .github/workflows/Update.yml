@@ -149,10 +149,10 @@ jobs:
         awk '
         {
           if($0~/\#EXTM3U/) {print $0};
-          if($0~/group-title=\"央视\"/ || $0~/group-title=\"卫视\"/ || $0~/group-title=\"4K频道\"/) {m=NR; n=NR+1};
+          if($0~/group-title=\"央视IPV4\"/ || $0~/group-title=\"卫视IPV4\"/ || $0~/group-title=\"4K频道\"/) {m=NR; n=NR+1};
           if(m<=NR && NR<=n) {
-            gsub("央视","'"$GROUP_NAME_CCTV"'");
-            gsub("\"卫视","\"'"$GROUP_NAME_SATT"'");
+            gsub("央视IPV4","'"$GROUP_NAME_CCTV"'");
+            gsub("\"卫视IPV4","\"'"$GROUP_NAME_SATT"'");
             gsub(/CCTV5.\"/,"CCTV5+体育赛事\"");
             print $0;
           };
