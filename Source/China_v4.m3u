@@ -87,3 +87,5 @@ http://live.aptvapp.com/bestv.php?id=hainanwshd8m/8000000
 http://live.aptvapp.com/bestv.php?id=ynwshd8m/8000000
 #EXTINF:-1,tvg-id="" tvg-name="贵州卫视" tvg-logo="https://epg.112114.xyz/logo/贵州卫视.png" group-title="卫视",贵州卫视
 http://live.aptvapp.com/bestv.php?id=gzwshd8m/8000000
+#EXTINF:-1,tvg-id="" tvg-name="五星体育" tvg-logo="https://epg.112114.xyz/logo/五星体育.png" group-title="卫视",五星体育
+http://live.aptvapp.com/bestv.php?id=wxtyhd8m/8000000
