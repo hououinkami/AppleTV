@@ -1,71 +1,71 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="NHK" tvg-name="NHK" group-title="数字IPv6",NHK世界
+#EXTINF:-1 tvg-id="NHK" tvg-name="NHK" group-title="IPv6数字",NHK世界
 https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
-#EXTINF:-1 tvg-id="CNA" tvg-name="CNA" group-title="数字IPv6",CNA新闻
+#EXTINF:-1 tvg-id="CNA" tvg-name="CNA" group-title="IPv6数字",CNA新闻
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
-#EXTINF:-1 tvg-id="7183"tvg-name="aljazeeraEnglish" group-title="数字IPv6",半岛新闻
+#EXTINF:-1 tvg-id="7183"tvg-name="aljazeeraEnglish" group-title="IPv6数字",半岛新闻
 http://live-hls-web-aje.getaj.net/AJE/01.m3u8
-#EXTINF:-1 tvg-id="1872" tvg-name="北京纪实" group-title="数字IPv6",纪实科教
+#EXTINF:-1 tvg-id="1872" tvg-name="北京纪实" group-title="IPv6数字",纪实科教
 http://[2409:8087:2001:20:2800:0:df6e:eb0e]/wh7f454c46tw1542052607_1430934483/ott.mobaibox.com/PLTV/3/224/3221227699/index.m3u8?icpid=3&RTS=1669704438&from=40&popid=40&hms_devid=2111&prioritypopid=40&vqe=3
-#EXTINF:-1 tvg-id="卡酷少儿" tvg-name="卡酷少儿" group-title="数字IPv6",卡酷少儿
+#EXTINF:-1 tvg-id="卡酷少儿" tvg-name="卡酷少儿" group-title="IPv6数字",卡酷少儿
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001245/index.m3u8?
-#EXTINF:-1 tvg-id="1986" group-title="数字IPv6",东方影视
+#EXTINF:-1 tvg-id="1986" group-title="IPv6数字",东方影视
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001016/index.m3u8?
-#EXTINF:-1 tvg-id="1987" group-title="数字IPv6",五星体育
+#EXTINF:-1 tvg-id="1987" group-title="IPv6数字",五星体育
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001018/index.m3u8?
-#EXTINF:-1 tvg-id="1991" group-title="数字IPv6",上海外语
+#EXTINF:-1 tvg-id="1991" group-title="IPv6数字",上海外语
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001128/index.m3u8?
-#EXTINF:-1 tvg-id="1989" group-title="数字IPv6",上海都市
+#EXTINF:-1 tvg-id="1989" group-title="IPv6数字",上海都市
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001015/index.m3u8?
-#EXTINF:-1 tvg-id="上海教育" tvg-name="上海教育" group-title="数字IPv6",上海教育
+#EXTINF:-1 tvg-id="上海教育" tvg-name="上海教育" group-title="IPv6数字",上海教育
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001268/index.m3u8?
-#EXTINF:-1 tvg-id="上海新闻" tvg-name="上海新闻" group-title="数字IPv6",上海新闻
+#EXTINF:-1 tvg-id="上海新闻" tvg-name="上海新闻" group-title="IPv6数字",上海新闻
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001014/index.m3u8?
-#EXTINF:-1 tvg-id="SITV都市剧场" tvg-name="SITV都市剧场" group-title="数字IPv6",都市剧场
+#EXTINF:-1 tvg-id="SITV都市剧场" tvg-name="SITV都市剧场" group-title="IPv6数字",都市剧场
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001203/index.m3u8?
-#EXTINF:-1 tvg-id="生活时尚" tvg-name="生活时尚" group-title="数字IPv6",生活时尚
+#EXTINF:-1 tvg-id="生活时尚" tvg-name="生活时尚" group-title="IPv6数字",生活时尚
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001199/index.m3u8?
-#EXTINF:-1 tvg-id="SITV金色学堂" tvg-name="SITV金色学堂" group-title="数字IPv6",金色学堂
+#EXTINF:-1 tvg-id="SITV金色学堂" tvg-name="SITV金色学堂" group-title="IPv6数字",金色学堂
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001194/index.m3u8?
-#EXTINF:-1 tvg-id="SITV法治天地" tvg-name="SITV法治天地" group-title="数字IPv6",法治天地
+#EXTINF:-1 tvg-id="SITV法治天地" tvg-name="SITV法治天地" group-title="IPv6数字",法治天地
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001195/index.m3u8?
-#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" group-title="数字IPv6",哈哈炫动
+#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" group-title="IPv6数字",哈哈炫动
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001232/index.m3u8?
-#EXTINF:-1 tvg-id="动漫秀场" tvg-name="动漫秀场" group-title="数字IPv6",动漫秀场
+#EXTINF:-1 tvg-id="动漫秀场" tvg-name="动漫秀场" group-title="IPv6数字",动漫秀场
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001196/index.m3u8?
-#EXTINF:-1 tvg-id="七彩戏剧" tvg-name="七彩戏剧" group-title="数字IPv6",七彩戏剧
+#EXTINF:-1 tvg-id="七彩戏剧" tvg-name="七彩戏剧" group-title="IPv6数字",七彩戏剧
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001308/index.m3u8?
-#EXTINF:-1 tvg-id="欢笑剧场" tvg-name="欢笑剧场" group-title="数字IPv6",欢笑剧场
+#EXTINF:-1 tvg-id="欢笑剧场" tvg-name="欢笑剧场" group-title="IPv6数字",欢笑剧场
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002156/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-#EXTINF:-1 tvg-id="上海第一财经" tvg-name="上海第一财经" group-title="数字IPv6",第一财经
+#EXTINF:-1 tvg-id="上海第一财经" tvg-name="上海第一财经" group-title="IPv6数字",第一财经
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001017/index.m3u8?
-#EXTINF:-1 tvg-id="东方财经" tvg-name="东方财经" group-title="数字IPv6",东方财经
+#EXTINF:-1 tvg-id="东方财经" tvg-name="东方财经" group-title="IPv6数字",东方财经
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001318/index.m3u8?
-#EXTINF:-1 tvg-id="6585" tvg-name="茶频道" group-title="数字IPv6",茶友频道
+#EXTINF:-1 tvg-id="6585" tvg-name="茶频道" group-title="IPv6数字",茶友频道
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002305/index.m3u8/?virtualDomain=yinhe.live_hls.zte.com
-#EXTINF:-1 tvg-id="6595" tvg-name="快乐垂钓" group-title="数字IPv6",快乐垂钓
+#EXTINF:-1 tvg-id="6595" tvg-name="快乐垂钓" group-title="IPv6数字",快乐垂钓
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002264/index.m3u8/?virtualDomain=yinhe.live_hls.zte.com
-#EXTINF:-1 tvg-id="2025" tvg-name="金鹰纪实" group-title="数字IPv6",金鹰纪实
+#EXTINF:-1 tvg-id="2025" tvg-name="金鹰纪实" group-title="IPv6数字",金鹰纪实
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001230/index.m3u8?
-#EXTINF:-1 tvg-id="金鹰卡通" tvg-name="金鹰卡通" group-title="数字IPv6",金鹰卡通
+#EXTINF:-1 tvg-id="金鹰卡通" tvg-name="金鹰卡通" group-title="IPv6数字",金鹰卡通
 http://live.aptvapp.com/sxg.php?id=jykt_2000
-#EXTINF:-1 tvg-id="1976" tvg-name="SiTV乐游" group-title="数字IPv6",乐游频道
+#EXTINF:-1 tvg-id="1976" tvg-name="SiTV乐游" group-title="IPv6数字",乐游频道
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001200/index.m3u8?
-#EXTINF:-1 tvg-id="1988" tvg-name="上海纪实" group-title="数字IPv6",纪实人文
+#EXTINF:-1 tvg-id="1988" tvg-name="上海纪实" group-title="IPv6数字",纪实人文
 http://[2409:8087:2001:20:2800:0:df6e:eb12]/wh7f454c46tw1293235676_155310184/ott.mobaibox.com/PLTV/3/224/3221227635/index.m3u8?icpid=3&RTS=1669704189&from=40&popid=40&hms_devid=2112&prioritypopid=40&vqe=3
-#EXTINF:-1 tvg-id="6242" tvg-name="求索动物" group-title="数字IPv6",求索动物
+#EXTINF:-1 tvg-id="6242" tvg-name="求索动物" group-title="IPv6数字",求索动物
 http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000002000010046/index.m3u8?channel-id=wasusyt&Contentid=6000000002000010046&livemode=1&stbId=3
-#EXTINF:-1 tvg-id="6243" tvg-name="求索生活" group-title="数字IPv6",求索生活
+#EXTINF:-1 tvg-id="6243" tvg-name="求索生活" group-title="IPv6数字",求索生活
 http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000002000003382/index.m3u8?channel-id=wasusyt&Contentid=6000000002000003382&livemode=1&stbId=3
-#EXTINF:-1 tvg-id="6240" tvg-name="求索科学" group-title="数字IPv6",求索科学
+#EXTINF:-1 tvg-id="6240" tvg-name="求索科学" group-title="IPv6数字",求索科学
 http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000002000032344/index.m3u8?channel-id=wasusyt&Contentid=6000000002000032344&livemode=1&stbId=3 
-#EXTINF:-1 tvg-id="6244" tvg-name="求索纪录" group-title="数字IPv6",求索纪录
+#EXTINF:-1 tvg-id="6244" tvg-name="求索纪录" group-title="IPv6数字",求索纪录
 http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000002000032052/index.m3u8?channel-id=wasusyt&Contentid=6000000002000032052&livemode=1&stbId=3
-#EXTINF:-1 tvg-id="6245" tvg-name="CHC动作电影" group-title="数字IPv6",动作电影
+#EXTINF:-1 tvg-id="6245" tvg-name="CHC动作电影" group-title="IPv6数字",动作电影
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002055/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-#EXTINF:-1 tvg-id="6246" tvg-name="CHC家庭电影" group-title="数字IPv6",家庭影院
+#EXTINF:-1 tvg-id="6246" tvg-name="CHC家庭电影" group-title="IPv6数字",家庭影院
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002085/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-#EXTINF:-1 tvg-id="6241" tvg-name="CHC高清电影" group-title="数字IPv6",高清电影
+#EXTINF:-1 tvg-id="6241" tvg-name="CHC高清电影" group-title="IPv6数字",高清电影
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002065/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-#EXTINF:-1 tvg-id="华数高清" tvg-name="华数高清" group-title="数字IPv6",华数高清
+#EXTINF:-1 tvg-id="华数高清" tvg-name="华数高清" group-title="IPv6数字",华数高清
 http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000003000004748/index.m3u8?channel-id=wasusyt&Contentid=6000000003000004748&livemode=1&stbId=3
