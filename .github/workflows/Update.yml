@@ -343,8 +343,8 @@ jobs:
     
     - name: 删除临时文件
       run : |
-        rm *.tmp
-        rm *tmp*
+        rm -rf *.tmp
+        rm -rf *tmp*
         ls
     
     - name: 判断是否有变更
