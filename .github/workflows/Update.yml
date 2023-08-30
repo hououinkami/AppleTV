@@ -18,11 +18,6 @@ env:
   TZ: Asia/Shanghai
   TELEGRAM_NOTIFICATION: false
   TELEGRAM_NOTIFICATION_CONTENT: <b>📺 AppleTVライブチャンネルが更新しました！</b>
-  SOURCE1: https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u
-  SOURCE1_NAME: source1.tmp
-  SOURCE2: https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u
-  SOURCE2_NAME: source2.tmp
-  SOURCE_NAME: source.tmp
   GROUP_NAME_CCTV: 央视
   GROUP_NAME_SATT: 卫视
   GROUP_NAME_CCTVv6: IPv6央视
@@ -61,9 +56,28 @@ jobs:
     
     - name: 获取最新源
       run : |
-        wget $SOURCE1 -O $SOURCE1_NAME
-        wget $SOURCE2 -O $SOURCE2_NAME
-    
+        wget https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u -O source1.tmp
+        wget https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u -O source2.tmp
+        wget https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u -O source3.tmp
+
+    - name: 国内频道IPv4
+      run : |
+        # 生成APTV央视卫视V4
+        awk '
+        {
+          if($0~/\#EXTM3U/) {print $0};
+          if($0~/group-title=\"央视IPV4\"/ || $0~/group-title=\"卫视IPV4\"/ || $0~/group-title=\"4K频道\"/) {m=NR; n=NR+1};
+          if(m<=NR && NR<=n) {
+            gsub("央视IPV4","'"$GROUP_NAME_CCTV"'");
+            gsub("\"卫视IPV4","\"'"$GROUP_NAME_SATT"'");
+            gsub(/CCTV5.\"/,"CCTV5+体育赛事\"");
+            print $0;
+          };
+        }
+        ' source1.tmp>Source/China_v4.m3u
+        echo "********APTV临时文件********"
+        cat Source/China_v4.m3u
+
     - name: 国内频道IPv6
       run : |
         # 生成V6临时文件
@@ -81,7 +95,7 @@ jobs:
           if($0!~/group-title=\"('"$GROUP_NAME_CCTVv6"'|'"$GROUP_NAME_SATTv6"'|'"$GROUP_NAME_LOCAL"')\"/) {gsub(/group-title=\".*\"/, "group-title=\"'"$GROUP_NAME_DIG"'\"")};
           print $0;
         }
-        ' $SOURCE2_NAME>chinav6.tmp
+        ' source2.tmp>chinav6.tmp
         echo "********V6临时文件********"
         cat chinav6.tmp
 
@@ -123,7 +137,7 @@ jobs:
             print $0;
           };
         }
-        ' $SOURCE1_NAME>chinav6_2.tmp
+        ' source1.tmp>chinav6_2.tmp
         echo "********APTV临时文件********"
         cat chinav6_2.tmp
 
@@ -143,26 +157,16 @@ jobs:
 
         cat chinav6_1.tmp chinav6_2.tmp > Source/China_v6.m3u
 
-    - name: 国内频道IPv4
-      run : |
-        # 生成APTV央视卫视V4
-        awk '
-        {
-          if($0~/\#EXTM3U/) {print $0};
-          if($0~/group-title=\"央视IPV4\"/ || $0~/group-title=\"卫视IPV4\"/ || $0~/group-title=\"4K频道\"/) {m=NR; n=NR+1};
-          if(m<=NR && NR<=n) {
-            gsub("央视IPV4","'"$GROUP_NAME_CCTV"'");
-            gsub("\"卫视IPV4","\"'"$GROUP_NAME_SATT"'");
-            gsub(/CCTV5.\"/,"CCTV5+体育赛事\"");
-            print $0;
-          };
-        }
-        ' $SOURCE1_NAME>Source/China_v4.m3u
-        echo "********APTV临时文件********"
-        cat Source/China_v4.m3u
-
     - name: 重新排序国内频道并更换透明图标
       run : |
+        awk '
+        {
+          gsub("\"央视","\"'"$GROUP_NAME_CCTV"'");
+          gsub("\"卫视","\"'"$GROUP_NAME_SATT"'");
+          print $0;
+        }
+        ' ChannelList/China.list>Chinalist.tmp
+
         awk -F'"' '
         {
           info=$0;
@@ -204,7 +208,7 @@ jobs:
             close(cmd);
           };
         }
-        ' ChannelList/China.list>China_v4.m3u
+        ' Chinalist.tmp>China_v4.m3u
 
         awk '
         {
@@ -256,14 +260,32 @@ jobs:
         ' Chinalist.tmp>China_v6.tmp
 
         cat China_v6.tmp localv6.tmp Source/Otherv6.m3u > China_v6.m3u
+    - name: 其他频道
+      if: env.GET == 'true'
+      run : |
+        awk '
+        {
+          if($0~/\#EXTM3U/) {print $0};
+          if($0!~/(IPV6|咪咕)/ && $0 !~/^http/) {m=NR; n=NR+1};
+          if(m<=NR && NR<=n) {
+            gsub("央视IPV4","'"$GROUP_NAME_CCTV"'");
+            gsub("\"卫视IPV4","\"'"$GROUP_NAME_SATT"'");
+            gsub(/CCTV5.\"/,"CCTV5+体育赛事\"");
+            print $0;
+          };
+        }
+        ' source3.tmp>Source/Gather.m3u
+        echo "********Gather临时文件********"
+        cat Source/Gather.m3u
 
     - name: 日本频道
-      if: env.GET == 'true'
+      if: env.GET == 'false'
       run : |
         wget https://raw.githubusercontent.com/iptv-org/iptv/master/streams/jp.m3u -O japan.tmp
         awk '
         {
-          if($0~/\"online\"|\"timeout\"/) {m=NR; n=NR+1};
+          if($0~/\#EXTM3U/) {print $0};
+          if($0~/\#EXTINF/) {m=NR; n=NR+1};
           if(m<=NR && NR<=n) {
             gsub(/ \(.*p\)/,"");
             gsub(",TBS",",TBS TV");
@@ -294,6 +316,7 @@ jobs:
         ' ChannelList/Japan.list>Japan.m3u
 
     - name: 英文频道
+      if: env.GET == 'false'
       run : |
         awk '
         {
@@ -303,6 +326,7 @@ jobs:
         ' ChannelList/English.list>English.m3u
 
     - name: 科学记录频道
+      if: env.GET == 'false'
       run : |
         awk '
         {
@@ -315,7 +339,7 @@ jobs:
 
     - name: 生成AppleTV总列表
       run : |
-        cat China_v4.m3u China_v6.m3u Japan.m3u > IPTV.m3u
+        cat China_v4.m3u China_v6.m3u Japan.m3u Source/Gather.m3u> IPTV.m3u
     
     - name: 删除临时文件
       run : |
