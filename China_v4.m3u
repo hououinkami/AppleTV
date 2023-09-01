@@ -35,43 +35,51 @@ http://hms504nc1972679606.live.aikan.miguvideo.com/wh7f454c46tw1387986390_146862
 http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226921/index.m3u8?
 #EXTINF:-1 tvg-id="17" tvg-name="CCTV17" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV17.png" group-title="央视",CCTV-17 农业农村
 http://hms224nc1972679578.live.aikan.miguvideo.com/wh7f454c46tw1594433061_461954091/migu/kailu/20200324/cctv17hd/57/01.m3u8?msisdn=guest&Channel_ID=0119_04102000-99000_400300000040002&client_ip=112.45.97.120&timestamp=20230208133753&ContentId=265667526&timezone=UTC&mtv_session=2ab00b83c917e8ba1b1bb082711b8b77&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=4c04c5308e4761e3cc4b36134b05b864
-#EXTINF:-1 tvg-id="45" tvg-name="CGTN" tvg-logo="https://live.fanmingming.com/tv/cgtn.png" group-title="央视",CGTN
-http://jh.d7g.cn/tv/migu.php?id=cgtne
+#EXTINF:-1 tvg-id="61" tvg-name="深圳卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shenzhen.png" group-title="卫视",深圳卫视
+http://live.aptvapp.com/bestv.php?id=szwshd8m/8000000
 #EXTINF:-1 tvg-id="62" tvg-name="北京卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="卫视",北京卫视
-http://jh.d7g.cn/tv/migu.php?id=bjws
+http://live.aptvapp.com/bestv.php?id=bjwshd8m/8000000
 #EXTINF:-1 tvg-id="63" tvg-name="东方卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/dongfang.png" group-title="卫视",东方卫视
-http://jh.d7g.cn/tv/migu.php?id=dfws
+http://live.aptvapp.com/bestv.php?id=dfwshd8m/8000000
 #EXTINF:-1 tvg-id="64" tvg-name="广东卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/guangdong.png" group-title="卫视",广东卫视
-http://jh.d7g.cn/tv/migu.php?id=gdw
+http://live.aptvapp.com/bestv.php?id=gdwshd8m/8000000
 #EXTINF:-1 tvg-id="65" tvg-name="湖南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hunan.png" group-title="卫视",湖南卫视
-http://jh.d7g.cn/tv/migu.php?id=hunws
+http://live.aptvapp.com/bestv.php?id=hunanwshd8m/8000000
+#EXTINF:-1 tvg-id="66" tvg-name="浙江卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/zhejiang.png" group-title="卫视",浙江卫视
+http://live.aptvapp.com/bestv.php?id=zjwshd8m/8000000
 #EXTINF:-1 tvg-id="67" tvg-name="江苏卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangsu.png" group-title="卫视",江苏卫视
-http://jh.d7g.cn/tv/migu.php?id=jsws
+http://live.aptvapp.com/bestv.php?id=jswshd8m/8000000
+#EXTINF:-1 tvg-id="68" tvg-name="东南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/dongnan.png" group-title="卫视",东南卫视
+http://live.aptvapp.com/bestv.php?id=dnwshd8m/8000000
+#EXTINF:-1 tvg-id="69" tvg-name="安徽卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/anhui.png" group-title="卫视",安徽卫视
+http://live.aptvapp.com/bestv.php?id=ahwshd8m/8000000
 #EXTINF:-1 tvg-id="70" tvg-name="湖北卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hubei.png" group-title="卫视",湖北卫视
-http://jh.d7g.cn/tv/migu.php?id=hubws
+http://39.135.138.58:18890/PLTV/88888888/224/3221225740/index.m3u8
+#EXTINF:-1 tvg-id="71" tvg-name="天津卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/tianjin.png" group-title="卫视",天津卫视
+http://live.aptvapp.com/bestv.php?id=tjwshd8m/8000000
 #EXTINF:-1 tvg-id="72" tvg-name="山东卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shandong.png" group-title="卫视",山东卫视
-http://jh.d7g.cn/tv/migu.php?id=sdws
+http://live.aptvapp.com/bestv.php?id=sdws8m/8000000
 #EXTINF:-1 tvg-id="73" tvg-name="江西卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangxi.png" group-title="卫视",江西卫视
-http://jh.d7g.cn/tv/migu.php?id=jxws
+http://live.aptvapp.com/bestv.php?id=jxws8m/8000000
 #EXTINF:-1 tvg-id="74" tvg-name="辽宁卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/liaoning.png" group-title="卫视",辽宁卫视
-http://jh.d7g.cn/tv/migu.php?id=lnws
+http://live.aptvapp.com/bestv.php?id=lnwshd8m/8000000
+#EXTINF:-1 tvg-id="75" tvg-name="黑龙江卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/heilongjiang.png" group-title="卫视",黑龙江卫视
+http://live.aptvapp.com/bestv.php?id=hljwshd8m/8000000
 #EXTINF:-1 tvg-id="76" tvg-name="重庆卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/chongqing.png" group-title="卫视",重庆卫视
-http://jh.d7g.cn/tv/migu.php?id=cqws
+http://live.aptvapp.com/bestv.php?id=cqws8m/8000000
+#EXTINF:-1 tvg-id="77" tvg-name="广西卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/guangxi.png" group-title="卫视",广西卫视
+http://live.aptvapp.com/bestv.php?id=gxwshd8m/8000000
 #EXTINF:-1 tvg-id="78" tvg-name="四川卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/sichuan.png" group-title="卫视",四川卫视
-http://jh.d7g.cn/tv/migu.php?id=scws
+http://live.aptvapp.com/bestv.php?id=scwshd/8000000
+#EXTINF:-1 tvg-id="79" tvg-name="河南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/henan.png" group-title="卫视",河南卫视
+http://live.aptvapp.com/bestv.php?id=hnwshd8m/8000000
+#EXTINF:-1 tvg-id="80" tvg-name="河北卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hebei.png" group-title="卫视",河北卫视
+http://live.aptvapp.com/bestv.php?id=hbwshd8m/8000000
 #EXTINF:-1 tvg-id="81" tvg-name="吉林卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jilin.png" group-title="卫视",吉林卫视
-http://jh.d7g.cn/tv/migu.php?id=jlws
-#EXTINF:-1 tvg-id="84" tvg-name="陕西卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shanxi.png" group-title="卫视",陕西卫视
-http://jh.d7g.cn/tv/migu.php?id=sxws
-#EXTINF:-1 tvg-id="86" tvg-name="甘肃卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/gansu.png" group-title="卫视",甘肃卫视
-http://jh.d7g.cn/tv/migu.php?id=gsws
+http://live.aptvapp.com/bestv.php?id=jlwshd8m/8000000
+#EXTINF:-1 tvg-id="82" tvg-name="贵州卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/guizhou.png" group-title="卫视",贵州卫视
+http://live.aptvapp.com/bestv.php?id=gzwshd8m/8000000
+#EXTINF:-1 tvg-id="85" tvg-name="云南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/yunnan.png" group-title="卫视",云南卫视
+http://live.aptvapp.com/bestv.php?id=ynwshd8m/8000000
 #EXTINF:-1 tvg-id="87" tvg-name="海南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/lvyou.png" group-title="卫视", 海南卫视
-http://jh.d7g.cn/tv/migu.php?id=hinws
-#EXTINF:-1 tvg-id="90" tvg-name="西藏卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/xizang.png" group-title="卫视",西藏卫视
-http://jh.d7g.cn/tv/xztv.php?id=0
-#EXTINF:-1 tvg-id="91" tvg-name="青海卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/qinghai.png" group-title="卫视",青海卫视
-http://jh.d7g.cn/tv/migu.php?id=qhws
-#EXTINF:-1 tvg-id="92" tvg-name="新疆卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/xinjiang.png" group-title="卫视",新疆卫视
-http://jh.d7g.cn/tv/migu.php?id=xjws
-#EXTINF:-1 tvg-id="94" tvg-name="内蒙古卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/neimeng.png" group-title="卫视",内蒙古卫视
-http://jh.d7g.cn/tv/migu.php?id=nmws
+http://live.aptvapp.com/bestv.php?id=hainanwshd8m/8000000
