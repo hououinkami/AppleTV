@@ -302,10 +302,14 @@ jobs:
         awk '
         {
           if($0~/\#EXTM3U/) {print $0};
-          if($0~/group-title=\".*日本\"/) {m=NR; n=NR+1};
-          if(m<=NR && NR<=n) {
+          if($0~/group-title=\".*日本\"/) {
+            info=$0;
             gsub(/group-title=\".*日本\"/,"group-title=\"'"$GROUP_NAME_JP"'\"");
-            if($0!~/movie\.mcas\.jp/) {print $0};
+            getline churl;
+            if(churl!~/movie\.mcas\.jp/) {
+              print info;
+              print churl;
+            };
           };
         }
         ' gather.tmp>japan1.tmp
