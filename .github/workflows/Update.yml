@@ -302,9 +302,9 @@ jobs:
         awk '
         {
           if($0~/\#EXTM3U/) {print $0};
-          if($0~/\#EXTINF/) {m=NR; n=NR+1};
+          if($0~//) {m=NR; n=NR+1};
           if(m<=NR && NR<=n) {
-            gsub(/\",/,"\" group-title=\"'"$GROUP_NAME_JP"'\",");
+            gsub(/group-title=\".*日本\"/,"group-title=\"'"$GROUP_NAME_JP"'\"");
             print $0;
           };
         }
@@ -337,11 +337,11 @@ jobs:
         {
           info=$0;
           name=$4;
-          gsub(/group-title=\"日本.*\"/, "group-title=\"'"$GROUP_NAME_JP"'\"");
           if(info~/\#EXIT/) {exit};
           if($0~/\#EXTM3U/) {print $0};
-          if(info~/EXTINF/ && info!~/URLARU/) {
-            churl="null";
+          if(info~/EXTINF/) {
+            if(info!~/URLARU/) {churl="null"};
+            if(info~/URLARU/) {getline churl};
             close("Source/Japan.m3u");
             cmd="awk '\''/"name"/{getline;print}'\'' Source/Japan.m3u";
             cmd | getline churl;
@@ -351,6 +351,7 @@ jobs:
             };
             close(cmd);
           };
+          if
         }
         ' Japanlist.tmp>Japan.m3u
 
@@ -359,7 +360,7 @@ jobs:
       run : |
         awk '
         {
-          gsub("group-title=\"英文.*\"","group-title=\"'"$GROUP_NAME_EN"'\"");
+          gsub("group-title=\"英文\"","group-title=\"'"$GROUP_NAME_EN"'\"");
           print $0;
         }
         ' ChannelList/English.list>Englishlist.tmp
@@ -370,8 +371,9 @@ jobs:
           name=$4;
           if(info~/\#EXIT/) {exit};
           if($0~/\#EXTM3U/) {print $0};
-          if(info~/EXTINF/ && info!~/URLARU/) {
-            churl="null";
+          if(info~/EXTINF/) {
+            if(info!~/URLARU/) {churl="null"};
+            if(info~/URLARU/) {getline churl};
             close("gather.tmp");
             cmd="awk '\''/"name"/{getline;print}'\'' gather.tmp";
             cmd | getline churl;
