@@ -324,7 +324,7 @@ jobs:
         }
         ' japan.tmp>japan2.tmp
 
-        cat japan*.tmp Source/Japan.m3u
+        cat japan1.tmp japan2.tmp > Source/Japan.m3u
 
         awk '
         {
@@ -398,7 +398,7 @@ jobs:
 
     - name: 生成AppleTV总列表
       run : |
-        cat China_v4.m3u Japan.m3u English.m3u> IPTV.m3u
+        cat China_v4.m3u Japan.m3u English.m3u > IPTV.m3u
     
     - name: 删除临时文件
       run : |
