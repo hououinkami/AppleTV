@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" group-title="央视",CCTV-1 综合
 #EXTINF:-1 tvg-id="2" tvg-name="CCTV2" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV2.png" group-title="央视",CCTV-2 财经
 #EXTINF:-1 tvg-id="3" tvg-name="CCTV3" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV3.png" group-title="央视",CCTV-3 综艺
@@ -42,7 +42,7 @@
 #EXTINF:-1 tvg-id="43" tvg-name="CCTV4EUO" tvg-logo="https://live.fanmingming.com/tv/CCTV4EUO.png" group-title="央视",CCTV-4 中文国际欧洲
 #EXTINF:-1 tvg-id="44" tvg-name="CCTV4AME" tvg-logo="https://live.fanmingming.com/tv/CCTV4AME.png" group-title="央视",CCTV-4 中文国际美洲
 #EXTINF:-1 tvg-id="45" tvg-name="CGTN" tvg-logo="https://live.fanmingming.com/tv/cgtn.png" group-title="央视",CGTN
-#EXTINF:-1 tvg-id="46" tvg-name="CGTNDocumentary" tvg-logo="https://live.fanmingming.com/tv/CGTNDoc.png" group-title="央视",CGTN Documentary
+#EXTINF:-1 tvg-id="46" tvg-name="CGTNDOCUMENTARY" tvg-logo="https://live.fanmingming.com/tv/CGTNDoc.png" group-title="央视",CGTN Documentary
 #EXTINF:-1,tvg-id="47" tvg-name="CNC英文" tvg-logo="https://epg.112114.xyz/logo/CNC英文.png" group-title="央视",CNC World
 #EXTINF:-1,tvg-id="48" tvg-name="CNC中文" tvg-logo="https://epg.112114.xyz/logo/CNC中文.png" group-title="央视",CNC
 
