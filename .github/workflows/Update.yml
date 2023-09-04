@@ -302,10 +302,10 @@ jobs:
         awk '
         {
           if($0~/\#EXTM3U/) {print $0};
-          if($0~//) {m=NR; n=NR+1};
+          if($0~/group-title=\".*日本\"/) {m=NR; n=NR+1};
           if(m<=NR && NR<=n) {
             gsub(/group-title=\".*日本\"/,"group-title=\"'"$GROUP_NAME_JP"'\"");
-            print $0;
+            if($0!~/movie\.mcas\.jp/) {print $0};
           };
         }
         ' gather.tmp>japan1.tmp
@@ -340,12 +340,11 @@ jobs:
           if(info~/\#EXIT/) {exit};
           if($0~/\#EXTM3U/) {print $0};
           if(info~/EXTINF/) {
-            if(info!~/URLARU/) {churl="null"};
-            if(info~/URLARU/) {getline churl};
+            if(info!~/URLARU/) {churl="null"} else {getline churl};
             close("Source/Japan.m3u");
             cmd="awk '\''/"name"/{getline;print}'\'' Source/Japan.m3u";
             cmd | getline churl;
-            if(churl!="null" && churl!~/movie\.mcas\.jp/) {
+            if(churl!="null") {
               print info;
               print churl;
             };
