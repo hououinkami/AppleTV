@@ -86,24 +86,58 @@ https://stream01.willfonk.com/live_playlist.m3u8?cid=BS202&r=FHD&ccode=JP&m=d0:2
 #EXTM3U
 #EXTINF:-1 tvg-id="ABCTVNewsYouTube.jp" group-title="日本",ABC TV News [Not 24/7]
 https://ythls.onrender.com/channel/UCPW-5qfYGNR8XYrvESrqJKA.m3u8
+#EXTINF:-1 tvg-id="Animax.jp" group-title="日本",Animax
+https://code.vthanhtivi.pw/getlink/jptvvn/229/playlist.m3u8
 #EXTINF:-1 tvg-id="AsahiShimbunDigital.jp" group-title="日本",Asahi Shimbun Digital [Not 24/7]
 https://ythls.onrender.com/channel/UCMKvT0YVLufHMdGLH89J1oA.m3u8
+#EXTINF:-1 tvg-id="BSAsahi.jp" group-title="日本",BS Asahi
+https://code.vthanhtivi.pw/getlink/jptvvn/218/playlist.m3u8
+#EXTINF:-1 tvg-id="BSFuji.jp" group-title="日本",BS Fuji
+https://code.vthanhtivi.pw/getlink/jptvvn/221/playlist.m3u8
+#EXTINF:-1 tvg-id="BSNipponTV.jp" group-title="日本",BS Nippon TV
+https://code.vthanhtivi.pw/getlink/jptvvn/217/playlist.m3u8
 #EXTINF:-1 tvg-id="BSNYouTube.jp" group-title="日本",BSN [Not 24/7]
 https://ythls.onrender.com/channel/UCoAQNKxgfE32ai4mOXNXvug.m3u8
+#EXTINF:-1 tvg-id="BSTBS.jp" group-title="日本",BS TBS
+https://code.vthanhtivi.pw/getlink/jptvvn/219/playlist.m3u8
+#EXTINF:-1 tvg-id="BSTVTokyo.jp" group-title="日本",BS TV Tokyo
+https://code.vthanhtivi.pw/getlink/jptvvn/220/playlist.m3u8
+#EXTINF:-1 tvg-id="CartoonNetworkJapan.jp" group-title="日本",Cartoon Network Japan
+http://code.vthanhtivi.pw/getlink/jptvvn/55/playlist.m3u8
 #EXTINF:-1 tvg-id="CGNTVJapan.jp" group-title="日本",CGNTV Japan
 https://cgntvliveweb-944.acs.wecandeo.com/ms/2850/944/index.m3u8
 #EXTINF:-1 tvg-id="CGNTVJapan.jp" group-title="日本",CGNTV Japan
 http://cgntv-glive.ofsdelivery.net/live/cgntv_jp/playlist.m3u8
+#EXTINF:-1 tvg-id="ChannelNeco.jp" group-title="日本",Neco
+https://code.vthanhtivi.pw/getlink/jptvvn/56/playlist.m3u8
 #EXTINF:-1 tvg-id="ChukyoTVNews.jp" group-title="日本",Chukyo TV News [Not 24/7]
 https://ythls.onrender.com/channel/UCxiRdfyH0FtFCRZTRfRsdsA.m3u8
+#EXTINF:-1 tvg-id="DisneyChannelJapan.jp" group-title="日本",Disney Channel Japan
+https://code.vthanhtivi.pw/getlink/jptvvn/39/playlist.m3u8
+#EXTINF:-1 tvg-id="DisneyJuniorJapan.jp" group-title="日本",Disney Junior Japan
+https://code.vthanhtivi.pw/getlink/jptvvn/71/playlist.m3u8
+#EXTINF:-1 tvg-id="EiseiGekijo.jp" group-title="日本",Eisei Gekijo
+https://code.vthanhtivi.pw/getlink/jptvvn/57/playlist.m3u8
+#EXTINF:-1 tvg-id="FamilyGekijyo.jp" group-title="日本",Family Theater
+https://code.vthanhtivi.pw/getlink/jptvvn/60/playlist.m3u8
+#EXTINF:-1 tvg-id="FishingVision.jp" group-title="日本",Fishing Vision
+https://code.vthanhtivi.pw/getlink/jptvvn/40/playlist.m3u8
+#EXTINF:-1 tvg-id="FoxJapan.jp" group-title="日本",Fox Japan
+https://code.vthanhtivi.pw/getlink/jptvvn/63/playlist.m3u8
 #EXTINF:-1 tvg-id="GakiNoTsukai.jp" group-title="日本",Gaki no Tsukai
 https://hamada.gaki-no-tsukai.stream/hls/test.m3u8
+#EXTINF:-1 tvg-id="GaoraSports.jp" group-title="日本",Gaora
+https://code.vthanhtivi.pw/getlink/jptvvn/48/playlist.m3u8
+#EXTINF:-1 tvg-id="GreenChannel.jp" group-title="日本",Green Channel
+https://code.vthanhtivi.pw/getlink/jptvvn/41/playlist.m3u8
 #EXTINF:-1 tvg-id="GSTV.jp" group-title="日本",GSTV
 https://gstv-tnz-gsmediastreaming.preview-jpea.channel.media.azure.net/dfd06b62-e9d1-4a7f-bcbb-89d2ecbc82ee/preview.ism/manifest(format=mpd-time-csf,audio-only=false)
 #EXTINF:-1 tvg-id="HBCHokkaidoNews24.jp" group-title="日本",HBC Hokkaido News 24 [Not 24/7]
 https://ythls.onrender.com/channel/UCCTpf5c_9HDo_OSu3aX8uFQ.m3u8
 #EXTINF:-1 tvg-id="HokkaidoNewsUHB.jp" group-title="日本",Hokkaido News UHB [Not 24/7]
 https://ythls.onrender.com/channel/UCpQs_warGhUzJhBdwLfF34g.m3u8
+#EXTINF:-1 tvg-id="HomeDramaChannel.jp" group-title="日本",Home Drama Channel
+https://code.vthanhtivi.pw/getlink/jptvvn/59/playlist.m3u8
 #EXTINF:-1 tvg-id="HOMEHiroshimaNews.jp" group-title="日本",HOME Hiroshima News [Not 24/7]
 https://ythls.onrender.com/channel/UCRnFGOp_mjaCYEhMzsE2iHA.m3u8
 #EXTINF:-1 tvg-id="HTBHokkaidoNews24.jp" group-title="日本",HTB Hokkaido News 24 [Not 24/7]
@@ -112,26 +146,70 @@ https://ythls.onrender.com/channel/UCSWOnDD1KIriGmyQ7SgNA4A.m3u8
 https://ythls.onrender.com/channel/UCMbq0m2vILQTbc0VhOcVWaQ.m3u8
 #EXTINF:-1 tvg-id="JapaNews24.jp" group-title="日本",ANN JapaNews24 [Not 24/7]
 https://ythls.onrender.com/channel/UCGCZAYq5Xxojl_tSXcVJhiQ.m3u8
+#EXTINF:-1 tvg-id="JOABDTV.jp" group-title="日本",NHK E [Not 24/7]
+http://code.vthanhtivi.pw/getlink/jptvvn/214/playlist.m3u8
 #EXTINF:-1 tvg-id="JOAIDTV.jp" group-title="日本",Aomori TV [Not 24/7]
 https://ythls.onrender.com/channel/UCdNYphHZdRYjpys_gwofUNQ.m3u8
 #EXTINF:-1 tvg-id="JOAKDTV.jp" group-title="日本",NHK G [Not 24/7]
 https://nhk4.mov3.co/hls/nhk.m3u8
+#EXTINF:-1 tvg-id="JOAKDTV.jp" group-title="日本",NHK G [Not 24/7]
+http://code.vthanhtivi.pw/getlink/jptvvn/213/playlist.m3u8
 #EXTINF:-1 tvg-id="JOAXDTV.jp" group-title="日本",Nippon TV [Not 24/7]
 https://ntv4.mov3.co/hls/ntv.m3u8
+#EXTINF:-1 tvg-id="JOAXDTV.jp" group-title="日本",Nippon TV
+http://code.vthanhtivi.pw/getlink/jptvvn/202/playlist.m3u8
+#EXTINF:-1 tvg-id="JOAYDTV.jp" group-title="日本",ABC 6
+https://code.vthanhtivi.pw/getlink/jptvvn/209/playlist.m3u8
+#EXTINF:-1 tvg-id="JOBHDTV.jp" group-title="日本",TV Osaka
+https://code.vthanhtivi.pw/getlink/jptvvn/21/playlist.m3u8
+#EXTINF:-1 tvg-id="JOBKDTV.jp" group-title="日本",NHK G (Kansai) 720p
+http://code.vthanhtivi.pw/getlink/jptvvn/206/playlist.m3u8
 #EXTINF:-1 tvg-id="JOCXDTV.jp" group-title="日本",Fuji TV
 https://fujitv4.mov3.co/hls/fujitv.m3u8
+#EXTINF:-1 tvg-id="JOCXDTV.jp" group-title="日本",Fuji TV
+http://code.vthanhtivi.pw/getlink/jptvvn/204/playlist.m3u8
+#EXTINF:-1 tvg-id="JODXDTV" group-title="日本",Kansai TV
+https://code.vthanhtivi.pw/getlink/jptvvn/210/playlist.m3u8
+#EXTINF:-1 tvg-id="JOEXDTV.jp" group-title="日本",TV Asahi
+http://code.vthanhtivi.pw/getlink/jptvvn/205/playlist.m3u8
+#EXTINF:-1 tvg-id="JOIXDTV.jp" group-title="日本",YTV
+https://code.vthanhtivi.pw/getlink/jptvvn/211/playlist.m3u8
 #EXTINF:-1 tvg-id="JOMLDTV.jp" group-title="日本",Gunma TV
 https://movie.mcas.jp/switcher/smil:mcas8.smil/master.m3u8
+#EXTINF:-1 tvg-id="JOMXDTV.jp" group-title="日本",Tokyo MX
+http://code.vthanhtivi.pw/getlink/jptvvn/277/playlist.m3u8
 #EXTINF:-1 tvg-id="JORXDTV.jp" group-title="日本",TBS TV [Not 24/7]
 https://tbs3.mov3.co/hls/tbs.m3u8
+#EXTINF:-1 tvg-id="JORXDTV.jp" group-title="日本",TBS TV
+http://code.vthanhtivi.pw/getlink/jptvvn/203/playlist.m3u8
+#EXTINF:-1 tvg-id="JOTXDTV.jp" group-title="日本",TV Tokyo
+http://code.vthanhtivi.pw/getlink/jptvvn/276/playlist.m3u8
+#EXTINF:-1 tvg-id="JOUHDTV" group-title="日本",Sun TV
+https://code.vthanhtivi.pw/getlink/jptvvn/207/playlist.m3u8
+#EXTINF:-1 tvg-id="JSports1.jp" group-title="日本",Jsports 1
+https://code.vthanhtivi.pw/getlink/jptvvn/278/playlist.m3u8
+#EXTINF:-1 tvg-id="JSports2.jp" group-title="日本",Jsports 2
+https://code.vthanhtivi.pw/getlink/jptvvn/279/playlist.m3u8
+#EXTINF:-1 tvg-id="JSports3.jp" group-title="日本",Jsports 3
+https://code.vthanhtivi.pw/getlink/jptvvn/45/playlist.m3u8
+#EXTINF:-1 tvg-id="JSports4.jp" group-title="日本",Jsports 4
+https://code.vthanhtivi.pw/getlink/jptvvn/46/playlist.m3u8
 #EXTINF:-1 tvg-id="KBCNewsLive24.jp" group-title="日本",KBC News [Not 24/7]
 https://ythls.onrender.com/channel/UCS8ZQejq2CL-nZcnRWZCA5Q.m3u8
 #EXTINF:-1 tvg-id="MBSNews.jp" group-title="日本",MBS News [Not 24/7]
 https://ythls.onrender.com/channel/UCkKJhKO73xF1pK5h9R82ZGQ.m3u8
 #EXTINF:-1 tvg-id="MeteleNewsLive24.jp" group-title="日本",Mētele News Live 24 [Not 24/7]
 https://ythls.onrender.com/channel/UCWnOKASPkCBEL-_O8odMvtg.m3u8
+#EXTINF:-1 tvg-id="MoviePlus.jp" group-title="日本",Movie Plus
+https://code.vthanhtivi.pw/getlink/jptvvn/49/playlist.m3u8
+#EXTINF:-1 tvg-id="MTVJapan.jp" group-title="日本",MTV Japan
+https://code.vthanhtivi.pw/getlink/jptvvn/50/playlist.m3u8
 #EXTINF:-1 tvg-id="NewJapanProWrestlingWorld.jp" group-title="日本",New Japan Pro Wrestling World
 https://aka-amd-njpwworld-hls-enlive.akamaized.net/hls/video/njpw_en/njpw_en_channel01_3/playlist_DVR.m3u8
+#EXTINF:-1 tvg-id="NHKBS1.jp" group-title="日本",NHK BS1
+https://code.vthanhtivi.pw/getlink/jptvvn/215/playlist.m3u8
+#EXTINF:-1 tvg-id="NHKBSPremium.jp" group-title="日本",NHK BSP
+https://code.vthanhtivi.pw/getlink/jptvvn/216/playlist.m3u8
 #EXTINF:-1 tvg-id="NHKChinese.jp" group-title="日本",NHK Chinese Vision
 https://nhkw-zh-hlscomp.akamaized.net/8thz5iufork8wjip/playlist.m3u8
 #EXTINF:-1 tvg-id="NHKChinese.jp" group-title="日本",NHK Chinese Vision
@@ -156,8 +234,12 @@ https://cdn.nhkworld.jp/www11/nhkworld-tv/bmcc-live/es/playlist.m3u8
 https://cdn.skygo.mn/live/disk1/NHK_World_Premium/HLSv3-FTA/NHK_World_Premium.m3u8
 #EXTINF:-1 tvg-id="NHKWorldPremium.jp" group-title="日本",NHK World Premium [Not 24/7]
 https://cdn.nhkworld.jp/www11/nhkworld-tv/pre/hlscomp.m3u8
+#EXTINF:-1 tvg-id="NihonEigaSenmonChannel.jp" group-title="日本",Japanese Movie Channel
+https://code.vthanhtivi.pw/getlink/jptvvn/38/playlist.m3u8
 #EXTINF:-1 tvg-id="NiigataNewsNST.jp" group-title="日本",Niigata News NST [Not 24/7]
 https://ythls.onrender.com/channel/UC8iN-WKPu820ve-4t9NxHRw.m3u8
+#EXTINF:-1 tvg-id="NitteleGPlus.jp" group-title="日本",Nittele G+
+https://code.vthanhtivi.pw/getlink/jptvvn/158/playlist.m3u8
 #EXTINF:-1 tvg-id="NNHKKishouSaigai.jp" group-title="日本",NHK Kishou Saigai [Not 24/7]
 https://newssimul-stream.nhk.jp/hls/live/2010561/nhknewssimul/master.m3u8
 #EXTINF:-1 tvg-id="NTVNews24.jp" group-title="日本",NTV News24 [Not 24/7]
@@ -176,10 +258,20 @@ https://ythls.onrender.com/channel/UCgrmHAblzN-QzMMgl2oNRog.m3u8
 https://ythls.onrender.com/channel/UCvF5vIejmf-H_XSluaBldfg.m3u8
 #EXTINF:-1 tvg-id="ShopChannel.jp" group-title="日本",Shop Channel [Not 24/7]
 https://stream3.shopch.jp/HLS/master.m3u8
+#EXTINF:-1 tvg-id="SkyA.jp" group-title="日本",Sky A
+https://code.vthanhtivi.pw/getlink/jptvvn/47/playlist.m3u8
+#EXTINF:-1 tvg-id="Star1.jp" group-title="日本",Star 1
+https://code.vthanhtivi.pw/getlink/jptvvn/225/playlist.m3u8
+#EXTINF:-1 tvg-id="Star2.jp" group-title="日本",Star 2
+https://code.vthanhtivi.pw/getlink/jptvvn/227/playlist.m3u8
+#EXTINF:-1 tvg-id="Star3.jp" group-title="日本",Star 3
+https://code.vthanhtivi.pw/getlink/jptvvn/226/playlist.m3u8
 #EXTINF:-1 tvg-id="STVNewsHokkaido.jp" group-title="日本",STV News Hokkaido [Not 24/7]
 https://ythls.onrender.com/channel/UCOZv-6MiXqJdLpmYtR431Ow.m3u8
 #EXTINF:-1 tvg-id="TBSNews.jp" group-title="日本",TBS TV News [Not 24/7]
 https://ythls.onrender.com/channel/UC6AG81pAkf6Lbi_1VC5NmPA.m3u8
+#EXTINF:-1 tvg-id="ToeiChannel.jp" group-title="日本",Toei Channel
+https://code.vthanhtivi.pw/getlink/jptvvn/58/playlist.m3u8
 #EXTINF:-1 tvg-id="TokyoMX1.jp" group-title="日本",Tokyo MX1
 https://movie.mcas.jp/mcas/smil:mx1_prod.smil/master.m3u8
 #EXTINF:-1 tvg-id="TokyoMX1.jp" group-title="日本",Tokyo MX1
@@ -202,3 +294,11 @@ https://ythls.onrender.com/channel/UCNsidkYpIAQ4QaufptQBPHQ.m3u8
 https://movie.mcas.jp/mcas/wn1_2/master.m3u8
 #EXTINF:-1 tvg-id="Weathernews.jp" group-title="日本",Weathernews
 https://weather-live-hls01e.akamaized.net/ade36978-4ad3-48de-91ab-7d6edd0b6388/11ed8ed8ca.ism/manifest(format=m3u8-aapl-v3,audio-only=false).m3u8
+#EXTINF:-1 tvg-id="WOWOWCinema" group-title="日本",WOWOW Cinema
+https://code.vthanhtivi.pw/getlink/jptvvn/224/playlist.m3u8
+#EXTINF:-1 tvg-id="WOWOWLive.jp" group-title="日本",WOWOW Live
+https://code.vthanhtivi.pw/getlink/jptvvn/223/playlist.m3u8
+#EXTINF:-1 tvg-id="WOWOWPlus.jp" group-title="日本",WOWOW Plus
+https://code.vthanhtivi.pw/getlink/jptvvn/36/playlist.m3u8
+#EXTINF:-1 tvg-id="WOWOWPrime.jp" group-title="日本",WOWOW Prime
+https://code.vthanhtivi.pw/getlink/jptvvn/222/playlist.m3u8
