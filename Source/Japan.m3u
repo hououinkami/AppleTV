@@ -224,3 +224,37 @@ http://202.60.106.14:21585/1501/playlist.m3u8
 http://202.60.106.14:8080/1503/playlist.m3u8
 #EXTINF:-1 tvg-id="WOWOWLive.jp" group-title="日本",WOWOW Live
 http://202.60.106.14:21585/1503/playlist.m3u8
+#EXTINF:-1 tvg-id="NHKGeneralTV.jp" group-title="日本",NHK G
+http://203.162.235.41:12091/
+#EXTINF:-1 tvg-id="NHKWorldJapan.jp" group-title="日本",NHK World Japan
+http://203.162.235.41:13092/
+#EXTINF:-1 tvg-id="JOAKDTV.jp" group-title="日本",NHK G
+http://203.162.235.41:14093/
+#EXTINF:-1 tvg-id="JOCXDTV.jp" group-title="日本",Fuji TV
+http://203.162.235.41:15094/
+#EXTINF:-1 tvg-id="JOAXDTV.jp" group-title="日本",Nippon TV
+http://203.162.235.41:16095/
+#EXTINF:-1 tvg-id="JOEXDTV.jp" group-title="日本",TV Asahi
+http://203.162.235.41:17097/
+#EXTINF:-1 tvg-id="JORXDTV.jp" group-title="日本",TBS TV
+http://203.162.235.41:18097/
+#EXTINF:-1 tvg-id="JOTXDTV.jp" group-title="日本",TV Tokyo
+http://203.162.235.41:19098/
+#EXTINF:-1 tvg-id="NHKBS1.jp" group-title="日本",NHK BS1
+http://203.162.235.41:20099/
+#EXTINF:-1 tvg-id="BSFuji.jp" group-title="日本",BS Fuji TV
+http://203.162.235.41:22101/
+#EXTINF:-1 tvg-id="BSTVTokyo.jp" group-title="日本",BS TV Tokyo
+http://203.162.235.41:23102/
+#EXTINF:-1 tvg-id="BSNipponTV.jp" group-title="日本",BS Nippon TV
+http://203.162.235.41:24103/
+#EXTINF:-1 tvg-id="NHKBSPremium.jp" group-title="日本",NHK BSP
+http://203.162.235.41:25104/
+#EXTINF:-1 tvg-id="BSTBS.jp" group-title="日本",BS TBS
+http://203.162.235.41:26105/
+#EXTINF:-1 tvg-id="WOWOWPrime.jp" group-title="日本",WOWOW Prime
+http://203.162.235.41:27106/
+#EXTINF:-1 tvg-id="GolfNetwork.jp" group-title="日本",Golf Network
+http://203.162.235.41:28107/
+#EXTINF:-1 tvg-id="BSAsahi.jp" group-title="日本",BS Asahi
+http://203.162.235.41:29108/
