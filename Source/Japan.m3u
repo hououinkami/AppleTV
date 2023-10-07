@@ -92,6 +92,16 @@ https://ythls.onrender.com/channel/UCGCZAYq5Xxojl_tSXcVJhiQ.m3u8
 https://ythls.onrender.com/channel/UCdNYphHZdRYjpys_gwofUNQ.m3u8
 #EXTINF:-1 tvg-id="AsahiShimbunDigital.jp" group-title="日本",Asahi Shimbun Digital [Not 24/7]
 https://ythls.onrender.com/channel/UCMKvT0YVLufHMdGLH89J1oA.m3u8
+#EXTINF:-1 tvg-id="BSAsahi.jp" group-title="日本",BS Asahi
+http://203.162.235.41:29108
+#EXTINF:-1 tvg-id="BSFuji.jp" group-title="日本",BS Fuji TV
+http://203.162.235.41:22101
+#EXTINF:-1 tvg-id="BSNipponTV.jp" group-title="日本",BS Nippon TV
+http://203.162.235.41:24103
+#EXTINF:-1 tvg-id="BSTBS.jp" group-title="日本",BS TBS
+http://203.162.235.41:26105
+#EXTINF:-1 tvg-id="BSTVTokyo.jp" group-title="日本",BS TV Tokyo
+http://203.162.235.41:23102
 #EXTINF:-1 tvg-id="BSNYouTube.jp" group-title="日本",BSN [Not 24/7]
 https://ythls.onrender.com/channel/UCoAQNKxgfE32ai4mOXNXvug.m3u8
 #EXTINF:-1 tvg-id="CGNTVJapan.jp" group-title="日本",CGNTV Japan
@@ -110,8 +120,12 @@ http://202.60.106.14:8080/1338/playlist.m3u8
 http://202.60.106.14:21585/1338/playlist.m3u8
 #EXTINF:-1 tvg-id="JOCXDTV.jp" group-title="日本",Fuji TV
 https://fujitv4.mov3.co/hls/fujitv.m3u8
+#EXTINF:-1 tvg-id="JOCXDTV.jp" group-title="日本",Fuji TV
+http://203.162.235.41:15094
 #EXTINF:-1 tvg-id="" group-title="日本",Gaki no Tsukai
 https://hamada.gaki-no-tsukai.stream/hls/test.m3u8
+#EXTINF:-1 tvg-id="GolfNetwork.jp" group-title="日本",Golf Network
+http://203.162.235.41:28107
 #EXTINF:-1 tvg-id="GolfNetwork.jp" group-title="日本",Golf Network
 http://202.60.106.14:8080/1335/playlist.m3u8
 #EXTINF:-1 tvg-id="GSTV.jp" group-title="日本",GSTV
@@ -136,20 +150,30 @@ https://ythls.onrender.com/channel/UCkKJhKO73xF1pK5h9R82ZGQ.m3u8
 https://ythls.onrender.com/channel/UCWnOKASPkCBEL-_O8odMvtg.m3u8
 #EXTINF:-1 tvg-id="NewJapanProWrestlingWorld.jp" group-title="日本",New Japan Pro Wrestling World
 https://aka-amd-njpwworld-hls-enlive.akamaized.net/hls/video/njpw_en/njpw_en_channel01_3/playlist_DVR.m3u8
+#EXTINF:-1 tvg-id="NHKBS1.jp" group-title="日本",NHK BS1
+http://203.162.235.41:20099
+#EXTINF:-1 tvg-id="NHKBSPremium.jp" group-title="日本",NHK BSP
+http://203.162.235.41:25104
 #EXTINF:-1 tvg-id="NHKChinese.jp" group-title="日本",NHK Chinese Vision
 https://nhkw-zh-hlscomp.akamaized.net/8thz5iufork8wjip/playlist.m3u8
 #EXTINF:-1 tvg-id="NHKChinese.jp" group-title="日本",NHK Chinese Vision
 https://nhkw-zh-hlscomp.akamaized.net/ixxemlzk1vqvy44o/playlist.m3u8
 #EXTINF:-1 tvg-id="NHKEducationalTV.jp" group-title="日本",NHK Educational TV [Not 24/7]
 http://202.60.106.14:8080/1302/playlist.m3u8
+#EXTINF:-1 tvg-id="NHKGeneralTV.jp" group-title="日本",NHK G
+http://203.162.235.41:12091
 #EXTINF:-1 tvg-id="JOAKDTV.jp" group-title="日本",NHK G [Not 24/7]
 https://nhk4.mov3.co/hls/nhk.m3u8
+#EXTINF:-1 tvg-id="JOAKDTV.jp" group-title="日本",NHK G
+http://203.162.235.41:14093
 #EXTINF:-1 tvg-id="" group-title="日本",NHK Kishou Saigai [Not 24/7]
 https://newssimul-stream.nhk.jp/hls/live/2010561/nhknewssimul/master.m3u8
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp" group-title="日本",NHK World Japan
 https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp" group-title="日本",NHK World Japan [Not 24/7]
 https://ythls.onrender.com/channel/UCSPEjw8F2nQDtmUKPFNF7_A.m3u8
+#EXTINF:-1 tvg-id="NHKWorldJapan.jp" group-title="日本",NHK World Japan
+http://203.162.235.41:13092
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp" group-title="日本",NHK World Japan
 https://nhkwlive-xjp.akamaized.net/hls/live/2003458/nhkwlive-xjp-en/index.m3u8
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp" group-title="日本",NHK World Japan
@@ -166,6 +190,8 @@ https://cdn.nhkworld.jp/www11/nhkworld-tv/pre/hlscomp.m3u8
 https://cdn.skygo.mn/live/disk1/NHK_World_Premium/HLSv3-FTA/NHK_World_Premium.m3u8
 #EXTINF:-1 tvg-id="NiigataNewsNST.jp" group-title="日本",Niigata News NST [Not 24/7]
 https://ythls.onrender.com/channel/UC8iN-WKPu820ve-4t9NxHRw.m3u8
+#EXTINF:-1 tvg-id="JOAXDTV.jp" group-title="日本",Nippon TV
+http://203.162.235.41:16095
 #EXTINF:-1 tvg-id="JOAXDTV.jp" group-title="日本",Nippon TV [Not 24/7]
 https://ntv4.mov3.co/hls/ntv.m3u8
 #EXTINF:-1 tvg-id="NTVNews24.jp" group-title="日本",NTV News24 [Not 24/7]
@@ -186,6 +212,8 @@ https://ythls.onrender.com/channel/UCvF5vIejmf-H_XSluaBldfg.m3u8
 https://stream3.shopch.jp/HLS/master.m3u8
 #EXTINF:-1 tvg-id="STVNewsHokkaido.jp" group-title="日本",STV News Hokkaido [Not 24/7]
 https://ythls.onrender.com/channel/UCOZv-6MiXqJdLpmYtR431Ow.m3u8
+#EXTINF:-1 tvg-id="JORXDTV.jp" group-title="日本",TBS TV
+http://203.162.235.41:18097
 #EXTINF:-1 tvg-id="JORXDTV.jp" group-title="日本",TBS TV [Not 24/7]
 https://tbs3.mov3.co/hls/tbs.m3u8
 #EXTINF:-1 tvg-id="TBSNews.jp" group-title="日本",TBS TV News [Not 24/7]
@@ -204,6 +232,10 @@ https://movie.mcas.jp/mcas/mx2_2/master.m3u8
 https://movie.mcas.jp/mcas/smil:mx2_prod.smil/master.m3u8
 #EXTINF:-1 tvg-id="TulipTVYouTube.jp" group-title="日本",Tulip TV [Not 24/7]
 https://ythls.onrender.com/channel/UCk4bgav5X0rlbGefFnPcuoQ.m3u8
+#EXTINF:-1 tvg-id="JOEXDTV.jp" group-title="日本",TV Asahi
+http://203.162.235.41:17097
+#EXTINF:-1 tvg-id="JOTXDTV.jp" group-title="日本",TV Tokyo
+http://203.162.235.41:19098
 #EXTINF:-1 tvg-id="" group-title="日本",TV-U Yamagata [Not 24/7]
 https://ythls.onrender.com/channel/UCTWatTAOnFVB0vwIetZCTHw.m3u8
 #EXTINF:-1 tvg-id="Weathernews.jp" group-title="日本",Weathernews
@@ -216,45 +248,13 @@ https://weather-live-hls01e.akamaized.net/ade36978-4ad3-48de-91ab-7d6edd0b6388/1
 http://202.60.106.14:8080/1502/playlist.m3u8
 #EXTINF:-1 tvg-id="WOWOWCinema.jp" group-title="日本",WOWOW Cinema
 http://202.60.106.14:21585/1502/playlist.m3u8
-#EXTINF:-1 tvg-id="WOWOWPrime.jp" group-title="日本",WOWOW Prime
-http://202.60.106.14:8080/1501/playlist.m3u8
-#EXTINF:-1 tvg-id="WOWOWPrime.jp" group-title="日本",WOWOW Prime
-http://202.60.106.14:21585/1501/playlist.m3u8
 #EXTINF:-1 tvg-id="WOWOWLive.jp" group-title="日本",WOWOW Live
 http://202.60.106.14:8080/1503/playlist.m3u8
 #EXTINF:-1 tvg-id="WOWOWLive.jp" group-title="日本",WOWOW Live
 http://202.60.106.14:21585/1503/playlist.m3u8
-#EXTINF:-1 tvg-id="NHKGeneralTV.jp" group-title="日本",NHK G
-http://203.162.235.41:12091/
-#EXTINF:-1 tvg-id="NHKWorldJapan.jp" group-title="日本",NHK World Japan
-http://203.162.235.41:13092/
-#EXTINF:-1 tvg-id="JOAKDTV.jp" group-title="日本",NHK G
-http://203.162.235.41:14093/
-#EXTINF:-1 tvg-id="JOCXDTV.jp" group-title="日本",Fuji TV
-http://203.162.235.41:15094/
-#EXTINF:-1 tvg-id="JOAXDTV.jp" group-title="日本",Nippon TV
-http://203.162.235.41:16095/
-#EXTINF:-1 tvg-id="JOEXDTV.jp" group-title="日本",TV Asahi
-http://203.162.235.41:17097/
-#EXTINF:-1 tvg-id="JORXDTV.jp" group-title="日本",TBS TV
-http://203.162.235.41:18097/
-#EXTINF:-1 tvg-id="JOTXDTV.jp" group-title="日本",TV Tokyo
-http://203.162.235.41:19098/
-#EXTINF:-1 tvg-id="NHKBS1.jp" group-title="日本",NHK BS1
-http://203.162.235.41:20099/
-#EXTINF:-1 tvg-id="BSFuji.jp" group-title="日本",BS Fuji TV
-http://203.162.235.41:22101/
-#EXTINF:-1 tvg-id="BSTVTokyo.jp" group-title="日本",BS TV Tokyo
-http://203.162.235.41:23102/
-#EXTINF:-1 tvg-id="BSNipponTV.jp" group-title="日本",BS Nippon TV
-http://203.162.235.41:24103/
-#EXTINF:-1 tvg-id="NHKBSPremium.jp" group-title="日本",NHK BSP
-http://203.162.235.41:25104/
-#EXTINF:-1 tvg-id="BSTBS.jp" group-title="日本",BS TBS
-http://203.162.235.41:26105/
 #EXTINF:-1 tvg-id="WOWOWPrime.jp" group-title="日本",WOWOW Prime
-http://203.162.235.41:27106/
-#EXTINF:-1 tvg-id="GolfNetwork.jp" group-title="日本",Golf Network
-http://203.162.235.41:28107/
-#EXTINF:-1 tvg-id="BSAsahi.jp" group-title="日本",BS Asahi
-http://203.162.235.41:29108/
+http://203.162.235.41:27106
+#EXTINF:-1 tvg-id="WOWOWPrime.jp" group-title="日本",WOWOW Prime
+http://202.60.106.14:8080/1501/playlist.m3u8
+#EXTINF:-1 tvg-id="WOWOWPrime.jp" group-title="日本",WOWOW Prime
+http://202.60.106.14:21585/1501/playlist.m3u8
