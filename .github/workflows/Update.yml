@@ -303,12 +303,11 @@ jobs:
         {
           if($0~/\#EXTM3U/) {print $0};
           if($0~/group-title=\".*日本\"/) {
-            info=$0;
             gsub(/group-title=\".*日本\"/,"group-title=\"'"$GROUP_NAME_JP"'\"");
-            gsub("J SPORTS","J Sports");
+            gsub(/J SPORTS/,"J Sports");
             getline churl;
             if(churl!~/movie\.mcas\.jp/) {
-              print info;
+              print $0;
               print churl;
             };
           };
