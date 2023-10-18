@@ -83,7 +83,7 @@ jobs:
         awk '
         {
           if($0~/\#EXTM3U/) {print $0};
-          if($0~/group-title=\"央视IPV4\"/ || $0~/group-title=\"卫视IPV4\"/ || $0~/group-title=\"4K频道\"/) {m=NR; n=NR+1};
+          if($0~/group-title=\"央视IPV4\"/ || $0~/group-title=\"卫视IPV4\"/) {m=NR; n=NR+1};
           if(m<=NR && NR<=n) {
             gsub("央视IPV4","'"$GROUP_NAME_CCTV"'");
             gsub("\"卫视IPV4","\"'"$GROUP_NAME_SATT"'");
@@ -195,8 +195,8 @@ jobs:
           if($0~/\#EXTM3U/) {print $0};
           if(info~/综合/) {
             name="CCTV1\"";
-            close("Source/fanmingming_v4.m3u");
-            cmd="awk '\''/"name"/{getline;print}'\'' Source/fanmingming_v4.m3u";
+            close("Source/APTV_v4.m3u");
+            cmd="awk '\''/"name"/{getline;print}'\'' Source/APTV_v4.m3u";
             cmd | getline churl;
             print info;
             print churl;
@@ -205,8 +205,8 @@ jobs:
           };
           if(info~/体育赛事/) {
             name="体育赛事";
-            close("Source/fanmingming_v4.m3u");
-            cmd="awk '\''/"name"/{getline;print}'\'' Source/fanmingming_v4.m3u";
+            close("Source/APTV_v4.m3u");
+            cmd="awk '\''/"name"/{getline;print}'\'' Source/APTV_v4.m3u";
             cmd | getline churl;
             print info;
             print churl;
@@ -215,8 +215,8 @@ jobs:
           };
           if(info~/EXTINF/ && info!~/HaveURL/) {
             churl="null";
-            close("Source/fanmingming_v4.m3u");
-            cmd="awk '\''/"name"/{getline;print}'\'' Source/fanmingming_v4.m3u";
+            close("Source/APTV_v4.m3u");
+            cmd="awk '\''/"name"/{getline;print}'\'' Source/APTV_v4.m3u";
             cmd | getline churl;
             if(churl!="null") {
               print info;
