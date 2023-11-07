@@ -174,9 +174,9 @@ https://cdn.skygo.mn/live/disk1/NHK_World_Premium/HLSv3-FTA/NHK_World_Premium.m3
 http://203.162.235.41:16095
 #EXTINF:-1 tvg-id="JOAXDTV.jp" group-title="日本",Nippon TV [Not 24/7]
 https://ntv4.mov3.co/hls/ntv.m3u8
-#EXTINF:-1 tvg-id="NTVNews24.jp" group-title="日本",NTV News24
+#EXTINF:-1 tvg-id="" group-title="日本",NTV News24
 https://n24-cdn-live.ntv.co.jp/ch01/index.m3u8
-#EXTINF:-1 tvg-id="NTVNews24.jp" group-title="日本",NTV News24
+#EXTINF:-1 tvg-id="" group-title="日本",NTV News24
 https://n24-cdn-live.ntv.co.jp/ch02/index.m3u8
 #EXTINF:-1 tvg-id="PokemonKidsTVJapanese.jp" group-title="日本",Pokémon Kids TV Japanese [Not 24/7]
 https://ythlsgo.onrender.com/channel/UCH0JJtRn2syic5xxavMKQ4Q.m3u8
