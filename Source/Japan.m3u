@@ -84,10 +84,6 @@ https://stream01.willfonk.com/live_playlist.m3u8?cid=BS201&r=FHD&ccode=JP&m=d0:2
 #EXTINF:-1 group-title="日本",スターチャンネル3
 https://stream01.willfonk.com/live_playlist.m3u8?cid=BS202&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
 #EXTM3U
-#EXTINF:-1 tvg-id="JapaNews24.jp" group-title="日本",ANN JapaNews24 [Not 24/7]
-https://ythlsgo.onrender.com/channel/UCGCZAYq5Xxojl_tSXcVJhiQ.m3u8
-#EXTINF:-1 tvg-id="AsahiShimbunDigital.jp" group-title="日本",Asahi Shimbun Digital [Not 24/7]
-https://ythlsgo.onrender.com/channel/UCMKvT0YVLufHMdGLH89J1oA.m3u8
 #EXTINF:-1 tvg-id="BSAsahi.jp" group-title="日本",BS Asahi
 http://203.162.235.41:29108
 #EXTINF:-1 tvg-id="BSFuji.jp" group-title="日本",BS Fuji TV
@@ -124,14 +120,6 @@ http://202.60.106.14:8080/1335/playlist.m3u8
 https://gstv-tnz-gsmediastreaming.preview-jpea.channel.media.azure.net/dfd06b62-e9d1-4a7f-bcbb-89d2ecbc82ee/preview.ism/manifest(format=mpd-time-csf,audio-only=false)
 #EXTINF:-1 tvg-id="JOMLDTV.jp" group-title="日本",Gunma TV
 https://movie.mcas.jp/switcher/smil:mcas8.smil/master.m3u8
-#EXTINF:-1 tvg-id="HokkaidoNewsUHB.jp" group-title="日本",Hokkaido News UHB [Not 24/7]
-https://ythlsgo.onrender.com/channel/UCpQs_warGhUzJhBdwLfF34g.m3u8
-#EXTINF:-1 tvg-id="HTBHokkaidoNews24.jp" group-title="日本",HTB Hokkaido News 24 [Not 24/7]
-https://ythlsgo.onrender.com/channel/UCSWOnDD1KIriGmyQ7SgNA4A.m3u8
-#EXTINF:-1 tvg-id="KBCNewsLive24.jp" group-title="日本",KBC News [Not 24/7]
-https://ythlsgo.onrender.com/channel/UCS8ZQejq2CL-nZcnRWZCA5Q.m3u8
-#EXTINF:-1 tvg-id="MeteleNewsLive24.jp" group-title="日本",Mētele News Live 24 [Not 24/7]
-https://ythlsgo.onrender.com/channel/UCWnOKASPkCBEL-_O8odMvtg.m3u8
 #EXTINF:-1 tvg-id="NewJapanProWrestlingWorld.jp" group-title="日本",New Japan Pro Wrestling World
 https://aka-amd-njpwworld-hls-enlive.akamaized.net/hls/video/njpw_en/njpw_en_channel01_3/playlist_DVR.m3u8
 #EXTINF:-1 tvg-id="NHKBS1.jp" group-title="日本",NHK BS1
@@ -178,10 +166,6 @@ https://ntv4.mov3.co/hls/ntv.m3u8
 https://n24-cdn-live.ntv.co.jp/ch01/index.m3u8
 #EXTINF:-1 tvg-id="" group-title="日本",NTV News24
 https://n24-cdn-live.ntv.co.jp/ch02/index.m3u8
-#EXTINF:-1 tvg-id="PokemonKidsTVJapanese.jp" group-title="日本",Pokémon Kids TV Japanese [Not 24/7]
-https://ythlsgo.onrender.com/channel/UCH0JJtRn2syic5xxavMKQ4Q.m3u8
-#EXTINF:-1 tvg-id="SATVNews24H.jp" group-title="日本",SATV News 24H [Not 24/7]
-https://ythlsgo.onrender.com/channel/UCvF5vIejmf-H_XSluaBldfg.m3u8
 #EXTINF:-1 tvg-id="ShopChannel.jp" group-title="日本",Shop Channel [Not 24/7]
 https://stream3.shopch.jp/HLS/master.m3u8
 #EXTINF:-1 tvg-id="JORXDTV.jp" group-title="日本",TBS TV
@@ -204,8 +188,6 @@ https://movie.mcas.jp/mcas/smil:mx2_prod.smil/master.m3u8
 http://203.162.235.41:17097
 #EXTINF:-1 tvg-id="JOTXDTV.jp" group-title="日本",TV Tokyo
 http://203.162.235.41:19098
-#EXTINF:-1 tvg-id="Weathernews.jp" group-title="日本",Weathernews
-https://ythlsgo.onrender.com/channel/UCNsidkYpIAQ4QaufptQBPHQ.m3u8
 #EXTINF:-1 tvg-id="Weathernews.jp" group-title="日本",Weathernews
 https://movie.mcas.jp/mcas/wn1_2/master.m3u8
 #EXTINF:-1 tvg-id="Weathernews.jp" group-title="日本",Weathernews
