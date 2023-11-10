@@ -45,8 +45,6 @@ http://cntv.lat/tv/live.php?auth=231110&id=chcdzdyHD
 http://cntv.lat/tv/live.php?auth=231110&id=chcjtyyHD
 #EXTINF:-1 tvg-id="CHC高清电影" tvg-name="CHC高清电影" tvg-logo="https://live.fanmingming.com/tv/CHC高清电影.png" group-title="央视",CHC高清电影
 http://cntv.lat/tv/live.php?auth=231110&id=chcgqdyHD
-#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://live.fanmingming.com/tv/江苏卫视.png" group-title="卫视",江苏卫视
-http://cntv.lat/tv/live.php?auth=231110&id=jiangsuHD
 #EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://live.fanmingming.com/tv/北京卫视.png" group-title="卫视",北京卫视
 http://cntv.lat/tv/live.php?auth=231110&id=beijingHD
 #EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://live.fanmingming.com/tv/浙江卫视.png" group-title="卫视",浙江卫视
@@ -65,6 +63,8 @@ http://cntv.lat/tv/live.php?auth=231110&id=guizhouHD
 http://cntv.lat/tv/live.php?auth=231110&id=sichuanHD
 #EXTINF:-1 tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://live.fanmingming.com/tv/重庆卫视.png" group-title="卫视",重庆卫视
 http://cntv.lat/tv/live.php?auth=231110&id=chongqingHD
+#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://live.fanmingming.com/tv/江苏卫视.png" group-title="卫视",江苏卫视
+http://cntv.lat/tv/live.php?auth=231110&id=jiangsuHD
 #EXTINF:-1 tvg-id="云南卫视" tvg-name="云南卫视" tvg-logo="https://live.fanmingming.com/tv/云南卫视.png" group-title="卫视",云南卫视
 http://cntv.lat/tv/live.php?auth=231110&id=yunnanSD
 #EXTINF:-1 tvg-id="东南卫视" tvg-name="东南卫视" tvg-logo="https://live.fanmingming.com/tv/东南卫视.png" group-title="卫视",东南卫视
@@ -121,5 +121,23 @@ http://cntv.lat/tv/live.php?auth=231110&id=sdjiaoyuSD
 http://cntv.lat/tv/live.php?auth=231110&id=cetv-1SD
 #EXTINF:-1 tvg-id="中国教育4台" tvg-name="中国教育4台" tvg-logo="https://live.fanmingming.com/tv/CETV4.png" group-title="卫视",CETV-4
 http://cntv.lat/tv/live.php?auth=231110&id=cetv-4SD
+#EXTINF:-1 tvg-id="风云剧场" tvg-name="风云剧场" tvg-logo="https://live.fanmingming.com/tv/风云剧场.png" group-title="央视",风云剧场
+http://cntv.lat/tv/live.php?auth=231110&id=fyjcHD
+#EXTINF:-1 tvg-id="第一剧场" tvg-name="第一剧场" tvg-logo="https://live.fanmingming.com/tv/第一剧场.png" group-title="央视",第一剧场
+http://cntv.lat/tv/live.php?auth=231110&id=diyijuchangHD
 #EXTINF:-1 tvg-id="女性时尚" tvg-name="女性时尚" tvg-logo="https://live.fanmingming.com/tv/女性时尚.png" group-title="央视",女性时尚
 http://cntv.lat/tv/live.php?auth=231110&id=nvxing
+#EXTINF:-1 tvg-id="怀旧剧场" tvg-name="怀旧剧场" tvg-logo="https://live.fanmingming.com/tv/怀旧剧场.png" group-title="央视",怀旧剧场
+http://cntv.lat/tv/live.php?auth=231110&id=hjjcHD
+#EXTINF:-1 tvg-id="风云音乐" tvg-name="风云音乐" tvg-logo="https://live.fanmingming.com/tv/风云音乐.png" group-title="央视",风云音乐
+http://cntv.lat/tv/live.php?auth=231110&id=fyyyHD
+#EXTINF:-1 tvg-id="央视台球" tvg-name="央视台球" tvg-logo="https://live.fanmingming.com/tv/央视台球.png" group-title="央视",央视台球
+http://cntv.lat/tv/live.php?auth=231110&id=ystqHD
+#EXTINF:-1 tvg-id="风云足球" tvg-name="风云足球" tvg-logo="https://live.fanmingming.com/tv/风云足球.png" group-title="央视",风云足球
+http://cntv.lat/tv/live.php?auth=231110&id=fyzqHD
+#EXTINF:-1 tvg-id="文化精品" tvg-name="文化精品" tvg-logo="https://live.fanmingming.com/tv/文化精品.png" group-title="央视",央视文化精品
+http://cntv.lat/tv/live.php?auth=231110&id=yswhHD
+#EXTINF:-1 tvg-id="高尔夫网球" tvg-name="高尔夫网球" tvg-logo="https://live.fanmingming.com/tv/高尔夫网球.png" group-title="央视",高尔夫网球
+http://cntv.lat/tv/live.php?auth=231110&id=golfHD
+#EXTINF:-1 tvg-id="兵器科技" tvg-name="兵器科技" tvg-logo="https://live.fanmingming.com/tv/兵器科技.png" group-title="央视",兵器科技
+http://cntv.lat/tv/live.php?auth=231110&id=bqkjHD
