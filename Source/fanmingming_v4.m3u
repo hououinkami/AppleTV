@@ -28,7 +28,7 @@ https://cntv.lat/tv/cctv.php?auth=231110&id=cctv12HD
 #EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV13" tvg-logo="https://live.fanmingming.com/tv/CCTV13.png" group-title="央视",CCTV-13 新闻
 https://cntv.lat/tv/cctv.php?auth=231110&id=CCTVNewsHD
 #EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" tvg-logo="https://live.fanmingming.com/tv/CCTV14.png" group-title="央视",CCTV-14 少儿
-https://cntv.lat/tv/live.php?auth=231110&id=cctvseHD
+https://cntv.lat/tv/cctv.php?auth=231110&id=cctvseHD
 #EXTINF:-1 tvg-id="CCTV15" tvg-name="CCTV15" tvg-logo="https://live.fanmingming.com/tv/CCTV15.png" group-title="央视",CCTV-15 音乐
 https://cntv.lat/tv/cctv.php?auth=231110&id=cctv15HD
 #EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://live.fanmingming.com/tv/CCTV16.png" group-title="央视",CCTV-16 奥林匹克
