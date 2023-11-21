@@ -206,3 +206,9 @@ http://203.162.235.41:27106
 http://202.60.106.14:8080/1501/playlist.m3u8
 #EXTINF:-1 tvg-id="WOWOWPrime.jp" group-title="日本",WOWOW Prime
 http://202.60.106.14:21585/1501/playlist.m3u8
+#EXTINF:-1 tvg-id="TOSNews.jp" group-title="日本",TOS News [Not 24/7]
+https://ythls.armelin.one/channel/UChx_y6aLWNkifSDUt2TVAzg.m3u8
+#EXTINF:-1 tvg-id="TVShizuoka.jp" group-title="日本",TV Shizuoka [Not 24/7]
+https://ythls.armelin.one/channel/UCFIlFvYMWkPE6uDcjdro1UA.m3u8
+#EXTINF:-1 tvg-id="IwateMenkoiTelevision.jp" group-title="日本",Iwate Menkoi Television [Not 24/7]
+https://ythls.armelin.one/channel/UCw14eNQAUDqCg-fX3Uvd07w.m3u8
