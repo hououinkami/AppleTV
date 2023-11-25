@@ -56,26 +56,9 @@ jobs:
     
     - name: 获取最新源
       run : |
-        wget https://live.fanmingming.com/tv/m3u/global.m3u -O fanmingming.tmp
         wget https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u -O aptv.tmp
         wget https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u -O yuechan.tmp
         wget https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u -O gather.tmp
-
-    - name: 国内频道
-      run : |
-        # 生成fanmingming央视卫视
-        awk '
-        {
-          if($0~/\#EXTM3U/) {print $0};
-          if($0~/group-title=\"央视\"/ || $0~/group-title=\"卫视\"/) {m=NR; n=NR+1};
-          if(m<=NR && NR<=n) {
-            gsub("央视","'"$GROUP_NAME_CCTV"'");
-            gsub("\"卫视","\"'"$GROUP_NAME_SATT"'");
-            gsub(/CCTV5.\"/,"CCTV5+体育赛事\"");
-            print $0;
-          };
-        }
-        ' fanmingming.tmp>Source/fanmingming_v4.m3u
 
     - name: APTV国内频道IPv4
       run : |
