@@ -122,9 +122,9 @@ https://gstv-tnz-gsmediastreaming.preview-jpea.channel.media.azure.net/dfd06b62-
 https://movie.mcas.jp/switcher/smil:mcas8.smil/master.m3u8
 #EXTINF:-1 tvg-id="NewJapanProWrestlingWorld.jp" group-title="日本",New Japan Pro Wrestling World
 https://aka-amd-njpwworld-hls-enlive.akamaized.net/hls/video/njpw_en/njpw_en_channel01_3/playlist_DVR.m3u8
-#EXTINF:-1 tvg-id="NHKBS1.jp" group-title="日本",NHK BS1
+#EXTINF:-1 tvg-id="NHKBS.jp" group-title="日本",NHK BS
 http://203.162.235.41:20099
-#EXTINF:-1 tvg-id="NHKBSPremium.jp" group-title="日本",NHK BSP
+#EXTINF:-1 tvg-id="BS11.jp" group-title="日本",BS11
 http://203.162.235.41:25104
 #EXTINF:-1 tvg-id="NHKChinese.jp" group-title="日本",NHK Chinese Vision
 https://nhkw-zh-hlscomp.akamaized.net/8thz5iufork8wjip/playlist.m3u8
