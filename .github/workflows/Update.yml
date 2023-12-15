@@ -47,8 +47,8 @@ jobs:
     
     - name: Set git identity
       run : |
-        git config --global user.email "hououinkami@gmail.com"
-        git config --global user.name "hououinkami"
+        git config --global user.email "easay.liu@gmail.com"
+        git config --global user.name "easayliu"
     
     - name: 获取当前日期
       id: date
@@ -425,12 +425,12 @@ jobs:
         retain_days: 1
         keep_minimum_runs: 3
 
-    - name: Telegram推送
-      if: env.TELEGRAM_NOTIFICATION == 'true' && !cancelled()  
-      run: |
-        if [[ "${{steps.status.outputs.STATUS}}" == "change" ]]
-        then
-          curl -s "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" -d "chat_id=${{ secrets.TELEGRAM_CHAT_ID }}&text=${{ env.TELEGRAM_NOTIFICATION_CONTENT }}&parse_mode=HTML"
-          # curl -d "text=📺 AppleTVライブチャンネル更新しました！" -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendmessage?chat_id=${{ secrets.TELEGRAM_CHAT_ID }}"
-        fi
+    # - name: Telegram推送
+    #   if: env.TELEGRAM_NOTIFICATION == 'true' && !cancelled()  
+    #   run: |
+    #     if [[ "${{steps.status.outputs.STATUS}}" == "change" ]]
+    #     then
+    #       curl -s "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" -d "chat_id=${{ secrets.TELEGRAM_CHAT_ID }}&text=${{ env.TELEGRAM_NOTIFICATION_CONTENT }}&parse_mode=HTML"
+    #       # curl -d "text=📺 AppleTVライブチャンネル更新しました！" -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendmessage?chat_id=${{ secrets.TELEGRAM_CHAT_ID }}"
+    #     fi
         
