@@ -1,8 +1,8 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="CNN" tvg-name="CNN" tvg-logo="https://live.fanmingming.com/tv/CNNNews.png" group-title="IPv6数字",CNN新闻
-http://abc123.digital:8080/lillie.johnson11@gmail.com/r3yUNMHHwr/418435
-#EXTINF:-1 tvg-id="FoxNews" tvg-name="FoxNews" tvg-logo="https://www.stream-link.org/tv_logo/fox_live.png" group-title="IPv6数字",FOX新闻
-https://fox-foxnewsnow-samsungus.amagi.tv/playlist720p.m3u8
+http://abc123.digital:8080/lillie.johnson11@gmail.com/r3yUNMHHwr/418118
+#EXTINF:-1 tvg-id="bbcworldnewsnorthamerica.us" tvg-name="US: BBC WORLD NEWS" tvg-logo="https://i.ibb.co/kJJPSDw/bbc-world-news.png" group-title="IPv6数字",BBC新闻
+http://abc123.digital:8080/lillie.johnson11@gmail.com/r3yUNMHHwr/418112
 #EXTINF:-1 tvg-id="CNA" tvg-name="CNA" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/CNA-NEWS.png" group-title="IPv6数字",CNA新闻
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
 #EXTINF:-1 tvg-id="7183" tvg-name="aljazeeraEnglish" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/半岛新闻.png" group-title="IPv6数字",半岛新闻
