@@ -136,37 +136,13 @@ http://[2409:8087:2001:20:2800:0:df6e:eb1d]/ott.mobaibox.com/PLTV/3/224/32212285
 #EXTM3U
 #EXTM3U
 #EXTINF:-1 tvg-id="CNN" tvg-name="CNN" tvg-logo="https://live.fanmingming.com/tv/CNNNews.png" group-title="IPv6数字",CNN新闻
-http://abc123.digital:8080/lillie.johnson11@gmail.com/r3yUNMHHwr/508045
-#EXTINF:-1 tvg-id="bbcworldnewsnorthamerica.uK" tvg-name="UK: BBC WORLD NEWS" tvg-logo="https://i.ibb.co/kJJPSDw/bbc-world-news.png" group-title="IPv6数字",BBC新闻
-http://abc123.digital:8080/lillie.johnson11@gmail.com/r3yUNMHHwr/508033
-#EXTINF:-1 tvg-id="GBNews.uk" tvg-name="UK: GB NEWS" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/35/GB_News_Logo.svg/330px-GB_News_Logo.svg.png" group-title="IPv6数字",GB News
-http://abc123.digital:8080/lillie.johnson11@gmail.com/r3yUNMHHwr/508070
-#EXTINF:-1 tvg-id="SkyNews.uk" tvg-name="UK: Sky News" tvg-logo="https://news.sky.com/assets/sky-news-logo.png" group-title="IPv6数字",Sky News
-http://abc123.digital:8080/lillie.johnson11@gmail.com/r3yUNMHHwr/508065
+https://i.mjh.nz/SamsungTVPlus/ATBD800001VA.m3u8
+#EXTINF:-1 tvg-id="FoxNews" tvg-name="FoxNews" tvg-logo="https://live.fanmingming.com/tv/FoxLive.png" group-title="IPv6数字",FOX新闻
+https://fox-foxnewsnow-samsungus.amagi.tv/playlist720p.m3u8
 #EXTINF:-1 tvg-id="CNA" tvg-name="CNA" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/CNA-NEWS.png" group-title="IPv6数字",CNA新闻
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
 #EXTINF:-1 tvg-id="7183" tvg-name="aljazeeraEnglish" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/半岛新闻.png" group-title="IPv6数字",半岛新闻
 http://live-hls-web-aje.getaj.net/AJE/01.m3u8
-#EXTINF:-1 tvg-id="TheFirst.pluto" tvg-name="US: THE FIRST" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ab/The_First_TV_logo.png" group-title="IPv6数字",The First
-http://abc123.digital:8080/lillie.johnson11@gmail.com/r3yUNMHHwr/424793
-#EXTINF:-1 tvg-id="discoverychannel.us" tvg-name="US: DISCOVERY CHANNEL" tvg-logo="https://i.ibb.co/30nTC1p/discovery.png" group-title="IPv6数字",发现频道
-http://abc123.digital:8080/lillie.johnson11@gmail.com/r3yUNMHHwr/360762
-#EXTINF:-1 tvg-id="historychannel.us" tvg-name="US: HISTORY" tvg-logo="https://imgx.fubo.tv/station_logos/history_channel_c.png" group-title="IPv6数字",历史频道
-http://abc123.digital:8080/lillie.johnson11@gmail.com/r3yUNMHHwr/417998
-#EXTINF:-1 tvg-id="natgeo.uk" tvg-name="UK: National Geographic" tvg-logo="http://pluspng.com/img-png/logo-national-geographic-png-logo-natgeo-png-1000.png" group-title="IPv6数字",国家地理
-http://abc123.digital:8080/lillie.johnson11@gmail.com/r3yUNMHHwr/508099
-#EXTINF:-1 tvg-id="US: HBO FAMILY WEST" tvg-name="US: HBO Family (West)" tvg-logo="http://vignette3.wikia.nocookie.net/logopedia/images/2/23/HBO_Family_1996.png/revision/latest?cb=20110407003848" group-title="IPv6数字",HBO家庭
-http://abc123.digital:8080/lillie.johnson11@gmail.com/r3yUNMHHwr/419289
-#EXTINF:-1 tvg-id="US: HBO SIGNATURE WEST" tvg-name="US: HBO Signature (West)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/HBO_Signature.svg/1200px-HBO_Signature.svg.png" group-title="IPv6数字",HBO原创
-http://abc123.digital:8080/lillie.johnson11@gmail.com/r3yUNMHHwr/419291
-#EXTINF:-1 tvg-id="US: HBO COMEDY WEST" tvg-name="US: HBO Comedy (West)" tvg-logo="https://logodix.com/logo/1016096.png" group-title="IPv6数字",HBO喜剧
-http://abc123.digital:8080/lillie.johnson11@gmail.com/r3yUNMHHwr/419288
-#EXTINF:-1 tvg-id="animalplanet.ca" tvg-name="CA: ANIMAL Planet" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/180px-2018_Animal_Planet_logo.svg.png" group-title="IPv6数字",动物星球
-http://abc123.digital:8080/lillie.johnson11@gmail.com/r3yUNMHHwr/360761
-#EXTINF:-1 tvg-id="mtv.us" tvg-name="US: MTV" tvg-logo="https://logos-world.net/wp-content/uploads/2020/09/MTV-Emblem.png" group-title="IPv6数字",MTV频道
-http://abc123.digital:8080/lillie.johnson11@gmail.com/r3yUNMHHwr/507959
-#EXTINF:-1 tvg-id="cinemax.us" tvg-name="US: CINEMAX" tvg-logo="https://i.ibb.co/h810dLX/cinemax-us.png" group-title="IPv6数字",Cinemax
-http://abc123.digital:8080/lillie.johnson11@gmail.com/r3yUNMHHwr/418077
 #EXTINF:-1 tvg-id="NHK" tvg-name="NHK" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/NHK日本.png" group-title="IPv6数字",NHK世界
 https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
 #EXTINF:-1 tvg-id="RTNews" tvg-name="RTNEWS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/512px-Russia-today-logo.svg.png" group-title="IPv6数字", RT新闻
