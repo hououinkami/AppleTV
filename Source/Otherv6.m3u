@@ -20,45 +20,45 @@ https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1
 #EXTINF:-1 tvg-id="1872" tvg-name="北京纪实" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/纪实科教.png" group-title="IPv6数字",纪实科教
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001329/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 tvg-id="卡酷少儿" tvg-name="卡酷少儿" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/卡酷少儿.png" group-title="IPv6数字",卡酷少儿
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001245/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001245/index.m3u8
 #EXTINF:-1 tvg-id="1988" tvg-name="上海纪实" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/纪实人文.png" group-title="IPv6数字",纪实人文
 http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001019/index.m3u8
 #EXTINF:-1 tvg-id="1986" tvg-name="东方影视" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/东方影视.png" group-title="IPv6数字",东方影视
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001016/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001016/index.m3u8
 #EXTINF:-1 tvg-id="1987" tvg-name="五星体育" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/五星体育.png" group-title="IPv6数字",五星体育
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001018/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001018/index.m3u8
 #EXTINF:-1 tvg-id="1991" tvg-name="上海外语" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/上海外语.png" group-title="IPv6数字",上海外语
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001128/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001128/index.m3u8
 #EXTINF:-1 tvg-id="1989" tvg-name="上海都市" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/上海都市.png" group-title="IPv6数字",上海都市
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001015/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001015/index.m3u8
 #EXTINF:-1 tvg-id="上海教育" tvg-name="上海教育" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/上海教育.png" group-title="IPv6数字",上海教育
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001268/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001268/index.m3u8
 #EXTINF:-1 tvg-id="上海新闻" tvg-name="上海新闻" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/上海新闻.png" group-title="IPv6数字",上海新闻
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001014/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001014/index.m3u8
 #EXTINF:-1 tvg-id="SITV都市剧场" tvg-name="SITV都市剧场" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/SITV都市剧场.png" group-title="IPv6数字",都市剧场
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001203/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001203/index.m3u8
 #EXTINF:-1 tvg-id="生活时尚" tvg-name="生活时尚" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/生活时尚.png" group-title="IPv6数字",生活时尚
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001199/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001199/index.m3u8
 #EXTINF:-1 tvg-id="SITV金色学堂" tvg-name="SITV金色学堂" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/SITV金色学堂.png" group-title="IPv6数字",金色学堂
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001194/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001194/index.m3u8
 #EXTINF:-1 tvg-id="SITV法治天地" tvg-name="SITV法治天地" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/SITV法治天地.png" group-title="IPv6数字",法治天地
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001195/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001195/index.m3u8
 #EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/哈哈炫动.png" group-title="IPv6数字",哈哈炫动
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001232/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001232/index.m3u8
 #EXTINF:-1 tvg-id="动漫秀场" tvg-name="动漫秀场" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/SITV动漫秀场.png" group-title="IPv6数字",动漫秀场
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001196/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001196/index.m3u8
 #EXTINF:-1 tvg-id="欢笑剧场" tvg-name="欢笑剧场" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/SITV欢笑剧场.png" group-title="IPv6数字",欢笑剧场
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002156/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 tvg-id="上海第一财经" tvg-name="上海第一财经" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/第一财经.png" group-title="IPv6数字",第一财经
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001017/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001017/index.m3u8
 #EXTINF:-1 tvg-id="七彩戏剧" tvg-name="七彩戏剧" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/七彩戏剧.png" group-title="IPv6数字",七彩戏剧
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001308/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001308/index.m3u8
 #EXTINF:-1 tvg-id="6585" tvg-name="茶频道" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/茶友频道.png" group-title="IPv6数字",茶友频道
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002305/index.m3u8/?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 tvg-id="6595" tvg-name="快乐垂钓" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/快乐垂钓.png" group-title="IPv6数字",快乐垂钓
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002264/index.m3u8/?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 tvg-id="2025" tvg-name="金鹰纪实" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/金鹰纪实.png" group-title="IPv6数字",金鹰纪实
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001230/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001230/index.m3u8
 #EXTINF:-1 tvg-id="金鹰卡通" tvg-name="金鹰卡通" tvg-logo="https://epg.112114.xyz/logo/金鹰卡通.png" group-title="IPv6数字",金鹰卡通
 http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001460/index.m3u8
 #EXTINF:-1 tvg-id="纯享4K" tvg-name="纯享4K" tvg-logo="https://epg.112114.xyz/logo/纯享4K.png" group-title="IPv6数字",纯享4K
