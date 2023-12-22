@@ -84,38 +84,126 @@ https://stream01.willfonk.com/live_playlist.m3u8?cid=BS201&r=FHD&ccode=JP&m=d0:2
 #EXTINF:-1 group-title="日本",スターチャンネル3
 https://stream01.willfonk.com/live_playlist.m3u8?cid=BS202&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
 #EXTM3U
+#EXTINF:-1 tvg-id="JOAYDTV.jp" group-title="日本",ABC
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx02
+#EXTINF:-1 tvg-id="Animax.jp" group-title="日本",Animax
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs15
+#EXTINF:-1 tvg-id="ATX.jp" group-title="日本",AT-X
+http://asia.vthanhtivi.pw/AT-X/index.m3u8
+#EXTINF:-1 tvg-id="BS11.jp" group-title="日本",BS11
+http://asia.vthanhtivi.pw/BS11/index.m3u8
+#EXTINF:-1 tvg-id="BSAsahi.jp" group-title="日本",BS Asahi
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs03
+#EXTINF:-1 tvg-id="BSFuji.jp" group-title="日本",BS Fuji TV
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs06
+#EXTINF:-1 tvg-id="BSNipponTV.jp" group-title="日本",BS Nippon TV
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs02
+#EXTINF:-1 tvg-id="BSTBS.jp" group-title="日本",BS TBS
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs04
+#EXTINF:-1 tvg-id="BSTVTokyo.jp" group-title="日本",BS TV Tokyo
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs05
+#EXTINF:-1 tvg-id="CartoonNetwork.jp" group-title="日本",Cartoon Network Japan
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs25
 #EXTINF:-1 tvg-id="CGNTVJapan.jp" group-title="日本",CGNTV Japan
 https://cgntvliveweb-944.acs.wecandeo.com/ms/2850/944/index.m3u8
 #EXTINF:-1 tvg-id="CGNTVJapan.jp" group-title="日本",CGNTV Japan
 http://cgntv-glive.ofsdelivery.net/live/cgntv_jp/playlist.m3u8
-#EXTINF:-1 tvg-id="JOCXDTV.jp" group-title="日本",Fuji TV
-https://fujitv4.mov3.co/hls/fujitv.m3u8
+#EXTINF:-1 tvg-id="ChannelGinga.jp" group-title="日本",Channel Ginga
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs29
+#EXTINF:-1 tvg-id="CNNj.jp" group-title="日本",CNNj
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs16
+#EXTINF:-1 tvg-id="DisneyChannel.jp" group-title="日本",Disney Channel Japan
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs24
+#EXTINF:-1 tvg-id="DisneyJunior.jp" group-title="日本",Disney Junior
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs23
+#EXTINF:-1 tvg-id="EiseiGekijo.jp" group-title="日本",Eisei Gekijo
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs22
+#EXTINF:-1 tvg-id="FamilyGekijyo.jp" group-title="日本",Family Gekijo
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs20
+#EXTINF:-1 tvg-id="FishingVision.jp" group-title="日本",Fishing Vision
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs25
 #EXTINF:-1 tvg-id="JOCXDTV.jp" group-title="日本",Fuji TV
 http://203.162.235.41:15094
+#EXTINF:-1 tvg-id="JOCXDTV.jp" group-title="日本",Fuji TV
+http://asia.vthanhtivi.pw/Fuji_TV/index.m3u8
+#EXTINF:-1 tvg-id="JOCXDTV.jp" group-title="日本",Fuji TV
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd05
+#EXTINF:-1 tvg-id="JOCXDTV.jp" group-title="日本",Fuji TV
+https://fujitv4.mov3.co/hls/fujitv.m3u8
+#EXTINF:-1 tvg-id="FujiTVNEXT.jp" group-title="日本",Fuji TV NEXT
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs26
 #EXTINF:-1 tvg-id="" group-title="日本",Gaki no Tsukai
 https://hamada.gaki-no-tsukai.stream/hls/test.m3u8
+#EXTINF:-1 tvg-id="GAORASPORTS.jp" group-title="日本",Gaora Sports
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs17
 #EXTINF:-1 tvg-id="GolfNetwork.jp" group-title="日本",Golf Network
 http://203.162.235.41:28107
 #EXTINF:-1 tvg-id="GolfNetwork.jp" group-title="日本",Golf Network
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs03
+#EXTINF:-1 tvg-id="GolfNetwork.jp" group-title="日本",Golf Network
 http://202.60.106.14:8080/1335/playlist.m3u8
+#EXTINF:-1 tvg-id="GreenChannel.jp" group-title="日本",Green Channel
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs14
 #EXTINF:-1 tvg-id="GSTV.jp" group-title="日本",GSTV
 https://gstv-tnz-gsmediastreaming.preview-jpea.channel.media.azure.net/dfd06b62-e9d1-4a7f-bcbb-89d2ecbc82ee/preview.ism/manifest(format=mpd-time-csf,audio-only=false)
 #EXTINF:-1 tvg-id="JOMLDTV.jp" group-title="日本",Gunma TV
 https://movie.mcas.jp/switcher/smil:mcas8.smil/master.m3u8
+#EXTINF:-1 tvg-id="HomeDramaChannel.jp" group-title="日本",Home Drama Channel
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs05
+#EXTINF:-1 tvg-id="JSPORTS1.jp" group-title="日本",J Sports 1
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs18
+#EXTINF:-1 tvg-id="JSPORTS2.jp" group-title="日本",J Sports 2
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs19
+#EXTINF:-1 tvg-id="JSPORTS3.jp" group-title="日本",J Sports 3
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs21
+#EXTINF:-1 tvg-id="JSPORTS4.jp" group-title="日本",J Sports 4
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs22
+#EXTINF:-1 tvg-id="JidaigekiSenmonChannel.jp" group-title="日本",Jidaigeki Senmon
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs04
+#EXTINF:-1 tvg-id="JODXDTV.jp" group-title="日本",Kansai TV
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx03
+#EXTINF:-1 tvg-id="KayoPops.jp" group-title="日本",Kayo Pops
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs13
+#EXTINF:-1 tvg-id="KidsStation.jp" group-title="日本",Kids Station
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs07
+#EXTINF:-1 tvg-id="LaLaTV.jp" group-title="日本",LaLa TV
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs19
+#EXTINF:-1 tvg-id="JOOYDTV.jp" group-title="日本",MBS
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx01
+#EXTINF:-1 tvg-id="MONDOTV.jp" group-title="日本",Mondo TV
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs21
+#EXTINF:-1 tvg-id="MoviePlus.jp" group-title="日本",Movie Plus
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs14
+#EXTINF:-1 tvg-id="MTV.jp" group-title="日本",MTV Japan
+http://asia.vthanhtivi.pw/MTV/index.m3u8
+#EXTINF:-1 tvg-id="MTV.jp" group-title="日本",MTV Japan
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs18
+#EXTINF:-1 tvg-id="MusicJapanTV.jp" group-title="日本",Music Japan TV
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs06
 #EXTINF:-1 tvg-id="NewJapanProWrestlingWorld.jp" group-title="日本",New Japan Pro Wrestling World
 https://aka-amd-njpwworld-hls-enlive.akamaized.net/hls/video/njpw_en/njpw_en_channel01_3/playlist_DVR.m3u8
 #EXTINF:-1 tvg-id="NHKBS.jp" group-title="日本",NHK BS
 http://203.162.235.41:20099
+#EXTINF:-1 tvg-id="NHKBS.jp" group-title="日本",NHK BS
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs11
+#EXTINF:-1 tvg-id="NHKBSP4K.jp" group-title="日本",NHK BSP4K
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs01
 #EXTINF:-1 tvg-id="NHKChinese.jp" group-title="日本",NHK Chinese Vision
 https://nhkw-zh-hlscomp.akamaized.net/8thz5iufork8wjip/playlist.m3u8
 #EXTINF:-1 tvg-id="NHKChinese.jp" group-title="日本",NHK Chinese Vision
 https://nhkw-zh-hlscomp.akamaized.net/ixxemlzk1vqvy44o/playlist.m3u8
-#EXTINF:-1 tvg-id="JOAKDTV.jp" group-title="日本",NHK G
-http://203.162.235.41:12091
-#EXTINF:-1 tvg-id="JOAKDTV.jp" group-title="日本",NHK G [Not 24/7]
-https://nhk4.mov3.co/hls/nhk.m3u8
+#EXTINF:-1 tvg-id="JOABDTV.jp" group-title="日本",NHK E
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd02
+#EXTINF:-1 tvg-id="JOBKDTV.jp" group-title="日本",NHK G
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx06
 #EXTINF:-1 tvg-id="JOAKDTV.jp" group-title="日本",NHK G
 http://203.162.235.41:14093
+#EXTINF:-1 tvg-id="JOAKDTV.jp" group-title="日本",NHK G
+http://203.162.235.41:12091
+#EXTINF:-1 tvg-id="JOAKDTV.jp" group-title="日本",NHK G
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd01
+#EXTINF:-1 tvg-id="JOAKDTV.jp" group-title="日本",NHK G [Not 24/7]
+https://nhk4.mov3.co/hls/nhk.m3u8
 #EXTINF:-1 tvg-id="NHKKishouSaigai.jp" group-title="日本",NHK Kishou Saigai [Not 24/7]
 https://newssimul-stream.nhk.jp/hls/live/2010561/nhknewssimul/master.m3u8
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp" group-title="日本",NHK World Japan
@@ -136,24 +224,56 @@ https://cdn.nhkworld.jp/www11/nhkworld-tv/bmcc-live/es/playlist.m3u8
 https://cdn.nhkworld.jp/www11/nhkworld-tv/pre/hlscomp.m3u8
 #EXTINF:-1 tvg-id="NHKWorldPremium.jp" group-title="日本",NHK World Premium
 https://cdn.skygo.mn/live/disk1/NHK_World_Premium/HLSv3-FTA/NHK_World_Premium.m3u8
+#EXTINF:-1 tvg-id="NihonEigaSenmonChannel.jp" group-title="日本",Nihon Eiga Senmon
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs23
 #EXTINF:-1 tvg-id="JOAXDTV.jp" group-title="日本",Nippon TV
 http://203.162.235.41:16095
+#EXTINF:-1 tvg-id="JOAXDTV.jp" group-title="日本",Nippon TV
+http://asia.vthanhtivi.pw/Nippon_TV/index.m3u8
+#EXTINF:-1 tvg-id="JOAXDTV.jp" group-title="日本",Nippon TV
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd03
 #EXTINF:-1 tvg-id="JOAXDTV.jp" group-title="日本",Nippon TV [Not 24/7]
 https://ntv4.mov3.co/hls/ntv.m3u8
+#EXTINF:-1 tvg-id="NitteleGPlus.jp" group-title="日本",Nittele G Plus
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs02
 #EXTINF:-1 tvg-id="NTVNEWS24.jp" group-title="日本",NTV News24
 https://n24-cdn-live.ntv.co.jp/ch01/index.m3u8
 #EXTINF:-1 tvg-id="NTVNEWS24.jp" group-title="日本",NTV News24
 https://n24-cdn-live.ntv.co.jp/ch02/index.m3u8
 #EXTINF:-1 tvg-id="ShopChannel.jp" group-title="日本",Shop Channel [Not 24/7]
 https://stream3.shopch.jp/HLS/master.m3u8
+#EXTINF:-1 tvg-id="SkyA.jp" group-title="日本",Sky A
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs01
+#EXTINF:-1 tvg-id="SpaceShowerTV.jp" group-title="日本",Space Shower TV
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs26
+#EXTINF:-1 tvg-id="StarChannel1.jp" group-title="日本",Star 1
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs08
+#EXTINF:-1 tvg-id="StarChannel2.jp" group-title="日本",Star 2
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs27
+#EXTINF:-1 tvg-id="StarChannel3.jp" group-title="日本",Star 3
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs28
+#EXTINF:-1 tvg-id="JOUHDTV.jp" group-title="日本",Sun TV
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx07
+#EXTINF:-1 tvg-id="TABIChannel.jp" group-title="日本",Tabi Channel
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs12
+#EXTINF:-1 tvg-id="TAKARAZUKASKYSTAGE.jp" group-title="日本",TAKARAZUKA SKY STAGE
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs28
 #EXTINF:-1 tvg-id="JORXDTV.jp" group-title="日本",TBS TV
 http://203.162.235.41:18097
+#EXTINF:-1 tvg-id="JORXDTV.jp" group-title="日本",TBS TV
+http://asia.vthanhtivi.pw/TBS/index.m3u8
+#EXTINF:-1 tvg-id="JORXDTV.jp" group-title="日本",TBS TV
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd04
+#EXTINF:-1 tvg-id="ToeiChannel.jp" group-title="日本",Toei Channel
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs27
+#EXTINF:-1 tvg-id="TokyoMX1.jp" group-title="日本",Tokyo MX1
+http://asia.vthanhtivi.pw/Tokyo_MX1/index.m3u8
 #EXTINF:-1 tvg-id="TokyoMX1.jp" group-title="日本",Tokyo MX1
 https://movie.mcas.jp/mcas/mx1_2/master.m3u8
 #EXTINF:-1 tvg-id="TokyoMX1.jp" group-title="日本",Tokyo MX1
 https://movie.mcas.jp/mcas/mx_live_2/master.m3u8
 #EXTINF:-1 tvg-id="TokyoMX1.jp" group-title="日本",Tokyo MX1
-http://asia.vthanhtivi.pw/Tokyo_MX1/index.m3u8
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd08
 #EXTINF:-1 tvg-id="TokyoMX1.jp" group-title="日本",Tokyo MX1
 https://movie.mcas.jp/mcas/smil:mx1_prod.smil/master.m3u8
 #EXTINF:-1 tvg-id="TokyoMX2.jp" group-title="日本",Tokyo MX2
@@ -162,149 +282,29 @@ https://movie.mcas.jp/mcas/mx2_2/master.m3u8
 https://movie.mcas.jp/mcas/smil:mx2_prod.smil/master.m3u8
 #EXTINF:-1 tvg-id="JOEXDTV.jp" group-title="日本",TV Asahi
 http://203.162.235.41:17097
+#EXTINF:-1 tvg-id="JOEXDTV.jp" group-title="日本",TV Asahi
+http://asia.vthanhtivi.pw/TV_Asahi/index.m3u8
+#EXTINF:-1 tvg-id="JOEXDTV.jp" group-title="日本",TV Asahi
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd06
+#EXTINF:-1 tvg-id="JOBHDTV.jp" group-title="日本",TV Osaka
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx05
 #EXTINF:-1 tvg-id="JOTXDTV.jp" group-title="日本",TV Tokyo
 http://203.162.235.41:19098
+#EXTINF:-1 tvg-id="JOTXDTV.jp" group-title="日本",TV Tokyo
+http://asia.vthanhtivi.pw/TV_Tokyo/index.m3u8
+#EXTINF:-1 tvg-id="JOTXDTV.jp" group-title="日本",TV Tokyo
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd07
 #EXTINF:-1 tvg-id="Weathernews.jp" group-title="日本",Weathernews
 https://movie.mcas.jp/mcas/wn1_2/master.m3u8
 #EXTINF:-1 tvg-id="Weathernews.jp" group-title="日本",Weathernews
 https://weather-live-hls01e.akamaized.net/ade36978-4ad3-48de-91ab-7d6edd0b6388/11ed8ed8ca.ism/manifest(format=m3u8-aapl-v3,audio-only=false).m3u8
-#EXTINF:-1 tvg-id="WOWOWPrime.jp" group-title="日本",WOWOW Prime
-http://203.162.235.41:27106
-#EXTINF:-1 tvg-id="NHKBSP4K.jp" group-title="日本",NHK BSP4K
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs01
-#EXTINF:-1 tvg-id="JORXDTV.jp" group-title="日本",TBS TV
-http://asia.vthanhtivi.pw/TBS/index.m3u8
-#EXTINF:-1 tvg-id="JOCXDTV.jp" group-title="日本",Fuji TV
-http://asia.vthanhtivi.pw/Fuji_TV/index.m3u8
-#EXTINF:-1 tvg-id="JOEXDTV.jp" group-title="日本",TV Asahi
-http://asia.vthanhtivi.pw/TV_Asahi/index.m3u8
-#EXTINF:-1 tvg-id="BS11.jp" group-title="日本",BS11
-http://asia.vthanhtivi.pw/BS11/index.m3u8
-#EXTINF:-1 tvg-id="ATX.jp" group-title="日本",AT-X
-http://asia.vthanhtivi.pw/AT-X/index.m3u8
-#EXTINF:-1 tvg-id="JOAXDTV.jp" group-title="日本",Nippon TV
-http://asia.vthanhtivi.pw/Nippon_TV/index.m3u8
-#EXTINF:-1 tvg-id="JOTXDTV.jp" group-title="日本",TV Tokyo
-http://asia.vthanhtivi.pw/TV_Tokyo/index.m3u8
-#EXTINF:-1 tvg-id="JOBKDTV.jp" group-title="日本",NHK G
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx06
-#EXTINF:-1 tvg-id="JOOYDTV.jp" group-title="日本",MBS
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx01
-#EXTINF:-1 tvg-id="JOAYDTV.jp" group-title="日本",ABC
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx02
-#EXTINF:-1 tvg-id="JODXDTV.jp" group-title="日本",Kansai TV
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx03
-#EXTINF:-1 tvg-id="JOIXDTV.jp" group-title="日本",YTV
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx04
-#EXTINF:-1 tvg-id="JOBHDTV.jp" group-title="日本",TV Osaka
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx05
-#EXTINF:-1 tvg-id="JOUHDTV.jp" group-title="日本",Sun TV
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx07
-#EXTINF:-1 tvg-id="NHKBS.jp" group-title="日本",NHK BS
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs11
-#EXTINF:-1 tvg-id="BSNipponTV.jp" group-title="日本",BS Nippon TV
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs02
-#EXTINF:-1 tvg-id="BSAsahi.jp" group-title="日本",BS Asahi
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs03
-#EXTINF:-1 tvg-id="BSTBS.jp" group-title="日本",BS TBS
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs04
-#EXTINF:-1 tvg-id="BSTVTokyo.jp" group-title="日本",BS TV Tokyo
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs05
-#EXTINF:-1 tvg-id="BSFuji.jp" group-title="日本",BS Fuji TV
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs06
-#EXTINF:-1 tvg-id="WOWOWPrime.jp" group-title="日本",WOWOW Prime
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs12
-#EXTINF:-1 tvg-id="WOWOWLive.jp" group-title="日本",WOWOW Live
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs20
 #EXTINF:-1 tvg-id="WOWOWCinema.jp" group-title="日本",WOWOW Cinema
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs07
-#EXTINF:-1 tvg-id="StarChannel1.jp" group-title="日本",Star 1
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs08
-#EXTINF:-1 tvg-id="StarChannel2.jp" group-title="日本",Star 2
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs27
-#EXTINF:-1 tvg-id="StarChannel3.jp" group-title="日本",Star 3
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs28
-#EXTINF:-1 tvg-id="GreenChannel.jp" group-title="日本",Green Channel
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs14
-#EXTINF:-1 tvg-id="Animax.jp" group-title="日本",Animax
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs15
-#EXTINF:-1 tvg-id="JSPORTS1.jp" group-title="日本",J Sports 1
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs18
-#EXTINF:-1 tvg-id="JSPORTS2.jp" group-title="日本",J Sports 2
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs19
-#EXTINF:-1 tvg-id="JSPORTS3.jp" group-title="日本",J Sports 3
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs21
-#EXTINF:-1 tvg-id="JSPORTS4.jp" group-title="日本",J Sports 4
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs22
-#EXTINF:-1 tvg-id="FishingVision.jp" group-title="日本",Fishing Vision
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs25
-#EXTINF:-1 tvg-id="SpaceShowerTV.jp" group-title="日本",Space Shower TV
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs26
-#EXTINF:-1 tvg-id="NihonEigaSenmonChannel.jp" group-title="日本",Nihon Eiga Senmon
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs23
-#EXTINF:-1 tvg-id="DisneyChannel.jp" group-title="日本",Disney Channel Japan
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs24
-#EXTINF:-1 tvg-id="ToeiChannel.jp" group-title="日本",Toei Channel
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs27
-#EXTINF:-1 tvg-id="EiseiGekijo.jp" group-title="日本",Eisei Gekijo
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs22
-#EXTINF:-1 tvg-id="MoviePlus.jp" group-title="日本",Movie Plus
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs14
-#EXTINF:-1 tvg-id="SkyA.jp" group-title="日本",Sky A
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs01
-#EXTINF:-1 tvg-id="GAORASPORTS.jp" group-title="日本",Gaora Sports
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs17
-#EXTINF:-1 tvg-id="NitteleGPlus.jp" group-title="日本",Nittele G Plus
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs02
-#EXTINF:-1 tvg-id="JidaigekiSenmonChannel.jp" group-title="日本",Jidaigeki Senmon
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs04
-#EXTINF:-1 tvg-id="MTV.jp" group-title="日本",MTV Japan
-http://asia.vthanhtivi.pw/MTV/index.m3u8
-#EXTINF:-1 tvg-id="MusicJapanTV.jp" group-title="日本",Music Japan TV
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs06
-#EXTINF:-1 tvg-id="KidsStation.jp" group-title="日本",Kids Station
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs07
-#EXTINF:-1 tvg-id="CartoonNetwork.jp" group-title="日本",Cartoon Network Japan
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs25
-#EXTINF:-1 tvg-id="DisneyJunior.jp" group-title="日本",Disney Junior
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs23
-#EXTINF:-1 tvg-id="JOAKDTV.jp" group-title="日本",NHK G
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd01
-#EXTINF:-1 tvg-id="JOABDTV.jp" group-title="日本",NHK E
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd02
-#EXTINF:-1 tvg-id="JOAXDTV.jp" group-title="日本",Nippon TV
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd03
-#EXTINF:-1 tvg-id="JORXDTV.jp" group-title="日本",TBS TV
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd04
-#EXTINF:-1 tvg-id="JOCXDTV.jp" group-title="日本",Fuji TV
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd05
-#EXTINF:-1 tvg-id="JOEXDTV.jp" group-title="日本",TV Asahi
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd06
-#EXTINF:-1 tvg-id="JOTXDTV.jp" group-title="日本",TV Tokyo
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd07
-#EXTINF:-1 tvg-id="TokyoMX1.jp" group-title="日本",Tokyo MX1
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd08
-#EXTINF:-1 tvg-id="CNNj.jp" group-title="日本",CNNj
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs16
-#EXTINF:-1 tvg-id="GolfNetwork.jp" group-title="日本",Golf Network
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs03
-#EXTINF:-1 tvg-id="ChannelGinga.jp" group-title="日本",Channel Ginga
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs29
-#EXTINF:-1 tvg-id="HomeDramaChannel.jp" group-title="日本",Home Drama Channel
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs05
-#EXTINF:-1 tvg-id="FamilyGekijyo.jp" group-title="日本",Family Gekijo
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs20
-#EXTINF:-1 tvg-id="LaLaTV.jp" group-title="日本",LaLa TV
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs19
-#EXTINF:-1 tvg-id="MONDOTV.jp" group-title="日本",Mondo TV
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs21
-#EXTINF:-1 tvg-id="TABIChannel.jp" group-title="日本",Tabi Channel
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs12
-#EXTINF:-1 tvg-id="FujiTVNEXT.jp" group-title="日本",Fuji TV NEXT
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs26
-#EXTINF:-1 tvg-id="TAKARAZUKASKYSTAGE.jp" group-title="日本",TAKARAZUKA SKY STAGE
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs28
-#EXTINF:-1 tvg-id="KayoPops.jp" group-title="日本",Kayo Pops
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs13
-#EXTINF:-1 tvg-id="MTV.jp" group-title="日本",MTV Japan
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs18
+#EXTINF:-1 tvg-id="WOWOWLive.jp" group-title="日本",WOWOW Live
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs20
+#EXTINF:-1 tvg-id="WOWOWPrime.jp" group-title="日本",WOWOW Prime
+http://203.162.235.41:27106
+#EXTINF:-1 tvg-id="WOWOWPrime.jp" group-title="日本",WOWOW Prime
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs12
+#EXTINF:-1 tvg-id="JOIXDTV.jp" group-title="日本",YTV
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx04
