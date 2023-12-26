@@ -88,10 +88,6 @@ https://stream01.willfonk.com/live_playlist.m3u8?cid=BS202&r=FHD&ccode=JP&m=d0:2
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx02
 #EXTINF:-1 tvg-id="Animax.jp" group-title="日本",Animax
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs15
-#EXTINF:-1 tvg-id="ATX.jp" group-title="日本",AT-X
-http://asia.vthanhtivi.pw/AT-X/index.m3u8
-#EXTINF:-1 tvg-id="BS11.jp" group-title="日本",BS11
-http://asia.vthanhtivi.pw/BS11/index.m3u8
 #EXTINF:-1 tvg-id="BSAsahi.jp" group-title="日本",BS Asahi
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs03
 #EXTINF:-1 tvg-id="BSFuji.jp" group-title="日本",BS Fuji TV
