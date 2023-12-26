@@ -49,7 +49,7 @@ http://[2409:8087:2001:20:2800:0:df6e:eb27]/ott.mobaibox.com/PLTV/3/224/32212285
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001024/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 tvg-id="CGTNDocumentary" tvg-name="CGTNDocumentary" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/环球纪录.png" group-title="IPv6央视",CGTN纪录
 http://[2409:8087:5e01:34::20]:6610/ZTE_CMS/00000001000000060000000000000528/index.m3u8?IAS
-#EXTINF:-1 tvg-id="30" tvg-name="北京卫视" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/北京卫视.png" group-title="IPv6卫视",北京卫视
+#EXTINF:-1 tvg-id="30" tvg-name="北京卫视" tvg-logo="https://raw.githubusercontent.com/Junior0679/IPTV/main/Logo/北京卫视.png" group-title="IPv6卫视",北京卫视
 http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001029/index.m3u8
 #EXTINF:-1 tvg-id="31" tvg-name="东方卫视" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/东方卫视.png" group-title="IPv6卫视",东方卫视
 http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001013/index.m3u8
