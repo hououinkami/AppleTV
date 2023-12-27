@@ -7,6 +7,10 @@ https://cnn-cnninternational-1-eu.rakuten.wurl.tv/f93b9a949a4a8651dd5a2f42e3a2b6
 https://fox-foxnewsnow-samsungus.amagi.tv/playlist720p.m3u8
 #EXTINF:-1 tvg-id="CNA" tvg-name="CNA" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/CNA-NEWS.png" group-title="IPv6数字",CNA新闻
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
+#EXTINF:-1 tvg-id="bbcamerica" tvg-name="america" tvg-logo="https://i.imgur.com/pTiiPz0.png" group-title="IPv6数字",BBC美洲
+https://bcovlive-a.akamaihd.net/cde8d9416f6d4f1da0a4e8cfde6e8b2c/us-east-1/6240731308001/playlist.m3u8
+#EXTINF:-1 tvg-id="CBNNews.us" tvg-name="CBNNews" tvg-logo="https://i.imgur.com/gG2SWgG.png" group-title="IPv6数字",CBN新闻
+https://bcovlive-a.akamaihd.net/re8d9f611ee4a490a9bb59e52db91414d/us-east-1/734546207001/playlist.m3u8
 #EXTINF:-1 tvg-id="NHK" tvg-name="NHK" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/NHK日本.png" group-title="IPv6数字",NHK世界
 https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
 #EXTINF:-1 tvg-id="NHK BSP" tvg-name="NHK BSP" tvg-logo="https://epg.112114.xyz/logo/NHKBSP.png" group-title="IPv6数字",NHK综合
@@ -19,10 +23,6 @@ https://rt-rtd.rttv.com/live/rtdoc/playlist_4500Kb.m3u8
 http://brics.bonus-tv.ru/cdn/brics/chinese/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-id="TVBrics" tvg-name="TVBrics" tvg-logo="https://epg.112114.xyz/logo/BRICS.png" group-title="IPv6数字",金砖英文
 http://brics.bonus-tv.ru/cdn/brics/english/tracks-v1a1/index.m3u8
-EXTINF:-1 tvg-id="BBCAmericaEast.us" tvg-name=BBCAmericaEast" tvg-logo="https://i.imgur.com/pTiiPz0.png" group-title="IPv6数字",BBC美洲
-https://bcovlive-a.akamaihd.net/cde8d9416f6d4f1da0a4e8cfde6e8b2c/us-east-1/6240731308001/playlist.m3u8
-#EXTINF:-1 tvg-id="CBNNews.us" tvg-name="CBNNews" tvg-logo="https://i.imgur.com/gG2SWgG.png" group-title="IPv6数字",CBN新闻
-https://bcovlive-a.akamaihd.net/re8d9f611ee4a490a9bb59e52db91414d/us-east-1/734546207001/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/trial/m3u/main/logo/TRT_World.jpg" group-title="IPv6数字",TRT世界
 https://tv-trtworld.live.trt.com.tr/master_1080.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/trial/m3u/main/logo/Taiwan_Plus.jpg" group-title="IPv6数字",台湾Plus
@@ -104,4 +104,4 @@ http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002085/index.m3
 #EXTINF:-1 tvg-id="6241" tvg-name="CHC高清电影" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/CHC高清电影.png" group-title="IPv6数字",高清电影
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002065/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 tvg-id="华数高清" tvg-name="华数高清" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/华数.png" group-title="IPv6数字",华数超清
-http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000003000004748/index.m3u8?channel-id=wasusyt&Contentid=6000000003000004748&livemode=1&stbId=3
+http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000003000004748/index.m3u8?channel-id=wasusyt&Contentid=6000000003000004748&livemode=1&stbId
