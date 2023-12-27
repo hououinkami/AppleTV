@@ -15,7 +15,7 @@ https://www.cbsnews.com/common/video/cbsn-ny-prod.m3u8
 https://bcovlive-a.akamaihd.net/re8d9f611ee4a490a9bb59e52db91414d/us-east-1/734546207001/playlist.m3u8
 #EXTINF:-1 tvg-id="NHK" tvg-name="NHK" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/NHK日本.png" group-title="IPv6数字",NHK世界
 https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
-#EXTINF:-1 tvg-id="NHK BSP" tvg-name="NHK BSP" tvg-logo="https://epg.112114.xyz/logo/NHKBSP.png" group-title="IPv6数字",NHK综合
+#EXTINF:-1 tvg-id="NHK BSP" tvg-name="NHK BSP" tvg-logo="https://epg.112114.xyz/logo/NHKBSP.png" group-title="IPv6数字",NHK卫视
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs01
 #EXTINF:-1 tvg-id="RTNews" tvg-name="RTNEWS" tvg-logo="https://epg.112114.xyz/logo/ru/rt.png" group-title="IPv6数字",RT新闻
 https://rt-glb.rttv.com/dvr/rtnews/playlist_4500Kb.m3u8
