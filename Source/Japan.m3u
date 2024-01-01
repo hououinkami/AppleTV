@@ -85,9 +85,9 @@ https://stream01.willfonk.com/live_playlist.m3u8?cid=BS201&r=FHD&ccode=JP&m=d0:2
 https://stream01.willfonk.com/live_playlist.m3u8?cid=BS202&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
 #EXTM3U
 #EXTINF:-1 tvg-id="ATX.jp" group-title="日本",AT-X
-http://asia.vthanhtivi.pw/AT-X/index.m3u8
+http://jp.vthanhnetwork.com/AT-X/index.m3u8
 #EXTINF:-1 tvg-id="BS11.jp" group-title="日本",BS11
-http://asia.vthanhtivi.pw/BS11/index.m3u8
+http://jp.vthanhnetwork.com/BS11/index.m3u8
 #EXTINF:-1 tvg-id="CGNTVJapan.jp" group-title="日本",CGNTV Japan
 https://cgntvliveweb-944.acs.wecandeo.com/ms/2850/944/index.m3u8
 #EXTINF:-1 tvg-id="CGNTVJapan.jp" group-title="日本",CGNTV Japan
@@ -95,7 +95,7 @@ http://cgntv-glive.ofsdelivery.net/live/cgntv_jp/playlist.m3u8
 #EXTINF:-1 tvg-id="JOCXDTV.jp" group-title="日本",Fuji TV
 http://203.162.235.41:15094
 #EXTINF:-1 tvg-id="JOCXDTV.jp" group-title="日本",Fuji TV
-http://asia.vthanhtivi.pw/Fuji_TV/index.m3u8
+http://jp.vthanhnetwork.com/Fuji_TV/index.m3u8
 #EXTINF:-1 tvg-id="JOCXDTV.jp" group-title="日本",Fuji TV
 https://fujitv4.mov3.co/hls/fujitv.m3u8
 #EXTINF:-1 tvg-id="" group-title="日本",Gaki no Tsukai
@@ -107,7 +107,7 @@ http://202.60.106.14:8080/1335/playlist.m3u8
 #EXTINF:-1 tvg-id="GSTV.jp" group-title="日本",GSTV
 https://gstv-tnz-gsmediastreaming.preview-jpea.channel.media.azure.net/dfd06b62-e9d1-4a7f-bcbb-89d2ecbc82ee/preview.ism/manifest(format=mpd-time-csf,audio-only=false)
 #EXTINF:-1 tvg-id="MTV.jp" group-title="日本",MTV Japan
-http://asia.vthanhtivi.pw/MTV/index.m3u8
+http://jp.vthanhnetwork.com/MTV/index.m3u8
 #EXTINF:-1 tvg-id="NewJapanProWrestlingWorld.jp" group-title="日本",New Japan Pro Wrestling World
 https://aka-amd-njpwworld-hls-enlive.akamaized.net/hls/video/njpw_en/njpw_en_channel01_3/playlist_DVR.m3u8
 #EXTINF:-1 tvg-id="NHKBS.jp" group-title="日本",NHK BS
@@ -122,6 +122,10 @@ http://203.162.235.41:14093
 http://203.162.235.41:12091
 #EXTINF:-1 tvg-id="JOAKDTV.jp" group-title="日本",NHK G [Not 24/7]
 https://nhk4.mov3.co/hls/nhk.m3u8
+#EXTINF:-1 tvg-id="JOAKDTV.jp" group-title="日本",NHK G
+http://jp.vthanhnetwork.com/NHK_G/index.m3u8
+#EXTINF:-1 tvg-id="JOABDTV.jp" group-title="日本",NHK E
+http://jp.vthanhnetwork.com/NHK_E/index.m3u8
 #EXTINF:-1 tvg-id="NHKKishouSaigai.jp" group-title="日本",NHK Kishou Saigai [Not 24/7]
 https://newssimul-stream.nhk.jp/hls/live/2010561/nhknewssimul/master.m3u8
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp" group-title="日本",NHK World Japan
@@ -145,7 +149,7 @@ https://cdn.skygo.mn/live/disk1/NHK_World_Premium/HLSv3-FTA/NHK_World_Premium.m3
 #EXTINF:-1 tvg-id="JOAXDTV.jp" group-title="日本",Nippon TV
 http://203.162.235.41:16095
 #EXTINF:-1 tvg-id="JOAXDTV.jp" group-title="日本",Nippon TV
-http://asia.vthanhtivi.pw/Nippon_TV/index.m3u8
+http://jp.vthanhnetwork.com/Nippon_TV/index.m3u8
 #EXTINF:-1 tvg-id="JOAXDTV.jp" group-title="日本",Nippon TV [Not 24/7]
 https://ntv4.mov3.co/hls/ntv.m3u8
 #EXTINF:-1 tvg-id="NTVNEWS24.jp" group-title="日本",NTV News24
@@ -157,11 +161,11 @@ https://stream3.shopch.jp/HLS/master.m3u8
 #EXTINF:-1 tvg-id="JOEXDTV.jp" group-title="日本",TV Asahi
 http://203.162.235.41:18097
 #EXTINF:-1 tvg-id="JORXDTV.jp" group-title="日本",TBS TV
-http://asia.vthanhtivi.pw/TBS/index.m3u8
+http://jp.vthanhnetwork.com/TBS/index.m3u8
 #EXTINF:-1 tvg-id="JORXDTV.jp" group-title="日本",TBS TV
 https://tbs4.mov3.co/hls/tbs.m3u8
 #EXTINF:-1 tvg-id="JOMXDTV.jp" group-title="日本",Tokyo MX1
-http://asia.vthanhtivi.pw/Tokyo_MX1/index.m3u8
+http://jp.vthanhnetwork.com/Tokyo_MX1/index.m3u8
 #EXTINF:-1 tvg-id="TokyoMX1.jp" group-title="日本",Tokyo MX1
 https://mcas-eqms-mx2-live.hls.davlive.stream.ne.jp/mt/master/340f27cd590451b1e7d0034b85b5175ddaf05454/EQMS_MX1/master.m3u8
 #EXTINF:-1 tvg-id="TokyoMX2.jp" group-title="日本",Tokyo MX2
@@ -169,11 +173,11 @@ https://mcas-eqms-mx2-live.hls.davlive.stream.ne.jp/mt/master/340f27cd590451b1e7
 #EXTINF:-1 tvg-id="JORXDTV.jp" group-title="日本",TBS TV
 http://203.162.235.41:17097
 #EXTINF:-1 tvg-id="JOEXDTV.jp" group-title="日本",TV Asahi
-http://asia.vthanhtivi.pw/TV_Asahi/index.m3u8
+http://jp.vthanhnetwork.com/TV_Asahi/index.m3u8
 #EXTINF:-1 tvg-id="JOTXDTV.jp" group-title="日本",TV Tokyo
 http://203.162.235.41:19098
 #EXTINF:-1 tvg-id="JOTXDTV.jp" group-title="日本",TV Tokyo
-http://asia.vthanhtivi.pw/TV_Tokyo/index.m3u8
+http://jp.vthanhnetwork.com/TV_Tokyo/index.m3u8
 #EXTINF:-1 tvg-id="Weathernews.jp" group-title="日本",Weathernews
 https://weather-live-hls01e.akamaized.net/ade36978-4ad3-48de-91ab-7d6edd0b6388/11ed8ed8ca.ism/manifest(format=m3u8-aapl-v3,audio-only=false).m3u8
 #EXTINF:-1 tvg-id="WOWOWPrime.jp" group-title="日本",WOWOW Prime
