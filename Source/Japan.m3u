@@ -118,14 +118,14 @@ https://nhkw-zh-hlscomp.akamaized.net/8thz5iufork8wjip/playlist.m3u8
 https://nhkw-zh-hlscomp.akamaized.net/ixxemlzk1vqvy44o/playlist.m3u8
 #EXTINF:-1 tvg-id="JOAKDTV.jp" group-title="日本",NHK G
 http://203.162.235.41:14093
-#EXTINF:-1 tvg-id="JOAKDTV.jp" group-title="日本",NHK G
-http://203.162.235.41:12091
 #EXTINF:-1 tvg-id="JOAKDTV.jp" group-title="日本",NHK G [Not 24/7]
 https://nhk4.mov3.co/hls/nhk.m3u8
 #EXTINF:-1 tvg-id="JOAKDTV.jp" group-title="日本",NHK G
 http://jp.vthanhnetwork.com/NHK_G/index.m3u8
 #EXTINF:-1 tvg-id="JOABDTV.jp" group-title="日本",NHK E
 http://jp.vthanhnetwork.com/NHK_E/index.m3u8
+#EXTINF:-1 tvg-id="NHKGeneralTV.jp" group-title="日本",NHK G
+http://203.162.235.41:12091
 #EXTINF:-1 tvg-id="NHKKishouSaigai.jp" group-title="日本",NHK Kishou Saigai [Not 24/7]
 https://newssimul-stream.nhk.jp/hls/live/2010561/nhknewssimul/master.m3u8
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp" group-title="日本",NHK World Japan
