@@ -39,8 +39,6 @@ http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001241/index.m3u8
 http://[2409:8087:2001:20:2800:0:df6e:eb25]/ott.mobaibox.com/PLTV/4/224/3221228472/index.m3u8
 #EXTINF:-1 tvg-id="CCTV8K超高清" tvg-name="CCTV8K超高清" tvg-logo="https://epg.112114.xyz/logo/CCTV8K.png" group-title="IPv6央视",CCTV-8K
 http://[2409:8087:2001:20:2800:0:df6e:eb02]/ott.mobaibox.com/PLTV/3/224/3221228165/index.m3u8
-#EXTINF:-1 tvg-id="凤凰香港" tvg-name="凤凰香港" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/凤凰香港.png" group-title="IPv6卫视",凤凰香港
-http://[2409:8087:2001:20:2800:0:df6e:eb1d]/ott.mobaibox.com/PLTV/3/224/3221228530/1.m3u8
 #EXTINF:-1 tvg-id="141" tvg-name="凤凰中文" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/凤凰中文.png" group-title="IPv6卫视",凤凰中文
 http://[2409:8087:2001:20:2800:0:df6e:eb24]/ott.mobaibox.com/PLTV/3/224/3221228527/index.m3u8
 #EXTINF:-1 tvg-id="142" tvg-name="凤凰资讯" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/凤凰资讯.png" group-title="IPv6卫视",凤凰资讯
@@ -49,7 +47,7 @@ http://[2409:8087:2001:20:2800:0:df6e:eb27]/ott.mobaibox.com/PLTV/3/224/32212285
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001024/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 tvg-id="CGTNDocumentary" tvg-name="CGTNDocumentary" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/环球纪录.png" group-title="IPv6央视",CGTN纪录
 http://[2409:8087:5e01:34::20]:6610/ZTE_CMS/00000001000000060000000000000528/index.m3u8?IAS
-#EXTINF:-1 tvg-id="30" tvg-name="北京卫视" tvg-logo="https://raw.githubusercontent.com/Junior0679/IPTV/main/Logo/北京卫视.png" group-title="IPv6卫视",北京卫视
+#EXTINF:-1 tvg-id="30" tvg-name="北京卫视" tvg-logo="https://live.fanmingming.com/tv/北京卫视.png" group-title="IPv6卫视",北京卫视
 http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001029/index.m3u8
 #EXTINF:-1 tvg-id="31" tvg-name="东方卫视" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/东方卫视.png" group-title="IPv6卫视",东方卫视
 http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001013/index.m3u8
@@ -106,7 +104,7 @@ http://[2409:8087:2001:20:2800:0:df6e:eb0b]/wh7f454c46tw993550557_162751766/ott.
 #EXTINF:-1 tvg-id="58" tvg-name="云南卫视" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/云南卫视.png" group-title="IPv6卫视",云南卫视
 http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001223/index.m3u8
 #EXTINF:-1 tvg-id="中国教育1台" tvg-name="CETV1台" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/中国教育.png" group-title="IPv6央视",中国教育
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001020/index.m3u8?
+http://[2409:8087:1e03:21::36]:6610/cms001/ch00000090990000001020/index.m3u8?love=freedom
 #EXTINF:-1 tvg-id="中国教育4台" tvg-name="CETV4台" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/职教频道.png" group-title="IPv6央视",职教频道
 http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001348/index.m3u8
 #EXTINF:-1 tvg-id="6559" tvg-name="CCTV风云剧场" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/风云剧场.png" group-title="IPv6央视",风云剧场
