@@ -17,14 +17,14 @@ https://bcovlive-a.akamaihd.net/re8d9f611ee4a490a9bb59e52db91414d/us-east-1/7345
 https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
 #EXTINF:-1 tvg-id="GBNews.uk" tvg-name="GB News" tvg-logo="https://epg.112114.xyz/logo/GB-NEWS.png" group-title="IPv6数字",GB新闻
 https://live-gbnews.simplestreamcdn.com/live5/gbnews/bitrate1.isml/manifest.m3u8
+#EXTINF:-1 tvg-id="CanadaGlobalNews" tvg-name="CanadaGlobalNews" tvg-logo="https://epg.112114.xyz/logo/GLOBALNEWS.png" group-title="IPv6数字",CG新闻
+https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/master.m3u8
 #EXTINF:-1 tvg-id="RTNews" tvg-name="RTNEWS" tvg-logo="https://epg.112114.xyz/logo/ru/rt.png" group-title="IPv6数字",RT新闻
 https://rt-glb.rttv.com/dvr/rtnews/playlist_4500Kb.m3u8
 #EXTINF:-1 tvg-id="RTDoc" tvg-name="RTDoc" tvg-logo="https://live.fanmingming.com/tv/RTDoc.png" group-title="IPv6数字",RT纪录
 https://rt-rtd.rttv.com/live/rtdoc/playlist_4500Kb.m3u8
 #EXTINF:-1 tvg-id="TVBrics" tvg-name="TVBrics" tvg-logo="https://epg.112114.xyz/logo/BRICS.png" group-title="IPv6数字",金砖中文
 http://brics.bonus-tv.ru/cdn/brics/chinese/tracks-v1a1/index.m3u8
-#EXTINF:-1 tvg-id="金砖英文" tvg-name="金砖英文" tvg-logo="https://epg.112114.xyz/logo/BRICS.png" group-title="IPv6数字",金砖英文
-http://brics.bonus-tv.ru/cdn/brics/english/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-id="TalkTV.uk" tvg-name="TalkTV" tvg-logo="https://epg.112114.xyz/logo/TALKTV.png" group-title="IPv6数字",TalkTV
 https://live-talktv-ssai.simplestreamcdn.com/v1/master/82267e84b9e5053b3fd0ade12cb1a146df74169a/talktv-live/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/trial/m3u/main/logo/TRT_World.jpg" group-title="IPv6数字",TRT世界
