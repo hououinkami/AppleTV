@@ -4,19 +4,19 @@ http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001022/index.m3u8
 #EXTINF:-1 tvg-id="2" tvg-name="CCTV2" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV2.png" group-title="IPv6央视",CCTV-2 财经
 http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001220/index.m3u8
 #EXTINF:-1 tvg-id="3" tvg-name="CCTV3" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV3.png" group-title="IPv6央视",CCTV-3 综艺
-http://[2409:8087:2001:20:2800:0:df6e:eb20]/ott.mobaibox.com/PLTV/4/224/3221228499/index.m3u8
+http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001186/index.m3u8
 #EXTINF:-1 tvg-id="4" tvg-name="CCTV4" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4.png" group-title="IPv6央视",CCTV-4 中文国际
 http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001221/index.m3u8
 #EXTINF:-1 tvg-id="5" tvg-name="CCTV5" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5.png" group-title="IPv6央视",CCTV-5 体育
-http://[2409:8087:2001:20:2800:0:df6e:eb22]/ott.mobaibox.com/PLTV/4/224/3221228502/index.m3u8
+http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001334/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 tvg-id="5" tvg-name="CCTV5+" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5+.png" group-title="IPv6央视",CCTV-5+ 体育赛事
-http://[2409:8087:2001:20:2800:0:df6e:eb26]/ott.mobaibox.com/PLTV/1/224/3221228277/index.m3u8
+http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001334/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 tvg-id="6" tvg-name="CCTV6" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV6.png" group-title="IPv6央视",CCTV-6 电影
-http://[2409:8087:2001:20:2800:0:df6e:eb22]/ott.mobaibox.com/PLTV/4/224/3221228516/index.m3u8
+http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001188/index.m3u8
 #EXTINF:-1 tvg-id="7" tvg-name="CCTV7" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV7.png" group-title="IPv6央视",CCTV-7 国防军事
 http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001236/index.m3u8
 #EXTINF:-1 tvg-id="8" tvg-name="CCTV8" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV8.png" group-title="IPv6央视",CCTV-8 电视剧
-http://[2409:8087:2001:20:2800:0:df6e:eb26]/ott.mobaibox.com/PLTV/1/224/3221228578/index.m3u8
+http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001189/index.m3u8
 #EXTINF:-1 tvg-id="9" tvg-name="CCTV9" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV9.png" group-title="IPv6央视",CCTV-9 纪录
 http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001237/index.m3u8
 #EXTINF:-1 tvg-id="10" tvg-name="CCTV10" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV10.png" group-title="IPv6央视",CCTV-10 科教
@@ -32,7 +32,7 @@ http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001240/index.m3u8
 #EXTINF:-1 tvg-id="15" tvg-name="CCTV15" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV15.png" group-title="IPv6央视",CCTV-15 音乐
 http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001338/index.m3u8
 #EXTINF:-1 tvg-id="16" tvg-name="CCTV16" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV16.png" group-title="IPv6央视",CCTV-16 奥林匹克
-http://[2409:8087:2001:20:2800:0:df6e:eb18]/ott.mobaibox.com/PLTV/3/224/3221228127/index.m3u8
+http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001258/index.m3u8
 #EXTINF:-1 tvg-id="17" tvg-name="CCTV17" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV17.png" group-title="IPv6央视",CCTV-17 农业农村
 http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001241/index.m3u8
 #EXTINF:-1 tvg-id="18" tvg-name="CCTV4K" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4k.png" group-title="IPv6央视",CCTV-4K 超高清
@@ -60,7 +60,7 @@ http://[2409:8087:7001:20:2::3]:80/dbiptv.sn.chinamobile.com/PLTV/88888893/224/3
 #EXTINF:-1 tvg-id="35" tvg-name="兵器科技" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV_BQKJ.png" group-title="IPv6央视",CCTV-兵器科技
 http://[2409:8087:7001:20:2::3]:80/dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226975/index.m3u8
 #EXTINF:-1 tvg-id="36" tvg-name="电视指南" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV_DSZN.png" group-title="IPv6央视",CCTV-电视指南
-http://[2409:8087:7001:20:2::3]:80/dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226987/index.m3u8
+http://[2409:8087:7001:20:2::3]:80/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226987/index.m3u8
 #EXTINF:-1 tvg-id="41" tvg-name="CETV1" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/中国教育1台.png" group-title="IPv6央视",CETV-1
 http://[2409:8087:1e03:21::36]:6610/cms001/ch00000090990000001020/index.m3u8?love=freedom
 #EXTINF:-1 tvg-id="42" tvg-name="CETV4" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/中国教育4台.png" group-title="IPv6央视",CETV-4
@@ -128,9 +128,11 @@ http://[2409:8087:2001:20:2800:0:df6e:eb0b]/wh7f454c46tw993550557_162751766/ott.
 #EXTINF:-1 tvg-id="94" tvg-name="内蒙古卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/neimeng.png" group-title="IPv6卫视",内蒙古卫视
 http://[2409:8087:2001:20:2800:0:df6e:eb19]:80/wh7f454c46tw2228825807_1324573507/ott.mobaibox.com/PLTV/3/224/3221227557/index.m3u8
 #EXTINF:-1 tvg-id="111" tvg-name="凤凰中文" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangzhongwen.png" group-title="IPv6卫视",鳳凰中文
-http://[2409:8087:2001:20:2800:0:df6e:eb24]/ott.mobaibox.com/PLTV/3/224/3221228527/index.m3u8
+https://0472.org/hls/youzaiSB/fhzw.m3u8
 #EXTINF:-1 tvg-id="112" tvg-name="凤凰资讯" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangzixun.png" group-title="IPv6卫视",鳳凰資訊
-http://[2409:8087:2001:20:2800:0:df6e:eb27]/ott.mobaibox.com/PLTV/3/224/3221228524/index.m3u8
+https://0472.org/hls/youzaiSB/fhzx.m3u8
+#EXTINF:-1 tvg-id="113" tvg-name="凤凰香港" tvg-logo="https://live.fanmingming.com/tv/fenghuangxianggang.png" group-title="IPv6卫视",鳳凰香港
+https://0472.org/hls/youzaiSB/fhhk.m3u8
 #EXTM3U
 #EXTM3U
 #EXTINF:-1 tvg-id="7183" tvg-name="aljazeeraEnglish" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/半岛新闻.png" group-title="IPv6数字",半岛新闻
@@ -207,6 +209,10 @@ http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001194/index.m3u8
 http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001195/index.m3u8
 #EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/哈哈炫动.png" group-title="IPv6数字",哈哈炫动
 http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001232/index.m3u8
+#EXTINF:-1 tvg-id="七彩戏剧" tvg-name="七彩戏剧" tvg-logo="http://live.cooltv.top/logo/qcxj.png" group-title="IPv6数字",七彩戏剧
+http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001308/index.m3u8
+#EXTINF:-1 tvg-id="1976" tvg-name="SiTV乐游" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/乐游频道.png" group-title="IPv6数字",乐游频道
+http://[2409:8087:1e03:21::36]:6610/cms001/ch00000090990000001200/index.m3u8?love=freedom
 #EXTINF:-1 tvg-id="动漫秀场" tvg-name="动漫秀场" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/SITV动漫秀场.png" group-title="IPv6数字",动漫秀场
 http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001196/index.m3u8
 #EXTINF:-1 tvg-id="欢笑剧场" tvg-name="欢笑剧场" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/SITV欢笑剧场.png" group-title="IPv6数字",欢笑剧场
@@ -223,8 +229,6 @@ http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001230/index.m3u8
 http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001460/index.m3u8
 #EXTINF:-1 tvg-id="纯享4K" tvg-name="纯享4K" tvg-logo="https://epg.112114.xyz/logo/纯享4K.png" group-title="IPv6数字",纯享4K
 http://[2409:8087:2001:20:2800:0:df6e:eb11]/ott.mobaibox.com/PLTV/3/224/3221228242/index.m3u8
-#EXTINF:-1 tvg-id="1976" tvg-name="SiTV乐游" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/乐游频道.png" group-title="IPv6数字",乐游频道
-http://[2409:8087:1e03:21::36]:6610/cms001/ch00000090990000001200/index.m3u8?love=freedom
 #EXTINF:-1 tvg-id="6242" tvg-name="求索动物" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/求索动物.png" group-title="IPv6数字",求索动物
 http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000002000010046/index.m3u8?channel-id=wasusyt&Contentid=6000000002000010046&livemode=1&stbId=3
 #EXTINF:-1 tvg-id="6243" tvg-name="求索生活" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/求索生活.png" group-title="IPv6数字",求索生活

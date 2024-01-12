@@ -73,6 +73,10 @@ http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001194/index.m3u8
 http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001195/index.m3u8
 #EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/哈哈炫动.png" group-title="IPv6数字",哈哈炫动
 http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001232/index.m3u8
+#EXTINF:-1 tvg-id="七彩戏剧" tvg-name="七彩戏剧" tvg-logo="http://live.cooltv.top/logo/qcxj.png" group-title="IPv6数字",七彩戏剧
+http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001308/index.m3u8
+#EXTINF:-1 tvg-id="1976" tvg-name="SiTV乐游" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/乐游频道.png" group-title="IPv6数字",乐游频道
+http://[2409:8087:1e03:21::36]:6610/cms001/ch00000090990000001200/index.m3u8?love=freedom
 #EXTINF:-1 tvg-id="动漫秀场" tvg-name="动漫秀场" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/SITV动漫秀场.png" group-title="IPv6数字",动漫秀场
 http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001196/index.m3u8
 #EXTINF:-1 tvg-id="欢笑剧场" tvg-name="欢笑剧场" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/SITV欢笑剧场.png" group-title="IPv6数字",欢笑剧场
@@ -89,8 +93,6 @@ http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001230/index.m3u8
 http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001460/index.m3u8
 #EXTINF:-1 tvg-id="纯享4K" tvg-name="纯享4K" tvg-logo="https://epg.112114.xyz/logo/纯享4K.png" group-title="IPv6数字",纯享4K
 http://[2409:8087:2001:20:2800:0:df6e:eb11]/ott.mobaibox.com/PLTV/3/224/3221228242/index.m3u8
-#EXTINF:-1 tvg-id="1976" tvg-name="SiTV乐游" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/乐游频道.png" group-title="IPv6数字",乐游频道
-http://[2409:8087:1e03:21::36]:6610/cms001/ch00000090990000001200/index.m3u8?love=freedom
 #EXTINF:-1 tvg-id="6242" tvg-name="求索动物" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/求索动物.png" group-title="IPv6数字",求索动物
 http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000002000010046/index.m3u8?channel-id=wasusyt&Contentid=6000000002000010046&livemode=1&stbId=3
 #EXTINF:-1 tvg-id="6243" tvg-name="求索生活" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/求索生活.png" group-title="IPv6数字",求索生活
