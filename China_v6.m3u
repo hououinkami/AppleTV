@@ -141,8 +141,6 @@ http://livetv.skycf.eu.org/live.m3u8?c=4
 http://livetv.skycf.eu.org/live.m3u8?c=6
 #EXTINF:-1 tvg-id="公视新闻" tvg-name="公视新闻" tvg-logo="https://epg.112114.xyz/logo/公视新闻.png" group-title="IPv6数字",公视新闻
 http://livetv.skycf.eu.org/live.m3u8?c=8
-#EXTINF:-1 tvg-id="镜新闻" tvg-name="镜新闻" tvg-logo="https://epg.112114.xyz/logo/镜新闻.png" group-title="IPv6数字",镜新闻
-http://livetv.skycf.eu.org/live.m3u8?c=10
 #EXTINF:-1 tvg-id="民视新闻" tvg-name="民视新闻" tvg-logo="https://epg.112114.xyz/logo/民视新闻.png" group-title="IPv6数字",民视新闻
 http://livetv.skycf.eu.org/live.m3u8?c=11
 #EXTINF:-1 tvg-id="三立新闻" tvg-name="三立新闻" tvg-logo="https://epg.112114.xyz/logo/三立新闻.png" group-title="IPv6数字",三立新闻
