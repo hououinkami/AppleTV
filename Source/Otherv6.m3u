@@ -1,12 +1,10 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="台视新闻" tvg-name="台视新闻" tvg-logo="" group-title="IPv6数字",台视新闻
 http://livetv.skycf.eu.org/live.m3u8?c=4
-#EXTINF:-1 tvg-id="中天新闻" tvg-name="中天新闻" tvg-logo="" group-title="IPv6数字",中天新闻
+#EXTINF:-1 tvg-id="中视新闻" tvg-name="中视新闻" tvg-logo="" group-title="IPv6数字",中视新闻
 http://livetv.skycf.eu.org/live.m3u8?c=6
 #EXTINF:-1 tvg-id="公视新闻" tvg-name="公视新闻" tvg-logo="" group-title="IPv6数字",公视新闻
 http://livetv.skycf.eu.org/live.m3u8?c=8
-#EXTINF:-1 tvg-id="东森新闻" tvg-name="东森新闻" tvg-logo="" group-title="IPv6数字",东森新闻
-http://livetv.skycf.eu.org/live.m3u8?c=9
 #EXTINF:-1 tvg-id="镜新闻" tvg-name="镜新闻" tvg-logo="" group-title="IPv6数字",镜新闻
 http://livetv.skycf.eu.org/live.m3u8?c=10
 #EXTINF:-1 tvg-id="民视新闻" tvg-name="民视新闻" tvg-logo="" group-title="IPv6数字",民视新闻
