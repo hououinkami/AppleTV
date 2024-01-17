@@ -153,8 +153,8 @@ http://38.96.178.201:80/live/History/index.m3u8
 http://38.96.178.201:80/live/TNTHD/index.m3u8
 #EXTINF:-1 tvg-id="usa" tvg-name="usa" group-title="IPv6数字",USA
 http://38.96.178.201:80/live/USA/index.m3u8
-#EXTINF:-1 tvg-name="CNN HD" tvg-logo="https://epg.pw/media/images/channel/2019/01/13/large/20190113215800701920_63.jpg" group-title="IPv6数字",CNN新闻
-http://38.96.178.201:80/live/Discovery/index.m3u8
+#EXTINF:-1 tvg-name="NBA TV" tvg-logo="" group-title="IPv6数字",NBA
+http://38.96.178.201/live/NBA/index.m3u8
 #EXTINF:-1 tvg-name=" " group-title="IPv6数字",KBS世界
 https://kbsworld-ott.akamaized.net/hls/live/2002341/kbsworld/01.m3u8
 #EXTINF:-1 group-title="IPv6数字",FoodNetwork
