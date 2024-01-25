@@ -1,66 +1,50 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="北京新闻" tvg-name="北京新闻" tvg-logo="https://raw.githubusercontent.com/Junior0679/IPTV/main/Logo/北京新闻.png" group-title="IPv6数字",北京新闻
-http://iptv.8t.cx:8180/udp/239.3.1.159:8000
-#EXTINF:-1 tvg-id="北京财经" tvg-name="北京财经" tvg-logo="https://raw.githubusercontent.com/Junior0679/IPTV/main/Logo/北京财经.png" group-title="IPv6数字",北京财经
-http://iptv.8t.cx:8180/udp/239.3.1.116:8000
-#EXTINF:-1 tvg-id="北京生活" tvg-name="北京生活" tvg-logo="https://raw.githubusercontent.com/Junior0679/IPTV/main/Logo/北京生活.png" group-title="IPv6数字",北京生活
-http://iptv.8t.cx:8180/udp/239.3.1.117:8000
-#EXTINF:-1 tvg-id="北京文艺" tvg-name="北京文艺" tvg-logo="https://raw.githubusercontent.com/Junior0679/IPTV/main/Logo/北京文艺.png" group-title="IPv6数字",北京文艺
-http://iptv.8t.cx:8180/udp/239.3.1.242:8000
-#EXTINF:-1 tvg-id="北京影视" tvg-name="北京影视" tvg-logo="https://raw.githubusercontent.com/Junior0679/IPTV/main/Logo/北京影视.png" group-title="IPv6数字",北京影视
-http://iptv.8t.cx:8180/udp/239.3.1.158:8000
-#EXTINF:-1 tvg-id="北京国际" tvg-name="北京国际频道" tvg-logo="https://epg.112114.xyz/logo/北京国际.png" group-title="IPv6数字",北京国际
-http://iptv.8t.cx:8180/udp/239.3.1.235:8000
-#EXTINF:-1 tvg-id="体育休闲" tvg-name="北京体育休闲" tvg-logo="https://raw.githubusercontent.com/Junior0679/IPTV/main/Logo/北京体育休闲.png" group-title="IPv6数字",体育休闲
-http://iptv.8t.cx:8180/udp/239.3.1.243:8000
+#EXTINF:-1 tvg-id="金色学堂" tvg-name="金色学堂" tvg-logo="https://live.fanmingming.com/tv/金色学堂.png" group-title="IPv6数字",金色学堂
+http://[2409:8087:7000:20::4]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226994/1.m3u8
+#EXTINF:-1 tvg-id="上海纪实人文" tvg-name="上海纪实人文" tvg-logo="https://live.fanmingming.com/tv/纪实人文.png" group-title="IPv6数字",纪实人文
+http://[2409:8087:7000:20::4]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226230/1.m3u8
+#EXTINF:-1 tvg-id="第一财经" tvg-name="第一财经" tvg-logo="https://live.fanmingming.com/tv/上海第一财经.png" group-title="IPv6数字",第一财经
+http://[2409:8087:7001:20:2::3]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226966/1.m3u8
+#EXTINF:-1 tvg-id="都市剧场" tvg-name="都市剧场" tvg-logo="https://live.fanmingming.com/tv/都市剧场.png" group-title="IPv6数字",都市剧场
+http://[2409:8087:7000:20::4]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226581/1.m3u8
+#EXTINF:-1 tvg-id="金鹰纪实" tvg-name="金鹰纪实" tvg-logo="https://live.fanmingming.com/tv/金鹰纪实.png" group-title="IPv6数字",金鹰纪实
+http://[2409:8087:7000:20::4]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226351/1.m3u8
+#EXTINF:-1 tvg-id="黑莓电影" tvg-name="黑莓电影" tvg-logo="https://live.fanmingming.com/tv/黑莓电影.png" group-title="IPv6数字",黑莓电影
+http://[2409:8087:2001:20:2800:0:df6e:eb04]/ott.mobaibox.com/PLTV/3/224/3221225567/index.m3u8
+#EXTINF:-1 tvg-id="黑莓动画" tvg-name="黑莓动画" tvg-logo="https://live.fanmingming.com/tv/黑莓动画.png" group-title="IPv6数字",黑莓动画
+http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225662/index.m3u8
 #EXTINF:-1 tvg-id="1872" tvg-name="北京纪实" tvg-logo="https://raw.githubusercontent.com/Junior0679/IPTV/main/Logo/北京纪实科教.png" group-title="IPv6数字",纪实科教
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001329/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-#EXTINF:-1 tvg-id="卡酷少儿" tvg-name="卡酷少儿" tvg-logo="https://raw.githubusercontent.com/Junior0679/IPTV/main/Logo/北京卡酷少儿.png" group-title="IPv6数字",卡酷少儿
-http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001245/index.m3u8
-#EXTINF:-1 tvg-id="1988" tvg-name="上海纪实" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/纪实人文.png" group-title="IPv6数字",纪实人文
-http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001019/index.m3u8
-#EXTINF:-1 tvg-id="1986" tvg-name="东方影视" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/东方影视.png" group-title="IPv6数字",东方影视
-http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001016/index.m3u8
-#EXTINF:-1 tvg-id="1987" tvg-name="五星体育" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/五星体育.png" group-title="IPv6数字",五星体育
-http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001018/index.m3u8
-#EXTINF:-1 tvg-id="1991" tvg-name="上海外语" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/上海外语.png" group-title="IPv6数字",上海外语
-http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001128/index.m3u8
-#EXTINF:-1 tvg-id="1989" tvg-name="上海都市" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/上海都市.png" group-title="IPv6数字",上海都市
-http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001015/index.m3u8
-#EXTINF:-1 tvg-id="上海教育" tvg-name="上海教育" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/上海教育.png" group-title="IPv6数字",上海教育
-http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001268/index.m3u8
-#EXTINF:-1 tvg-id="上海新闻" tvg-name="上海新闻" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/上海新闻.png" group-title="IPv6数字",上海新闻
-http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001014/index.m3u8
-#EXTINF:-1 tvg-id="SITV都市剧场" tvg-name="SITV都市剧场" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/SITV都市剧场.png" group-title="IPv6数字",都市剧场
-http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001203/index.m3u8
-#EXTINF:-1 tvg-id="生活时尚" tvg-name="生活时尚" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/生活时尚.png" group-title="IPv6数字",生活时尚
-http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001199/index.m3u8
-#EXTINF:-1 tvg-id="SITV金色学堂" tvg-name="SITV金色学堂" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/SITV金色学堂.png" group-title="IPv6数字",金色学堂
-http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001194/index.m3u8
-#EXTINF:-1 tvg-id="SITV法治天地" tvg-name="SITV法治天地" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/SITV法治天地.png" group-title="IPv6数字",法治天地
-http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001195/index.m3u8
-#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/哈哈炫动.png" group-title="IPv6数字",哈哈炫动
-http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001232/index.m3u8
-#EXTINF:-1 tvg-id="七彩戏剧" tvg-name="七彩戏剧" tvg-logo="http://live.cooltv.top/logo/qcxj.png" group-title="IPv6数字",七彩戏剧
-http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001308/index.m3u8
-#EXTINF:-1 tvg-id="1976" tvg-name="SiTV乐游" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/乐游频道.png" group-title="IPv6数字",乐游频道
-http://[2409:8087:1e03:21::36]:6610/cms001/ch00000090990000001200/index.m3u8?love=freedom
-#EXTINF:-1 tvg-id="动漫秀场" tvg-name="动漫秀场" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/SITV动漫秀场.png" group-title="IPv6数字",动漫秀场
-http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001196/index.m3u8
 #EXTINF:-1 tvg-id="欢笑剧场" tvg-name="欢笑剧场" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/SITV欢笑剧场.png" group-title="IPv6数字",欢笑剧场
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002156/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-#EXTINF:-1 tvg-id="上海第一财经" tvg-name="上海第一财经" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/第一财经.png" group-title="IPv6数字",第一财经
-http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001017/index.m3u8
 #EXTINF:-1 tvg-id="6585" tvg-name="茶频道" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/茶友频道.png" group-title="IPv6数字",茶友频道
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002305/index.m3u8/?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 tvg-id="6595" tvg-name="快乐垂钓" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/快乐垂钓.png" group-title="IPv6数字",快乐垂钓
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002264/index.m3u8/?virtualDomain=yinhe.live_hls.zte.com
-#EXTINF:-1 tvg-id="2025" tvg-name="金鹰纪实" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/金鹰纪实.png" group-title="IPv6数字",金鹰纪实
-http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001230/index.m3u8
-#EXTINF:-1 tvg-id="金鹰卡通" tvg-name="金鹰卡通" tvg-logo="https://epg.112114.xyz/logo/金鹰卡通.png" group-title="IPv6数字",金鹰卡通
-http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001460/index.m3u8
+#EXTINF:-1 tvg-id="浙江公共新闻" tvg-name="浙江公共新闻" tvg-logo="https://live.fanmingming.com/tv/浙江新闻.png" group-title="IPv6数字",浙江新闻
+https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
+#EXTINF:-1 tvg-id="浙江国际" tvg-name="浙江国际" tvg-logo="https://live.fanmingming.com/tv/浙江国际.png" group-title="IPv6数字",浙江国际
+https://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8
+#EXTINF:-1 tvg-id="浙江少儿" tvg-name="浙江少儿" tvg-logo="https://live.fanmingming.com/tv/浙江少儿.png" group-title="IPv6数字",浙江少儿
+https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
+#EXTINF:-1 tvg-id="浙江教科影视" tvg-name="浙江教科影视" tvg-logo="https://live.fanmingming.com/tv/浙江教科影视.png" group-title="IPv6数字",浙江教科
+https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
+#EXTINF:-1 tvg-id="浙江数码时代" tvg-name="浙江数码时代" tvg-logo="https://live.fanmingming.com/tv/之江记录.png" group-title="IPv6数字",浙江数码
+https://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
+#EXTINF:-1 tvg-id="浙江民生休闲" tvg-name="浙江民生休闲" tvg-logo="https://live.fanmingming.com/tv/浙江民生休闲.png" group-title="IPv6数字",浙江民生
+https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8
+#EXTINF:-1 tvg-id="浙江经视" tvg-name="浙江经视" tvg-logo="https://live.fanmingming.com/tv/浙江经济生活.png" group-title="IPv6数字",浙江经济
+https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
+#EXTINF:-1 tvg-id="浙江钱江都市" tvg-name="浙江钱江都市" tvg-logo="https://live.fanmingming.com/tv/钱江都市.png" group-title="IPv6数字",浙江钱江
+https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
+#EXTINF:-1 tvg-id="西安教育" tvg-name="西安教育" tvg-logo="https://live.fanmingming.com/tv/西安教育.png" group-title="IPv6数字",西安教育
+http://[2409:8087:7001:20:2::3]:80/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226371/index.m3u8
+#EXTINF:-1 tvg-id="梨园" tvg-name="梨园" tvg-logo="https://live.fanmingming.com/tv/河南梨园.png" group-title="IPv6数字",梨园频道
+http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN6380788ba7bed/index.m3u8?AuthInfo=toEYVdLfxymUP2l9NZpQI5%2BK6T7j%2FlRm%2BvbM9VO7bA0q1S1k1f36SqqriM0FZoFSAJRfCt8SS7X6sTRmXb81a8O4H%2FdroDKjLoDeaMQdyJQ
 #EXTINF:-1 tvg-id="纯享4K" tvg-name="纯享4K" tvg-logo="https://epg.112114.xyz/logo/纯享4K.png" group-title="IPv6数字",纯享4K
 http://[2409:8087:2001:20:2800:0:df6e:eb11]/ott.mobaibox.com/PLTV/3/224/3221228242/index.m3u8
+#EXTINF:-1 tvg-id="全纪实" tvg-name="全纪实" tvg-logo="https://live.fanmingming.com/tv/乐游.png" group-title="IPv6数字",乐游频道
+http://[2409:8087:7000:20::4]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226580/1.m3u8
 #EXTINF:-1 tvg-id="6242" tvg-name="求索动物" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/求索动物.png" group-title="IPv6数字",求索动物
 http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000002000010046/index.m3u8?channel-id=wasusyt&Contentid=6000000002000010046&livemode=1&stbId=3
 #EXTINF:-1 tvg-id="6243" tvg-name="求索生活" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/求索生活.png" group-title="IPv6数字",求索生活
@@ -111,3 +95,5 @@ http://[2409:8087:2001:20:2800:0:df6e:eb18]:80/wh7f454c46tw2856695654_946966165/
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225741/index.m3u8
 #EXTINF:-1 tvg-id="newtv欢乐剧场" tvg-name="newtv欢乐剧场" tvg-logo="https://live.fanmingming.com/tv/NEWTV欢乐剧场.png" group-title="IPv6数字",NEWTV欢乐剧场
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225742/index.m3u8
+#EXTINF:-1 tvg-id="游戏风云" tvg-name="游戏风云" tvg-logo="https://live.fanmingming.com/tv/游戏风云.png" group-title="IPv6数字",游戏风云
+http://[2409:8087:7000:20::4]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226579/1.m3u8
