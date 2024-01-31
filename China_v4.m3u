@@ -109,3 +109,7 @@ http://8.130.35.211/ysp/?id=gzws
 http://8.130.35.211/ysp/?id=hinws
 #EXTINF:-1 tvg-id="92" tvg-name="新疆卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/xinjiang.png" group-title="卫视",新疆卫视
 http://8.130.35.211/ysp/?id=xjws
+#EXTINF:-1 tvg-id="111" tvg-name="凤凰中文" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangzhongwen.png" group-title="卫视",鳳凰中文
+http://148.135.93.213:81/sxg.php?id=test1_4000
+#EXTINF:-1 tvg-id="112" tvg-name="凤凰资讯" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangzixun.png" group-title="卫视",鳳凰資訊
+http://148.135.93.213:81/sxg.php?id=test2_4000
