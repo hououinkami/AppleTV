@@ -6,7 +6,7 @@ http://101.43.3.246/ysp.php?ch=cctv2
 #EXTINF:-1 tvg-id="3" tvg-name="CCTV3" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV3.png" group-title="央视",CCTV-3 综艺
 http://101.43.3.246/ysp.php?ch=cctv3
 #EXTINF:-1 tvg-id="4" tvg-name="CCTV4" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4.png" group-title="央视",CCTV-4 中文国际
-http://101.43.3.246/ysp.php?ch=cctv4
+http://1.14.131.61:5828/cctv4k.php
 #EXTINF:-1 tvg-id="5" tvg-name="CCTV5" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5.png" group-title="央视",CCTV-5 体育
 http://101.43.3.246/ysp.php?ch=cctv5
 #EXTINF:-1 tvg-id="5" tvg-name="CCTV5+" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5+.png" group-title="央视",CCTV-5+ 体育赛事
@@ -16,7 +16,7 @@ http://101.43.3.246/ysp.php?ch=cctv6
 #EXTINF:-1 tvg-id="7" tvg-name="CCTV7" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV7.png" group-title="央视",CCTV-7 国防军事
 http://101.43.3.246/ysp.php?ch=cctv7
 #EXTINF:-1 tvg-id="8" tvg-name="CCTV8" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV8.png" group-title="央视",CCTV-8 电视剧
-http://101.43.3.246/ysp.php?ch=cctv8
+http://kjsp.aikan.miguvideo.com/PLTV/88888888/224/3221233652/index.m3u8
 #EXTINF:-1 tvg-id="9" tvg-name="CCTV9" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV9.png" group-title="央视",CCTV-9 纪录
 http://101.43.3.246/ysp.php?ch=cctv9
 #EXTINF:-1 tvg-id="10" tvg-name="CCTV10" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV10.png" group-title="央视",CCTV-10 科教
@@ -36,7 +36,7 @@ http://101.43.3.246/ysp.php?ch=cctv16
 #EXTINF:-1 tvg-id="17" tvg-name="CCTV17" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV17.png" group-title="央视",CCTV-17 农业农村
 http://101.43.3.246/ysp.php?ch=cctv17
 #EXTINF:-1 tvg-id="18" tvg-name="CCTV4K" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4k.png" group-title="央视",CCTV-4K 超高清
-http://101.43.3.246/ysp.php?ch=cctv4k
+http://1.14.131.61:5828/cctv4k.php
 #EXTINF:-1 tvg-id="22" tvg-name="世界地理" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV_SJDL.png" group-title="央视",CCTV-世界地理
 http://101.43.3.246/ysp.php?ch=sjdl
 #EXTINF:-1 tvg-id="23" tvg-name="风云音乐" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV_FYYY.png" group-title="央视",CCTV-风云音乐
