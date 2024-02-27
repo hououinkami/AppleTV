@@ -168,7 +168,7 @@ http://jp.vthanhnetwork.com/MTV/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="BBC World News" tvg-logo="https://static.epg.best/gr/BBCWorldNews.gr.png" group-title="英文",BBC World News
 http://50.7.238.114:8278/bbcnews_twn/playlist.m3u8?tid=ME2E9411781394117813&ct=19225&tsum=ffaa2caa60183eec89d730ed80b336d1
 #EXTINF:-1 tvg-id="3" tvg-name="" tvg-logo="https://static.epg.best/us/FoxNews.us.png" group-title="英文",FOX News
-#EXTINF:-1 tvg-name="LoveNrture" group-title="·4K",Love Nrture 4K「自然」
+#EXTINF:-1 tvg-name="LoveNrture" group-title="•4K",Love Nrture 4K「自然」
 #EXTINF:-1 tvg-id="" tvg-name="BBC Earth" tvg-logo="https://epg.112114.xyz/logo/BBCEARTH.png" group-title="英文",BBC Earth
 http://50.7.238.114:8278/bbcearth_twn/playlist.m3u8?tid=MD4D1422738714227387&ct=19254&tsum=2637e4976a40770c852fc6f4f9d2308f
 #EXTINF:-1 tvg-id="" tvg-name="动物星球" tvg-logo="https://epg.112114.xyz/logo/动物星球.png" group-title="英文",Animal Planet
