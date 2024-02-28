@@ -306,71 +306,71 @@ http://198.16.100.90:8278/ctient/playlist.m3u8?tid=MDED1780059017800590&ct=19226
 http://198.16.100.90:8278/ctient/playlist.m3u8?tid=m6780c60bd34a13540795&ct=17874&tsum=06089e289a460b0685447b7656d550e3
 #EXTINF:-1 group-title="港澳台「P」",中天綜合
 http://198.16.100.90:8278/ctizhonghe/playlist.m3u8?tid=m85005aeec85b14021104&ct=17874&tsum=69f19f4b12ab79d2ee683b28cdb1c8ca
-#EXTINF:-1 group-title="•游戏赛事",「虎牙」英雄联盟-1
+#EXTINF:-1 group-title="•游戏赛事",「虎牙」英雄联盟 1
 https://tv.iill.top/huya/660000
-#EXTINF:-1 group-title="•游戏赛事",「虎牙」英雄联盟-2
+#EXTINF:-1 group-title="•游戏赛事",「虎牙」英雄联盟 2
 https://tv.iill.top/huya/660001
-#EXTINF:-1 group-title="•游戏赛事",「斗鱼」英雄联盟-3
+#EXTINF:-1 group-title="•游戏赛事",「斗鱼」英雄联盟 1
 https://tv.iill.top/douyu/288016
-#EXTINF:-1 group-title="•游戏赛事",「斗鱼」英雄联盟-4
+#EXTINF:-1 group-title="•游戏赛事",「斗鱼」英雄联盟 2
 https://tv.iill.top/douyu/705690
-#EXTINF:-1 group-title="•游戏赛事",「虎牙」王者荣耀-1
+#EXTINF:-1 group-title="•游戏赛事",「虎牙」王者荣耀 1
 https://tv.iill.top/huya/660002
-#EXTINF:-1 group-title="•游戏赛事",「虎牙」王者荣耀-2
+#EXTINF:-1 group-title="•游戏赛事",「虎牙」王者荣耀 2
 https://tv.iill.top/huya/660164
-#EXTINF:-1 group-title="•游戏赛事",「斗鱼」王者荣耀-3
+#EXTINF:-1 group-title="•游戏赛事",「斗鱼」王者荣耀 1
 https://tv.iill.top/douyu/1863767
-#EXTINF:-1 group-title="•游戏赛事",「斗鱼」王者荣耀-4
+#EXTINF:-1 group-title="•游戏赛事",「斗鱼」王者荣耀 2
 https://tv.iill.top/douyu/1984839
-#EXTINF:-1 group-title="•游戏赛事",「斗鱼」王者荣耀-5
+#EXTINF:-1 group-title="•游戏赛事",「斗鱼」王者荣耀 3
 https://tv.iill.top/douyu/2045445
-#EXTINF:-1 group-title="•游戏赛事",「斗鱼」王者荣耀-6
+#EXTINF:-1 group-title="•游戏赛事",「斗鱼」王者荣耀 4
 https://tv.iill.top/douyu/3606468
-#EXTINF:-1 group-title="•游戏赛事",「斗鱼」王者荣耀-♀
+#EXTINF:-1 group-title="•游戏赛事",「斗鱼」王者荣耀 ♀
 https://tv.iill.top/douyu/667319
-#EXTINF:-1 group-title="•游戏赛事",「虎牙」绝地求生-1
+#EXTINF:-1 group-title="•游戏赛事",「虎牙」绝地求生 1
 https://tv.iill.top/huya/660004
-#EXTINF:-1 group-title="•游戏赛事",「虎牙」绝地求生-2
+#EXTINF:-1 group-title="•游戏赛事",「虎牙」绝地求生 2
 https://tv.iill.top/huya/660005
-#EXTINF:-1 group-title="•游戏赛事",「虎牙」绝地求生-3
+#EXTINF:-1 group-title="•游戏赛事",「虎牙」绝地求生 3
 https://tv.iill.top/huya/660136
-#EXTINF:-1 group-title="•游戏赛事",「斗鱼」绝地求生-4
+#EXTINF:-1 group-title="•游戏赛事",「斗鱼」绝地求生
 https://tv.iill.top/douyu/100
-#EXTINF:-1 group-title="•游戏赛事",「虎牙」和平精英-1
+#EXTINF:-1 group-title="•游戏赛事",「虎牙」和平精英
 https://tv.iill.top/huya/660006
-#EXTINF:-1 group-title="•游戏赛事",「斗鱼」和平精英-2
+#EXTINF:-1 group-title="•游戏赛事",「斗鱼」和平精英
 https://tv.iill.top/douyu/999
-#EXTINF:-1 group-title="•游戏赛事",「虎牙」金铲铲之战-1
+#EXTINF:-1 group-title="•游戏赛事",「虎牙」金铲铲之战
 https://tv.iill.top/huya/660579
-#EXTINF:-1 group-title="•游戏赛事",「斗鱼」金铲铲之战-2
+#EXTINF:-1 group-title="•游戏赛事",「斗鱼」金铲铲之战
 https://tv.iill.top/douyu/9715241
 #EXTINF:-1 group-title="•游戏赛事",「虎牙」CSGO
 https://tv.iill.top/huya/eslcsgo
-#EXTINF:-1 group-title="•游戏赛事",「虎牙」DOTA2-1
+#EXTINF:-1 group-title="•游戏赛事",「虎牙」DOTA2
 https://tv.iill.top/huya/660118
-#EXTINF:-1 group-title="•游戏赛事",「斗鱼」DOTA2-2
+#EXTINF:-1 group-title="•游戏赛事",「斗鱼」DOTA2
 https://tv.iill.top/douyu/30
 #EXTINF:-1 group-title="•游戏赛事",「斗鱼」云顶之弈
 https://tv.iill.top/douyu/522423
 #EXTINF:-1 group-title="•游戏赛事",「虎牙」永劫无间
 https://tv.iill.top/huya/660115
-#EXTINF:-1 group-title="•游戏赛事",「虎牙」使命召唤•手游-1
+#EXTINF:-1 group-title="•游戏赛事",「虎牙」使命召唤•手游
 https://tv.iill.top/huya/11718629
-#EXTINF:-1 group-title="•游戏赛事",「斗鱼」使命召唤•手游-2
+#EXTINF:-1 group-title="•游戏赛事",「斗鱼」使命召唤•手游
 https://tv.iill.top/douyu/9223245
-#EXTINF:-1 group-title="•游戏赛事",「虎牙」穿越火线-1
+#EXTINF:-1 group-title="•游戏赛事",「虎牙」穿越火线
 https://tv.iill.top/huya/660101
-#EXTINF:-1 group-title="•游戏赛事",「斗鱼」穿越火线-2
+#EXTINF:-1 group-title="•游戏赛事",「斗鱼」穿越火线 1
 https://tv.iill.top/douyu/605964
-#EXTINF:-1 group-title="•游戏赛事",「斗鱼」穿越火线-3
+#EXTINF:-1 group-title="•游戏赛事",「斗鱼」穿越火线 2
 https://tv.iill.top/douyu/5388537
 #EXTINF:-1 group-title="•游戏赛事",「虎牙」穿越火线•手游
 https://tv.iill.top/huya/660102
-#EXTINF:-1 group-title="•游戏赛事",「虎牙」第五人格-1
+#EXTINF:-1 group-title="•游戏赛事",「虎牙」第五人格
 https://tv.iill.top/huya/idvesports
-#EXTINF:-1 group-title="•游戏赛事",「斗鱼」第五人格-2
+#EXTINF:-1 group-title="•游戏赛事",「斗鱼」第五人格 1
 https://tv.iill.top/douyu/3226194
-#EXTINF:-1 group-title="•游戏赛事",「斗鱼」第五人格-3
+#EXTINF:-1 group-title="•游戏赛事",「斗鱼」第五人格 2
 https://tv.iill.top/douyu/11030737
 #EXTINF:-1 group-title="•游戏赛事",「虎牙」逆战
 https://tv.iill.top/huya/nsl2021
