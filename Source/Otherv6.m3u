@@ -61,28 +61,6 @@ http://[2409:8087:7000:20::4]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/322
 http://[2409:8087:7001:20:3::6]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226358/index.m3u8
 #EXTINF:-1 tvg-id="西安教育" tvg-name="西安教育" tvg-logo="https://live.fanmingming.com/tv/西安教育.png" group-title="IPv6数字",西安教育
 http://[2409:8087:7001:20:2::3]:80/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226371/index.m3u8
-#EXTINF:-1 group-title="IPv6数字",河北经济
-http://121.19.134.246:808/hls/20/index.m3u8
-#EXTINF:-1 group-title="IPv6数字",河北都市
-http://121.19.134.246:808/hls/21/index.m3u8
-#EXTINF:-1 group-title="IPv6数字",河北影视
-http://121.19.134.246:808/hls/22/index.m3u8
-#EXTINF:-1 group-title="IPv6数字",少儿科教
-http://121.19.134.246:808/hls/23/index.m3u8
-#EXTINF:-1 group-title="IPv6数字",河北公共
-http://121.19.134.246:808/hls/24/index.m3u8
-#EXTINF:-1 group-title="IPv6数字",河北农民
-http://121.19.134.246:808/hls/25/index.m3u8
-#EXTINF:-1 group-title="IPv6数字",山西经济
-http://220.194.178.58:8888/newlive/live/hls/52/live.m3u8
-#EXTINF:-1 group-title="IPv6数字",山西影视
-http://220.194.178.58:8888/newlive/live/hls/53/live.m3u8
-#EXTINF:-1 group-title="IPv6数字",山西法治
-http://220.194.178.58:8888/newlive/live/hls/54/live.m3u8
-#EXTINF:-1 group-title="IPv6数字",山西文体
-http://220.194.178.58:8888/newlive/live/hls/55/live.m3u8
-#EXTINF:-1 group-title="IPv6数字",南京新综
-http://[2409:8087:2001:20:2800:0:df6e:eb15]:80/wh7f454c46tw1757093737_-1595882577/ott.mobaibox.com/PLTV/3/224/3221227213/index.m3u8
 #EXTINF:-1 tvg-id="梨园" tvg-name="梨园" tvg-logo="https://live.fanmingming.com/tv/河南梨园.png" group-title="IPv6数字",梨园频道
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN6380788ba7bed/index.m3u8?AuthInfo=toEYVdLfxymUP2l9NZpQI5%2BK6T7j%2FlRm%2BvbM9VO7bA0q1S1k1f36SqqriM0FZoFSAJRfCt8SS7X6sTRmXb81a8O4H%2FdroDKjLoDeaMQdyJQ
 #EXTINF:-1 tvg-id="全纪实" tvg-name="全纪实" tvg-logo="https://live.fanmingming.com/tv/乐游.png" group-title="IPv6数字",乐游频道
@@ -101,8 +79,10 @@ http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002055/index.m3
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002085/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 tvg-id="6241" tvg-name="CHC高清电影" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/CHC高清电影.png" group-title="IPv6数字",高清电影
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002065/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-#EXTINF:-1 tvg-id="华数高清" tvg-name="华数高清" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/华数.png" group-title="IPv6数字",华数超清
-http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000003000004748/index.m3u8?channel-id=wasusyt&Contentid=6000000003000004748&livemode=1&stbId
+#EXTINF:-1 tvg-id="HD欧美影院" tvg-name="HD欧美影院" tvg-logo="https://epg.112114.eu.org/logo/欧美影院.png" group-title="IPv6数字",欧美影院
+http://[2409:8087:7001:20:1000::95]:6610/000000001000/7185203501769528108/index.m3u8?channel-id=wasusyt&Contentid=7185203501769528108&livemode=1&stbId=3
+#EXTINF:-1 tvg-id="亚洲影院" tvg-name="亚洲影院" tvg-logo="https://epg.112114.eu.org/logo/亚洲影院.png" group-title="IPv6数字",亚洲影院
+http://[2409:8087:7001:20:1000::95]:6610/000000001000/5841816227539527643/index.m3u8?channel-id=wasusyt&Contentid=5841816227539527643&livemode=1&stbId=3
 #EXTINF:-1 tvg-id="newtv超级综艺" tvg-name="newtv超级综艺" tvg-logo="https://live.fanmingming.com/tv/NEWTV超级综艺.png" group-title="IPv6数字",NEWTV超级综艺
 http://[2409:8087:7000:20::4]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226009/index.m3u8
 #EXTINF:-1 tvg-id="newtv超级体育" tvg-name="newtv超级体育" tvg-logo="https://live.fanmingming.com/tv/NEWTV超级体育.png" group-title="IPv6数字",NEWTV超级体育
