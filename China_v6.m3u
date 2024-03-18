@@ -132,17 +132,17 @@ http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 #EXTINF:-1 tvg-id="94" tvg-name="内蒙古卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/neimeng.png" group-title="IPv6卫视",内蒙古卫视
 http://[2409:8087:1a0b:df::4017]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225634/index.m3u8
 #EXTINF:-1 tvg-id="111" tvg-name="凤凰中文" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangzhongwen.png" group-title="IPv6卫视",鳳凰中文
-http://playtv-live.ifeng.com/live/06OLEGEGM4G.m3u8
+http://[2409:8087:7000:20::4]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226547/index.m3u8
 #EXTINF:-1 tvg-id="112" tvg-name="凤凰资讯" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangzixun.png" group-title="IPv6卫视",鳳凰資訊
 http://[2409:8087:7000:20::4]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226546/index.m3u8
 #EXTM3U
-#EXTM3U
-#EXTINF:-1 group-title="IPv6数字",翡翠台
+#EXTINF:-1 group-title="IPv6地方",翡翠台
 http://iptv.hiper25.com:42487/TVB/video.m3u8?token=1710447330
-#EXTINF:-1 group-title="IPv6数字",明珠台
+#EXTINF:-1 group-title="IPv6地方",明珠台
 http://iptv.hiper25.com:42487/Pearl/video.m3u8?token=1710447330
-#EXTINF:-1 group-title="IPv6数字",澳门澳视
+#EXTINF:-1 group-title="IPv6地方",澳门澳视
 http://iptv.hiper25.com:42487/TDM/video.m3u8?token=1710447330
+#EXTM3U
 #EXTINF:-1 tvg-id="北京文艺" tvg-name="北京文艺" tvg-logo="https://mirror.ghproxy.com/https://raw.githubusercontent.com/ClodQiu/TELEV/Grey/LOGO/北京文艺.png" group-title="IPv6数字",BRTV文艺
 http://183.242.49.77:8787/live/BTV%E6%96%87%E8%89%BA/index.m3u8
 #EXTINF:-1 tvg-id="北京影视" tvg-name="北京影视" tvg-logo="https://mirror.ghproxy.com/https://raw.githubusercontent.com/ClodQiu/TELEV/Grey/LOGO/北京影视.png" group-title="IPv6数字",BRTV影视
@@ -209,6 +209,8 @@ http://iptv.hiper25.com:42487/gdnanfang/video.m3u8?token=1710447330
 http://iptv.hiper25.com:42487/lingnanxiqu/video.m3u8?token=1710447330
 #EXTINF:-1 group-title="IPv6数字",广州綜合
 http://iptv.hiper25.com:42487/guangzhouzonghe/video.m3u8?token=1710447330
+#EXTINF:-1 group-title="IPv6数字",广州新闻
+http://iptv.hiper25.com:42487/guangzhouxinwen/video.m3u8?token=1710447330
 #EXTINF:-1 group-title="IPv6数字",新视觉高清
 http://iptv.hiper25.com:42487/xinshijue/video.m3u8?token=1710447330
 #EXTINF:-1 tvg-id="广州南国都市" tvg-name="广州南国都市" tvg-logo="https://mirror.ghproxy.com/https://raw.githubusercontent.com/ClodQiu/TELEV/Grey/LOGO/广州南国都市.png" group-title="IPv6数字",南国都市
