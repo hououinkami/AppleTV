@@ -163,3 +163,189 @@ http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225742/index.m3u8
 #EXTINF:-1 tvg-id="newtv精品萌宠" tvg-name="newtv精品萌宠" tvg-logo="https://live.fanmingming.com/tv/NEWTV精品萌宠.png" group-title="IPv6数字",NEWTV精品萌宠
 http://[2409:8087:7000:20:1000::22]:6060/000000001000/2000000003000000067/index.m3u8?channel-id=hnbblive&Contentid=2000000003000000067&livemode=1&stbId=3
+#EXTINF:-1 group-title="IPv6数字",CNN
+https://i.mjh.nz/SamsungTVPlus/GBBD8000016N.m3u8
+#EXTINF:-1 group-title="IPv6数字",BBC
+https://i.mjh.nz/SamsungTVPlus/US4000033L.m3u8
+#EXTINF:-1 group-title="IPv6数字",CNA
+https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
+#EXTINF:-1 group-title="IPv6数字",ABC News Live
+https://i.mjh.nz/SamsungTVPlus/USBC39000171G.m3u8
+#EXTINF:-1 group-title="IPv6数字",Live Now FOX
+https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="IPv6数字",NBC News Now
+https://i.mjh.nz/SamsungTVPlus/USBB2200014DK.m3u8
+#EXTINF:-1 group-title="IPv6数字",Sky News
+https://i.mjh.nz/SamsungTVPlus/USBB52000022Q.m3u8
+#EXTINF:-1 group-title="IPv6数字",ABC7 Bay Area
+https://i.mjh.nz/SamsungTVPlus/USBC4400010RH.m3u8
+#EXTINF:-1 group-title="IPv6数字",CBS News Bay Area
+https://i.mjh.nz/SamsungTVPlus/USBD2700010WB.m3u8
+#EXTINF:-1 group-title="IPv6数字",Euronews Live
+https://i.mjh.nz/SamsungTVPlus/GBAJ4900020VP.m3u8
+#EXTINF:-1 group-title="IPv6数字",AXS TV Now 
+https://dikcfc9915kp8.cloudfront.net/hls/1080p/playlist.m3u8
+#EXTINF:-1 group-title="IPv6数字",ABC Australia
+https://abc-iview-mediapackagestreams-2.akamaized.net/out/v1/6e1cc6d25ec0480ea099a5399d73bc4b/index.m3u8
+#EXTINF:-1 group-title="IPv6数字",Newsmax
+http://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
+#EXTINF:-1 group-title="IPv6数字",Dubai One
+http://dminnvll.cdn.mangomolo.com/dubaione/smil:dubaione.stream.smil/chunklist_b1800000.m3u8
+#EXTINF:-1 group-title="IPv6数字",Al Jazeera
+http://live-hls-web-aje.getaj.net/AJE/01.m3u8
+#EXTINF:-1 group-title="IPv6数字",NHK World
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 group-title="IPv6数字",Arirang
+https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b3256000_sleng.m3u8
+#EXTINF:-1 group-title="IPv6数字",KBS World
+https://kbsworld-ott.akamaized.net/hls/live/2002341/kbsworld/master.m3u8
+#EXTINF:-1 group-title="IPv6数字",Bloomberg Asia
+https://epg.pw/stream/d2edf469b9079064a283f4b0811cbf6f2597ebbb3d08dcf77036a4b5a791b7cf.m3u8
+#EXTINF:-1 group-title="IPv6数字",Bloomberg Originals
+https://i.mjh.nz/SamsungTVPlus/GBBC900012J9.m3u8
+#EXTINF:-1 group-title="IPv6数字",CBN News
+https://bcovlive-a.akamaihd.net/re8d9f611ee4a490a9bb59e52db91414d/us-east-1/734546207001/playlist.m3u8
+#EXTINF:-1 group-title="IPv6数字",GB News
+https://i.mjh.nz/SamsungTVPlus/GBBB1600008R3.m3u8
+#EXTINF:-1 group-title="IPv6数字",RT News
+https://rt-glb.rttv.com/dvr/rtnews/playlist_4500Kb.m3u8
+#EXTINF:-1 group-title="IPv6数字",TBS 
+http://143.244.60.30/TBS/index.m3u8
+#EXTINF:-1 tvg-id="FXXEast.us" group-title="IPv6数字",FXX
+http://livex.pop-app.live/s4n/poplive/ch523/playlist.m3u8
+#EXTINF:-1 group-title="IPv6数字",A&E
+http://dns.clientetv.net:8080/sourceuxusaX2/bRsCaNup9Cb3/19404
+#EXTINF:-1 group-title="IPv6数字",AMC
+http://170.254.18.106/AMC/index.m3u8
+#EXTINF:-1 group-title="IPv6数字",Star
+http://170.254.18.106/STAR/index.m3u8
+#EXTINF:-1 group-title="IPv6数字",BET
+http://170.254.18.106/BET/index.m3u8
+#EXTINF:-1 group-title="IPv6数字",TNT
+http://170.254.18.106/TNT/index.m3u8
+#EXTINF:-1 group-title="IPv6数字",Red Bull TV
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
+#EXTINF:-1 group-title="IPv6数字",RT Documentary
+https://rt-rtd.rttv.com/live/rtdoc/playlist_4500Kb.m3u8
+#EXTINF:-1 group-title="IPv6数字",TRT World
+https://tv-trtworld.live.trt.com.tr/master_1080.m3u8
+#EXTINF:-1 group-title="IPv6数字",Taiwan Plus
+https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/6282251407001/playlist.m3u8
+#EXTINF:-1 group-title="IPv6数字",ION Plus
+https://i.mjh.nz/SamsungTVPlus/USBD300003LK.m3u8
+#EXTINF:-1 group-title="IPv6数字",ION 
+https://i.mjh.nz/SamsungTVPlus/USBD300002TU.m3u8
+#EXTINF:-1 group-title="IPv6数字",Love Nature
+https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
+#EXTINF:-1 group-title="IPv6数字",Disney International
+http://sansat.net:88/HhPRf2nAlsVeRU9/AnzgPldGC8OHsyY/96284
+#EXTINF:-1 group-title="IPv6数字",Fashion TV
+http://91.247.68.229:8000/play/Fashion/index.m3u8
+#EXTINF:-1 group-title="IPv6数字",Fight Network
+https://d12a2vxqkkh1bo.cloudfront.net/hls/1080p/playlist.m3u8
+#EXTINF:-1 group-title="IPv6数字",Star Movies
+http://45.127.56.3:9698/live/Corpus-POL/SRV4/1/STAR-MOVIES-HD/video.m3u8
+#EXTINF:-1 group-title="IPv6数字",Movies Now
+http://195.26.87.217/live.ts?channelId=162&uid=7435&deviceMac=00:1A:79:51:4B:3A
+#EXTINF:-1 group-title="IPv6数字",BBC America
+https://bcovlive-a.akamaihd.net/cde8d9416f6d4f1da0a4e8cfde6e8b2c/us-east-1/6240731308001/playlist.m3u8
+#EXTINF:-1 group-title="IPv6数字",Cinemax East
+http://dns.clientetv.net:8080/sourceuxusaX2/bRsCaNup9Cb3/10816
+#EXTINF:-1 group-title="IPv6数字",HBO
+http://dns.clientetv.net:8080/sourceuxusaX2/bRsCaNup9Cb3/10848
+#EXTINF:-1 group-title="IPv6数字",HBO Plus
+http://170.254.18.106/HBO_PLUS/index.m3u8
+#EXTINF:-1 group-title="IPv6数字",HBO West
+http://dns.clientetv.net:8080/sourceuxusaX2/bRsCaNup9Cb3/10849
+#EXTINF:-1 group-title="IPv6数字",HBO 2
+http://170.254.18.106/HBO2/index.m3u8
+#EXTINF:-1 group-title="IPv6数字",HBO Family
+http://170.254.18.106/HBO_FAMILY/index.m3u8
+#EXTINF:-1 group-title="IPv6数字",HBO Signature
+http://170.254.18.106/HBO_SIG/index.m3u8
+#EXTINF:-1 group-title="IPv6数字",&Flix HD
+http://89.187.177.137:8081/&FLIX/index.m3u8
+#EXTINF:-1 group-title="IPv6数字",Wild Earth
+https://wildearth-plex.amagi.tv/masterR1080p.m3u8
+#EXTINF:-1 group-title="IPv6数字",Wild Planet
+https://i.mjh.nz/SamsungTVPlus/GBBB5000002PL.m3u8
+#EXTINF:-1 group-title="IPv6数字",Clarity 4K
+https://i.mjh.nz/SamsungTVPlus/USBA3800005NI.m3u8
+#EXTINF:-1 group-title="IPv6数字",Comedy Central
+http://170.254.18.106/COMEDY_CENTRAL/index.m3u8
+#EXTINF:-1 group-title="IPv6数字",Nickelodeon
+http://143.244.60.30/NICKELODEON/index.m3u8
+#EXTINF:-1 group-title="IPv6数字",History
+http://170.254.18.106/HISTORY/index.m3u8
+#EXTINF:-1 group-title="IPv6数字",Paramount Network
+http://170.254.18.106/PARAMOUNT/index.m3u8 
+#EXTINF:-1 group-title="IPv6数字",HBO Xtreme
+http://170.254.18.106/HBO_XTREME/index.m3u8
+#EXTINF:-1 group-title="IPv6数字",Cinemax
+http://170.254.18.106/CINEMAX/index.m3u8
+#EXTINF:-1 group-title="IPv6数字",Rakuten Comedy
+https://rakuten-comedymovies-1-eu.rakuten.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="IPv6数字",Rakuten Family
+https://rakuten-family-1-eu.rakuten.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="IPv6数字",Rakuten Action
+https://rakuten-actionmovies-1-eu.rakuten.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="IPv6数字",Sky Sport
+https://donelfantastic.github.io/live/skysportsNz8.m3u8
+#EXTINF:-1 group-title="IPv6数字",Stadium
+https://i.mjh.nz/SamsungTVPlus/USAJ3504705A.m3u8
+#EXTINF:-1 group-title="IPv6数字",FIFA+
+https://i.mjh.nz/SamsungTVPlus/USBD12000255B.m3u8
+#EXTINF:-1 group-title="IPv6数字",Trace Sports
+https://lightning-tracesport-samsungau.amagi.tv/playlist1080p.m3u8
+#EXTINF:-1 group-title="IPv6数字",BBC Earth
+https://i.mjh.nz/SamsungTVPlus/USBD1700001RW.m3u8
+#EXTINF:-1 group-title="IPv6数字",BBC Food
+https://i.mjh.nz/SamsungTVPlus/USBC6000108Z.m3u8
+#EXTINF:-1 group-title="IPv6数字",BBC Home
+https://i.mjh.nz/SamsungTVPlus/USBC600017FG.m3u8
+#EXTINF:-1 group-title="IPv6数字",NBA TV
+http://streamsy.online:2999/coachj88/N93DPKS9pJ/136
+#EXTINF:-1 group-title="IPv6数字",Universal Kids
+http://streamsy.online:2999/coachj88/N93DPKS9pJ/252
+#EXTINF:-1 group-title="IPv6数字",Nat Geo
+http://streamsy.online:2999/coachj88/N93DPKS9pJ/141
+#EXTINF:-1 group-title="IPv6数字",NASA
+https://ntv1.akamaized.net:443/hls/live/2014075/NASA-NTV1-HLS/master_2000.m3u8?
+#EXTINF:-1 group-title="IPv6数字",Start TV
+http://streamsy.online:2999/coachj88/N93DPKS9pJ/1467
+#EXTINF:-1 group-title="IPv6数字",The Weather Channel
+http://streamsy.online:2999/coachj88/N93DPKS9pJ/301
+#EXTINF:-1 group-title="IPv6数字",Pop
+http://streamsy.online:2999/coachj88/N93DPKS9pJ/226
+#EXTINF:-1 group-title="IPv6数字",WE TV
+http://streamsy.online:2999/coachj88/N93DPKS9pJ/247
+#EXTINF:-1 group-title="IPv6数字",Me TV
+http://streamsy.online:2999/coachj88/N93DPKS9pJ/744
+#EXTINF:-1 group-title="IPv6数字",SNY
+http://streamsy.online:2999/coachj88/N93DPKS9pJ/330
+#EXTINF:-1 tvg-id="北京新闻" tvg-name="北京新闻" tvg-logo="https://raw.githubusercontent.com/Junior0679/IPTV/main/Logo/北京新闻.png" group-title="IPv6数字",北京新闻
+rtp://239.3.1.159:8000
+#EXTINF:-1 tvg-id="北京财经" tvg-name="北京财经" tvg-logo="https://raw.githubusercontent.com/Junior0679/IPTV/main/Logo/北京财经.png" group-title="IPv6数字",北京财经
+rtp://239.3.1.115:8000
+#EXTINF:-1 tvg-id="北京生活" tvg-name="北京生活" tvg-logo="https://raw.githubusercontent.com/Junior0679/IPTV/main/Logo/北京生活.png" group-title="IPv6数字",北京生活
+rtp://239.3.1.117:8000
+#EXTINF:-1 tvg-id="北京文艺" tvg-name="北京文艺" tvg-logo="https://raw.githubusercontent.com/Junior0679/IPTV/main/Logo/北京文艺.png" group-title="IPv6数字",北京文艺
+rtp://239.3.1.242:8000
+#EXTINF:-1 tvg-id="北京影视" tvg-name="北京影视" tvg-logo="https://raw.githubusercontent.com/Junior0679/IPTV/main/Logo/北京影视.png" group-title="IPv6数字",北京影视
+rtp://239.3.1.158:8000
+#EXTINF:-1 tvg-id="北京国际" tvg-name="北京国际频道" tvg-logo="https://epg.112114.xyz/logo/北京国际.png" group-title="IPv6数字",北京国际
+rtp://239.3.1.235:8000
+#EXTINF:-1 tvg-id="体育休闲" tvg-name="北京体育休闲" tvg-logo="https://raw.githubusercontent.com/Junior0679/IPTV/main/Logo/北京体育休闲.png" group-title="IPv6数字",体育休闲
+rtp://239.3.1.243:8000
+#EXTINF:-1 tvg-id="1872" tvg-name="北京纪实" tvg-logo="https://raw.githubusercontent.com/Junior0679/IPTV/main/Logo/北京纪实科教.png" group-title="IPv6数字",纪实科教
+rtp://239.3.1.115:8000
+#EXTINF:-1 tvg-id="卡酷少儿" tvg-name="卡酷少儿" tvg-logo="https://raw.githubusercontent.com/Junior0679/IPTV/main/Logo/北京卡酷少儿.png" group-title="IPv6数字",卡酷少儿
+rtp://239.3.1.189:8000
+#EXTINF:-1 tvg-id="2025" tvg-name="金鹰纪实" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/金鹰纪实.png" group-title="IPv6数字",金鹰纪实
+rtp://239.3.1.58:8156
+#EXTINF:-1 tvg-id="1988" tvg-name="上海纪实" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/纪实人文.png" group-title="IPv6数字",纪实人文
+rtp://239.3.1.212:8060
+#EXTINF:-1 tvg-id="6585" tvg-name="茶频道" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/茶友频道.png" group-title="IPv6数字",茶友频道
+rtp://239.3.1.165:8001
+#EXTINF:-1 tvg-id="6595" tvg-name="快乐垂钓" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/快乐垂钓.png" group-title="IPv6数字",快乐垂钓
+rtp://239.3.1.164:8001
