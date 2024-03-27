@@ -174,7 +174,7 @@ https://i.mjh.nz/SamsungTVPlus/USBC39000171G.m3u8
 #EXTINF:-1 group-title="IPv6数字",Live Now FOX
 https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="IPv6数字",NBC News Now
-https://i.mjh.nz/SamsungTVPlus/USBB2200014DK.m3u8
+https://i.mjh.nz/SamsungTVPlus/CAAJ2700011IF.m3u8
 #EXTINF:-1 group-title="IPv6数字",Sky News
 https://i.mjh.nz/SamsungTVPlus/USBB52000022Q.m3u8
 #EXTINF:-1 group-title="IPv6数字",ABC7 Bay Area
@@ -323,6 +323,14 @@ http://streamsy.online:2999/coachj88/N93DPKS9pJ/247
 http://streamsy.online:2999/coachj88/N93DPKS9pJ/744
 #EXTINF:-1 group-title="IPv6数字",SNY
 http://streamsy.online:2999/coachj88/N93DPKS9pJ/330
+#EXTINF:-1 group-title="IPv6数字",Documentary+
+https://i.mjh.nz/SamsungTVPlus/CABC2300019UD.m3u8
+#EXTINF:-1 group-title="IPv6数字",Tastemade
+https://i.mjh.nz/SamsungTVPlus/CABD1200002T9.m3u8
+#EXTINF:-1 group-title="IPv6数字",MovieSphere
+https://i.mjh.nz/SamsungTVPlus/USBD17000117B.m3u8
+#EXTINF:-1 group-title="IPv6数字",Travelxp
+https://i.mjh.nz/SamsungTVPlus/ATBA1000005P4.m3u8
 #EXTINF:-1 tvg-id="北京新闻" tvg-name="北京新闻" tvg-logo="https://raw.githubusercontent.com/Junior0679/IPTV/main/Logo/北京新闻.png" group-title="IPv6数字",北京新闻
 rtp://239.3.1.159:8000
 #EXTINF:-1 tvg-id="北京财经" tvg-name="北京财经" tvg-logo="https://raw.githubusercontent.com/Junior0679/IPTV/main/Logo/北京财经.png" group-title="IPv6数字",北京财经
