@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="金鹰卡通" tvg-name="金鹰卡通" tvg-logo="https://mirror.ghproxy.com/https://raw.githubusercontent.com/ClodQiu/TELEV/Grey/LOGO/金鹰卡通.png" group-title="IPv6数字",金鹰卡通
-http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN6000057BESTVSMGSMG/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUTWDyIgRkFJBAHMhA2ayG0T0ZQXwaiVktPr6ILPKXqwOw2VoxnxHvBSRSzCCC3szSwIgrD0rUpRXeaqChwLXCf0
+http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN6000057BESTVSMGSMG/index.m3u8?AuthInfo=9kOOdBn7MFF/2bWjKgahUTWDyIgRkFJBAHMhA2ayG0T0ZQXwaiVktPr6ILPKXqwOw2VoxnxHvBSRSzCCC3szSwIgrD0rUpRXeaqChwLXCf0
 #EXTINF:-1 tvg-id="湖南爱晚" tvg-name="湖南爱晚" tvg-logo="https://mirror.ghproxy.com/https://raw.githubusercontent.com/ClodQiu/TELEV/Grey/LOGO/湖南爱晚.png" group-title="IPv6数字",湖南爱晚
 http://222.241.154.37:9901/tsfile/live/23022_1.m3u8
 #EXTINF:-1 tvg-id="湖南电视剧" tvg-name="湖南电视剧" tvg-logo="https://mirror.ghproxy.com/https://raw.githubusercontent.com/ClodQiu/TELEV/Grey/LOGO/湖南电视剧.png" group-title="IPv6数字",湖南视剧
@@ -17,42 +17,6 @@ http://222.241.154.37:9901/tsfile/live/23020_1.m3u8
 http://222.241.154.37:9901/tsfile/live/23023_1.m3u8
 #EXTINF:-1 tvg-id="湖南教育" tvg-name="湖南教育台" tvg-logo="https://mirror.ghproxy.com/https://raw.githubusercontent.com/ClodQiu/TELEV/Grey/LOGO/湖南教育台.png" group-title="IPv6数字",湖南教育
 http://222.241.154.37:9901/tsfile/live/23027_1.m3u8
-#EXTINF:-1 tvg-id="上海新闻综合" tvg-name="上海新闻综合" tvg-logo="https://github.moeyy.xyz/https://raw.githubusercontent.com/fenxp/iptv/main/tv/上视新闻.png" group-title="IPv6数字",上海新综
-https://itv.lat/tv/live.php?&line=1&id=shxwzh
-#EXTINF:-1 tvg-id="上海都市" tvg-name="上海都市" tvg-logo="https://github.moeyy.xyz/https://raw.githubusercontent.com/fenxp/iptv/main/tv/上海都市.png" group-title="IPv6数字",上海都市
-https://itv.lat/tv/live.php?&line=1&id=shds
-#EXTINF:-1 tvg-id="上海外语" tvg-name="上海外语" tvg-logo="https://github.moeyy.xyz/https://raw.githubusercontent.com/fenxp/iptv/main/tv/上海外语.png" group-title="IPv6数字",上海外语
-https://itv.lat/tv/live.php?&line=1&id=shics
-#EXTINF:-1 tvg-id="东方影视" tvg-name="东方影视" tvg-logo="https://github.moeyy.xyz/https://raw.githubusercontent.com/fenxp/iptv/main/tv/东方影视.png" group-title="IPv6数字",东方影视
-https://itv.lat/tv/live.php?&line=1&id=dfys
-#EXTINF:-1 tvg-id="SITV七彩戏剧" tvg-name="SITV七彩戏剧" tvg-logo="https://github.moeyy.xyz/https://raw.githubusercontent.com/fenxp/iptv/main/tv/七彩戏剧.png" group-title="IPv6数字",七彩戏剧
-https://itv.lat/tv/live.php?&line=1&id=qcxj
-#EXTINF:-1 tvg-id="上海第一财经" tvg-name="上海第一财经" tvg-logo="https://github.moeyy.xyz/https://raw.githubusercontent.com/fenxp/iptv/main/tv/上海第一财经.png" group-title="IPv6数字",第一财经
-https://itv.lat/tv/live.php?&line=1&id=dycj
-#EXTINF:-1 tvg-id="SITV法治天地" tvg-name="SITV法治天地" tvg-logo="https://github.moeyy.xyz/https://raw.githubusercontent.com/fenxp/iptv/main/tv/法治天地.png" group-title="IPv6数字",法治天地
-https://itv.lat/tv/live.php?&line=1&id=fztd
-#EXTINF:-1 tvg-id="东方财经" tvg-name="东方财经" tvg-logo="https://github.moeyy.xyz/https://raw.githubusercontent.com/fenxp/iptv/main/tv/东方财经.png" group-title="IPv6数字",东方财经
-https://itv.lat/tv/live.php?&line=1&id=dfcj
-#EXTINF:-1 tvg-id="上海教育台" tvg-name="上海教育台" tvg-logo="https://github.moeyy.xyz/https://raw.githubusercontent.com/fenxp/iptv/main/tv/上海教育.png" group-title="IPv6数字",上海教育
-https://itv.lat/tv/live.php?&line=1&id=shjy
-#EXTINF:-1 tvg-id="福建综合" tvg-name="福建综合" tvg-logo="https://github.moeyy.xyz/https://raw.githubusercontent.com/fenxp/iptv/main/tv/福建综合.png" group-title="IPv6数字",福建综合
-https://itv.lat/tv/live.php?&line=1&id=fjzh
-#EXTINF:-1 tvg-id="福建新闻" tvg-name="福建新闻" tvg-logo="https://github.moeyy.xyz/https://raw.githubusercontent.com/fenxp/iptv/main/tv/福建新闻.png" group-title="IPv6数字",福建新闻
-https://itv.lat/tv/live.php?&line=1&id=fjxw
-#EXTINF:-1 tvg-id="福建电视剧" tvg-name="福建电视剧" tvg-logo="https://github.moeyy.xyz/https://raw.githubusercontent.com/fenxp/iptv/main/tv/福建电视剧.png" group-title="IPv6数字",福建视剧
-https://itv.lat/tv/live.php?&line=1&id=fjdsj
-#EXTINF:-1 tvg-id="福建文体" tvg-name="福建文体" tvg-logo="https://github.moeyy.xyz/https://raw.githubusercontent.com/fenxp/iptv/main/tv/福建文体.png" group-title="IPv6数字",福建文体
-https://itv.lat/tv/live.php?&line=1&id=fjwt
-#EXTINF:-1 tvg-id="福建少儿" tvg-name="福建少儿" tvg-logo="https://github.moeyy.xyz/https://raw.githubusercontent.com/fenxp/iptv/main/tv/福建少儿.png" group-title="IPv6数字",福建少儿
-https://itv.lat/tv/live.php?&line=1&id=fjse
-#EXTINF:-1 tvg-id="福建旅游" tvg-name="福建旅游" tvg-logo="https://github.moeyy.xyz/https://raw.githubusercontent.com/fenxp/iptv/main/tv/福建旅游.png" group-title="IPv6数字",福建旅游
-https://itv.lat/tv/live.php?&line=1&id=fjly
-#EXTINF:-1 tvg-id="福建经济" tvg-name="福建经济" tvg-logo="https://github.moeyy.xyz/https://raw.githubusercontent.com/fenxp/iptv/main/tv/福建经济.png" group-title="IPv6数字",福建经济
-https://itv.lat/tv/live.php?&line=1&id=fjjj
-#EXTINF:-1 tvg-id="福建公共" tvg-name="福建公共" tvg-logo="https://github.moeyy.xyz/https://raw.githubusercontent.com/fenxp/iptv/main/tv/福建公共.png" group-title="IPv6数字",福建公共
-https://itv.lat/tv/live.php?&line=1&id=fjgg
-#EXTINF:-1 tvg-id="福建教育" tvg-name="福建教育" tvg-logo="https://github.moeyy.xyz/https://raw.githubusercontent.com/fenxp/iptv/main/tv/福建教育.png" group-title="IPv6数字",福建教育
-https://itv.lat/tv/live.php?&line=1&id=fjjy
 #EXTINF:-1 tvg-id="湖北综合" tvg-name="湖北综合" tvg-logo="https://mirror.ghproxy.com/https://raw.githubusercontent.com/ClodQiu/TELEV/Grey/LOGO/湖北综合.png" group-title="IPv6数字",湖北综合
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN638072216f7da/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUUAdKgLqNB5aOAUhcp5CeNLx3R3LdIBdA5q61lut1LwZcw4SC2tJubc%2Bq5t%2F61jvWCtjrJL0x%2BHncPgdmcbBW9I
 #EXTINF:-1 tvg-id="湖北影视" tvg-name="湖北影视" tvg-logo="https://mirror.ghproxy.com/https://raw.githubusercontent.com/ClodQiu/TELEV/Grey/LOGO/湖北影视.png" group-title="IPv6数字",湖北影视
@@ -91,58 +55,6 @@ https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
 https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
 #EXTINF:-1 tvg-id="梨园" tvg-name="梨园" tvg-logo="https://live.fanmingming.com/tv/河南梨园.png" group-title="IPv6数字",梨园频道
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN6380788ba7bed/index.m3u8?AuthInfo=toEYVdLfxymUP2l9NZpQI5%2BK6T7j%2FlRm%2BvbM9VO7bA0q1S1k1f36SqqriM0FZoFSAJRfCt8SS7X6sTRmXb81a8O4H%2FdroDKjLoDeaMQdyJQ
-#EXTINF:-1 tvg-id="北京纪实" tvg-name="北京纪实" tvg-logo="https://github.moeyy.xyz/https://raw.githubusercontent.com/fenxp/iptv/main/tv/北京纪实科教.png" group-title="IPv6数字",纪实科教
-https://itv.lat/tv/live.php?&line=1&id=bjjskj
-#EXTINF:-1 tvg-id="上海纪实" tvg-name="上海纪实" tvg-logo="https://github.moeyy.xyz/https://raw.githubusercontent.com/fenxp/iptv/main/tv/纪实人文.png" group-title="IPv6数字",纪实人文
-https://itv.lat/tv/live.php?&line=1&id=shjsrw
-#EXTINF:-1 tvg-id="动漫秀场" tvg-name="动漫秀场" tvg-logo="https://github.moeyy.xyz/https://raw.githubusercontent.com/fenxp/iptv/main/tv/动漫秀场.png" group-title="IPv6数字",动漫秀场
-https://itv.lat/tv/live.php?&line=1&id=dmxc
-#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://github.moeyy.xyz/https://raw.githubusercontent.com/fenxp/iptv/main/tv/哈哈炫动.png" group-title="IPv6数字",哈哈炫动
-https://itv.lat/tv/live.php?&line=1&id=hhxd
-#EXTINF:-1 tvg-id="欢笑剧场" tvg-name="欢笑剧场" tvg-logo="https://github.moeyy.xyz/https://raw.githubusercontent.com/fenxp/iptv/main/tv/欢笑剧场.png" group-title="IPv6数字",欢笑剧场
-https://itv.lat/tv/live.php?&line=1&id=hxjc
-#EXTINF:-1 tvg-id="SITV都市剧场" tvg-name="SITV都市剧场" tvg-logo="https://github.moeyy.xyz/https://raw.githubusercontent.com/fenxp/iptv/main/tv/都市剧场.png" group-title="IPv6数字",都市剧场
-https://itv.lat/tv/live.php?&line=1&id=dsjc
-#EXTINF:-1 tvg-id="上海五星体育" tvg-name="上海五星体育" tvg-logo="https://github.moeyy.xyz/https://raw.githubusercontent.com/fenxp/iptv/main/tv/五星体育.png" group-title="IPv6数字",五星体育
-https://itv.lat/tv/live.php?&line=1&id=wxty
-#EXTINF:-1 tvg-id="SITV劲爆体育" tvg-name="SITV劲爆体育" tvg-logo="https://github.moeyy.xyz/https://raw.githubusercontent.com/fenxp/iptv/main/tv/劲爆体育.png" group-title="IPv6数字",劲爆体育
-https://itv.lat/tv/live.php?&line=1&id=jbty
-#EXTINF:-1 tvg-id="新视觉" tvg-name="新视觉" tvg-logo="https://github.moeyy.xyz/https://raw.githubusercontent.com/fenxp/iptv/main/tv/新视觉.png" group-title="IPv6数字",新视觉
-https://itv.lat/tv/live.php?&line=1&id=xsj
-#EXTINF:-1 tvg-id="游戏风云" tvg-name="游戏风云" tvg-logo="https://github.moeyy.xyz/https://raw.githubusercontent.com/fenxp/iptv/main/tv/游戏风云.png" group-title="IPv6数字",游戏风云
-https://itv.lat/tv/live.php?&line=1&id=yxfy
-#EXTINF:-1 tvg-id="生活时尚" tvg-name="生活时尚" tvg-logo="https://github.moeyy.xyz/https://raw.githubusercontent.com/fenxp/iptv/main/tv/生活时尚.png" group-title="IPv6数字",生活时尚
-https://itv.lat/tv/live.php?&line=1&id=shss
-#EXTINF:-1 tvg-id="SITV金色学堂" tvg-name="SITV金色学堂" tvg-logo="https://github.moeyy.xyz/https://raw.githubusercontent.com/fenxp/iptv/main/tv/金色学堂.png" group-title="IPv6数字",金色学堂
-https://itv.lat/tv/live.php?&line=1&id=jspd
-#EXTINF:-1 tvg-id="全纪实" tvg-name="全纪实" tvg-logo="https://github.moeyy.xyz/https://raw.githubusercontent.com/fenxp/iptv/main/tv/乐游.png" group-title="IPv6数字",乐游频道
-https://itv.lat/tv/live.php?&line=1&id=qjs
-#EXTINF:-1 tvg-id="魅力足球" tvg-name="魅力足球" tvg-logo="https://github.moeyy.xyz/https://raw.githubusercontent.com/fenxp/iptv/main/tv/魅力足球.png" group-title="IPv6数字",魅力足球
-https://itv.lat/tv/live.php?&line=1&id=mlzq
-#EXTINF:-1 tvg-id="茶" tvg-name="茶" tvg-logo="https://github.moeyy.xyz/https://raw.githubusercontent.com/fenxp/iptv/main/tv/茶.png" group-title="IPv6数字",茶友频道
-https://itv.lat/tv/live.php?&line=1&id=cpd
-#EXTINF:-1 tvg-id="快乐垂钓" tvg-name="快乐垂钓" tvg-logo="https://github.moeyy.xyz/https://raw.githubusercontent.com/fenxp/iptv/main/tv/快乐垂钓.png" group-title="IPv6数字",快乐垂钓
-https://itv.lat/tv/live.php?&line=1&id=klcd
-#EXTINF:-1 tvg-id="金鹰纪实" tvg-name="金鹰纪实" tvg-logo="https://github.moeyy.xyz/https://raw.githubusercontent.com/fenxp/iptv/main/tv/金鹰纪实.png" group-title="IPv6数字",金鹰纪实
-https://itv.lat/tv/live.php?&line=1&id=jyjs
-#EXTINF:-1 tvg-id="华语影院" tvg-name="华语影院" tvg-logo="https://github.moeyy.xyz/https://raw.githubusercontent.com/fenxp/iptv/main/tv/bestv.png" group-title="IPv6数字",华语影院
-https://itv.lat/tv/live.php?&line=1&id=hyyy
-#EXTINF:-1 tvg-id="电竞天堂" tvg-name="电竞天堂" tvg-logo="https://github.moeyy.xyz/https://raw.githubusercontent.com/fenxp/iptv/main/tv/bestv.png" group-title="IPv6数字",电竞天堂
-https://itv.lat/tv/live.php?&line=1&id=djtt
-#EXTINF:-1 tvg-id="青春动漫" tvg-name="青春动漫" tvg-logo="https://github.moeyy.xyz/https://raw.githubusercontent.com/fenxp/iptv/main/tv/bestv.png" group-title="IPv6数字",青春动漫
-https://itv.lat/tv/live.php?&line=1&id=qcdm
-#EXTINF:-1 tvg-id="星光影院" tvg-name="星光影院" tvg-logo="https://github.moeyy.xyz/https://raw.githubusercontent.com/fenxp/iptv/main/tv/bestv.png" group-title="IPv6数字",星光影院
-https://itv.lat/tv/live.php?&line=1&id=xgyy
-#EXTINF:-1 tvg-id="谍战剧场" tvg-name="谍战剧场" tvg-logo="https://github.moeyy.xyz/https://raw.githubusercontent.com/fenxp/iptv/main/tv/bestv.png" group-title="IPv6数字",谍战剧场
-https://itv.lat/tv/live.php?&line=1&id=dzjc
-#EXTINF:-1 tvg-id="全球大片" tvg-name="全球大片" tvg-logo="https://github.moeyy.xyz/https://raw.githubusercontent.com/fenxp/iptv/main/tv/bestv.png" group-title="IPv6数字",全球大片
-https://itv.lat/tv/live.php?&line=1&id=qqdp
-#EXTINF:-1 tvg-id="热门剧场" tvg-name="热门剧场" tvg-logo="https://github.moeyy.xyz/https://raw.githubusercontent.com/fenxp/iptv/main/tv/bestv.png" group-title="IPv6数字",热门剧场
-https://itv.lat/tv/live.php?&line=1&id=rmjc
-#EXTINF:-1 tvg-id="热门综艺" tvg-name="热门综艺" tvg-logo="https://github.moeyy.xyz/https://raw.githubusercontent.com/fenxp/iptv/main/tv/bestv.png" group-title="IPv6数字",热门综艺
-https://itv.lat/tv/live.php?&line=1&id=rmzy
-#EXTINF:-1 tvg-id="戏曲精选" tvg-name="戏曲精选" tvg-logo="https://github.moeyy.xyz/https://raw.githubusercontent.com/fenxp/iptv/main/tv/bestv.png" group-title="IPv6数字",戏曲精选
-https://itv.lat/tv/live.php?&line=1&id=xqjx
 #EXTINF:-1 tvg-id="newtv超级体育" tvg-name="newtv超级体育" tvg-logo="https://live.fanmingming.com/tv/NEWTV超级体育.png" group-title="IPv6数字",NEWTV超级体育
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225715/index.m3u8
 #EXTINF:-1 tvg-id="newtv超级电影" tvg-name="newtv超级电影" tvg-logo="https://live.fanmingming.com/tv/NEWTV超级电影.png" group-title="IPv6数字",NEWTV超级电影
