@@ -281,12 +281,6 @@ http://sansat.net:88/HhPRf2nAlsVeRU9/AnzgPldGC8OHsyY/96284
 http://91.247.68.229:8000/play/Fashion/index.m3u8
 #EXTINF:-1 group-title="IPv6数字",Fight Network
 https://d12a2vxqkkh1bo.cloudfront.net/hls/1080p/playlist.m3u8
-#EXTINF:-1 group-title="IPv6数字",Star Movies
-http://45.127.56.3:9698/live/Corpus-POL/SRV4/1/STAR-MOVIES-HD/video.m3u8
-#EXTINF:-1 group-title="IPv6数字",Movies Now
-http://195.26.87.217/live.ts?channelId=162&uid=7435&deviceMac=00:1A:79:51:4B:3A
-#EXTINF:-1 group-title="IPv6数字",BBC America
-https://bcovlive-a.akamaihd.net/cde8d9416f6d4f1da0a4e8cfde6e8b2c/us-east-1/6240731308001/playlist.m3u8
 #EXTINF:-1 group-title="IPv6数字",Cinemax East
 http://dns.clientetv.net:8080/sourceuxusaX2/bRsCaNup9Cb3/10816
 #EXTINF:-1 group-title="IPv6数字",HBO
@@ -369,3 +363,9 @@ https://i.mjh.nz/SamsungTVPlus/CABD1200002T9.m3u8
 https://i.mjh.nz/SamsungTVPlus/USBD17000117B.m3u8
 #EXTINF:-1 group-title="IPv6数字",Travelxp
 https://i.mjh.nz/SamsungTVPlus/ATBA1000005P4.m3u8
+#EXTINF:-1 group-title="IPv6数字",The Lego Channel
+https://i.mjh.nz/SamsungTVPlus/GBBC4300005AL.m3u8
+#EXTINF:-1 group-title="IPv6数字",The Guardian
+https://i.mjh.nz/SamsungTVPlus/GBAJ2400003DD.m3u8
+#EXTINF:-1 group-title="IPv6数字",NexUp Live Comedy
+https://i.mjh.nz/SamsungTVPlus/GBBD1100012JB.m3u8
