@@ -37,8 +37,30 @@ http://[2409:8087:1a01:df::4077]:80/PLTV/88888888/224/3221225893/index.m3u8
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225765/index.m3u8
 #EXTINF:-1 tvg-id="18" tvg-name="CCTV4K" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4k.png" group-title="IPv6央视",CCTV-4K 超高清
 http://27.222.3.214/liveali-tp4k.cctv.cn/live/4K10M.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="22" tvg-name="世界地理" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV_SJDL.png" group-title="IPv6央视",CCTV-世界地理
+http://118.254.203.236:8888/rtp/239.76.254.57:9000
+#EXTINF:-1 tvg-id="23" tvg-name="风云音乐" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV_FYYY.png" group-title="IPv6央视",CCTV-风云音乐
+http://118.254.203.236:8888/rtp/239.76.254.51:9000
+#EXTINF:-1 tvg-id="24" tvg-name="风云足球" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV_FYZQ.png" group-title="IPv6央视",CCTV-风云足球
+http://118.254.203.236:8888/rtp/239.76.254.52:9000
+#EXTINF:-1 tvg-id="25" tvg-name="风云剧场" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV_FYJC.png" group-title="IPv6央视",CCTV-风云剧场
+http://118.254.203.236:8888/rtp/239.76.254.50:9000
+#EXTINF:-1 tvg-id="26" tvg-name="第一剧场" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV_DYJC.png" group-title="IPv6央视",CCTV-第一剧场
+http://118.254.203.236:8888/rtp/239.76.254.49:9000
+#EXTINF:-1 tvg-id="27" tvg-name="怀旧剧场" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV_HJJC.png" group-title="IPv6央视",CCTV-怀旧剧场
+http://118.254.203.236:8888/rtp/239.76.254.53:9000
+#EXTINF:-1 tvg-id="29" tvg-name="台球" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV_YSTQ.png" group-title="IPv6央视",CCTV-台球
+http://118.254.203.236:8888/rtp/239.76.254.58:9000
+#EXTINF:-1 tvg-id="31" tvg-name="女性时尚" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV_NXSS.png" group-title="IPv6央视",CCTV-女性时尚
+http://118.254.203.236:8888/rtp/239.76.254.55:9000
+#EXTINF:-1 tvg-id="33" tvg-name="文化精品" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV_WHJP.png" group-title="IPv6央视",CCTV-文化精品
+http://118.254.203.236:8888/rtp/239.76.254.56:9000
+#EXTINF:-1 tvg-id="35" tvg-name="兵器科技" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV_BQKJ.png" group-title="IPv6央视",CCTV-兵器科技
+http://118.254.203.236:8888/rtp/239.76.254.59:9000
 #EXTINF:-1 tvg-id="41" tvg-name="CETV1" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/中国教育1台.png" group-title="IPv6央视",CETV-1
 http://221.219.66.252:18888/rtp/239.3.1.57:8152
+#EXTINF:-1 tvg-id="42" tvg-name="CETV4" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/中国教育4台.png" group-title="IPv6央视",CETV-4
+http://118.254.203.236:8888/rtp/239.76.252.254:9000
 #EXTINF:-1 tvg-id="45" tvg-name="CGTN" tvg-logo="https://live.fanmingming.com/tv/cgtn.png" group-title="IPv6央视",CGTN
 http://221.219.66.252:18888/rtp/239.3.1.215:4220
 #EXTINF:-1 tvg-id="61" tvg-name="深圳卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shenzhen.png" group-title="IPv6卫视",深圳卫视
@@ -90,17 +112,19 @@ http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 #EXTINF:-1 tvg-id="83" tvg-name="山西卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shanxi_.png" group-title="IPv6卫视",山西卫视
 http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/00000001000000060000000000000318/index.m3u8?IAS
 #EXTINF:-1 tvg-id="84" tvg-name="陕西卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shanxi.png" group-title="IPv6卫视",陕西卫视
-http://[2409:8087:5e01:34::22]:6610/ZTE_CMS/00000001000000060000000000000313/index.m3u8?IAS
+http://118.254.203.236:8888/rtp/239.76.254.76:9000
 #EXTINF:-1 tvg-id="85" tvg-name="云南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/yunnan.png" group-title="IPv6卫视",云南卫视
-http://[2409:8087:5e01:34::22]:6610/ZTE_CMS/00000001000000060000000000000305/index.m3u8?IAS
+http://118.254.203.236:8888/rtp/239.76.254.60:9000
+#EXTINF:-1 tvg-id="86" tvg-name="甘肃卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/gansu.png" group-title="IPv6卫视",甘肃卫视
+http://118.254.203.236:8888/rtp/239.76.253.94:9000
 #EXTINF:-1 tvg-id="87" tvg-name="海南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/lvyou.png" group-title="IPv6卫视", 海南卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226465/index.m3u8
 #EXTINF:-1 tvg-id="89" tvg-name="三沙卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/sansha.png" group-title="IPv6卫视", 三沙卫视
-http://[2409:8087:5e01:34::20]:6610/ZTE_CMS/00000001000000060000000000000208/index.m3u8?IAS
+http://118.254.203.236:8888/rtp/239.76.253.74:9000
 #EXTINF:-1 tvg-id="90" tvg-name="西藏卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/xizang.png" group-title="IPv6卫视",西藏卫视
 http://[2409:8087:5e01:34::23]:6610/ZTE_CMS/00000001000000060000000000000317/index.m3u8?IAS
 #EXTINF:-1 tvg-id="91" tvg-name="青海卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/qinghai.png" group-title="IPv6卫视",青海卫视
-http://[2409:8087:5e01:34::23]:6610/ZTE_CMS/00000001000000060000000000000320/index.m3u8?IAS
+http://118.254.203.236:8888/rtp/239.76.254.132:9000
 #EXTINF:-1 tvg-id="92" tvg-name="新疆卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/xinjiang.png" group-title="IPv6卫视",新疆卫视
 http://[2409:8087:5e01:34::23]:6610/ZTE_CMS/00000001000000060000000000000316/index.m3u8?IAS
 #EXTINF:-1 tvg-id="94" tvg-name="内蒙古卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/neimeng.png" group-title="IPv6卫视",内蒙古卫视
@@ -117,6 +141,12 @@ https://iptv.hiper25.com/Pearl/video.m3u8
 #EXTINF:-1 group-title="IPv6地方",澳门澳视
 https://iptv.hiper25.com/TDM/video.m3u8
 #EXTM3U
+#EXTINF:-1 tvg-id="CHC家庭影院" tvg-name="CHC家庭影院" tvg-logo="https://epg.112114.xyz/logo/CHC家庭影院.png" group-title="IPv6数字",CHC家庭影院 
+http://118.254.203.236:8888/rtp/239.76.252.241:9000
+#EXTINF:-1 tvg-id="CHC高清电影" tvg-name="CHC高清电影" tvg-logo="https://epg.112114.xyz/logo/CHC高清电影.png" group-title="IPv6数字",CHC高清电影
+http://118.254.203.236:8888/rtp/239.76.252.242:9000
+#EXTINF:-1 tvg-id="CHC动作电影" tvg-name="CHC动作电影" tvg-logo="https://epg.112114.xyz/logo/CHC动作电影.png" group-title="IPv6数字",CHC动作电影 
+http://118.254.203.236:8888/rtp/239.76.252.243:9000
 #EXTINF:-1 tvg-id="BRTV新闻[高清]" tvg-name="BRTV新闻[高清]" tvg-logo="https://epg.112114.xyz/logo/BRTV新闻.png" group-title="IPv6数字",BRTV新闻 
 http://221.219.66.252:18888/rtp/239.3.1.159:8000
 #EXTINF:-1 tvg-id="BRTV影视[高清]" tvg-name="BRTV影视[高清]" tvg-logo="https://epg.112114.xyz/logo/BRTV影视.png" group-title="IPv6数字",BRTV影视 

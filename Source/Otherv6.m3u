@@ -1,4 +1,10 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="CHC家庭影院" tvg-name="CHC家庭影院" tvg-logo="https://epg.112114.xyz/logo/CHC家庭影院.png" group-title="IPv6数字",CHC家庭影院 
+http://118.254.203.236:8888/rtp/239.76.252.241:9000
+#EXTINF:-1 tvg-id="CHC高清电影" tvg-name="CHC高清电影" tvg-logo="https://epg.112114.xyz/logo/CHC高清电影.png" group-title="IPv6数字",CHC高清电影
+http://118.254.203.236:8888/rtp/239.76.252.242:9000
+#EXTINF:-1 tvg-id="CHC动作电影" tvg-name="CHC动作电影" tvg-logo="https://epg.112114.xyz/logo/CHC动作电影.png" group-title="IPv6数字",CHC动作电影 
+http://118.254.203.236:8888/rtp/239.76.252.243:9000
 #EXTINF:-1 tvg-id="BRTV新闻[高清]" tvg-name="BRTV新闻[高清]" tvg-logo="https://epg.112114.xyz/logo/BRTV新闻.png" group-title="IPv6数字",BRTV新闻 
 http://221.219.66.252:18888/rtp/239.3.1.159:8000
 #EXTINF:-1 tvg-id="BRTV影视[高清]" tvg-name="BRTV影视[高清]" tvg-logo="https://epg.112114.xyz/logo/BRTV影视.png" group-title="IPv6数字",BRTV影视 
