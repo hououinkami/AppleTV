@@ -67,6 +67,8 @@ http://118.254.203.236:8888/rtp/239.76.254.62:9000
 http://play-flive.ifeng.com/live/06OLEGEGM4G.m3u8
 #EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰资讯" group-title="IPv6卫视",凤凰资讯
 http://play-flive.ifeng.com/live/06OLEEWQKN4.m3u8
+#EXTINF:-1 tvg-id="284" tvg-name="凤凰香港" tvg-logo="https://cdn.jsdelivr.net/gh/youngking525/TVlogo@main/img/Phoenix3.png" group-title="IPv6卫视",凤凰香港
+http://103.95.24.37:880/fhxgt.m3u8
 #EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://live.fanmingming.com/tv/北京卫视.png" group-title="IPv6卫视",北京卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226450/index.m3u8
 #EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://live.fanmingming.com/tv/东方卫视.png" group-title="IPv6卫视",东方卫视
