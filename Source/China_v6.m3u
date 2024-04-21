@@ -35,9 +35,9 @@ http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 http://[2409:8087:1a01:df::4077]:80/PLTV/88888888/224/3221225893/index.m3u8
 #EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV17" tvg-logo="https://live.fanmingming.com/tv/CCTV17.png" group-title="IPv6央视",CCTV-17  
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225765/index.m3u8
-#EXTINF:-1 tvg-id="CGTN 新闻[高清]" tvg-name="CGTN 新闻[高清]" tvg-logo="https://epg.112114.xyz/logo/CGTN新闻.png" group-title="IPv6央视",CGTN 新闻[高清]
+#EXTINF:-1 tvg-id="CGTN 新闻[高清]" tvg-name="CGTN 新闻[高清]" tvg-logo="https://epg.112114.xyz/logo/CGTN新闻.png" group-title="IPv6央视",CGTN新闻
 http://221.219.66.252:18888/rtp/239.3.1.215:4220
-#EXTINF:-1 tvg-id="CGTN 记录[高清]" tvg-name="CGTN 记录[高清]" tvg-logo="https://epg.112114.xyz/logo/CGTN记录.png" group-title="IPv6央视",CGTN 记录[高清]
+#EXTINF:-1 tvg-id="CGTN 记录[高清]" tvg-name="CGTN 记录[高清]" tvg-logo="https://epg.112114.xyz/logo/CGTN记录.png" group-title="IPv6央视",CGTN纪录
 http://221.219.66.252:18888/rtp/239.3.1.216:4220
 #EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV4K" tvg-logo="https://live.fanmingming.com/tv/CCTV4K.png" group-title="IPv6央视",CCTV-4K 
 http://27.222.3.214/liveali-tp4k.cctv.cn/live/4K10M.stream/playlist.m3u8
