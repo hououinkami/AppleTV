@@ -12,7 +12,7 @@ http://221.219.66.252:18888/rtp/239.3.1.117:8000
 #EXTINF:-1 tvg-id="纪实科教" tvg-name="纪实科教" tvg-logo="https://live.fanmingming.com/tv/北京纪实科教.png" group-title="IPv6数字",BRTV纪实科教
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225729/index.m3u8
 #EXTINF:-1 tvg-id="卡酷动画" tvg-name="卡酷动画" tvg-logo="https://live.fanmingming.com/tv/卡酷少儿.png" group-title="IPv6数字",BRTV卡酷少儿
-http://221.219.66.252:18888/rtp/239.3.1.189:8000
+http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN164297BESTVSMGSMG9/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUbM%2BtJ%2FIKUay0816q4f4FPN9pHjY5eGh1%2F3MQt0stvVIcNMY1ycEUDLSM33BfV5mc1yzDtp74FxRG%2BT%2ByX8dhHQ
 #EXTINF:-1 tvg-id="BRTV体育休闲[超清]" tvg-name="BRTV体育休闲[超清]" tvg-logo="https://epg.112114.xyz/logo/BRTV体育休闲.png" group-title="IPv6数字",BRTV体育休闲
 http://221.219.66.252:18888/rtp/239.3.1.243:8000
 #EXTINF:-1 tvg-id="BRTV国际频道[超清]" tvg-name="BRTV国际频道[超清]" tvg-logo="https://epg.112114.xyz/logo/BRTV国际.png" group-title="IPv6数字",BRTV国际频道
@@ -104,7 +104,7 @@ http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN6380763222d00/index.m
 #EXTINF:-1 tvg-name="魅力足球" group-title="IPv6数字",魅力足球
 http://221.198.174.113:8888/rtp/225.1.1.137:5002
 #EXTINF:-1 tvg-id="乐游" tvg-name="乐游" tvg-logo="https://epg.112114.xyz/logo/乐游.png" group-title="IPv6数字",乐游频道
-http://221.198.174.113:8888/rtp/225.1.1.145:5002
+http://[2409:8087:5e08:24::12]:6610/000000001000/2000000002000000092/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000092&IASHttpSessionId=OTT19019320240419154124000281&yang-1989
 #EXTINF:-1 tvg-id="茶" tvg-name="茶" tvg-logo="https://epg.112114.xyz/logo/茶.png" group-title="IPv6数字",茶友频道
 http://221.219.66.252:18888/rtp/239.3.1.165:8001
 #EXTINF:-1 tvg-id="快乐垂钓" tvg-name="快乐垂钓" tvg-logo="https://epg.112114.xyz/logo/快乐垂钓.png" group-title="IPv6数字",快乐垂钓
@@ -335,8 +335,6 @@ https://i.mjh.nz/SamsungTVPlus/CABC2300019UD.m3u8
 https://i.mjh.nz/SamsungTVPlus/CABD1200002T9.m3u8
 #EXTINF:-1 group-title="IPv6数字",MovieSphere
 https://i.mjh.nz/SamsungTVPlus/USBD17000117B.m3u8
-#EXTINF:-1 group-title="IPv6数字",The Guardian
-https://i.mjh.nz/SamsungTVPlus/GBAJ2400003DD.m3u8
 #EXTINF:-1 group-title="IPv6数字",Travelxp
 https://i.mjh.nz/SamsungTVPlus/ATBA1000005P4.m3u8
 #EXTINF:-1 group-title="IPv6数字",The Lego Channel
