@@ -47,12 +47,6 @@ http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN638077f5ca035/1.m3u8?
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN6380775932cff/1.m3u8?m3u8_level=2
 #EXTINF:-1 tvg-id="35" tvg-name="兵器科技" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV_BQKJ.png" group-title="IPv6央视",CCTV-兵器科技
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN638077907bdcd/1.m3u8?m3u8_level=2
-#EXTINF:-1 tvg-id="41" tvg-name="CETV1" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/中国教育1台.png" group-title="IPv6央视",CETV-1
-http://221.219.66.252:18888/rtp/239.3.1.57:8152
-#EXTINF:-1 tvg-id="42" tvg-name="CETV4" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/中国教育4台.png" group-title="IPv6央视",CETV-4
-http://118.254.203.236:8888/rtp/239.76.252.254:9000
-#EXTINF:-1 tvg-id="45" tvg-name="CGTN" tvg-logo="https://live.fanmingming.com/tv/cgtn.png" group-title="IPv6央视",CGTN
-http://221.219.66.252:18888/rtp/239.3.1.215:4220
 #EXTINF:-1 tvg-id="61" tvg-name="深圳卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shenzhen.png" group-title="IPv6卫视",深圳卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226313/index.m3u8
 #EXTINF:-1 tvg-id="62" tvg-name="北京卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="IPv6卫视",北京卫视
@@ -127,24 +121,10 @@ https://tv.iill.top/jd/fhzx
 http://103.95.24.37:880/fhxgt.m3u8
 #EXTM3U
 #EXTM3U
-#EXTINF:-1 tvg-id="BRTV新闻[高清]" tvg-name="BRTV新闻[高清]" tvg-logo="https://epg.112114.xyz/logo/BRTV新闻.png" group-title="IPv6数字",BRTV新闻
-http://221.219.66.252:18888/rtp/239.3.1.159:8000
-#EXTINF:-1 tvg-id="BRTV影视[高清]" tvg-name="BRTV影视[高清]" tvg-logo="https://epg.112114.xyz/logo/BRTV影视.png" group-title="IPv6数字",BRTV影视
-http://221.219.66.252:18888/rtp/239.3.1.158:8000
-#EXTINF:-1 tvg-id="BRTV文艺[高清]" tvg-name="BRTV文艺[高清]" tvg-logo="https://epg.112114.xyz/logo/BRTV文艺.png" group-title="IPv6数字",BRTV文艺
-http://221.219.66.252:18888/rtp/239.3.1.242:8000
-#EXTINF:-1 tvg-id="BRTV财经[高清]" tvg-name="BRTV财经[高清]" tvg-logo="https://epg.112114.xyz/logo/BRTV财经.png" group-title="IPv6数字",BRTV财经
-http://221.219.66.252:18888/rtp/239.3.1.116:8000
-#EXTINF:-1 tvg-id="BRTV生活[高清]" tvg-name="BRTV生活[高清]" tvg-logo="https://epg.112114.xyz/logo/BRTV生活.png" group-title="IPv6数字",BRTV生活
-http://221.219.66.252:18888/rtp/239.3.1.117:8000
 #EXTINF:-1 tvg-id="纪实科教" tvg-name="纪实科教" tvg-logo="https://live.fanmingming.com/tv/北京纪实科教.png" group-title="IPv6数字",BRTV纪实科教
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225729/index.m3u8
 #EXTINF:-1 tvg-id="卡酷动画" tvg-name="卡酷动画" tvg-logo="https://live.fanmingming.com/tv/卡酷少儿.png" group-title="IPv6数字",BRTV卡酷少儿
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN164297BESTVSMGSMG9/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUbM%2BtJ%2FIKUay0816q4f4FPN9pHjY5eGh1%2F3MQt0stvVIcNMY1ycEUDLSM33BfV5mc1yzDtp74FxRG%2BT%2ByX8dhHQ
-#EXTINF:-1 tvg-id="BRTV体育休闲[超清]" tvg-name="BRTV体育休闲[超清]" tvg-logo="https://epg.112114.xyz/logo/BRTV体育休闲.png" group-title="IPv6数字",BRTV体育休闲
-http://221.219.66.252:18888/rtp/239.3.1.243:8000
-#EXTINF:-1 tvg-id="BRTV国际频道[超清]" tvg-name="BRTV国际频道[超清]" tvg-logo="https://epg.112114.xyz/logo/BRTV国际.png" group-title="IPv6数字",BRTV国际频道
-http://221.219.66.252:18888/rtp/239.3.1.235:8000
 #EXTINF:-1 tvg-name="东方财经" group-title="IPv6数字",东方财经
 http://[2409:8087:5e08:24::12]:6610/000000001000/2000000002000000090/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000090&IASHttpSessionId=OTT19019320240419154124000281&yang-1989
 #EXTINF:-1 tvg-name="第一财经" tvg-logo="https://epg.112114.xyz/logo/上海第一财经.png" group-title="IPv6数字",第一财经
@@ -239,14 +219,8 @@ http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN6380764b172c9/index.m
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN63807601b19dd/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUTrwI%2B%2BngB0lPRofcD8hTNRxu2SqX2RKsLT0S7AyQ8XopIVrD6IJGxdajeuKy4iZqZ4tkZuiEpwSRPszF6PIvg4
 #EXTINF:-1 tvg-id="CHC3" tvg-name="CHC动作电影" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CHC3.png" group-title="IPv6数字",CHC动作电影
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN6380763222d00/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUTrwI%2B%2BngB0lPRofcD8hTNSXQZMUEnZPBI3Y%2BI8ABE4PJC%2B6OvlZZw5ubC%2FbrIdxFJJY1CcAGU%2BYDDQV9oJ%2FVqQ
-#EXTINF:-1 tvg-name="魅力足球" group-title="IPv6数字",魅力足球
-http://221.198.174.113:8888/rtp/225.1.1.137:5002
 #EXTINF:-1 tvg-id="乐游" tvg-name="乐游" tvg-logo="https://epg.112114.xyz/logo/乐游.png" group-title="IPv6数字",乐游频道
 http://[2409:8087:5e08:24::12]:6610/000000001000/2000000002000000092/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000092&IASHttpSessionId=OTT19019320240419154124000281&yang-1989
-#EXTINF:-1 tvg-id="茶" tvg-name="茶" tvg-logo="https://epg.112114.xyz/logo/茶.png" group-title="IPv6数字",茶友频道
-http://221.219.66.252:18888/rtp/239.3.1.165:8001
-#EXTINF:-1 tvg-id="快乐垂钓" tvg-name="快乐垂钓" tvg-logo="https://epg.112114.xyz/logo/快乐垂钓.png" group-title="IPv6数字",快乐垂钓
-http://221.219.66.252:18888/rtp/239.3.1.164:8001
 #EXTINF:-1 tvg-name="欢笑剧场" group-title="IPv6数字",欢笑剧场
 http://[2409:8087:5e08:24::12]:6610/000000001000/2000000002000000016/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000016&IASHttpSessionId=OTT19019320240419154124000281&yang-1989
 #EXTINF:-1 tvg-name="法治天地" group-title="IPv6数字",法治天地
