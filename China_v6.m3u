@@ -47,6 +47,12 @@ http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN638077f5ca035/1.m3u8?
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN6380775932cff/1.m3u8?m3u8_level=2
 #EXTINF:-1 tvg-id="35" tvg-name="兵器科技" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV_BQKJ.png" group-title="IPv6央视",CCTV-兵器科技
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN638077907bdcd/1.m3u8?m3u8_level=2
+#EXTINF:-1 tvg-id="41" tvg-name="CETV1" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/中国教育1台.png" group-title="IPv6央视",CETV-1
+rtp://239.3.1.57:8152
+#EXTINF:-1 tvg-id="44" tvg-name="CCTV4AME" tvg-logo="https://live.fanmingming.com/tv/CCTV4AME.png" group-title="IPv6央视",CCTV-4 中文国际美洲
+rtp://239.3.1.214:4220
+#EXTINF:-1 tvg-id="45" tvg-name="CGTN" tvg-logo="https://live.fanmingming.com/tv/cgtn.png" group-title="IPv6央视",CGTN
+rtp://239.3.1.215:4220
 #EXTINF:-1 tvg-id="61" tvg-name="深圳卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shenzhen.png" group-title="IPv6卫视",深圳卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226313/index.m3u8
 #EXTINF:-1 tvg-id="62" tvg-name="北京卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="IPv6卫视",北京卫视
@@ -121,9 +127,9 @@ https://tv.iill.top/jd/fhzx
 http://103.95.24.37:880/fhxgt.m3u8
 #EXTM3U
 #EXTM3U
-#EXTINF:-1 tvg-id="纪实科教" tvg-name="纪实科教" tvg-logo="https://live.fanmingming.com/tv/北京纪实科教.png" group-title="IPv6数字",BRTV纪实科教
+#EXTINF:-1 tvg-id="纪实科教" tvg-name="纪实科教" tvg-logo="https://live.fanmingming.com/tv/北京纪实科教.png" group-title="IPv6数字",纪实科教
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225729/index.m3u8
-#EXTINF:-1 tvg-id="卡酷动画" tvg-name="卡酷动画" tvg-logo="https://live.fanmingming.com/tv/卡酷少儿.png" group-title="IPv6数字",BRTV卡酷少儿
+#EXTINF:-1 tvg-id="卡酷动画" tvg-name="卡酷动画" tvg-logo="https://live.fanmingming.com/tv/卡酷少儿.png" group-title="IPv6数字",卡酷少儿
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN164297BESTVSMGSMG9/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUbM%2BtJ%2FIKUay0816q4f4FPN9pHjY5eGh1%2F3MQt0stvVIcNMY1ycEUDLSM33BfV5mc1yzDtp74FxRG%2BT%2ByX8dhHQ
 #EXTINF:-1 tvg-name="东方财经" group-title="IPv6数字",东方财经
 http://[2409:8087:5e08:24::12]:6610/000000001000/2000000002000000090/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000090&IASHttpSessionId=OTT19019320240419154124000281&yang-1989
@@ -359,3 +365,67 @@ https://i.mjh.nz/SamsungTVPlus/USBD17000117B.m3u8
 https://i.mjh.nz/SamsungTVPlus/GBBC4300005AL.m3u8
 #EXTINF:-1 group-title="IPv6数字",NextUp Live Comedy
 https://i.mjh.nz/SamsungTVPlus/GBBD1100012JB.m3u8
+#EXTINF:-1 tvg-id="30" tvg-name="北京联通" tvg-logo="https://live.fanmingming.com/tv/北京卫视.png" group-title="IPv6数字",北京卫视
+rtp://239.3.1.241:8000
+#EXTINF:-1 tvg-id="31" tvg-name="东方联通" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/东方卫视.png" group-title="IPv6数字",东方卫视
+rtp://239.3.1.136:8032
+#EXTINF:-1 tvg-id="27" tvg-name="湖南联通" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/湖南卫视.png" group-title="IPv6数字",湖南卫视
+rtp://239.3.1.132:8012
+#EXTINF:-1 tvg-id="28" tvg-name="浙江联通" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/浙江卫视.png" group-title="IPv6数字",浙江卫视
+rtp://239.3.1.137:8036
+#EXTINF:-1 tvg-id="29" tvg-name="江苏联通" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/江苏卫视.png" group-title="IPv6数字",江苏卫视
+rtp://239.3.1.135:8028
+#EXTINF:-1 tvg-id="50" tvg-name="江西联通" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/江西卫视.png" group-title="IPv6数字",江西卫视
+rtp://239.3.1.123:8164
+#EXTINF:-1 tvg-id="45" tvg-name="河北联通" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/河北卫视.png" group-title="IPv6数字",河北卫视
+rtp://239.3.1.148:8072
+#EXTINF:-1 tvg-id="34" tvg-name="深圳联通" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/深圳卫视.png" group-title="IPv6数字",深圳卫视
+rtp://239.3.1.134:8020
+#EXTINF:-1 tvg-id="45" tvg-name="湖北联通" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/湖北卫视.png" group-title="IPv6数字",湖北卫视
+rtp://239.3.1.138:8044
+#EXTINF:-1 tvg-id="39" tvg-name="天津联通" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/天津卫视.png" group-title="IPv6数字",天津卫视
+rtp://239.3.1.148:8072
+#EXTINF:-1 tvg-id="32" tvg-name="安徽联通" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/安徽卫视.png" group-title="IPv6数字",安徽卫视
+rtp://239.3.1.211:8064
+#EXTINF:-1 tvg-id="38" tvg-name="山东联通" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/山东卫视.png" group-title="IPv6数字",山东卫视
+rtp://239.3.1.209:8052
+#EXTINF:-1 tvg-id="33" tvg-name="广东联通" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/广东卫视.png" group-title="IPv6数字",广东卫视
+rtp://239.3.1.142:8048
+#EXTINF:-1 tvg-id="44" tvg-name="贵州联通" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/贵州卫视.png" group-title="IPv6数字",贵州卫视
+rtp://239.3.1.149:8076
+#EXTINF:-1 tvg-id="36" tvg-name="辽宁联通" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/辽宁卫视.png" group-title="IPv6数字",辽宁卫视
+rtp://239.3.1.210:8056
+#EXTINF:-1 tvg-id="40" tvg-name="重庆联通" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/重庆卫视.png" group-title="IPv6数字",重庆卫视
+rtp://239.3.1.122:8160
+#EXTINF:-1 tvg-id="46" tvg-name="龙江联通" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/龙江卫视.png" group-title="IPv6数字",龙江卫视
+rtp://239.3.1.133:8016
+#EXTINF:-1 tvg-id="51" tvg-name="吉林联通" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/吉林卫视.png" group-title="IPv6数字",吉林卫视
+rtp://239.3.1.240:8172
+#EXTINF:-1 tvg-id="41" tvg-name="东南联通" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/东南卫视.png" group-title="IPv6数字",东南卫视
+rtp://239.3.1.156:8148
+#EXTINF:-1 tvg-id="北京新闻" tvg-name="北京新闻" tvg-logo="https://raw.githubusercontent.com/Junior0679/IPTV/main/Logo/北京新闻.png" group-title="IPv6数字",北京新闻
+rtp://239.3.1.159:8000
+#EXTINF:-1 tvg-id="北京财经" tvg-name="北京财经" tvg-logo="https://raw.githubusercontent.com/Junior0679/IPTV/main/Logo/北京财经.png" group-title="IPv6数字",北京财经
+rtp://239.3.1.115:8000
+#EXTINF:-1 tvg-id="北京生活" tvg-name="北京生活" tvg-logo="https://raw.githubusercontent.com/Junior0679/IPTV/main/Logo/北京生活.png" group-title="IPv6数字",北京生活
+rtp://239.3.1.117:8000
+#EXTINF:-1 tvg-id="北京文艺" tvg-name="北京文艺" tvg-logo="https://raw.githubusercontent.com/Junior0679/IPTV/main/Logo/北京文艺.png" group-title="IPv6数字",北京文艺
+rtp://239.3.1.242:8000
+#EXTINF:-1 tvg-id="北京影视" tvg-name="北京影视" tvg-logo="https://raw.githubusercontent.com/Junior0679/IPTV/main/Logo/北京影视.png" group-title="IPv6数字",北京影视
+rtp://239.3.1.158:8000
+#EXTINF:-1 tvg-id="北京国际" tvg-name="北京国际频道" tvg-logo="https://epg.112114.xyz/logo/北京国际.png" group-title="IPv6数字",北京国际
+rtp://239.3.1.235:8000
+#EXTINF:-1 tvg-id="体育休闲" tvg-name="北京体育休闲" tvg-logo="https://raw.githubusercontent.com/Junior0679/IPTV/main/Logo/北京体育休闲.png" group-title="IPv6数字",体育休闲
+rtp://239.3.1.243:8000
+#EXTINF:-1 tvg-id="1872" tvg-name="北京纪实" tvg-logo="https://raw.githubusercontent.com/Junior0679/IPTV/main/Logo/北京纪实科教.png" group-title="IPv6数字",纪实科教
+rtp://239.3.1.115:8000
+#EXTINF:-1 tvg-id="卡酷少儿" tvg-name="卡酷少儿" tvg-logo="https://raw.githubusercontent.com/Junior0679/IPTV/main/Logo/北京卡酷少儿.png" group-title="IPv6数字",卡酷少儿
+rtp://239.3.1.189:8000
+#EXTINF:-1 tvg-id="2025" tvg-name="金鹰纪实" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/金鹰纪实.png" group-title="IPv6数字",金鹰纪实
+rtp://239.3.1.58:8156
+#EXTINF:-1 tvg-id="1988" tvg-name="上海纪实" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/纪实人文.png" group-title="IPv6数字",纪实人文
+rtp://239.3.1.212:8060
+#EXTINF:-1 tvg-id="6585" tvg-name="茶频道" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/茶友频道.png" group-title="IPv6数字",茶友频道
+rtp://239.3.1.165:8001
+#EXTINF:-1 tvg-id="6595" tvg-name="快乐垂钓" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/快乐垂钓.png" group-title="IPv6数字",快乐垂钓
+rtp://239.3.1.164:8001
