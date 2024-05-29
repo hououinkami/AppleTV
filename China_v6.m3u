@@ -115,6 +115,12 @@ http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010111/1.m3u8
 http://[2409:8087:5e01:34::23]:6610/ZTE_CMS/00000001000000060000000000000316/index.m3u8?IAS
 #EXTINF:-1 tvg-id="94" tvg-name="内蒙古卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/neimeng.png" group-title="IPv6卫视",内蒙古卫视
 http://[2409:8087:5e01:34::20]:6610/ZTE_CMS/00000001000000060000000000000319/index.m3u8?IAS
+#EXTINF:-1 tvg-id="111" tvg-name="凤凰中文" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangzhongwen.png" group-title="IPv6卫视",鳳凰中文
+http://113.64.145.195:8081/hls/37/index.m3u8
+#EXTINF:-1 tvg-id="112" tvg-name="凤凰资讯" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangzixun.png" group-title="IPv6卫视",鳳凰資訊
+http://113.64.145.195:8081/hls/36/index.m3u8
+#EXTINF:-1 tvg-id="113" tvg-name="凤凰香港" tvg-logo="https://live.fanmingming.com/tv/fenghuangxianggang.png" group-title="IPv6卫视",鳳凰香港
+http://113.64.145.195:8081/hls/38/index.m3u8
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/海峡卫视.png" group-title="IPv6地方",海峡卫视
 http://frp-fly.top:27209/proxy/1400186150/1400186150.m3u8
@@ -123,8 +129,6 @@ http://frp-fly.top:27209/proxy/1400186150/1400186150.m3u8
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225729/index.m3u8
 #EXTINF:-1 tvg-id="卡酷动画" tvg-name="卡酷动画" tvg-logo="https://live.fanmingming.com/tv/卡酷少儿.png" group-title="IPv6数字",卡酷少儿
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN164297BESTVSMGSMG9/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUbM%2BtJ%2FIKUay0816q4f4FPN9pHjY5eGh1%2F3MQt0stvVIcNMY1ycEUDLSM33BfV5mc1yzDtp74FxRG%2BT%2ByX8dhHQ
-#EXTINF:-1 tvg-name="东方财经" group-title="IPv6数字",东方财经
-http://[2409:8087:5e08:24::12]:6610/000000001000/2000000002000000090/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000090&IASHttpSessionId=OTT19019320240419154124000281&yang-1989
 #EXTINF:-1 tvg-name="第一财经" tvg-logo="https://epg.112114.xyz/logo/上海第一财经.png" group-title="IPv6数字",第一财经
 http://[2409:8087:5e08:24::12]:6610/000000001000/2000000002000000004/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000004&IASHttpSessionId=OTT19019320240419154124000281&yang-1989
 #EXTINF:-1 tvg-name="东方影视" group-title="IPv6数字",东方影视
@@ -225,14 +229,10 @@ http://frp-fly.top:27209/proxy/503866921/503866921.m3u8
 http://frp-fly.top:27209/proxy/1779518772/1779518772.m3u8
 #EXTINF:-1tvg-logo="https://live.fanmingming.com/tv/河南电视剧.png" group-title="IPv6数字",河南视剧
 http://frp-fly.top:27209/proxy/493614280/493614280.m3u8
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/河南民生.png" group-title="IPv6数字",河南民生
-http://frp-fly.top:27209/proxy/1346087362/1346087362.m3u8
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/河南都市.png" group-title="IPv6数字",河南都市
 http://frp-fly.top:27209/proxy/1492902938/1492902938.m3u8
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/河南乡村.png" group-title="IPv6数字",河南乡村
 http://frp-fly.top:27209/proxy/1890775902/1890775902.m3u8
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/晴彩中原.png" group-title="IPv6数字",晴彩中原
-http://frp-fly.top:27209/proxy/437233355/437233355.m3u8
 #EXTINF:-1 tvg-name="内蒙古综合" tvg-logo="https://live.fanmingming.com/tv/内蒙古新闻综合.png" group-title="IPv6数字",内蒙新闻
 https://livestream-bt.nmtv.cn/nmtv/2316general.m3u8?txSecret=173f71025a2de64458989cfb281a0a37&txTime=771E8800
 #EXTINF:-1 tvg-name="内蒙古经济生活" tvg-logo="https://live.fanmingming.com/tv/内蒙古经济生活.png" group-title="IPv6数字",内蒙经济
