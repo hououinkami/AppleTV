@@ -35,30 +35,6 @@ http://148.135.93.213:81/live.php?id=CCTV15
 http://148.135.93.213:81/live.php?id=CCTV16
 #EXTINF:-1 tvg-id="17" tvg-name="CCTV17" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV17.png" group-title="央视",CCTV-17 农业农村
 http://148.135.93.213:81/live.php?id=CCTV17
-#EXTINF:-1 tvg-id="22" tvg-name="世界地理" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV_SJDL.png" group-title="央视",CCTV-世界地理
-http://148.135.93.213:81/live.php?id=世界地理
-#EXTINF:-1 tvg-id="23" tvg-name="风云音乐" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV_FYYY.png" group-title="央视",CCTV-风云音乐
-http://148.135.93.213:81/live.php?id=风云音乐
-#EXTINF:-1 tvg-id="24" tvg-name="风云足球" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV_FYZQ.png" group-title="央视",CCTV-风云足球
-http://148.135.93.213:81/live.php?id=风云足球
-#EXTINF:-1 tvg-id="25" tvg-name="风云剧场" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV_FYJC.png" group-title="央视",CCTV-风云剧场
-http://148.135.93.213:81/live.php?id=风云剧场
-#EXTINF:-1 tvg-id="26" tvg-name="第一剧场" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV_DYJC.png" group-title="央视",CCTV-第一剧场
-http://148.135.93.213:81/live.php?id=第一剧场
-#EXTINF:-1 tvg-id="27" tvg-name="怀旧剧场" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV_HJJC.png" group-title="央视",CCTV-怀旧剧场
-http://148.135.93.213:81/live.php?id=怀旧剧场
-#EXTINF:-1 tvg-id="29" tvg-name="台球" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV_YSTQ.png" group-title="央视",CCTV-台球
-http://148.135.93.213:81/live.php?id=央视台球
-#EXTINF:-1 tvg-id="30" tvg-name="高尔夫网球" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV_GOLF.png" group-title="央视",CCTV-高尔夫·网球
-http://148.135.93.213:81/live.php?id=央视高网
-#EXTINF:-1 tvg-id="31" tvg-name="女性时尚" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV_NXSS.png" group-title="央视",CCTV-女性时尚
-http://148.135.93.213:81/live.php?id=女性时尚
-#EXTINF:-1 tvg-id="33" tvg-name="文化精品" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV_WHJP.png" group-title="央视",CCTV-文化精品
-http://148.135.93.213:81/live.php?id=文化精品
-#EXTINF:-1 tvg-id="35" tvg-name="兵器科技" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV_BQKJ.png" group-title="央视",CCTV-兵器科技
-http://148.135.93.213:81/live.php?id=兵器科技
-#EXTINF:-1 tvg-id="36" tvg-name="电视指南" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV_DSZN.png" group-title="央视",CCTV-电视指南
-http://148.135.93.213:81/live.php?id=电视指南
 #EXTINF:-1 tvg-id="45" tvg-name="CGTN" tvg-logo="https://live.fanmingming.com/tv/cgtn.png" group-title="央视",CGTN
 http://live.cgtn.com/1000/prog_index.m3u8
 #EXTINF:-1 tvg-id="61" tvg-name="深圳卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shenzhen.png" group-title="卫视",深圳卫视
