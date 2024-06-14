@@ -50,7 +50,7 @@ http://mail.petzhu.top:7000/rtp/239.254.201.229:7260
 #EXTINF:-1 tvg-id="35" tvg-name="兵器科技" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV_BQKJ.png" group-title="IPv6央视",CCTV-兵器科技
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN638077907bdcd/1.m3u8?m3u8_level=2
 #EXTINF:-1 tvg-id="45" tvg-name="CGTN" tvg-logo="https://live.fanmingming.com/tv/cgtn.png" group-title="IPv6央视",CGTN
-http://frp-fly.top:27209/proxy/1464174866/1464174866.m3u8
+http://w.yao87.com:4022/udp/239.76.245.66:1234
 #EXTINF:-1 tvg-id="61" tvg-name="深圳卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shenzhen.png" group-title="IPv6卫视",深圳卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226313/index.m3u8
 #EXTINF:-1 tvg-id="62" tvg-name="北京卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="IPv6卫视",北京卫视
@@ -122,7 +122,7 @@ http://117.27.190.42:9998/tsfile/live/23280_1.m3u8
 #EXTINF:-1 tvg-id="112" tvg-name="凤凰资讯" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangzixun.png" group-title="IPv6卫视",鳳凰資訊
 http://117.27.190.42:9998/tsfile/live/23279_1.m3u8
 #EXTINF:-1 tvg-id="113" tvg-name="凤凰香港" tvg-logo="https://live.fanmingming.com/tv/fenghuangxianggang.png" group-title="IPv6卫视",鳳凰香港
-https://epg.pw/stream/b3ab43b2415df405226d5b25f38e51432ca7d32b5a240e0aa1f3e201d181442f.m3u8
+http://103.95.24.37:880/fhxgt.m3u8
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://echolin73.github.io/logo/tvg-logo-kodi/tv_ningxia.png" group-title="IPv6地方",宁夏卫视
 https://hls.ningxiahuangheyun.com/live/nxws1M.m3u8
