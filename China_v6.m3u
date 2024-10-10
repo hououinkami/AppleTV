@@ -155,13 +155,13 @@ rtp://239.3.1.201:8001
 rtp://239.3.1.165:8001
 #EXTINF:-1 tvg-id="6595" tvg-name="快乐垂钓" tvg-logo="https://live.fanmingming.com/tv/快乐垂钓.png" group-title="IPv6数字",快乐垂钓
 rtp://239.3.1.164:8001
-#EXTINF:-1 tvg-name="晴彩竞技" group-title="IPv6数字",睛彩竞技
+#EXTINF:-1 tvg-name="晴彩竞技" tvg-logo="https://live.fanmingming.com/tv/睛彩竞技.png" group-title="IPv6数字",睛彩竞技
 rtp://239.3.1.125:8001
-#EXTINF:-1 tvg-name="晴彩篮球" group-title="IPv6数字",睛彩篮球
+#EXTINF:-1 tvg-name="晴彩篮球" tvg-logo="https://live.fanmingming.com/tv/睛彩篮球.png" group-title="IPv6数字",睛彩篮球
 rtp://239.3.1.126:8001
-#EXTINF:-1 tvg-name="晴彩青少" group-title="IPv6数字",睛彩青少
+#EXTINF:-1 tvg-name="晴彩青少" tvg-logo="https://live.fanmingming.com/tv/睛彩青少.png" group-title="IPv6数字",睛彩青少
 rtp://239.3.1.127:8001
-#EXTINF:-1 tvg-name="晴彩广场舞" group-title="IPv6数字",睛彩场舞
+#EXTINF:-1 tvg-name="晴彩广场舞" tvg-logo="https://live.fanmingming.com/tv/睛彩广场舞.png" group-title="IPv6数字",睛彩场舞
 rtp://239.3.1.128:8001
 #EXTINF:-1 tvg-id="浙江公共新闻" tvg-name="浙江公共新闻" tvg-logo="https://live.fanmingming.com/tv/浙江新闻.png" group-title="IPv6数字",浙江新闻
 https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
