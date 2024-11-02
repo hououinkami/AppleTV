@@ -106,4 +106,4 @@ https://n24-cdn-live.ntv.co.jp/ch01/index_high.m3u8
 https://mcas-eqms-mx2-live.hls.davlive.stream.ne.jp/mt/master/340f27cd590451b1e7d0034b85b5175ddaf05454/EQMS_MX1/master.m3u8
 #EXTM3U
 #EXTINF:-1 tvg-id="3" tvg-name="" tvg-logo="https://static.epg.best/us/FoxNews.us.png" group-title="英文",FOX News
-#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://epg.iill.top/logo/CCTV1.png" group-title="•央视「IPV6」",CCTV1「IPV6」
+#EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://epg.iill.top/logo/CCTV1.png" group-title="•央视「IPV6」",CCTV1 综合「IPV6」
