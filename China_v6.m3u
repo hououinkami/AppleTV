@@ -78,11 +78,11 @@ rtp://239.3.1.133:8016
 #EXTINF:-1 tvg-id="76" tvg-name="重庆卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/chongqing.png" group-title="IPv6卫视",重庆卫视
 rtp://239.3.1.122:8160
 #EXTINF:-1 tvg-id="77" tvg-name="广西卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/guangxi.png" group-title="IPv6卫视",广西卫视
-http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000368/index.m3u8?IASHttpSessionId=
+http://[2409:8087:74d9:21::9]/270000001128/index.m3u8?cmcc_cid=9900000034
 #EXTINF:-1 tvg-id="78" tvg-name="四川卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/sichuan.png" group-title="IPv6卫视",四川卫视
-http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000348/index.m3u8?IASHttpSessionId=
+http://[2409:8087:74d9:21::6]:80/270000001128/9900000025/index.m3u8
 #EXTINF:-1 tvg-id="79" tvg-name="河南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/henan.png" group-title="IPv6卫视",河南卫视
-http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000369/index.m3u8?IASHttpSessionId=
+http://[2409:8087:74d9:21::9]/270000001128/index.m3u8?cmcc_cid=9900000027
 #EXTINF:-1 tvg-id="80" tvg-name="河北卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hebei.png" group-title="IPv6卫视",河北卫视
 rtp://239.3.1.148:8072
 #EXTINF:-1 tvg-id="81" tvg-name="吉林卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jilin.png" group-title="IPv6卫视",吉林卫视
@@ -92,17 +92,17 @@ rtp://239.3.1.149:8076
 #EXTINF:-1 tvg-id="83" tvg-name="山西卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shanxi_.png" group-title="IPv6卫视",山西卫视
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000021220/1.m3u8
 #EXTINF:-1 tvg-id="84" tvg-name="陕西卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shanxi.png" group-title="IPv6卫视",陕西卫视
-http://[2409:8087:74d9:21::9]/270000001128/index.m3u8?cmcc_cid=9900000026
+http://[2409:8087:74d9:21::6]:80/270000001128/9900000026/index.m3u8
 #EXTINF:-1 tvg-id="85" tvg-name="云南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/yunnan.png" group-title="IPv6卫视",云南卫视
-http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000367/index.m3u8?IASHttpSessionId=
+http://[2409:8087:74d9:21::6]:80/270000001128/9900000035/index.m3u8
 #EXTINF:-1 tvg-id="87" tvg-name="海南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/lvyou.png" group-title="IPv6卫视", 海南卫视
-http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000347/index.m3u8?IASHttpSessionId=
+http://[2409:8087:74d9:21::9]/270000001128/index.m3u8?cmcc_cid=9900000037
 #EXTINF:-1 tvg-id="89" tvg-name="三沙卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/sansha.png" group-title="IPv6卫视", 三沙卫视
 http://[2409:8087:5e00:24::1e]:6060/000000001000/4600001000000000117/1.m3u8
 #EXTINF:-1 tvg-id="91" tvg-name="青海卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/qinghai.png" group-title="IPv6卫视",青海卫视
-http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000366/index.m3u8?IASHttpSessionId=
+http://[2409:8087:74d9:21::9]/270000001128/index.m3u8?cmcc_cid=9900000042
 #EXTINF:-1 tvg-id="92" tvg-name="新疆卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/xinjiang.png" group-title="IPv6卫视",新疆卫视
-http://[2409:8087:74d9:21::9]/270000001128/index.m3u8?cmcc_cid=9900000045
+http://[2409:8087:74d9:21::6]:80/270000001128/9900000045/index.m3u8
 #EXTM3U url-tvg="https://epg.iill.top/epg"
 #EXTM3U url-tvg="https://epg.iill.top/epg"
 #EXTINF:-1 tvg-id="北京新闻" tvg-name="北京新闻" tvg-logo="https://live.fanmingming.com/tv/北京新闻.png" group-title="IPv6数字",北京新闻
