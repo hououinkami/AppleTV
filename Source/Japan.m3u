@@ -4,8 +4,6 @@
 https://cgntvliveweb-944.acs.wecandeo.com/ms/2850/944/index.m3u8
 #EXTINF:-1 tvg-id="CGNTVJapan.jp" group-title="日本",CGNTV Japan
 http://cgntv-glive.ofsdelivery.net/live/cgntv_jp/playlist.m3u8
-#EXTINF:-1 tvg-id="JOCXDTV.jp" group-title="日本",Fuji TV
-https://fujitv4.mov3.co/hls/fujitv.m3u8
 #EXTINF:-1 tvg-id="" group-title="日本",Gaki no Tsukai
 https://hamada.gaki-no-tsukai.stream/hls/test.m3u8
 #EXTINF:-1 tvg-id="GolfNetwork.jp" group-title="日本",Golf Network
