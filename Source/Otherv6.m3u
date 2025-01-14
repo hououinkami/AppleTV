@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://epg.iill.top/epg"
+#EXTM3U
 #EXTINF:-1 tvg-id="北京新闻" tvg-name="北京新闻" tvg-logo="https://live.fanmingming.com/tv/北京新闻.png" group-title="IPv6数字",北京新闻
 rtp://239.3.1.159:8000
 #EXTINF:-1 tvg-id="北京财经" tvg-name="北京财经" tvg-logo="https://live.fanmingming.com/tv/北京财经.png" group-title="IPv6数字",北京财经
