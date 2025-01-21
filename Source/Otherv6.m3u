@@ -1,51 +1,51 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="北京新闻" tvg-name="北京新闻" tvg-logo="https://live.fanmingming.com/tv/北京新闻.png" group-title="IPv6数字",北京新闻
+#EXTINF:-1 group-title="IPv6数字",北京新闻
 rtp://239.3.1.159:8000
-#EXTINF:-1 tvg-id="北京财经" tvg-name="北京财经" tvg-logo="https://live.fanmingming.com/tv/北京财经.png" group-title="IPv6数字",北京财经
+#EXTINF:-1 group-title="IPv6数字",北京财经
 rtp://239.3.1.115:8000
-#EXTINF:-1 tvg-id="北京生活" tvg-name="北京生活" tvg-logo="https://live.fanmingming.com/tv/北京生活.png" group-title="IPv6数字",北京生活
+#EXTINF:-1 group-title="IPv6数字",北京生活
 rtp://239.3.1.117:8000
-#EXTINF:-1 tvg-id="北京文艺" tvg-name="北京文艺" tvg-logo="https://live.fanmingming.com/tv/北京文艺.png" group-title="IPv6数字",北京文艺
+#EXTINF:-1 group-title="IPv6数字",北京文艺
 rtp://239.3.1.242:8000
-#EXTINF:-1 tvg-id="北京影视" tvg-name="北京影视" tvg-logo="https://live.fanmingming.com/tv/北京影视.png" group-title="IPv6数字",北京影视
+#EXTINF:-1 group-title="IPv6数字",北京影视
 rtp://239.3.1.158:8000
-#EXTINF:-1 tvg-id="北京国际" tvg-name="北京国际频道" tvg-logo="https://epg.112114.xyz/logo/北京国际.png" group-title="IPv6数字",北京国际
+#EXTINF:-1 group-title="IPv6数字",北京国际
 rtp://239.3.1.235:8000
-#EXTINF:-1 tvg-id="体育休闲" tvg-name="北京体育休闲" tvg-logo="https://live.fanmingming.com/tv/北京体育休闲.png" group-title="IPv6数字",体育休闲
+#EXTINF:-1 group-title="IPv6数字",体育休闲
 rtp://239.3.1.243:8000
-#EXTINF:-1 tvg-id="1872" tvg-name="北京纪实" tvg-logo="https://live.fanmingming.com/tv/北京纪实科教.png" group-title="IPv6数字",纪实科教
+#EXTINF:-1 group-title="IPv6数字",纪实科教
 rtp://239.3.1.115:8000
-#EXTINF:-1 tvg-id="卡酷少儿" tvg-name="卡酷少儿" tvg-logo="https://live.fanmingming.com/tv/卡酷少儿.png" group-title="IPv6数字",卡酷少儿
+#EXTINF:-1 group-title="IPv6数字",卡酷少儿
 rtp://239.3.1.189:8000
-#EXTINF:-1 tvg-id="金鹰纪实" tvg-name="金鹰纪实" tvg-logo="https://live.fanmingming.com/tv/金鹰纪实.png" group-title="IPv6数字",金鹰纪实
+#EXTINF:-1 group-title="IPv6数字",金鹰纪实
 rtp://239.3.1.58:8156
-#EXTINF:-1 tvg-id="1988" tvg-name="上海纪实" tvg-logo="https://live.fanmingming.com/tv/纪实人文.png" group-title="IPv6数字",纪实人文
+#EXTINF:-1 group-title="IPv6数字",纪实人文
 rtp://239.3.1.212:8060
-#EXTINF:-1 tvg-id="乐游" tvg-name="乐游" tvg-logo="https://live.fanmingming.com/tv/乐游.png" group-title="IPv6数字",乐游频道
+#EXTINF:-1 group-title="IPv6数字",乐游频道
 rtp://239.3.1.207:8001
-#EXTINF:-1 tvg-id="都市剧场" tvg-name="都市剧场" tvg-logo="https://live.fanmingming.com/tv/都市剧场.png" group-title="IPv6数字",都市剧场
+#EXTINF:-1 group-title="IPv6数字",都市剧场
 rtp://239.3.1.203:8001
-#EXTINF:-1 tvg-id="动漫秀场" tvg-name="动漫秀场" tvg-logo="https://live.fanmingming.com/tv/动漫秀场.png" group-title="IPv6数字",动漫秀场
+#EXTINF:-1 group-title="IPv6数字",动漫秀场
 rtp://239.3.1.202:8001
-#EXTINF:-1 tvg-id="法治天地" tvg-name="法治天地" tvg-logo="https://live.fanmingming.com/tv/法治天地.png" group-title="IPv6数字",法治天地
+#EXTINF:-1 group-title="IPv6数字",法治天地
 rtp://239.3.1.204:8001
-#EXTINF:-1 tvg-id="生活时尚" tvg-name="生活时尚" tvg-logo="https://live.fanmingming.com/tv/生活时尚.png" group-title="IPv6数字",生活时尚
+#EXTINF:-1 group-title="IPv6数字",生活时尚
 rtp://239.3.1.206:8001
-#EXTINF:-1 tvg-id="金色学堂" tvg-name="金色学堂" tvg-logo="https://live.fanmingming.com/tv/金色学堂.png" group-title="IPv6数字",金色学堂
+#EXTINF:-1 group-title="IPv6数字",金色学堂
 rtp://239.3.1.208:8001
-#EXTINF:-1 tvg-id="游戏风云" tvg-name="游戏风云" tvg-logo="https://live.fanmingming.com/tv/游戏风云.png" group-title="IPv6数字",游戏风云
+#EXTINF:-1 group-title="IPv6数字",游戏风云
 rtp://239.3.1.205:8001
-#EXTINF:-1 tvg-id="魅力足球" tvg-name="魅力足球" tvg-logo="https://live.fanmingming.com/tv/魅力足球.png" group-title="IPv6数字",魅力足球
+#EXTINF:-1 group-title="IPv6数字",魅力足球
 rtp://239.3.1.201:8001
-#EXTINF:-1 tvg-id="6585" tvg-name="茶频道" tvg-logo="https://live.fanmingming.com/tv/茶.png" group-title="IPv6数字",茶友频道
+#EXTINF:-1 group-title="IPv6数字",茶友频道
 rtp://239.3.1.165:8001
-#EXTINF:-1 tvg-id="6595" tvg-name="快乐垂钓" tvg-logo="https://live.fanmingming.com/tv/快乐垂钓.png" group-title="IPv6数字",快乐垂钓
+#EXTINF:-1 group-title="IPv6数字",快乐垂钓
 rtp://239.3.1.164:8001
-#EXTINF:-1 tvg-name="晴彩竞技" tvg-logo="https://live.fanmingming.com/tv/睛彩竞技.png" group-title="IPv6数字",睛彩竞技
+#EXTINF:-1 group-title="IPv6数字",睛彩竞技
 rtp://239.3.1.125:8001
-#EXTINF:-1 tvg-name="晴彩篮球" tvg-logo="https://live.fanmingming.com/tv/睛彩篮球.png" group-title="IPv6数字",睛彩篮球
+#EXTINF:-1 group-title="IPv6数字",睛彩篮球
 rtp://239.3.1.126:8001
-#EXTINF:-1 tvg-name="晴彩青少" tvg-logo="https://live.fanmingming.com/tv/睛彩青少.png" group-title="IPv6数字",睛彩青少
+#EXTINF:-1 group-title="IPv6数字",睛彩青少
 rtp://239.3.1.127:8001
-#EXTINF:-1 tvg-name="晴彩广场舞" tvg-logo="https://live.fanmingming.com/tv/睛彩广场舞.png" group-title="IPv6数字",睛彩场舞
+#EXTINF:-1 group-title="IPv6数字",睛彩场舞
 rtp://239.3.1.128:8001
