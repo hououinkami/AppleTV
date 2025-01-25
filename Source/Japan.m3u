@@ -1,8 +1,6 @@
 #EXTM3U x-tvg-url="https://epg.iill.top/epg" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
 #EXTM3U
 #EXTINF:-1 tvg-id="CGNTVJapan.jp" group-title="日本",CGNTV Japan
-https://cgntvliveweb-944.acs.wecandeo.com/ms/2850/944/index.m3u8
-#EXTINF:-1 tvg-id="CGNTVJapan.jp" group-title="日本",CGNTV Japan
 http://cgntv-glive.ofsdelivery.net/live/cgntv_jp/playlist.m3u8
 #EXTINF:-1 tvg-id="" group-title="日本",Gaki no Tsukai
 https://hamada.gaki-no-tsukai.stream/hls/test.m3u8
