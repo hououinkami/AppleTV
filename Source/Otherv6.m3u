@@ -19,8 +19,6 @@ rtp://239.3.1.115:8000
 rtp://239.3.1.189:8000
 #EXTINF:-1 group-title="IPv6数字",金鹰纪实
 rtp://239.3.1.58:8156
-#EXTINF:-1 group-title="IPv6数字",纪实人文
-rtp://239.3.1.212:8060
 #EXTINF:-1 group-title="IPv6数字",乐游频道
 rtp://239.3.1.207:8001
 #EXTINF:-1 group-title="IPv6数字",都市剧场
