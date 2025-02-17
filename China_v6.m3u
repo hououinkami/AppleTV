@@ -96,4 +96,12 @@ rtp://239.3.1.188:8001
 #EXTINF:-1 group-title="IPv6数字",华数高清
 rtp://239.3.1.236:2000
 #EXTINF:-1 group-title="IPv6数字",超清电影
-rtp://239.3.1.249:8001
+rtp://239.3.1.114:8001
+#EXTINF:-1 group-title="IPv6数字",央广购物 
+rtp://239.3.1.223:8001
+#EXTINF:-1 group-title="IPv6数字",时尚购物
+rtp://239.3.1.181:8001
+#EXTINF:-1 group-title="IPv6数字",家有购物
+rtp://239.3.1.185:8001
+#EXTINF:-1 group-title="IPv6数字",聚鲨环球
+rtp://239.3.1.179:8001
