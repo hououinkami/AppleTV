@@ -47,17 +47,35 @@ rtp://239.3.1.126:8001
 rtp://239.3.1.127:8001
 #EXTINF:-1 group-title="IPv6数字",睛彩场舞
 rtp://239.3.1.128:8001
-#EXTINF:-1 group-title="IPv6数字",中国交通
-rtp://239.3.1.188:8001
-#EXTINF:-1 group-title="IPv6数字",华数高清
+#EXTINF:-1 group-title="IPv6数字",爱上4K
 rtp://239.3.1.236:2000
-#EXTINF:-1 group-title="IPv6数字",超清电影
-rtp://239.3.1.114:8001
-#EXTINF:-1 group-title="IPv6数字",央广购物 
-rtp://239.3.1.223:8001
-#EXTINF:-1 group-title="IPv6数字",时尚购物
-rtp://239.3.1.181:8001
-#EXTINF:-1 group-title="IPv6数字",家有购物
-rtp://239.3.1.185:8001
-#EXTINF:-1 group-title="IPv6数字",聚鲨环球
-rtp://239.3.1.179:8001
+#EXTINF:-1 group-title="IPv6数字",4K超清
+rtp://239.3.1.249:8001
+#EXTINF:-1 group-title="IPv6数字",城市剧场
+rtp://239.3.1.67:4120
+#EXTINF:-1 group-title="IPv6数字",军旅剧场
+rtp://239.3.1.68:4120
+#EXTINF:-1 group-title="IPv6数字",古装剧场
+rtp://239.3.1.69:4120
+#EXTINF:-1 group-title="IPv6数字",精选高清
+rtp://239.3.1.74:4120
+#EXTINF:-1 group-title="IPv6数字",武侠剧场
+rtp://239.3.1.90:4120
+#EXTINF:-1 group-title="IPv6数字",喜剧影院
+rtp://239.3.1.91:4120
+#EXTINF:-1 group-title="IPv6数字",动作影院
+rtp://239.3.1.92:4120
+#EXTINF:-1 group-title="IPv6数字",家庭影院
+rtp://239.3.1.93:4120
+#EXTINF:-1 group-title="IPv6数字",星影高清
+rtp://239.3.1.94:4120
+#EXTINF:-1 group-title="IPv6数字",光影高清
+rtp://239.3.1.84:4120
+#EXTINF:-1 group-title="IPv6数字",热播剧场
+rtp://239.3.1.194:9020
+#EXTINF:-1 group-title="IPv6数字",经典电影
+rtp://239.3.1.195:9024
+#EXTINF:-1 group-title="IPv6数字",魅力时尚
+rtp://239.3.1.196:9012
+#EXTINF:-1 group-title="IPv6数字",少儿动画
+rtp://239.3.1.199:9000

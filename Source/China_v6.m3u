@@ -47,12 +47,4 @@ rtp://239.3.1.57:8152
 rtp://239.3.1.215:4220
 #EXTINF:-1 group-title="IPv6央视",环球纪录
 rtp://239.3.1.216:4220
-#EXTINF:-1 group-title="IPv6央视",环球西语
-rtp://239.3.1.217:4220
-#EXTINF:-1 group-title="IPv6央视",环球阿语
-rtp://239.3.1.219:4220
-#EXTINF:-1 group-title="IPv6央视",环球法语
-rtp://239.3.1.218:4220
-#EXTINF:-1 group-title="IPv6央视",环球俄语
-rtp://239.3.1.220:4220
 #EXTM3U x-tvg-url="https://epg.aptv.app/pp.xml.gz" catchup="append" catchup-source="?playbackbegin=${(b)yyyyMMddHHmmss}&playbackend=${(e)yyyyMMddHHmmss}"
