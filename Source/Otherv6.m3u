@@ -79,3 +79,11 @@ rtp://239.3.1.195:9024
 rtp://239.3.1.196:9012
 #EXTINF:-1 group-title="IPv6数字",少儿动画
 rtp://239.3.1.199:9000
+#EXTINF:-1 group-title="IPv6数字",央广购物 
+rtp://239.3.1.223:8001
+#EXTINF:-1 group-title="IPv6数字",时尚购物
+rtp://239.3.1.181:8001
+#EXTINF:-1 group-title="IPv6数字",家有购物
+rtp://239.3.1.185:8001
+#EXTINF:-1 group-title="IPv6数字",聚鲨环球
+rtp://239.3.1.179:8001
