@@ -36,3 +36,17 @@ https://cdn-live1.qvc.jp/iPhone/1501/1501.m3u8
 https://stream3.shopch.jp/HLS/master.m3u8
 #EXTINF:-1 tvg-id="Weathernews.jp" group-title="日本",Weathernews
 https://weather-live-hls01e.akamaized.net/ade36978-4ad3-48de-91ab-7d6edd0b6388/11ed8ed8ca.ism/manifest(format=m3u8-aapl-v3,audio-only=false).m3u8
+#EXTINF:-1 tvg-id="NHKBS.jp" group-title="日本",NHK BS
+http://vthanh.utako.moe/NHK_BS/index.m3u8
+#EXTINF:-1 tvg-id="JOEXDTV.jp" group-title="日本",JOEX-DTV
+http://vthanh.utako.moe/TV_Asahi/index.m3u8
+#EXTINF:-1 tvg-id="JOAXDTV.jp" group-title="日本",JOAX-DTV
+http://vthanh.utako.moe/Nippon_TV/index.m3u8
+#EXTINF:-1 tvg-id="JOABDTV.jp" group-title="日本",JOAB-DTV
+http://vthanh.utako.moe/NHK_E/index.m3u8
+#EXTINF:-1 tvg-id="ATX.jp" group-title="日本",AT-X
+http://vthanh.utako.moe/AT-X/index.m3u8
+#EXTINF:-1 tvg-id="BS11.jp" group-title="日本",BS 11
+http://vthanh.utako.moe/BS11/index.m3u8
+#EXTINF:-1 tvg-id="TokyoMX1.jp" group-title="日本",Tokyo MX1
+http://vthanh.utako.moe/Tokyo_MX1/index.m3u8
