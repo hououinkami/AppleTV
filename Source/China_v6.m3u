@@ -87,4 +87,4 @@ rtp://239.3.1.122:8160
 rtp://239.3.1.133:8016
 #EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://live.fanmingming.com/tv/吉林卫视.png" group-title="IPv6卫视",吉林卫视
 rtp://239.3.1.240:8172
-#EXTM3U x-tvg-url="https://epg.aptv.app/pp.xml.gz" catchup="append" catchup-source="?playbackbegin=${(b)yyyyMMddHHmmss}&playbackend=${(e)yyyyMMddHHmmss}"
+#EXTM3U x-tvg-url="https://epg.aptv.app/pp.xml.gz,http://e.erw.cc/e.xml.gz" catchup="append" catchup-source="?playbackbegin=${(b)yyyyMMddHHmmss}&playbackend=${(e)yyyyMMddHHmmss}"
