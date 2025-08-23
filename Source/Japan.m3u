@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://epg.iill.top/epg" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
+#EXTM3U catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
 #EXTM3U
 #EXTINF:-1 tvg-id="CGNTVJapan.jp" http-referrer="http://japan.cgntv.net/HD_player_jp.html" group-title="日本",CGNTV Japan
 #EXTVLCOPT:http-referrer=http://japan.cgntv.net/HD_player_jp.html

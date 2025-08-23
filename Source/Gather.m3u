@@ -1,10 +1,10 @@
-#EXTM3U x-tvg-url="https://epg.iill.top/epg" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
-#EXTM3U x-tvg-url="https://epg.iill.top/epg" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
+#EXTM3U catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
+#EXTM3U catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
 
 #EXTINF:-1 tvg-id="免费订阅" tvg-name="免费订阅" tvg-logo="https://epg-1.iill.top/logo/温馨提示.png" group-title="•温馨「提示」",免费订阅：请勿贩卖...
-https://epg.iill.top/v/302.mp4
+https://epg-1.iill.top/v/302.mp4
 #EXTINF:-1 tvg-id="免费订阅" tvg-name="免费订阅" tvg-logo="https://epg-1.iill.top/logo/温馨提示.png" group-title="•温馨「提示」",维护时间：2025-1-15#佛系维护...
-https://epg.iill.top/v/301.mp4
+https://epg-1.iill.top/v/301.mp4
 
 #EXTINF:-1 tvg-logo="https://epg-1.iill.top/logo/咪咕.png" group-title="•咪咕「移动」",晴彩广场舞「移动」
 
