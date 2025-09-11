@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://live.fanmingming.cn/e.xml"
+#EXTM3U
 #EXTINF:-1 tvg-name="北京文艺" tvg-logo="https://live.fanmingming.cn/tv/北京文艺.png" group-title="IPv6数字",北京文艺
 rtp://239.3.1.242:8000
 #EXTINF:-1 tvg-name="北京体育休闲" tvg-logo="https://live.fanmingming.cn/tv/北京体育休闲.png" group-title="IPv6数字",体育休闲
