@@ -32,7 +32,7 @@ rtp://239.3.1.65:8132
 #EXTINF:-1 tvg-id="15" tvg-name="CCTV15" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV15.png" group-title="IPv6央视",CCTV-15 音乐
 rtp://239.3.1.153:8136
 #EXTINF:-1 tvg-id="16" tvg-name="CCTV16" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/China/CCTV16.png" group-title="IPv6央视",CCTV-16 奥林匹克
-rtp://239.3.1.183:8001
+rtp://239.3.1.184:8001
 #EXTINF:-1 tvg-id="17" tvg-name="CCTV17" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV17.png" group-title="IPv6央视",CCTV-17 农业农村
 rtp://239.3.1.151:8144
 #EXTINF:-1 tvg-id="18" tvg-name="CCTV4K" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4k.png" group-title="IPv6央视",CCTV-4K 超高清
