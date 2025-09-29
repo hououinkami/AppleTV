@@ -111,4 +111,6 @@ rtp://239.3.1.57:8152
 http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
 #EXTINF:-1 group-title="IPv6卫视",凤凰资讯
 http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
+#EXTINF:-1 group-title="IPv6卫视",凤凰香港
+http://203.205.191.53/qctv.fengshows.cn/live/0701phk72.m3u8
 #EXTM3U x-tvg-url="https://epg.aptv.app/pp.xml.gz,https://epg.aptv.app/xml"
