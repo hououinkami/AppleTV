@@ -73,8 +73,6 @@ rtp://239.3.1.181:8001
 rtp://239.3.1.185:8001
 #EXTINF:-1 tvg-name="聚鲨精选" tvg-logo="https://live.fanmingming.cn/tv/聚鲨环球精选.png" group-title="IPv6数字",聚鲨精选
 rtp://239.3.1.179:8001
-#EXTINF:-1 group-title="IPv6数字",中天新闻
-http://222.128.55.152:9080/live/fc.m3u8
 #EXTINF:-1 group-title="IPv6数字",澳门莲花
 http://live-hls.macaulotustv.com/lotustv/macaulotustv.m3u8
 #EXTINF:-1 group-title="IPv6数字",天映频道
