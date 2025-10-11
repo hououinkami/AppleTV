@@ -81,7 +81,7 @@ rtp://239.3.1.149:8076
 rtp://239.3.1.210:8056
 #EXTINF:-1 tvg-name="重庆卫视" tvg-logo="https://live.fanmingming.com/tv/重庆卫视.png" group-title="IPv6卫视",重庆卫视
 rtp://239.3.1.122:8160
-#EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://live.fanmingming.com/tv/黑龙江卫视.png" group-title="IPv6卫视",龙江卫视
+#EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://live.fanmingming.com/tv/黑龙江卫视.png" group-title="IPv6卫视",黑龙江卫视
 rtp://239.3.1.133:8016
 #EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://live.fanmingming.com/tv/吉林卫视.png" group-title="IPv6卫视",吉林卫视
 rtp://239.3.1.240:8172
