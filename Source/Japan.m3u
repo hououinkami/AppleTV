@@ -4,6 +4,8 @@
 #EXTVLCOPT:http-referrer=http://japan.cgntv.net/HD_player_jp.html
 #EXTINF:-1 tvg-id="CGNTVJapan.jp@SD" group-title="日本",CGNTV Japan
 http://cgntv-glive.ofsdelivery.net/live/cgntv_jp/playlist.m3u8
+#EXTINF:-1 tvg-id="Dlife.jp@SD" group-title="日本",Dlife
+https://43.100.9.67/api/streams/live/cs312/1080p/mpegts
 #EXTINF:-1 tvg-id="" group-title="日本",Gaki no Tsukai
 https://hamada.gaki-no-tsukai.stream/hls/test.m3u8
 #EXTINF:-1 tvg-id="GolfNetwork.jp@SD" group-title="日本",Golf Network
@@ -26,6 +28,10 @@ http://171.244.62.178/jptv2/get.php?id=aNwnFAidrAjzqK5Wo0KvWw==
 http://171.244.62.178/jptv2/get.php?id=p1cu_Z3QI6VV01VJmw8vJQ==
 #EXTINF:-1 tvg-id="JOTXDTV.jp@SD" group-title="日本",JOTX-DTV
 http://171.244.62.178/jptv2/get.php?id=2eX5WUIdzetyhgy8L8plEQ==
+#EXTINF:-1 tvg-id="MTV.jp@SD" group-title="日本",MTV
+https://hkali.youyouko.com/api/streams/live/cs323/1080p/mpegts
+#EXTINF:-1 tvg-id="MUSICONTV.jp@SD" group-title="日本",MUSIC ON! TV
+https://43.100.9.67/api/streams/live/cs325/1080p/mpegts
 #EXTINF:-1 tvg-id="JOAKDTV.jp@SD" group-title="日本",NHK G [Not 24/7]
 https://nhk4.mov3.co/hls/nhk.m3u8
 #EXTINF:-1 tvg-id="NHKKishouSaigai.jp@SD" group-title="日本",NHK Kishou Saigai [Not 24/7]
@@ -62,9 +68,3 @@ https://stream3.shopch.jp/HLS/master.m3u8
 https://weather-live-hls01e.akamaized.net/ade36978-4ad3-48de-91ab-7d6edd0b6388/11ed8ed8ca.ism/manifest(format=m3u8-aapl-v3,audio-only=false).m3u8
 #EXTINF:-1 tvg-id="WOWOWPrime.jp@SD" group-title="日本",WOWOW Prime
 http://171.244.62.178/jptv2/get.php?id=CXrJaWUllYhR6k5e0_K46w==
-#EXTINF:-1 tvg-id="MTV.jp@SD" group-title="日本",MTV
-https://hkali.youyouko.com/api/streams/live/cs323/1080p/mpegts
-#EXTINF:-1 tvg-id="MUSICONTV.jp@SD" group-title="日本",MUSIC ON! TV
-https://43.100.9.67/api/streams/live/cs325/1080p/mpegts
-#EXTINF:-1 tvg-id="Dlife.jp@SD" group-title="日本",Dlife
-https://43.100.9.67/api/streams/live/cs312/1080p/mpegts
