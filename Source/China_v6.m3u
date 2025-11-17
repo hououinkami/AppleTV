@@ -43,42 +43,8 @@ rtp://239.3.1.151:8144
 rtp://239.3.1.215:4220
 #EXTINF:-1 channel-number="344" tvg-id="344" tvg-name="CGTN 英文纪录高清" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/CCTV/CGTN-Doc.png" group-title="IPv6央视",CGTN纪录
 rtp://239.3.1.216:4220
-#EXTINF:-1 tvg-name="江西卫视" tvg-logo="https://live.fanmingming.com/tv/江西卫视.png" group-title="IPv6卫视",江西卫视
-rtp://239.3.1.123:8164
-#EXTINF:-1 tvg-name="河北卫视" tvg-logo="https://live.fanmingming.com/tv/河北卫视.png" group-title="IPv6卫视",河北卫视
-rtp://239.3.1.148:8072
-#EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://live.fanmingming.com/tv/河南卫视.png" group-title="IPv6卫视",河南卫视
-rtp://239.3.1.50:8184
-#EXTINF:-1 tvg-name="天津卫视" tvg-logo="https://live.fanmingming.com/tv/天津卫视.png" group-title="IPv6卫视",天津卫视
-rtp://239.3.1.141:1234
-#EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="IPv6卫视",安徽卫视
-rtp://239.3.1.211:8064
-#EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://live.fanmingming.com/tv/湖北卫视.png" group-title="IPv6卫视",湖北卫视
-rtp://239.3.1.138:8044
-#EXTINF:-1 tvg-name="东南卫视" tvg-logo="https://live.fanmingming.com/tv/东南卫视.png" group-title="IPv6卫视",东南卫视
-rtp://239.3.1.156:8148
-#EXTINF:-1 tvg-name="贵州卫视" tvg-logo="https://live.fanmingming.com/tv/贵州卫视.png" group-title="IPv6卫视",贵州卫视
-rtp://239.3.1.149:8076
-#EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="https://live.fanmingming.com/tv/辽宁卫视.png" group-title="IPv6卫视",辽宁卫视
-rtp://239.3.1.210:8056
-#EXTINF:-1 tvg-name="重庆卫视" tvg-logo="https://live.fanmingming.com/tv/重庆卫视.png" group-title="IPv6卫视",重庆卫视
-rtp://239.3.1.122:8160
-#EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://live.fanmingming.com/tv/黑龙江卫视.png" group-title="IPv6卫视",黑龙江卫视
-rtp://239.3.1.133:8016
-#EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://live.fanmingming.com/tv/吉林卫视.png" group-title="IPv6卫视",吉林卫视
-rtp://239.3.1.240:8172
-#EXTINF:-1 tvg-name="甘肃卫视" tvg-logo="https://live.fanmingming.com/tv/甘肃卫视.png" group-title="IPv6卫视",甘肃卫视
-rtp://239.3.1.201:8180
-#EXTINF:-1 tvg-name="宁夏卫视" tvg-logo="https://live.fanmingming.com/tv/宁夏卫视.png" group-title="IPv6卫视",宁夏卫视
-rtp://239.3.1.169:8212
-#EXTINF:-1 tvg-name="新疆卫视" tvg-logo="https://live.fanmingming.com/tv/新疆卫视.png" group-title="IPv6卫视",新疆卫视
-rtp://239.3.1.167:8192
-#EXTINF:-1 tvg-name="西藏卫视" tvg-logo="https://live.fanmingming.com/tv/西藏卫视.png" group-title="IPv6卫视",西藏卫视
-rtp://239.3.1.166:8188
-#EXTINF:-1 tvg-name="兵团卫视" tvg-logo="https://live.fanmingming.com/tv/兵团卫视.png" group-title="IPv6卫视",兵团卫视
-rtp://239.3.1.168:8196
-#EXTINF:-1 tvg-name="CCTV4K" tvg-logo="https://live.fanmingming.com/tv/CCTV4K.png" group-title="IPv6央视",CCTV-4K
+#EXTINF:-1 channel-number="85" tvg-id="85" tvg-name="CCTV4K超高清" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/CCTV/CCTV-4K.png" group-title="IPv6央视",CCTV-4K
 rtp://239.3.1.245:2000
-#EXTINF:-1 tvg-name="CETV1台" tvg-logo="https://epg.112114.xyz/logo/CETV.png" group-title="IPv6央视",中国教育
+#EXTINF:-1 channel-number="76" tvg-id="76" tvg-name="CETV1高清" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/QiTa/CETV-1.png" group-title="IPv6央视",中国教育
 rtp://239.3.1.57:8152
 #EXTM3U x-tvg-url="https://epg.aptv.app/pp.xml.gz,https://epg.aptv.app/xml"
