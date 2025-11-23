@@ -45,7 +45,7 @@ rtp://239.3.1.215:4220
 rtp://239.3.1.216:4220
 #EXTINF:-1 channel-number="142" tvg-id="142" tvg-name="四川卫视" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/WeiShi/SiChuan.png" group-title="IPv6卫视",四川卫视
 rtp://239.3.1.131:3001
-#EXTINF:-1 channel-number="85" tvg-id="85" tvg-name="CCTV4K超高清" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/CCTV/CCTV-4K.png" group-title="IPv6央视",CCTV-4K
+#EXTINF:-1 channel-number="86" tvg-id="85" tvg-name="CCTV4K超高清" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/CCTV/CCTV-4K.png" group-title="IPv6央视",CCTV-4K
 rtp://239.3.1.245:2000
 #EXTINF:-1 channel-number="76" tvg-id="76" tvg-name="CETV1高清" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/QiTa/CETV-1.png" group-title="IPv6央视",中国教育
 rtp://239.3.1.57:8152
