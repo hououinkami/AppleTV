@@ -13,7 +13,7 @@ rtp://239.3.1.57:8152
 rtp://239.3.1.215:4220
 #EXTINF:-1 tvg-id="78" tvg-name="四川卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/sichuan.png" group-title="IPv6卫视",四川卫视
 rtp://239.3.1.131:3001
-#EXTM3U x-tvg-url="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/epg.xml.gz"
+#EXTM3U x-tvg-url="https://gh-proxy.org/https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/epg.xml.gz"
 #EXTINF:-1 channel-number="21" tvg-id="21" tvg-name="BRTV北京卫视高清" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/WeiShi/BeiJing.png" group-title="IPv6地方" zz-definition="HD" catchup="default" catchup-source="http://61.135.88.136/TVOD/88888892/224/3221225870/10000100000000060000000000025099_0.smil/index.m3u8?fmt=ts2hls&playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",北京卫视
 rtp://239.3.1.22:8001
 #EXTINF:-1 channel-number="41" tvg-id="41" tvg-name="湖南卫视高清" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/WeiShi/HuNan.png" group-title="IPv6地方" zz-definition="HD" catchup="default" catchup-source="http://61.135.88.136/TVOD/88888892/224/3221225871/10000100000000060000000000025095_0.smil/index.m3u8?fmt=ts2hls&playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",湖南卫视
@@ -64,7 +64,7 @@ rtp://239.3.1.167:8192
 rtp://239.3.1.166:8188
 #EXTINF:-1 channel-number="65" tvg-id="65" tvg-name="兵团卫视高清" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/WeiShi/BingTuan.png" group-title="IPv6地方" zz-definition="HD" catchup="default" catchup-source="rtsp://61.135.88.136/TVOD/88888892/224/3221226199/400975082.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",兵团卫视
 rtp://239.3.1.168:8196
-#EXTM3U x-tvg-url="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/epg.xml.gz"
+#EXTM3U x-tvg-url="https://gh-proxy.org/https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/epg.xml.gz"
 #EXTINF:-1 channel-number="22" tvg-id="22" tvg-name="BRTV文艺高清" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/BRTV/BRTV_WenYi.png" group-title="IPv6数字",北京文艺
 rtp://239.3.1.242:8000
 #EXTINF:-1 channel-number="26" tvg-id="26" tvg-name="BRTV体育休闲高清" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/BRTV/BRTV_TiYuXiuXian.png" group-title="IPv6数字",体育休闲
