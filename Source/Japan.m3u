@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="https://epg-1.iill.top/epg.xml"
 #EXTM3U
-#EXTINF:-1 tvg-id="CGNTVJapan.jp@SD" http-referrer="http://japan.cgntv.net/HD_player_jp.html" group-title="日本",CGNTV Japan
+#EXTINF:-1 tvg-id="CGNTVJapan.jp@SD" group-title="日本",CGNTV Japan
 #EXTVLCOPT:http-referrer=http://japan.cgntv.net/HD_player_jp.html
 #EXTINF:-1 tvg-id="CGNTVJapan.jp@SD" group-title="日本",CGNTV Japan
 http://cgntv-glive.ofsdelivery.net/live/cgntv_jp/playlist.m3u8
