@@ -3,7 +3,7 @@
 rtp://239.3.1.129:8008
 #EXTINF:-1 channel-number="2" tvg-id="2" tvg-name="CCTV-2高清" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/CCTV/CCTV-2.png" group-title="IPv6央视",CCTV-2 财经
 rtp://239.3.1.60:8084
- #EXTINF:-1 channel-number="3" tvg-id="3" tvg-name="CCTV-3高清" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/CCTV/CCTV-3.png" group-title="IPv6央视",CCTV-3 综艺
+#EXTINF:-1 channel-number="3" tvg-id="3" tvg-name="CCTV-3高清" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/CCTV/CCTV-3.png" group-title="IPv6央视",CCTV-3 综艺
 rtp://239.3.1.172:8001
 #EXTINF:-1 channel-number="4" tvg-id="4" tvg-name="CCTV-4高清" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/CCTV/CCTV-4.png" group-title="IPv6央视",CCTV-4 中文国际
 rtp://239.3.1.105:8092
