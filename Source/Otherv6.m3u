@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/epg.xml.gz"
+#EXTM3U
 #EXTINF:-1 channel-number="22" tvg-id="22" tvg-name="BRTV文艺高清" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/BRTV/BRTV_WenYi.png" group-title="IPv6数字",北京文艺
 rtp://239.3.1.242:8000
 #EXTINF:-1 channel-number="26" tvg-id="26" tvg-name="BRTV体育休闲高清" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/BRTV/BRTV_TiYuXiuXian.png" group-title="IPv6数字",体育休闲
