@@ -1,8 +1,10 @@
 #EXTM3U x-tvg-url="https://epg.aptv.app/pp.xml.gz,https://epg.aptv.app/xml"
 #EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV4K" http-user-agent="AptvPlayer-UA" group-title="央视",春晚4K-1
-http://101.35.240.114:88/live.php?id=春晚1
+https://d1--cn-gotcha204.bilivideo.com/live-bvc/766030/live_501554611_87938747_maxhdr/index.m3u8
 #EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV4K" http-user-agent="AptvPlayer-UA" group-title="央视",春晚4K-2
-http://101.35.240.114:88/live.php?id=春晚2
+https://pull-flv-spe-l1.douyinliving.com/fantasy/stream-118852785363485366_uhd5.flv?arch_hrchy=s2&keeptime=00015180&major_anchor_level=vip&t_id=037-2026021619433646D830B85B4FBB13E520-uAlm1J&unique_id=stream-118852785363485366_694_flv_uhd5&wsSecret=12bc839860c9fc9298d9e546e16c6532&wsTime=699302e8&_session_id=037-2026021619433646D830B85B4FBB13E520-uAlm1J.1771242216924.64717&rsi=1&abr_pts=-800
+#EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV4K" http-user-agent="AptvPlayer-UA" group-title="央视",春晚4K-3
+http://pull-hls-spe-l6.douyinliving.com/fantasy/stream-118852785363485366_uhd/index.m3u8?k=296292b41e4bcb41&t=1771319945
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" http-user-agent="AptvPlayer-UA" group-title="央视" catchup="append" catchup-source="?playbackbegin=${(b)yyyyMMddHHmmss}&playbackend=${(e)yyyyMMddHHmmss}",CCTV1
 http://101.35.240.114:88/live.php?id=CCTV1
 #EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" http-user-agent="AptvPlayer-UA" group-title="央视" catchup="append" catchup-source="?playbackbegin=${(b)yyyyMMddHHmmss}&playbackend=${(e)yyyyMMddHHmmss}",CCTV2
