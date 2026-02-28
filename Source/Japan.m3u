@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://epg-1.iill.top/epg.xml"
+#EXTM3U x-tvg-url="https://epg-1.iill.top/epg.xml.gz"
 #EXTM3U
 #EXTINF:-1 tvg-id="CGNTVJapan.jp@SD" group-title="日本",CGNTV Japan
 #EXTVLCOPT:http-referrer=http://japan.cgntv.net/HD_player_jp.html
