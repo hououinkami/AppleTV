@@ -28,6 +28,8 @@ https://livehub-voidnet.onrender.com/cluster/streamcore/jp/NHK_StreamOrchestrato
 https://masterpl.hls.nhkworld.jp/hls/w/live/smarttv.m3u8
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp@SD" group-title="日本",NHK World-Japan
 https://media-tyo.hls.nhkworld.jp/hls/w/live/master.m3u8
+#EXTINF:-1 tvg-id="NHKWorldJapan.jp@SD" group-title="日本",NHK World-Japan
+https://liveh12.vtvprime.vn/hls/NHKWORLD/03.m3u8
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp@HD" group-title="日本",NHK World-Japan HD [Geo-blocked]
 https://nhk.lls.pbs.org/index.m3u8
 #EXTINF:-1 tvg-id="JOAXDTV.jp@SD" group-title="日本",Nippon TV [Not 24/7]
@@ -40,5 +42,3 @@ https://stream3.shopch.jp/HLS/master.m3u8
 https://weather-live-hls01e.akamaized.net/ade36978-4ad3-48de-91ab-7d6edd0b6388/11ed8ed8ca.ism/manifest(format=m3u8-aapl-v3,audio-only=false).m3u8
 #EXTINF:-1 tvg-id="WOWOWLive.jp@SD" group-title="日本",WOWOW Live
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs20
-#EXTINF:-1 tvg-id="NHKWorldJapan.jp@SD" group-title="日本",NHK World-Japan
-https://liveh12.vtvprime.vn/hls/NHKWORLD/03.m3u8
