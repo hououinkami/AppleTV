@@ -50,3 +50,5 @@ http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd03
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd04
 #EXTINF:-1 tvg-id="JOEXDTV.jp@SD" group-title="日本",JOEX-DTV
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd06
+#EXTINF:-1 tvg-id="Animax.jp@SD" group-title="日本",Animax
+#EXTVLCOPT:http-referrer=https://utako.moe
