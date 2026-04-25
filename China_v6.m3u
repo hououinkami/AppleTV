@@ -85,12 +85,12 @@ rtp://239.3.1.115:8000
 rtp://239.3.1.189:8000
 #EXTINF:-1 channel-number="77" tvg-id="77" tvg-name="金鹰纪实高清" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/WeiShi/HuNan_JingYingJiShi.png" group-title="IPv6数字",金鹰纪实
 rtp://239.3.1.58:8156
-#EXTINF:-1 channel-number="321" tvg-id="321" tvg-name="茶" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/QiTa/HuNan_ChaPinDao.png" group-title="IPv6数字",茶友频道
-rtp://239.3.1.165:8001
-#EXTINF:-1 channel-number="320" tvg-id="320" tvg-name="快乐垂钓" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/QiTa/HuNan_KuaiLeChuiDiao.png" group-title="IPv6数字",快乐垂钓
-rtp://239.3.1.164:8001
 #EXTINF:-1 channel-number="79" tvg-id="79" tvg-name="中国交通" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/QiTa/ZhongGuoJiaoTong.png" group-title="IPv6数字",中国交通
 rtp://239.3.1.188:8001
+#EXTINF:-1 group-title="IPv6数字",中国天气
+rtp://239.3.1.165:8001
+#EXTINF:-1 group-title="IPv6数字",四海钓鱼
+rtp://239.3.1.164:8001
 #EXTINF:-1 channel-number="80" tvg-id="80" tvg-name="证券服务" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/QiTa/GanSu_ZhengQuanFuWu.png" group-title="IPv6数字",证券服务
 rtp://239.3.1.24:8001
 #EXTINF:-1 channel-number="66" tvg-id="66" tvg-name="睛彩竞技" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/QiTa/CBC_JingCaiJingJi.png" group-title="IPv6数字",睛彩竞技
