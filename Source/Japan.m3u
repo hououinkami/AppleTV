@@ -34,7 +34,7 @@ https://ntv4.mov3.co/hls/ntv.m3u8
 https://d1flvb4iqlercm.cloudfront.net/live/live_1080p_2nd.m3u8
 #EXTINF:-1 tvg-id="ShopChannel.jp@SD" group-title="日本",Shop Channel [Not 24/7]
 https://stream3.shopch.jp/HLS/master.m3u8
-#EXTINF:-1 tvg-id="TVAsahiChannel1.jp@SD" group-title="日本",TV Asahi Channel 1
+#EXTINF:-1 tvg-id="JOEXDTV.jp@SD" group-title="日本",JOEX-DTV
 https://tvasahi.mov3.co/hls/tvasahi.m3u8
 #EXTINF:-1 tvg-id="Weathernews.jp@SD" group-title="日本",Weathernews
 https://rch01e-alive-hls.akamaized.net/38fb45b25cdb05a1/out/v1/4e907bfabc684a1dae10df8431a84d21/index.m3u8
