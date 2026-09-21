@@ -1,61 +1,61 @@
 #EXTM3U
-#EXTINF:-1 channel-number="79" tvg-id="79" tvg-name="中国交通" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/QiTa/ZhongGuoJiaoTong.png" group-title="IPv6数字",中国交通
+#EXTINF:-1 tvg-id="79" tvg-name="中国交通" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/QiTa/ZhongGuoJiaoTong.png" group-title="IPv6数字",中国交通
 rtp://239.3.1.188:8001
-EXTINF:-1 channel-number="322" tvg-id="322" tvg-name="中国天气", group-title="IPv6数字",中国天气
+#EXTINF:-1 tvg-id="322" tvg-name="中国天气" group-title="IPv6数字",中国天气
 rtp://239.3.1.108:8001
-#EXTINF:-1 channel-number="320" tvg-id="320" tvg-name="四海钓鱼", group-title="IPv6数字",四海钓鱼
+#EXTINF:-1 tvg-id="320" tvg-name="四海钓鱼" group-title="IPv6数字",四海钓鱼
 rtp://239.3.1.164:8001
-#EXTINF:-1 channel-number="36" tvg-id="36" tvg-name="求索纪录4K", group-title="IPv6数字",求索纪录
+#EXTINF:-1 tvg-id="36" tvg-name="求索纪录4K" group-title="IPv6数字",求索纪录
 rtp://239.3.1.107:8001
-#EXTINF:-1 channel-number="323" tvg-id="323" tvg-name="环球旅游", group-title="IPv6数字",环球旅游
+#EXTINF:-1 tvg-id="323" tvg-name="环球旅游" group-title="IPv6数字",环球旅游
 rtp://239.3.1.109:8001
-#EXTINF:-1 channel-number="77" tvg-id="77" tvg-name="金鹰纪实高清" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/WeiShi/HuNan_JingYingJiShi.png" group-title="IPv6数字",金鹰纪实
+#EXTINF:-1 tvg-id="77" tvg-name="金鹰纪实高清" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/WeiShi/HuNan_JingYingJiShi.png" group-title="IPv6数字",金鹰纪实
 rtp://239.3.1.58:8156
-#EXTINF:-1 channel-number="80" tvg-id="80" tvg-name="证券服务" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/QiTa/GanSu_ZhengQuanFuWu.png" group-title="IPv6数字",证券服务
+#EXTINF:-1 tvg-id="80" tvg-name="证券服务" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/QiTa/GanSu_ZhengQuanFuWu.png" group-title="IPv6数字",证券服务
 rtp://239.3.1.24:8001
-#EXTINF:-1 channel-number="66" tvg-id="66" tvg-name="睛彩竞技" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/QiTa/CBC_JingCaiJingJi.png" group-title="IPv6数字",睛彩竞技
+#EXTINF:-1 tvg-id="66" tvg-name="睛彩竞技" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/QiTa/CBC_JingCaiJingJi.png" group-title="IPv6数字",睛彩竞技
 rtp://239.3.1.125:8001
-#EXTINF:-1 channel-number="67" tvg-id="67" tvg-name="睛彩篮球" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/QiTa/CBC_JingCaiLanQiu.png" group-title="IPv6数字",睛彩篮球
+#EXTINF:-1 tvg-id="67" tvg-name="睛彩篮球" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/QiTa/CBC_JingCaiLanQiu.png" group-title="IPv6数字",睛彩篮球
 rtp://239.3.1.126:8001
-#EXTINF:-1 channel-number="68" tvg-id="68" tvg-name="睛彩青少" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/QiTa/CBC_JingCaiQingShao.png" group-title="IPv6数字",睛彩青少
+#EXTINF:-1 tvg-id="68" tvg-name="睛彩青少" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/QiTa/CBC_JingCaiQingShao.png" group-title="IPv6数字",睛彩青少
 rtp://239.3.1.127:8001
-#EXTINF:-1 channel-number="69" tvg-id="69" tvg-name="睛彩广场舞" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/QiTa/CBC_JingCaiGuangChangWu.png" group-title="IPv6数字",睛彩广场舞
+#EXTINF:-1 tvg-id="69" tvg-name="睛彩广场舞" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/QiTa/CBC_JingCaiGuangChangWu.png" group-title="IPv6数字",睛彩广场舞
 rtp://239.3.1.128:8001
-#EXTINF:-1 channel-number="70" tvg-id="70" tvg-name="CHC动作电影", group-title="IPv6数字",CHC动作电影
+#EXTINF:-1 tvg-id="70" tvg-name="CHC动作电影" group-title="IPv6数字",CHC动作电影
 rtp://239.3.1.106:8001
-#EXTINF:-1 channel-number="401" tvg-id="401" tvg-name="爱上4K" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/QiTa/AiShang4K.png" group-title="IPv6数字",爱上4K
+#EXTINF:-1 tvg-id="401" tvg-name="爱上4K" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/QiTa/AiShang4K.png" group-title="IPv6数字",爱上4K
 rtp://239.3.1.236:2000
-#EXTINF:-1 channel-number="40" tvg-id="40" tvg-name="4K超清" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/QiTa/BJIPTV_4KChaoQing.png" group-title="IPv6数字",4K超清
+#EXTINF:-1 tvg-id="40" tvg-name="4K超清" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/QiTa/BJIPTV_4KChaoQing.png" group-title="IPv6数字",4K超清
 rtp://239.3.1.249:8001
-#EXTINF:-1 channel-number="351" tvg-id="351" tvg-name="城市剧场" group-title="IPv6数字",城市剧场
+#EXTINF:-1 tvg-id="351" tvg-name="城市剧场" group-title="IPv6数字",城市剧场
 rtp://239.3.1.67:4120
-#EXTINF:-1 channel-number="352" tvg-id="352" tvg-name="军旅剧场" group-title="IPv6数字",军旅剧场
+#EXTINF:-1 tvg-id="352" tvg-name="军旅剧场" group-title="IPv6数字",军旅剧场
 rtp://239.3.1.68:4120
-#EXTINF:-1 channel-number="353" tvg-id="353" tvg-name="古装剧场" group-title="IPv6数字",古装剧场
+#EXTINF:-1 tvg-id="353" tvg-name="古装剧场" group-title="IPv6数字",古装剧场
 rtp://239.3.1.69:4120
-#EXTINF:-1 channel-number="358" tvg-id="358" tvg-name="精选" group-title="IPv6数字",精选高清
+#EXTINF:-1 tvg-id="358" tvg-name="精选" group-title="IPv6数字",精选高清
 rtp://239.3.1.74:4120
-#EXTINF:-1 channel-number="374" tvg-id="374" tvg-name="武侠剧场" group-title="IPv6数字",武侠剧场
+#EXTINF:-1 tvg-id="374" tvg-name="武侠剧场" group-title="IPv6数字",武侠剧场
 rtp://239.3.1.90:4120
-#EXTINF:-1 channel-number="375" tvg-id="375" tvg-name="喜剧影院" group-title="IPv6数字",喜剧影院
+#EXTINF:-1 tvg-id="375" tvg-name="喜剧影院" group-title="IPv6数字",喜剧影院
 rtp://239.3.1.91:4120
-#EXTINF:-1 channel-number="376" tvg-id="376" tvg-name="动作影院" group-title="IPv6数字",,动作影院
+#EXTINF:-1 tvg-id="376" tvg-name="动作影院" group-title="IPv6数字",动作影院
 rtp://239.3.1.92:4120
-#EXTINF:-1 channel-number="377" tvg-id="377" tvg-name="家庭影院" group-title="IPv6数字",家庭影院
+#EXTINF:-1 tvg-id="377" tvg-name="家庭影院" group-title="IPv6数字",家庭影院
 rtp://239.3.1.93:4120
-#EXTINF:-1 channel-number="378" tvg-id="378" tvg-name="星影" group-title="IPv6数字",星影高清
+#EXTINF:-1 tvg-id="378" tvg-name="星影" group-title="IPv6数字",星影高清
 rtp://239.3.1.94:4120
-#EXTINF:-1 channel-number="368" tvg-id="368" tvg-name="光影" group-title="IPv6数字",光影高清
+#EXTINF:-1 tvg-id="368" tvg-name="光影" group-title="IPv6数字",光影高清
 rtp://239.3.1.84:4120
-#EXTINF:-1 channel-number="203" tvg-id="203" tvg-name="经典电影" group-title="IPv6数字",经典电影
+#EXTINF:-1 tvg-id="203" tvg-name="经典电影" group-title="IPv6数字",经典电影
 rtp://239.3.1.195:9024
-#EXTINF:-1 channel-number="349" tvg-id="349" tvg-name="重温经典",group-title="IPv6数字",重温经典
+#EXTINF:-1 tvg-id="349" tvg-name="重温经典" group-title="IPv6数字",重温经典
 rtp://239.3.1.25:8001
-#EXTINF:-1 channel-number="202" tvg-id="202" tvg-name="热播剧场" group-title="IPv6数字",热播剧场
+#EXTINF:-1 tvg-id="202" tvg-name="热播剧场" group-title="IPv6数字",热播剧场
 rtp://239.3.1.194:9020
-#EXTINF:-1 channel-number="204" tvg-id="204" tvg-name="魅力时尚" group-title="IPv6数字",魅力时尚
+#EXTINF:-1 tvg-id="204" tvg-name="魅力时尚" group-title="IPv6数字",魅力时尚
 rtp://239.3.1.196:9012
-#EXTINF:-1 channel-number="207" tvg-id="207" tvg-name="少儿动画" group-title="IPv6数字",少儿动画
+#EXTINF:-1 tvg-id="207" tvg-name="少儿动画" group-title="IPv6数字",少儿动画
 rtp://239.3.1.199:9000
-#EXTINF:-1 channel-number="364" tvg-id="364" tvg-name="动画" group-title="IPv6数字",动画高清
+#EXTINF:-1 tvg-id="364" tvg-name="动画" group-title="IPv6数字",动画高清
 rtp://239.3.1.80:4120
