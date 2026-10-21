@@ -6,8 +6,8 @@
 https://hamada.gaki-no-tsukai.stream/hls/test.m3u8
 #EXTINF:-1 tvg-id="GSTV.jp@SD" group-title="日本",GSTV
 https://japaneast.av.mk.io/mediakindcdn-mediakind/ca01a143-f823-4432-b670-c22ff9643ce4/index.qfm/manifest(format=m3u8-cmaf)
-#EXTINF:-1 tvg-id="JOAXDTV.jp@SD" group-title="日本",JOAX-DTV
-https://ntv5.mov3.co/hls/ntv.m3u8
+#EXTINF:-1 tvg-id="NipponTV.jp@JOAXDTV" group-title="日本",Nippon TV
+#EXTVLCOPT:http-referrer=https://mov3.co/ntv.html
 #EXTINF:-1 tvg-id="JOCXDTV.jp@SD" group-title="日本",JOCX-DTV
 https://fujitv4.mov3.co/hls/fujitv.m3u8
 #EXTINF:-1 tvg-id="JOEXDTV.jp@SD" group-title="日本",JOEX-DTV
@@ -36,8 +36,8 @@ https://stream3.shopch.jp/HLS/master.m3u8
 https://rch01e-alive-hls.akamaized.net/38fb45b25cdb05a1/out/v1/4e907bfabc684a1dae10df8431a84d21/index.m3u8
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp@SD" group-title="日本",NHK World-Japan
 https://mumt07.tangotv.in/zHjX9OFlNHKWORLD/index.m3u8
-#EXTINF:-1 tvg-id="JOTXDTV.jp@SD" group-title="日本",JOTX-DTV
-https://tvtokyo.mov3.co/hls/tvtokyo.m3u8
+#EXTINF:-1 tvg-id="TVTokyo.jp@JOTXDTV" group-title="日本",TV Tokyo
+#EXTVLCOPT:http-referrer=https://mov3.co/tvtokyo.html
 #EXTINF:-1 tvg-id="NHKWorldPremium.jp@SD" group-title="日本",NHK World Premium
 https://media-tyo.hls.nhkworld.jp/hls/wp/live/master.m3u8
 #EXTINF:-1 tvg-id="JOJGDTV.jp@SD" group-title="日本",JOJG-DTV
