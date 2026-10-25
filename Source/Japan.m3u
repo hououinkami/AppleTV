@@ -1,21 +1,11 @@
 #EXTM3U x-tvg-url="https://iptv.yang-1989.xyz/epg.xml.gz"
-#EXTM3U x-tvg-url="https://epg.kanya.io/us/guide.xml.gz"
+#EXTM3U
 #EXTINF:-1 tvg-id="CGNTVJapan.jp@SD" group-title="日本",CGNTV Japan
 #EXTVLCOPT:http-referrer=http://japan.cgntv.net/HD_player_jp.html
 #EXTINF:-1 tvg-id="" group-title="日本",Gaki no Tsukai
 https://hamada.gaki-no-tsukai.stream/hls/test.m3u8
 #EXTINF:-1 tvg-id="GSTV.jp@SD" group-title="日本",GSTV
 https://japaneast.av.mk.io/mediakindcdn-mediakind/ca01a143-f823-4432-b670-c22ff9643ce4/index.qfm/manifest(format=m3u8-cmaf)
-#EXTINF:-1 tvg-id="NipponTV.jp@JOAXDTV" group-title="日本",Nippon TV
-#EXTVLCOPT:http-referrer=https://mov3.co/ntv.html
-#EXTINF:-1 tvg-id="JOCXDTV.jp@SD" group-title="日本",JOCX-DTV
-https://fujitv4.mov3.co/hls/fujitv.m3u8
-#EXTINF:-1 tvg-id="JOEXDTV.jp@SD" group-title="日本",JOEX-DTV
-https://tvasahi.mov3.co/hls/tvasahi.m3u8
-#EXTINF:-1 tvg-id="TBSTV.jp@JORXDTV" group-title="日本",TBS TV TV
-#EXTVLCOPT:http-referrer=https://mov3.co/tbs.html
-#EXTINF:-1 tvg-id="NHKGeneralTV.jp@SD" group-title="日本",NHK General TV
-https://nhk4.mov3.co/hls/nhk.m3u8
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp@SD" group-title="日本",NHK World-Japan
 https://masterpl.hls.nhkworld.jp/hls/w/live/smarttv.m3u8
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp@SD" group-title="日本",NHK World-Japan
@@ -34,8 +24,6 @@ https://stream3.shopch.jp/HLS/master.m3u8
 https://rch01e-alive-hls.akamaized.net/38fb45b25cdb05a1/out/v1/4e907bfabc684a1dae10df8431a84d21/index.m3u8
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp@SD" group-title="日本",NHK World-Japan
 https://mumt07.tangotv.in/zHjX9OFlNHKWORLD/index.m3u8
-#EXTINF:-1 tvg-id="TVTokyo.jp@JOTXDTV" group-title="日本",TV Tokyo
-#EXTVLCOPT:http-referrer=https://mov3.co/tvtokyo.html
 #EXTINF:-1 tvg-id="NHKWorldPremium.jp@SD" group-title="日本",NHK World Premium
 https://media-tyo.hls.nhkworld.jp/hls/wp/live/master.m3u8
 #EXTINF:-1 tvg-id="JOJGDTV.jp@SD" group-title="日本",JOJG-DTV
