@@ -6,37 +6,37 @@
 https://hamada.gaki-no-tsukai.stream/hls/test.m3u8
 #EXTINF:-1 tvg-id="GSTV.jp@SD" group-title="日本",GSTV
 https://japaneast.av.mk.io/mediakindcdn-mediakind/ca01a143-f823-4432-b670-c22ff9643ce4/index.qfm/manifest(format=m3u8-cmaf)
+#EXTINF:-1 tvg-id="" group-title="日本",JOJG-DTV
+https://tv-stream-test.daydreamer-json.cc/fe8bf835820fb530467f75a9cb761504/hevc/playlist.m3u8
+#EXTINF:-1 tvg-id="NHKGeneralTV.jp@JOJGDTV" group-title="日本",NHK General TV JOJG-DTV (1080i)
+https://tv-stream-test.daydreamer-json.cc/fe8bf835820fb530467f75a9cb761504/master.m3u8
+#EXTINF:-1 tvg-id="NHKWorldPremium.jp@SD" group-title="日本",NHK World Premium
+https://media-tyo.hls.nhkworld.jp/hls/wp/live/master.m3u8
+#EXTINF:-1 tvg-id="NHKWorldJapan.jp@SD" group-title="日本",NHK World-Japan
+https://cdn.pishow.tv/ott/live/455/master.m3u8
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp@SD" group-title="日本",NHK World-Japan
 https://masterpl.hls.nhkworld.jp/hls/w/live/smarttv.m3u8
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp@SD" group-title="日本",NHK World-Japan
 https://media-osa.hls.nhkworld.jp/hls/w/live/master.m3u8
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp@SD" group-title="日本",NHK World-Japan
 https://media-tyo.hls.nhkworld.jp/hls/w/live/master.m3u8
-#EXTINF:-1 tvg-id="NHKWorldJapan.jp@HD" group-title="日本",NHK World-Japan HD [Geo-blocked]
-https://nhk.lls.pbs.org/index.m3u8
+#EXTINF:-1 tvg-id="NHKWorldJapan.jp@SD" group-title="日本",NHK World-Japan
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-id="NHKWorldJapan.jp@SD" group-title="日本",NHK World-Japan
+https://mumt07.tangotv.in/zHjX9OFlNHKWORLD/index.m3u8
+#EXTINF:-1 tvg-id="NHKWorldJapan.jp@HD" group-title="日本",NHK World-Japan HD
+https://freem3u.xyz/api/live/play.m3u8?vid=106
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp@HD" group-title="日本",NHK World-Japan HD
 http://170.83.16.50/NHK_WORLD/index.m3u8
+#EXTINF:-1 tvg-id="NHKWorldJapan.jp@HD" group-title="日本",NHK World-Japan HD [Geo-blocked]
+https://nhk.lls.pbs.org/index.m3u8
+#EXTINF:-1 tvg-id="NipponTV.jp@JOAXDTV" group-title="日本",Nippon TV
+#EXTVLCOPT:http-referrer=https://mov3.co/
 #EXTINF:-1 tvg-id="QVC.jp@SD" group-title="日本",QVC
 https://d1flvb4iqlercm.cloudfront.net/live/live_1080p_2nd.m3u8
 #EXTINF:-1 tvg-id="ShopChannel.jp@SD" group-title="日本",Shop Channel [Not 24/7]
 https://stream3.shopch.jp/HLS/master.m3u8
-#EXTINF:-1 tvg-id="Weathernews.jp@SD" group-title="日本",Weathernews
-https://rch01e-alive-hls.akamaized.net/38fb45b25cdb05a1/out/v1/4e907bfabc684a1dae10df8431a84d21/index.m3u8
-#EXTINF:-1 tvg-id="NHKWorldJapan.jp@SD" group-title="日本",NHK World-Japan
-https://mumt07.tangotv.in/zHjX9OFlNHKWORLD/index.m3u8
-#EXTINF:-1 tvg-id="NHKWorldPremium.jp@SD" group-title="日本",NHK World Premium
-https://media-tyo.hls.nhkworld.jp/hls/wp/live/master.m3u8
-#EXTINF:-1 tvg-id="JOJGDTV.jp@SD" group-title="日本",JOJG-DTV
-https://tv-stream-test.daydreamer-json.cc/fe8bf835820fb530467f75a9cb761504/hevc/playlist.m3u8
-#EXTINF:-1 tvg-id="NHKWorldJapan.jp@HD" group-title="日本",NHK World-Japan HD
-https://freem3u.xyz/api/live/play.m3u8?vid=106
-#EXTINF:-1 tvg-id="NHKWorldJapan.jp@SD" group-title="日本",NHK World-Japan
-https://cdn.pishow.tv/ott/live/455/master.m3u8
-#EXTINF:-1 tvg-id="NHKGeneralTV.jp@JOJGDTV" group-title="日本",NHK General TV JOJG-DTV (1080i)
-https://tv-stream-test.daydreamer-json.cc/fe8bf835820fb530467f75a9cb761504/master.m3u8
-#EXTINF:-1 tvg-id="NHKWorldJapan.jp@SD" group-title="日本",NHK World-Japan
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-id="NipponTV.jp@JOAXDTV" group-title="日本",Nippon TV
-#EXTVLCOPT:http-referrer=https://mov3.co/
 #EXTINF:-1 tvg-id="TVTokyo.jp@JOTXDTV" group-title="日本",TV Tokyo
 #EXTVLCOPT:http-referrer=https://mov3.co/
+#EXTINF:-1 tvg-id="Weathernews.jp@SD" group-title="日本",Weathernews
+https://rch01e-alive-hls.akamaized.net/38fb45b25cdb05a1/out/v1/4e907bfabc684a1dae10df8431a84d21/index.m3u8
